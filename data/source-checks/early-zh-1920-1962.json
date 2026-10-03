@@ -121,8 +121,9 @@
           "date": "1921-05-07",
           "source_id": "song-yiwei-2022",
           "book_page": 10,
-          "pdf_page": 27,
-          "evidence": "Entry header visually rechecked; reported citation retained."
+          "evidence": "Entry header visually rechecked; reported citation retained.",
+          "book_title": "《国际歌》在中国：《国际歌》的译本、底本与传播",
+          "edition": "南京大学出版社，2022年5月第1版"
         },
         {
           "date": "1921-05-27",

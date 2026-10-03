@@ -19,28 +19,28 @@ def render(entries):
     lines = [
         '# 《国际歌》在中国：44项文献与底本索引',
         '',
-        '宋逸炜编、孙江审校，南京大学出版社，2022年5月第1版第1次印刷，ISBN 978-7-305-25673-8。',
+        '宋逸炜编、孙江审校：《〈国际歌〉在中国：〈国际歌〉的译本、底本与传播》，南京大学出版社，2022年5月第1版第1次印刷，ISBN 978-7-305-25673-8。',
         '',
-        f'依据用户提供的397页扫描，目视核对目录中的33项中文文献、11项外文底本，已检查{reviewed}项正文的题头及出处。**44项是文献条目数，不是44个独立译本，也不是44份已校勘全文。**',
+        f'依据本书目录，登记33项中文文献、11项外文底本，已目视检查{reviewed}项正文的题头及出处。**44项是文献条目数，不是44个独立译本，也不是44份已校勘全文。**',
         '',
-        '两栏页码均从1开始。正文对应关系为：**PDF页码 = 书内页码 + 17**。只登记起始页，避免把下一条目之前的空白页或分编页当作本条目正文。前置目录、序言的页码不适用这个公式。',
+        '页码采用本书印刷页码，只登记条目起始页。电子文件页序与印刷页码的对应另见[技术核对记录](../docs/BOOK_2022_REVIEW.md)。',
         '',
         '“题头已核”表示已目视检查本书的题头/出处，不代表已取得原刊。“目录已核”表示目录的题名、署名/出版物、年代与起页已登记；正文核对仍待进行。',
         '',
     ]
     for section, title in [(1, '中文文献'), (2, '外文底本')]:
-        lines += [f'## {title}', '', '| 编号 | 语言 | 题名 | 署名、出版物或活动（照目录） | 年代标记（照目录） | 书内起页 | PDF起页 | 检查范围 |', '|---|---|---|---|---|---:|---:|---|']
+        lines += [f'## {title}', '', '| 编号 | 语言 | 题名 | 署名、出版物或活动（照目录） | 年代标记（照目录） | 本书起页 | 检查范围 |', '|---|---|---|---|---|---:|---|']
         for r in entries:
             if r['section'] != section:
                 continue
             status = '题头已核' if r['header_review_status'] == 'visually-reviewed' else '目录已核'
-            lines.append(f"| {r['book_entry']} | {r['language_label']} | {r['title_as_reported']} | {r['agent_or_publication_as_reported']} | {r['year_label_as_reported'] or '未标'} | {r['book_page_start']} | {r['pdf_page_start']} | {status} |")
+            lines.append(f"| {r['book_entry']} | {r['language_label']} | {r['title_as_reported']} | {r['agent_or_publication_as_reported']} | {r['year_label_as_reported'] or '未标'} | {r['book_page_start']} | {status} |")
         lines += ['']
     lines += ['## 已检查的原刊及中间来源线索', '', '以下书目事实来自本书的出处说明，尚未逐项独立核实原刊。', '']
     for r in entries:
         if not r['reported_provenance']:
             continue
-        lines += [f"### {r['book_entry']} · {r['agent_or_publication_as_reported']}", '', f"本书第{r['book_page_start']}页，PDF第{r['pdf_page_start']}页。", '']
+        lines += [f"### {r['book_entry']} · {r['agent_or_publication_as_reported']}", '', f"《国际歌》在中国，第{r['book_page_start']}页。", '']
         for p in r['reported_provenance']:
             lines.append(f"- {PROVENANCE_LABELS[p['kind']]}：{p['citation']}")
         lines += ['']

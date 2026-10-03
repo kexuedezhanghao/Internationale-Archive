@@ -19,7 +19,7 @@ Antiwar Songs 的索引自称170种语言；页面的语言筛选标签有138种
 
 - 打开 [离线检索页](catalogue.html)：搜索语言、译者、年代和版本，并筛选来源类型。
 - 浏览 [完整文字目录](catalogue/README.md) 或 [已整理版本](catalogue/versions.md)。
-- 查阅 [《国际歌》在中国的44项文献与底本索引](catalogue/book-song-2022.md)：含书内/PDF页码、已检查的原刊线索及年代疑点。
+- 查阅 [《国际歌》在中国的44项文献与底本索引](catalogue/book-song-2022.md)：含本书页码、已检查的原刊线索及年代疑点。
 - 阅读[瞿秋白1923年前文与谱词的影印对照](docs/collation/zh-qu-1923.md)：含原刊页码、扫描来源、字形及副歌差异。
 - 阅读[1920–1921年中文译本与1962年刊载的查找记录](docs/research/early-zh-1920-1962.md)：含连载转录、段序与1921年首刊日期冲突。
 - 下载 [来源目录 CSV](catalogue/discoveries.csv)，或读取 [发现数据库](data/discoveries/antiwarsongs.json) 和 [版本数据库](data/versions.json)。
