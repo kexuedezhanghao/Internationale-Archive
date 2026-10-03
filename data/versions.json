@@ -205,7 +205,7 @@
   },
   {
     "id": "zh-qu-1923",
-    "title_zh": "瞿秋白译配：1923年《新青年》版",
+    "title_zh": "瞿秋白译配：1923年《新青年》前文版",
     "language": {
       "tag": "zh",
       "label_zh": "中文"
@@ -215,7 +215,7 @@
     "text_author": "瞿秋白",
     "text_author_death_year": 1935,
     "composition_year": null,
-    "edition_label": "《新青年》季刊第1期，1923年6月15日；网页传统字形转录",
+    "edition_label": "《新青年》季刊第1期，1923年6月15日，第6–10页；网页传统字形转录，已对照影印并记录差异",
     "source_publication_year": 1923,
     "stanza_mapping": [
       1,
@@ -225,9 +225,12 @@
     "kind": "translation",
     "lyrics_path": "lyrics/zh/zh-qu-1923.md",
     "review": {
-      "status": "source-reviewed",
+      "status": "facsimile-compared",
       "date": "2026-10-03",
-      "facsimile_collation": "pending"
+      "facsimile_collation": "completed-with-differences-recorded",
+      "scope": "Lyric wording, stanza selection and refrain compared with the facsimile; web transcription retained, differences documented; not a diplomatic transcription.",
+      "collation_record": "data/collations/zh-qu-1923.json",
+      "collation_report": "docs/collation/zh-qu-1923.md"
     },
     "rights": {
       "status": "public-domain-supported",
@@ -253,6 +256,10 @@
       {
         "url": "https://zh.wikisource.org/w/index.php?title=%E5%9C%8B%E9%9A%9B%E6%AD%8C_(%E7%9E%BF%E7%A7%8B%E7%99%BD)&oldid=2439856",
         "role": "pinned-transcription"
+      },
+      {
+        "url": "https://zh.wikisource.org/wiki/File:新青年季刊第一期.pdf",
+        "role": "facsimile-metadata"
       }
     ],
     "snapshot_filename": "zh-qu-1923.html",
@@ -260,9 +267,86 @@
     "notes": [
       "保持网页原字形与段间标志，未做简繁转换或改用1962年通行歌词。",
       "只收录歌词区，不把历史前言混入正文。",
-      "维基文库对原文与此译文分别提供公有领域说明。"
+      "维基文库对原文与此译文分别提供公有领域说明。",
+      "已目视对照原刊第7–10页的全部歌词；保留网页转录，拚/拼及原刊Intesnational等差异另见校勘记录。",
+      "原刊期末第151–152页的谱词有多处异文，另建zh-qu-1923-score；影印来自2012年文献汇刊重印。"
     ],
-    "lyrics_sha256": "7759999768b0bfc881d5cf389b94f134b788500d2a05c16cff4ca614446efcf1"
+    "lyrics_sha256": "62751dc8dd6e32a584a9fd14abc4ddd787abde635a1666920cca95cbf604350f",
+    "related_version_ids": [
+      "zh-qu-1923-score"
+    ]
+  },
+  {
+    "id": "zh-qu-1923-score",
+    "title_zh": "瞿秋白译配：1923年《新青年》期末谱词版",
+    "language": {
+      "tag": "zh",
+      "label_zh": "中文"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "瞿秋白",
+    "text_author": "瞿秋白",
+    "text_author_death_year": 1935,
+    "composition_year": null,
+    "edition_label": "《新青年》季刊第1期，1923年6月15日，第151–152页；据影印人工转录谱词",
+    "source_publication_year": 1923,
+    "stanza_mapping": [
+      1,
+      2,
+      6
+    ],
+    "kind": "historical-score-variant",
+    "lyrics_path": "lyrics/zh/zh-qu-1923-score.md",
+    "related_version_ids": [
+      "zh-qu-1923"
+    ],
+    "review": {
+      "status": "facsimile-reviewed",
+      "date": "2026-10-03",
+      "facsimile_collation": "completed",
+      "scope": "All three lyric stanzas and common repeated refrain visually transcribed from score pages; musical notation not digitized; reading transcription, not diplomatic typography.",
+      "collation_record": "data/collations/zh-qu-1923.json",
+      "collation_report": "docs/collation/zh-qu-1923.md"
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "1923 underlying historic lyric text only; excludes modern facsimile editorial matter, arrangements and recordings",
+      "jurisdictions_considered": [
+        "US",
+        "CN",
+        "life-plus-70 countries"
+      ],
+      "basis": [
+        "Source edition published in 1923, before 1931.",
+        "Text author died in 1935, more than 70 years before 2026."
+      ],
+      "evidence_urls": [
+        "https://zh.wikisource.org/wiki/%E5%9C%8B%E9%9A%9B%E6%AD%8C_(%E7%9E%BF%E7%A7%8B%E7%99%BD)",
+        "https://zh.wikisource.org/wiki/File:新青年季刊第一期.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://zh.wikisource.org/wiki/File:新青年季刊第一期.pdf",
+        "role": "facsimile-metadata"
+      },
+      {
+        "url": "https://zh.wikisource.org/wiki/Index:新青年季刊第一期.pdf",
+        "role": "facsimile-index"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%E6%96%B0%E9%9D%92%E5%B9%B4%E5%AD%A3%E5%88%8A%E7%AC%AC%E4%B8%80%E6%9C%9F.pdf",
+        "role": "facsimile"
+      }
+    ],
+    "notes": [
+      "影印来自2012年《红色起点：中国共产主义运动早期稀见文献汇刊》，不是本项目直接扫描原刊实物。",
+      "期末谱词与前文译词分别存档；不把这份谱词等同1962年中文定本。",
+      "主歌三段、共同副歌连续两遍；第二三段副歌的同上符号作说明，未重复扩写。",
+      "撤去谱面音符和音节空隙，重新分行；不统一拼/拚、發奮/發憤、虫/蟲。",
+      "拉丁音节In/ter/na/tio/na/l作为注音说明，未插入中文唱词。"
+    ],
+    "lyrics_sha256": "19c8cd06935f4e930a66f24c09ef753e6c4e0b2f93818c6ebb042f7328abe38b"
   },
   {
     "id": "ru-kots-1902",

@@ -48,6 +48,12 @@
 
 `source-reviewed`：已经人工核对网页的身份与提取边界。`facsimile_collation: pending`：尚未由本项目与原刊影印逐字比较。两者不互相替代。
 
+`facsimile-reviewed` 表示声明的歌词范围已经对照影印；`completed-with-differences-recorded` 表示完成比较但保留原网页转录、另外记录差异。检查范围在 `review.scope`；不自动涵盖乐谱数字化或原排版摹真。`related_version_ids` 保存同一译者的前文/谱词等关联，仍分别保留文本身份。
+
+## 影印校勘记录
+
+`data/collations/` 保存检查范围、版本ID、原刊与PDF页码、文件摘要、影印的传递来源及词句差异；`docs/collation/` 提供对应的阅读说明。后世重印影像与直接原件扫描明确区分。记录文件和文本摘要可以复核，影印大文件不随仓库分发。
+
 ## 快照与更新
 
 `antiwarsongs.snapshot.json` 记录抓取时间、整页字节数与SHA-256，以及导入时的数量核对。HTML原件留在临时研究目录，不随发布包分发。网页后来新增、修订或删除的条目应形成可追踪的目录更新，保留已有人工判断。

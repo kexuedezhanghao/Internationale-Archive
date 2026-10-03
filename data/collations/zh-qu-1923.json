@@ -1,0 +1,140 @@
+{
+  "id": "zh-qu-1923-preface-vs-score",
+  "reviewed_on": "2026-10-03",
+  "version_ids": [
+    "zh-qu-1923",
+    "zh-qu-1923-score"
+  ],
+  "report_path": "docs/collation/zh-qu-1923.md",
+  "method": "Manual visual comparison and transcription from native embedded facsimile page images; no OCR output admitted as text.",
+  "scope": "All lyric stanzas and refrains in the preface and score; periodical layout and musical notation not transcribed.",
+  "facsimile": {
+    "file_page_url": "https://zh.wikisource.org/wiki/File:新青年季刊第一期.pdf",
+    "index_url": "https://zh.wikisource.org/wiki/Index:新青年季刊第一期.pdf",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%E6%96%B0%E9%9D%92%E5%B9%B4%E5%AD%A3%E5%88%8A%E7%AC%AC%E4%B8%80%E6%9C%9F.pdf",
+    "pdf_pages": 166,
+    "pdf_bytes": 70769392,
+    "pdf_sha256": "94b6b0ba261a56b4a69e045e54f4ba3742fc19e13d63c621adb14fb44857644b",
+    "pdf_sha1": "8b2177c9b0c38eba5f5e4d296ddf1992a6550b74",
+    "sha1_matches_file_page": true,
+    "original_publication": "《新青年》季刊第1期，1923年6月15日",
+    "scan_provenance_as_reported": "2012年上海中西书局《红色起点：中国共产主义运动早期稀见文献汇刊》，ISBN 978-7-5475-0368-3；2024年由Kcx36上传。",
+    "evidence_type": "later-facsimile-reprint-of-original-periodical",
+    "scan_distributed": false
+  },
+  "page_mapping": {
+    "indexing": "1-based",
+    "scope": "checked pages in this exact PDF only",
+    "visually_checked_pairs": [
+      {
+        "printed_page": 6,
+        "pdf_page": 10
+      },
+      {
+        "printed_page": 7,
+        "pdf_page": 11
+      },
+      {
+        "printed_page": 8,
+        "pdf_page": 12
+      },
+      {
+        "printed_page": 9,
+        "pdf_page": 13
+      },
+      {
+        "printed_page": 10,
+        "pdf_page": 14
+      },
+      {
+        "printed_page": 151,
+        "pdf_page": 155
+      },
+      {
+        "printed_page": 152,
+        "pdf_page": 156
+      }
+    ]
+  },
+  "wording_differences": [
+    {
+      "location": "stanza-1-opening",
+      "preface": "受人污辱咒罵的",
+      "score": "受污辱咒罵的",
+      "preface_printed_page": 7,
+      "score_printed_page": 151
+    },
+    {
+      "location": "stanza-1",
+      "preface": "舊社會破壞得澈底",
+      "score": "舊世界破壞得澈底",
+      "preface_printed_page": 7,
+      "score_printed_page": 151
+    },
+    {
+      "location": "stanza-2-opening",
+      "preface": "不論是英雄",
+      "score": "不論是英雄豪傑",
+      "preface_printed_page": 8,
+      "score_printed_page": 151
+    },
+    {
+      "location": "stanza-2",
+      "preface": "要掃盡萬重的壓迫",
+      "score": "要掃淨萬重的壓迫",
+      "preface_printed_page": 8,
+      "score_printed_page": 151
+    },
+    {
+      "location": "stanza-2-ending",
+      "preface": "正好發憤錘礪",
+      "score": "正好發奮錘礪",
+      "preface_printed_page": 8,
+      "score_printed_page": 151
+    },
+    {
+      "location": "stanza-3",
+      "preface": "那裏容得寄生蟲！",
+      "score": "那裏容得寄生虫。",
+      "preface_printed_page": 9,
+      "score_printed_page": 151
+    },
+    {
+      "location": "stanza-3",
+      "preface": "看！光華萬丈",
+      "score": "看那光華萬丈",
+      "preface_printed_page": 9,
+      "score_printed_page": 151
+    },
+    {
+      "location": "refrain-opening",
+      "preface": "這是我們的／最後决死爭",
+      "score": "這就是我們階級最後的决死爭",
+      "preface_printed_page": 7,
+      "score_printed_page": 152
+    },
+    {
+      "location": "refrain-ending",
+      "preface": "人類方重興！",
+      "score": "人類方得重興。",
+      "preface_printed_page": 8,
+      "score_printed_page": 152
+    }
+  ],
+  "web_transcription_differences": [
+    {
+      "location": "stanza-1",
+      "web": "拚死",
+      "facsimile": "拼死",
+      "printed_page": 7
+    },
+    {
+      "location": "stanza-3-first-refrain-latin",
+      "web": "International",
+      "facsimile": "Intesnational",
+      "printed_page": 9
+    }
+  ],
+  "preface_text_policy": "Keep the pinned web transcription unchanged within the lyric block; record discrepancies openly rather than claim exact original typography.",
+  "score_text_policy": "Reading transcription with editorial line breaks, music spacing removed, repeated common refrain printed twice and later-stanza ditto marks explained; Latin underlay documented as annotation."
+}

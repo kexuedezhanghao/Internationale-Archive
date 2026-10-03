@@ -74,12 +74,18 @@ def main():
         assert r["local_lyrics_path"] is None and r["rights_status"] == "unassessed"
         assert r["facsimile_collation"] == "pending"
     assert reviewed == book_snapshot["visually_reviewed_header_entries"]
+    for r in book_entries:
+        verification = r.get("external_bibliographic_verification")
+        if verification:
+            assert urlparse(verification["url"]).scheme == "https"
+            assert verification["scope"] and verification["reviewed_on"]
     from build_book_catalogue import render as render_book_catalogue
     assert (ROOT / "catalogue/book-song-2022.md").read_text(encoding="utf-8") == render_book_catalogue(book_entries), "Stale book catalogue"
     allowed = {"public-domain-supported", "open-license-verified", "permission-verified"}
     listed_files = set()
     for v in versions:
         assert v["sources"] and all(urlparse(s["url"]).scheme in {"http","https"} for s in v["sources"])
+        assert set(v.get("related_version_ids", [])) <= set(vids)
         assert len(v["stanza_mapping"]) == len(set(v["stanza_mapping"]))
         assert all(1 <= n <= 6 for n in v["stanza_mapping"])
         if not v["lyrics_path"]:
@@ -101,7 +107,32 @@ def main():
     viewer = (ROOT / "catalogue.html").read_text(encoding="utf-8")
     embedded = re.search(r'<script id="catalogue-data" type="application/json">(.*?)</script>', viewer, re.S)
     assert embedded, "Missing offline catalogue data"
-    assert json.loads(embedded[1])["entries"] == entries, "Stale offline catalogue"
+    embedded_data = json.loads(embedded[1])
+    assert embedded_data == {"entries": entries, "versions": versions, "stats": stats}, "Stale offline catalogue"
+    for p in (ROOT / "data/collations").glob("*.json"):
+        collation = json.loads(p.read_text(encoding="utf-8"))
+        assert set(collation["version_ids"]) <= set(vids)
+        assert (ROOT / collation["report_path"]).is_file()
+        facsimile = collation["facsimile"]
+        assert re.fullmatch(r"[0-9a-f]{64}", facsimile["pdf_sha256"])
+        assert re.fullmatch(r"[0-9a-f]{40}", facsimile["pdf_sha1"])
+        assert facsimile["pdf_bytes"] > 0 and not facsimile["scan_distributed"]
+        assert all(urlparse(facsimile[k]).scheme == "https" for k in ["file_page_url", "index_url", "download_url"])
+        pairs = collation["page_mapping"]["visually_checked_pairs"]
+        printed_pages = {pair["printed_page"] for pair in pairs}
+        assert len(printed_pages) == len(pairs)
+        assert all(1 <= pair["pdf_page"] <= facsimile["pdf_pages"] for pair in pairs)
+        for difference in collation["wording_differences"]:
+            assert difference["preface"] and difference["score"]
+            assert difference["preface_printed_page"] in printed_pages
+            assert difference["score_printed_page"] in printed_pages
+        for difference in collation["web_transcription_differences"]:
+            assert difference["printed_page"] in printed_pages
+        for version_id in collation["version_ids"]:
+            v = next(v for v in versions if v["id"] == version_id)
+            assert v["review"]["collation_record"] == str(p.relative_to(ROOT))
+            assert v["review"]["collation_report"] == collation["report_path"]
+            assert v["review"]["scope"]
     # Local Markdown paths: allow parentheses inside normal link destinations.
     missing = []
     for p in ROOT.rglob("*.md"):

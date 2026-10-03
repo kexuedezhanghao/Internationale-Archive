@@ -131,11 +131,13 @@
       }
     ],
     "metadata_notes": [
-      "书内第16–17页编者注另指原期末第151–152页的歌词与曲谱，并列出与前文译词的差异；应分别校勘这两个刊载位置。"
+      "书内第16–17页编者注另指原期末第151–152页的歌词与曲谱，并列出与前文译词的差异；应分别校勘这两个刊载位置。",
+      "独立取得的《新青年》影印已确认第6–10页前文和第151–152页谱词的位置及异文，见docs/collation/zh-qu-1923.md；本书重排全文仍未逐字校勘。"
     ],
     "canonical_version_ids": [],
     "related_version_ids": [
-      "zh-qu-1923"
+      "zh-qu-1923",
+      "zh-qu-1923-score"
     ],
     "facsimile_collation": "pending",
     "rights_status": "unassessed",
@@ -155,9 +157,18 @@
     "book_page_start": 18,
     "pdf_page_start": 35,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
-    "metadata_notes": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《进德季刊》第2卷第3期，1923年10月，中华书局同人进德会出版；世界语歌“国际”，“文苑”栏，第18–19页。",
+        "evidence_book_page": 18,
+        "evidence_pdf_page": 35
+      }
+    ],
+    "metadata_notes": [
+      "目录署名后觉；正文出处将它列为世界语歌“国际”的译文。具体转译关系须与所据世界语原词比较。"
+    ],
     "canonical_version_ids": [],
     "related_version_ids": [],
     "facsimile_collation": "pending",
@@ -178,8 +189,15 @@
     "book_page_start": 20,
     "pdf_page_start": 37,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "广东黄埔陆军军官学校特别区党部革命军社《国际歌》，《革命军》第六七期合刊，1925年5月30日。",
+        "evidence_book_page": 20,
+        "evidence_pdf_page": 37
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -201,8 +219,21 @@
     "book_page_start": 23,
     "pdf_page_start": 40,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "安源路矿工人俱乐部工人学校编《工人读本》（第二册），1925年。",
+        "evidence_book_page": 23,
+        "evidence_pdf_page": 40
+      },
+      {
+        "kind": "intermediate-book-source-reported",
+        "citation": "湖南省档案馆编《湖南老区革命文化史料》（第一册），长沙：湖南人民出版社，2010年，第31–32页。",
+        "evidence_book_page": 23,
+        "evidence_pdf_page": 40
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -224,8 +255,15 @@
     "book_page_start": 26,
     "pdf_page_start": 43,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《工人之路》第18号，1925年7月12日，中华全国总工会省港罢工委员会出版，第四版。",
+        "evidence_book_page": 26,
+        "evidence_pdf_page": 43
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -247,8 +285,15 @@
     "book_page_start": 28,
     "pdf_page_start": 45,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《中国青年》第93、94期合刊，随刊插页；正文题头没有具体月日。",
+        "evidence_book_page": 28,
+        "evidence_pdf_page": 45
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -270,8 +315,15 @@
     "book_page_start": 30,
     "pdf_page_start": 47,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "国民革命军第三军政治部，1926年3月18日，传单。",
+        "evidence_book_page": 30,
+        "evidence_pdf_page": 47
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -293,8 +345,27 @@
     "book_page_start": 32,
     "pdf_page_start": 49,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "李求实《革命歌声》（又名《革命歌集》），中国青年社，1926年。",
+        "evidence_book_page": 32,
+        "evidence_pdf_page": 49
+      },
+      {
+        "kind": "holding-institution-reported",
+        "citation": "原件藏于中国艺术研究院。",
+        "evidence_book_page": 32,
+        "evidence_pdf_page": 49
+      },
+      {
+        "kind": "comparison-edition-reported",
+        "citation": "宋士锋《总想为大家辟一条光明的路：瞿秋白与〈国际歌〉》，北京：中国文史出版社，2016年，第60–61页。",
+        "evidence_book_page": 32,
+        "evidence_pdf_page": 49
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -316,8 +387,15 @@
     "book_page_start": 34,
     "pdf_page_start": 51,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "王光祈《各国国歌评述》，上海：中华书局，1926年11月，第51页。",
+        "evidence_book_page": 34,
+        "evidence_pdf_page": 51
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -339,9 +417,24 @@
     "book_page_start": 36,
     "pdf_page_start": 53,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
-    "metadata_notes": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "庆祝苏俄革命纪念大会印赠，1926年11月7日，武汉。",
+        "evidence_book_page": 36,
+        "evidence_pdf_page": 53
+      },
+      {
+        "kind": "intermediate-book-source-reported",
+        "citation": "「武漢…労農露国十月革命紀念大会報告ノ件」（日文题名此处节录）、アジア歴史資料センター、REEL No. 1–1279、563页（照本书著录；检索号待独立核实）。",
+        "evidence_book_page": 36,
+        "evidence_pdf_page": 53
+      }
+    ],
+    "metadata_notes": [
+      "日文题名含“ノ件”；省略处的假名字形不在此强行辨读。来源机构为アジア歴史資料センター；尚未找到对应原始档案记录。"
+    ],
     "canonical_version_ids": [],
     "related_version_ids": [],
     "facsimile_collation": "pending",
@@ -362,9 +455,24 @@
     "book_page_start": 38,
     "pdf_page_start": 55,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
-    "metadata_notes": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "武汉中央农民运动讲习所印发，1927年。",
+        "evidence_book_page": 38,
+        "evidence_pdf_page": 55
+      },
+      {
+        "kind": "intermediate-book-source-reported",
+        "citation": "天津艺术学院音乐理论组集体讨论，梁茂执笔《〈国际歌〉和巴黎公社革命音乐》，北京：人民音乐出版社，1978年，第106页。",
+        "evidence_book_page": 38,
+        "evidence_pdf_page": 55
+      }
+    ],
+    "metadata_notes": [
+      "目录题名用“武汉中国农民运动讲习所”，正文出处用“武汉中央农民运动讲习所”；两个位置的不同写法分别保留。"
+    ],
     "canonical_version_ids": [],
     "related_version_ids": [],
     "facsimile_collation": "pending",
@@ -385,8 +493,15 @@
     "book_page_start": 40,
     "pdf_page_start": 57,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《红旗》第19期“五一特刊”，1929年5月1日，第2–3页。",
+        "evidence_book_page": 40,
+        "evidence_pdf_page": 57
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -408,8 +523,21 @@
     "book_page_start": 42,
     "pdf_page_start": 59,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《革命歌集》，1931年版。",
+        "evidence_book_page": 42,
+        "evidence_pdf_page": 59
+      },
+      {
+        "kind": "intermediate-book-source-reported",
+        "citation": "湖南省档案馆编《湖南老区革命文化史料》（第一册），长沙：湖南人民出版社，2010年，第449页。",
+        "evidence_book_page": 42,
+        "evidence_pdf_page": 59
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -431,8 +559,21 @@
     "book_page_start": 45,
     "pdf_page_start": 62,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《唱歌》，平江县苏维埃政府印发，1931年。",
+        "evidence_book_page": 45,
+        "evidence_pdf_page": 62
+      },
+      {
+        "kind": "intermediate-book-source-reported",
+        "citation": "湖南省档案馆编《湖南老区革命文化史料》（第一册），长沙：湖南人民出版社，2010年，第460–462页。",
+        "evidence_book_page": 45,
+        "evidence_pdf_page": 62
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -454,8 +595,15 @@
     "book_page_start": 48,
     "pdf_page_start": 65,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《八路军军政杂志》第十一期，1939年11月25日，第90–91页。",
+        "evidence_book_page": 48,
+        "evidence_pdf_page": 65
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -477,8 +625,15 @@
     "book_page_start": 50,
     "pdf_page_start": 67,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《中国青年》第二卷第三期，本期附页；正文题头没有具体月日。",
+        "evidence_book_page": 50,
+        "evidence_pdf_page": 67
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -500,8 +655,15 @@
     "book_page_start": 53,
     "pdf_page_start": 70,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "宾符主编《国际新闻辞典》，香港：无名出版社，1940年，第183页，“国际歌”词条。",
+        "evidence_book_page": 53,
+        "evidence_pdf_page": 70
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -523,8 +685,15 @@
     "book_page_start": 54,
     "pdf_page_start": 71,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "豫皖苏军区第一军分区文工团编印《歌选·第一集》，1948年12月15日，第5–6页。",
+        "evidence_book_page": 54,
+        "evidence_pdf_page": 71
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -546,8 +715,15 @@
     "book_page_start": 56,
     "pdf_page_start": 73,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "荆令编《工人歌曲》，哈尔滨：光华书店，1949年1月，第1–2页。",
+        "evidence_book_page": 56,
+        "evidence_pdf_page": 73
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -569,8 +745,15 @@
     "book_page_start": 58,
     "pdf_page_start": 75,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《新唐山日报》，1949年4月28日，第3版。",
+        "evidence_book_page": 58,
+        "evidence_pdf_page": 75
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -592,8 +775,15 @@
     "book_page_start": 60,
     "pdf_page_start": 77,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "冀中纪念“五一、五四”筹备会《平原歌声·第五集》，新华书店保定总分店印，1949年5月1日，第18–19页。",
+        "evidence_book_page": 60,
+        "evidence_pdf_page": 77
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -615,8 +805,15 @@
     "book_page_start": 62,
     "pdf_page_start": 79,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "苏夏编《解放歌集·第一集》，上海：作家书屋，1949年6月，第1–2页。",
+        "evidence_book_page": 62,
+        "evidence_pdf_page": 79
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -638,8 +835,15 @@
     "book_page_start": 64,
     "pdf_page_start": 81,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《冀中教育》第二卷第四期，1949年，封底《国际歌》词曲。",
+        "evidence_book_page": 64,
+        "evidence_pdf_page": 81
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -661,8 +865,15 @@
     "book_page_start": 66,
     "pdf_page_start": 83,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "胶东文化协会编《工人之歌》，山东新华书店胶东分店再版，1949年8月，第1–2页。",
+        "evidence_book_page": 66,
+        "evidence_pdf_page": 83
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -684,8 +895,15 @@
     "book_page_start": 68,
     "pdf_page_start": 85,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "韩启晨编《高中活页文选》（第二辑，二年级第一学期用），西安：西北新华书店，1949年8月，第29–30页。",
+        "evidence_book_page": 68,
+        "evidence_pdf_page": 85
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -707,8 +925,15 @@
     "book_page_start": 70,
     "pdf_page_start": 87,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "翔宇、凌燕合编《苏联歌集》，大连新华书店印行，1949年9月，第1–2页。",
+        "evidence_book_page": 70,
+        "evidence_pdf_page": 87
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -730,8 +955,15 @@
     "book_page_start": 72,
     "pdf_page_start": 89,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《中国名歌选》（第一辑），第24–27页；正文题头仍标时间不详。",
+        "evidence_book_page": 72,
+        "evidence_pdf_page": 89
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -753,8 +985,15 @@
     "book_page_start": 75,
     "pdf_page_start": 92,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "《大刚报·武汉》第4810号，1951年4月12日，第5版。",
+        "evidence_book_page": 75,
+        "evidence_pdf_page": 92
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -776,8 +1015,15 @@
     "book_page_start": 77,
     "pdf_page_start": 94,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "original-publication-reported",
+        "citation": "鲍承钦主编《袖珍新戏考》，天下书报社，1951年，第553页。",
+        "evidence_book_page": 77,
+        "evidence_pdf_page": 94
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -829,14 +1075,36 @@
     "book_page_start": 85,
     "pdf_page_start": 102,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
-    "metadata_notes": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "intermediate-book-source-reported",
+        "citation": "Robert Brécy, “Un Manuscrit de L’Internationale”, International Review of Social History, Volume 17, Issue 1 (April 1972), pp. 587–589（照本书所引页码）。",
+        "evidence_book_page": 85,
+        "evidence_pdf_page": 102
+      },
+      {
+        "kind": "comparison-edition-reported",
+        "citation": "Robert Brécy, La Chanson de la Commune: Chanson et poème inspirés pour la Commune de 1871, Paris: Éditions Ouvrières, 1991, p. 107。",
+        "evidence_book_page": 85,
+        "evidence_pdf_page": 102
+      }
+    ],
+    "metadata_notes": [
+      "Cambridge出版社页面独立确认卷期、作者和DOI 10.1017/S0020859000006726，文章完整页码为584–589；本书所引587–589可能是其中选取的页段，保留两种页码口径。"
+    ],
     "canonical_version_ids": [],
     "related_version_ids": [],
     "facsimile_collation": "pending",
     "rights_status": "unassessed",
-    "local_lyrics_path": null
+    "local_lyrics_path": null,
+    "external_bibliographic_verification": {
+      "url": "https://www.cambridge.org/core/journals/international-review-of-social-history/article/un-manuscrit-de-linternationale/969610F7B67FB86633F8D74C54612A58",
+      "reviewed_on": "2026-10-03",
+      "doi": "10.1017/S0020859000006726",
+      "article_pages": "584–589",
+      "scope": "Publisher metadata only; manuscript facsimile/text not collated."
+    }
   },
   {
     "id": "song-yiwei-2022-2-02",
@@ -852,8 +1120,27 @@
     "book_page_start": 88,
     "pdf_page_start": 105,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "consulted-print-edition-reported",
+        "citation": "Eugène Pottier, Chants Révolutionnaires, Paris: Dentu et Cie, 1887, pp. 13–15。",
+        "evidence_book_page": 88,
+        "evidence_pdf_page": 105
+      },
+      {
+        "kind": "comparison-edition-reported",
+        "citation": "Eugène Pottier, Chants Révolutionnaires (Deuxième Édition), Paris: Au Bureau du Comité Pottier, 1908, pp. 23–25。",
+        "evidence_book_page": 88,
+        "evidence_pdf_page": 105
+      },
+      {
+        "kind": "comparison-edition-reported",
+        "citation": "Eugène Pottier, Chants Révolutionnaires (Édition complète avec une préface de Lucien Descaves), Paris: Éditions Sociales Internationales, 1937, “Note de l’éditeur”, pp. 29–31。",
+        "evidence_book_page": 88,
+        "evidence_pdf_page": 105
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -875,9 +1162,18 @@
     "book_page_start": 93,
     "pdf_page_start": 110,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
-    "metadata_notes": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "consulted-web-source-reported",
+        "citation": "http://a-pesni.org/starrev/international-ru.htm，书中标2020年12月5日检索；转引自Песни Великой Российской революции，Иркутск，1917；100 песен русских рабочих，П. Ширяевой编，П. Выходцев总编，Л.: Музыка，1984（其余俄文编制说明从略）。",
+        "evidence_book_page": 93,
+        "evidence_pdf_page": 110
+      }
+    ],
+    "metadata_notes": [
+      "目录标1896，正文时间栏写19世纪90年代（1896年？）；年代的不确定性必须保留。"
+    ],
     "canonical_version_ids": [],
     "related_version_ids": [],
     "facsimile_collation": "pending",
@@ -938,8 +1234,15 @@
     "book_page_start": 98,
     "pdf_page_start": 115,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "consulted-print-edition-reported",
+        "citation": "М. Арик, Международный пролетарский гимн “Интернационал”: Его происхождение, история и толкование, Москва, 1923。",
+        "evidence_book_page": 98,
+        "evidence_pdf_page": 115
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],
@@ -1001,9 +1304,24 @@
     "book_page_start": 103,
     "pdf_page_start": 120,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
-    "metadata_notes": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "intermediate-book-source-reported",
+        "citation": "Валентин Дмитриев, “переводы Интернационала на русский язык”, Тетради переводчика, 1967, no. 2, pp. 3–23。",
+        "evidence_book_page": 103,
+        "evidence_pdf_page": 120
+      },
+      {
+        "kind": "comparison-edition-reported",
+        "citation": "伍铁平编著《国际歌：注释和研究》，北京：外语教学与研究出版社，1982年3月，第65–68页。",
+        "evidence_book_page": 103,
+        "evidence_pdf_page": 120
+      }
+    ],
+    "metadata_notes": [
+      "正文时间栏区分1958年完成、1967年发表修订版；不将二者压成一个年份。"
+    ],
     "canonical_version_ids": [],
     "related_version_ids": [],
     "facsimile_collation": "pending",
@@ -1024,8 +1342,21 @@
     "book_page_start": 106,
     "pdf_page_start": 123,
     "review_status": "toc-reviewed",
-    "header_review_status": "pending",
-    "reported_provenance": [],
+    "header_review_status": "visually-reviewed",
+    "reported_provenance": [
+      {
+        "kind": "consulted-print-edition-reported",
+        "citation": "Александр Гатов, Эжен Потье: Песни, Стихи, Поэмы, Москва: Наука, 1971。",
+        "evidence_book_page": 106,
+        "evidence_pdf_page": 123
+      },
+      {
+        "kind": "comparison-edition-reported",
+        "citation": "伍铁平编著《国际歌：注释和研究》，北京：外语教学与研究出版社，1982年3月，第63–65页。",
+        "evidence_book_page": 106,
+        "evidence_pdf_page": 123
+      }
+    ],
     "metadata_notes": [],
     "canonical_version_ids": [],
     "related_version_ids": [],

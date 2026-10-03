@@ -20,8 +20,8 @@
     "url": "https://en.wikisource.org/wiki/The_Internationale",
     "role": "historic-transcription-and-edition-evidence",
     "retrieved_on": "2026-10-03",
-    "import_scope": "Four specified historic text transcriptions; individual URLs, fixed revisions and hashes in versions.json.",
-    "rights_note": "Underlying historic text and website-added commentary are treated separately; dates/status recorded per text. Original facsimile collation remains pending."
+    "import_scope": "Four specified web transcriptions plus one manually transcribed historical score lyric; individual source URLs and hashes in versions.json.",
+    "rights_note": "Historic underlying texts and modern editorial/recording rights are separate. Qu 1923 preface and score compared with a later facsimile reprint; other source facsimile collations remain pending."
   },
   {
     "id": "personal-zh-345",
@@ -50,9 +50,19 @@
       2,
       3
     ],
-    "import_scope": "Bibliographic facts; 33 Chinese publication entries and 11 foreign source-text entries from the contents; 10 selected entry headers/citations. No source scans or bulk book/OCR text.",
+    "import_scope": "Bibliographic facts; all 33 Chinese and 11 foreign contents entries and all 44 entry headers/citations visually reviewed. No source scans or bulk book/OCR text.",
     "rights_note": "Metadata only. Modern editorial text and the scan are not distributed. Any historical lyrics require separate admission and collation.",
     "snapshot_manifest": "data/discoveries/song-yiwei-2022.snapshot.json",
     "catalogue_path": "catalogue/book-song-2022.md"
+  },
+  {
+    "id": "xinqingnian-1923-1-facsimile",
+    "name": "《新青年》季刊第1期（1923）影印",
+    "url": "https://zh.wikisource.org/wiki/File:新青年季刊第一期.pdf",
+    "role": "historical-facsimile-evidence",
+    "retrieved_on": "2026-10-03",
+    "import_scope": "Metadata and manual collation of printed pages 6–10 and 151–152; scan PDF and page images not redistributed.",
+    "rights_note": "Historical underlying lyrics assessed per version. File page reports a 2012 facsimile source; no modern editorial matter imported.",
+    "collation_record": "data/collations/zh-qu-1923.json"
   }
 ]
