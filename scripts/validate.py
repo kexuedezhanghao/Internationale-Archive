@@ -149,12 +149,29 @@ def main():
         printed_pages = {pair["printed_page"] for pair in pairs}
         assert len(printed_pages) == len(pairs)
         assert all(1 <= pair["pdf_page"] <= facsimile["pdf_pages"] for pair in pairs)
-        for difference in collation["wording_differences"]:
-            assert difference["preface"] and difference["score"]
-            assert difference["preface_printed_page"] in printed_pages
-            assert difference["score_printed_page"] in printed_pages
-        for difference in collation["web_transcription_differences"]:
-            assert difference["printed_page"] in printed_pages
+        if collation.get("record_kind") == "edition-facsimile-vs-web":
+            assert collation["edition_differences"] and collation["comparison_limit"]
+            for difference in collation["edition_differences"]:
+                assert difference["printed_page"] in printed_pages
+                assert difference["facsimile"] and difference["web"]
+                assert {difference["facsimile_version_id"], difference["web_version_id"]} <= set(collation["version_ids"])
+            for reading in collation["unresolved_readings"]:
+                assert reading["printed_page"] in printed_pages
+                assert reading["version_id"] in collation["version_ids"]
+                assert reading["status"] == "pending-human-review" and reading["candidates"]
+                v = next(v for v in versions if v["id"] == reading["version_id"])
+                assert reading["id"] in v["review"]["unresolved_reading_ids"]
+                assert v["review"]["facsimile_collation"] == "reviewed-with-unresolved-readings"
+                assert reading["marker"] in (ROOT / v["lyrics_path"]).read_text(encoding="utf-8")
+                crop = ROOT / reading["detail_crop_path"]
+                assert crop.is_file() and hashlib.sha256(crop.read_bytes()).hexdigest() == reading["detail_crop_sha256"]
+        else:
+            for difference in collation["wording_differences"]:
+                assert difference["preface"] and difference["score"]
+                assert difference["preface_printed_page"] in printed_pages
+                assert difference["score_printed_page"] in printed_pages
+            for difference in collation["web_transcription_differences"]:
+                assert difference["printed_page"] in printed_pages
         for version_id in collation["version_ids"]:
             v = next(v for v in versions if v["id"] == version_id)
             assert v["review"]["collation_record"] == str(p.relative_to(ROOT))

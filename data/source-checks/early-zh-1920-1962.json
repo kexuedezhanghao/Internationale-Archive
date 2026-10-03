@@ -168,5 +168,31 @@
     "《民国日报·觉悟》1921年5月7日及27日，第2版",
     "《小说月报》第12卷号外《俄国文学研究》1921年9月，第235–237页",
     "《人民日报》1962年4月28日第6版"
+  ],
+  "followup_searches_20261003": [
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "database-description",
+      "url": "https://library.suda.edu.cn/2017/0727/c4858a52100/page.psp",
+      "finding": "Library description lists Min Kuo Jih Pao digital resource, 1919–1947; target May 7 and May 27 pages not obtained."
+    },
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "reprint-union-catalogue",
+      "url": "https://ci.nii.ac.jp/ncid/AA11575553",
+      "finding": "Catalogue explicitly names 俄國文學研究, 12卷號外 (1921) within 1981–1988 reprint edition. Individual institutions must be checked for this supplement."
+    },
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "derived-catalogue",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959787812097",
+      "finding": "NDL imports the CiNii Books record; not independent original-publication evidence."
+    },
+    {
+      "target": "zh-collective-1962",
+      "kind": "database-access-attempt",
+      "url": "https://www.peopleinfo.com.cn/",
+      "finding": "General entry timed out; no specific 1962-04-28 p.6 image obtained."
+    }
   ]
 }

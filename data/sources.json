@@ -74,5 +74,15 @@
     "import_scope": "Four provisional or reviewed identity records, web provenance and one separately assessed historical lyric block; no original newspaper facsimile obtained.",
     "rights_note": "Liebei, Zhang Taoyu and 1962 identities remain metadata only. Geng/Zheng lyric rights considered individually for US and CN.",
     "source_check_record": "data/source-checks/early-zh-1920-1962.json"
+  },
+  {
+    "id": "pottier-1887-robarts",
+    "name": "Eugène Pottier, Chants révolutionnaires, Dentu et Cie, 1887",
+    "url": "https://archive.org/details/chantsrvolutio00pottuoft",
+    "role": "digitized-historical-library-copy",
+    "retrieved_on": "2026-10-03",
+    "import_scope": "Manual reading transcription of printed pages 13–15, bibliographic metadata, two detail crops and explicit unresolved readings. Full PDF and OCR output not redistributed.",
+    "rights_note": "Historical underlying text assessed individually; modern music and recording rights excluded. Archive metadata reports NOT_IN_COPYRIGHT.",
+    "collation_record": "data/collations/fr-pottier-1887.json"
   }
 ]

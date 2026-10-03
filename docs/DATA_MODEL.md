@@ -54,6 +54,8 @@
 
 `data/collations/` 保存检查范围、版本ID、原刊与PDF页码、文件摘要、影印的传递来源及词句差异；`docs/collation/` 提供对应的阅读说明。后世重印影像与直接原件扫描明确区分。记录文件和文本摘要可以复核，影印大文件不随仓库分发。
 
+`facsimile-reviewed-with-unresolved-readings` 表示已对照声明范围的版面，但存在显式疑读；不是逐字定稿。疑读标记、候选字、印刷页码和局部路径记录在 `unresolved_readings`。`record_kind: edition-facsimile-vs-web` 的 `edition_differences` 比较原刊扫描与另一版网页，不据此把网页所属刊本标成已校勘。
+
 ## 快照与更新
 
 `antiwarsongs.snapshot.json` 记录抓取时间、整页字节数与SHA-256，以及导入时的数量核对。HTML原件留在临时研究目录，不随发布包分发。网页后来新增、修订或删除的条目应形成可追踪的目录更新，保留已有人工判断。

@@ -1,0 +1,161 @@
+{
+  "id": "fr-pottier-1887-vs-1908-web",
+  "record_kind": "edition-facsimile-vs-web",
+  "reviewed_on": "2026-10-03",
+  "version_ids": [
+    "fr-pottier-1887",
+    "fr-pottier-1908"
+  ],
+  "report_path": "docs/collation/fr-pottier-1887.md",
+  "method": "Manual visual transcription of 1887 printed pages, with explicit unresolved readings; compared to pinned 1908 web transcription.",
+  "scope": "All six stanzas and opening/closing refrains; 1908 printed pages not collated; spacing normalized.",
+  "facsimile": {
+    "file_page_url": "https://archive.org/details/chantsrvolutio00pottuoft",
+    "index_url": "https://fr.wikisource.org/w/index.php?title=Livre:Pottier_-_Chants_r%C3%A9volutionnaires_-_1887.djvu&oldid=15380290",
+    "download_url": "https://archive.org/download/chantsrvolutio00pottuoft/chantsrvolutio00pottuoft.pdf",
+    "pdf_pages": 272,
+    "pdf_bytes": 9424264,
+    "pdf_sha256": "69a10b2e7d5df89f7093b8366f3840106a7bd7089c3babf80625b5703e292d14",
+    "pdf_sha1": "a5e6f76be1f38f8424c488c1791cc7e579045c36",
+    "sha1_matches_archive_metadata": true,
+    "original_publication": "Eugène Pottier, Chants révolutionnaires, Paris: Dentu et Cie, 1887, pp. 13–15",
+    "scan_provenance_as_reported": "Robarts - University of Toronto; scanning centre uoft; AFN-9506; archive identifier chantsrvolutio00pottuoft.",
+    "evidence_type": "digitized-historical-library-copy",
+    "scan_distributed": false,
+    "detail_crops_distributed": true,
+    "archive_imagecount": 276,
+    "imagecount_note": "Archive metadata lists 276 source images, while this downloaded PDF has 272 pages; source image indices are not substituted for PDF positions."
+  },
+  "page_mapping": {
+    "indexing": "1-based",
+    "scope": "This exact PDF only; printed 13 is unnumbered on page but located between printed 12 and 14.",
+    "visually_checked_pairs": [
+      {
+        "printed_page": 13,
+        "pdf_page": 39
+      },
+      {
+        "printed_page": 14,
+        "pdf_page": 40
+      },
+      {
+        "printed_page": 15,
+        "pdf_page": 41
+      }
+    ]
+  },
+  "edition_differences": [
+    {
+      "printed_page": 13,
+      "location": "stanza-1-line-3",
+      "facsimile": "cratère,",
+      "web": "cratère :",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 13,
+      "location": "stanza-1-line-4",
+      "facsimile": "irruption",
+      "web": "éruption",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 14,
+      "location": "stanza-3-line-7",
+      "facsimile": "dit-elle,",
+      "web": "dit-elle",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 14,
+      "location": "stanza-3-line-8-opening",
+      "facsimile": "»",
+      "web": "«",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 14,
+      "location": "stanza-4-line-6",
+      "facsimile": "fondu.",
+      "web": "fondu",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 14,
+      "location": "stanza-5-line-4",
+      "facsimile": "Crosse en l’air et",
+      "web": "Crosse en l’air, et",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 14,
+      "location": "stanza-5-line-6",
+      "facsimile": "A faire",
+      "web": "À faire",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 13,
+      "location": "opening-refrain-line-4",
+      "facsimile": "humain.",
+      "web": "humain",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 15,
+      "location": "closing-refrain-line-4",
+      "facsimile": "humain.",
+      "web": "humain",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 14,
+      "location": "stanza-5-line-1",
+      "facsimile": "soulaient",
+      "web": "soûlaient",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
+    }
+  ],
+  "unresolved_readings": [
+    {
+      "id": "FR1887-01",
+      "version_id": "fr-pottier-1887",
+      "printed_page": 13,
+      "location": "stanza-1-line-4-after-de",
+      "status": "pending-human-review",
+      "marker": "⟦l/f?⟧",
+      "candidates": [
+        "l",
+        "f"
+      ],
+      "detail_crop_path": "docs/collation/images/fr-pottier-1887-line4.png",
+      "detail_crop_sha256": "523cdeb36b5f9fd4fd6c4b5a67cf433b9b21eadd660d9930b234d5bb9ade05d5"
+    },
+    {
+      "id": "FR1887-02",
+      "version_id": "fr-pottier-1887",
+      "printed_page": 14,
+      "location": "stanza-5-line-5-end",
+      "status": "pending-human-review",
+      "marker": "⟦..?⟧",
+      "candidates": [
+        "two-periods",
+        "comma-plus-period",
+        "printing-artifact"
+      ],
+      "detail_crop_path": "docs/collation/images/fr-pottier-1887-cannibales.png",
+      "detail_crop_sha256": "a771054ce174f0d0d3c213aa518f25f295f7d3e542e906bfb1115f45d770ea55"
+    }
+  ],
+  "comparison_limit": "Differences are between 1887 facsimile and pinned 1908 webpage; not independently confirmed 1908 edition variants."
+}

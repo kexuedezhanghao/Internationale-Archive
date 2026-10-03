@@ -1,5 +1,90 @@
 [
   {
+    "id": "fr-pottier-1887",
+    "title_zh": "鲍狄埃原词：1887年刊本（含疑读）",
+    "language": {
+      "tag": "fr",
+      "label_zh": "法语"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": null,
+    "text_author": "Eugène Pottier",
+    "text_author_death_year": 1887,
+    "composition_year": 1871,
+    "edition_label": "Pottier, Chants révolutionnaires, Paris: Dentu et Cie, 1887，第13–15页；两处疑读待复核",
+    "source_publication_year": 1887,
+    "stanza_mapping": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "kind": "original",
+    "lyrics_path": "lyrics/fr/fr-pottier-1887.md",
+    "review": {
+      "status": "facsimile-reviewed-with-unresolved-readings",
+      "date": "2026-10-03",
+      "facsimile_collation": "reviewed-with-unresolved-readings",
+      "scope": "All six stanzas and both refrains visually transcribed; two readings explicitly marked as unresolved; spacing normalized; no 1908 scan collated.",
+      "collation_record": "data/collations/fr-pottier-1887.json",
+      "collation_report": "docs/collation/fr-pottier-1887.md",
+      "unresolved_reading_ids": [
+        "FR1887-01",
+        "FR1887-02"
+      ]
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "1887 historical underlying lyric text only; modern arrangements, recordings and editorial matter excluded",
+      "jurisdictions_considered": [
+        "US",
+        "CN",
+        "life-plus-70 countries"
+      ],
+      "basis": [
+        "Source edition published in 1887, before 1931.",
+        "Text author died in 1887, more than 70 years before 2026."
+      ],
+      "evidence_urls": [
+        "https://archive.org/details/chantsrvolutio00pottuoft",
+        "https://fr.wikisource.org/wiki/Auteur:Eug%C3%A8ne_Pottier",
+        "https://www.copyright.gov/circs/circ22.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://archive.org/details/chantsrvolutio00pottuoft",
+        "role": "digitized-library-copy"
+      },
+      {
+        "url": "https://archive.org/download/chantsrvolutio00pottuoft/chantsrvolutio00pottuoft.pdf",
+        "role": "facsimile-download"
+      },
+      {
+        "url": "https://fr.wikisource.org/w/index.php?title=Livre:Pottier_-_Chants_r%C3%A9volutionnaires_-_1887.djvu&oldid=15380290",
+        "role": "pinned-edition-index"
+      },
+      {
+        "url": "https://fr.wikisource.org/wiki/Auteur:Eug%C3%A8ne_Pottier",
+        "role": "author-dates"
+      }
+    ],
+    "snapshot_filename": "chantsrvolutio00pottuoft.pdf",
+    "snapshot_sha256": "69a10b2e7d5df89f7093b8366f3840106a7bd7089c3babf80625b5703e292d14",
+    "notes": [
+      "1887年刊本据多伦多大学Robarts图书馆藏本数字扫描转录，印刷页13–15。",
+      "六段及两次副歌均检查；de后首字母及cannibales后标点保留编辑疑读标记，尚非逐字定稿。",
+      "阅读排版统一空白；不自动修正原刊可见的A、续行引号或已辨标点。",
+      "与1908年固定网页转录分别保存；1908年版面尚未校勘。"
+    ],
+    "lyrics_sha256": "e53d3b91e691b8e454786fda9c2c89608d75e4cd2f7dd552686b91879fcbfafa",
+    "related_version_ids": [
+      "fr-pottier-1908"
+    ]
+  },
+  {
     "id": "fr-pottier-1908",
     "title_zh": "鲍狄埃原词：1908年刊本",
     "language": {
@@ -26,7 +111,10 @@
     "review": {
       "status": "source-reviewed",
       "date": "2026-10-03",
-      "facsimile_collation": "pending"
+      "facsimile_collation": "pending",
+      "collation_record": "data/collations/fr-pottier-1887.json",
+      "collation_report": "docs/collation/fr-pottier-1887.md",
+      "scope": "Existing pinned 1908 web transcription compared with the 1887 scan; 1908 printed pages have not been obtained, so own facsimile collation remains pending."
     },
     "rights": {
       "status": "public-domain-supported",
@@ -63,9 +151,13 @@
     "snapshot_sha256": "1f21594fb3ec690a5d2714e6a41bb8b7c9b6737c94bd3b476bd793e4d99eb4e4",
     "notes": [
       "正文保留此底本的副歌位置与标点，不改作现代演唱排版。",
-      "这是1908年版的转录，不能当作1871年手稿或1887年初版的逐字影印。"
+      "这是1908年版的转录，不能当作1871年手稿或1887年初版的逐字影印。",
+      "与1887年扫描对照见校勘记录；éruption等差异尚待1908年版面验证。"
     ],
-    "lyrics_sha256": "fe74d67f18939cbf95f922ae769a1f04cd6c7437c03e77a02fe885ed214cb884"
+    "lyrics_sha256": "fe74d67f18939cbf95f922ae769a1f04cd6c7437c03e77a02fe885ed214cb884",
+    "related_version_ids": [
+      "fr-pottier-1887"
+    ]
   },
   {
     "id": "en-kerr-1900",

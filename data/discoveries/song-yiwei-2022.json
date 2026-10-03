@@ -1159,7 +1159,9 @@
     ],
     "metadata_notes": [],
     "canonical_version_ids": [],
-    "related_version_ids": [],
+    "related_version_ids": [
+      "fr-pottier-1887"
+    ],
     "facsimile_collation": "pending",
     "rights_status": "unassessed",
     "local_lyrics_path": null

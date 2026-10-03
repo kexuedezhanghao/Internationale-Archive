@@ -4,6 +4,7 @@
 
 | 语言 | 版本 | 年代/底本 | 法文段落对应 | 全文 |
 |---|---|---|---|---|
+| 法语 | [鲍狄埃原词：1887年刊本（含疑读）](../lyrics/fr/fr-pottier-1887.md) | Pottier, Chants révolutionnaires, Paris: Dentu et Cie, 1887，第13–15页；两处疑读待复核 | 1, 2, 3, 4, 5, 6 | 已收录 |
 | 法语 | [鲍狄埃原词：1908年刊本](../lyrics/fr/fr-pottier-1908.md) | 《Chants révolutionnaires》1908年版，第23–25页；创作于1871年 | 1, 2, 3, 4, 5, 6 | 已收录 |
 | 英语 | [Charles Hope Kerr 英译：1900年版网页转录](../lyrics/en/en-kerr-1900.md) | Wikisource 标注发表于《Socialist Songs》（1900） | 1, 2, 3, 4, 6 | 已收录 |
 | 德语 | [Rudolf Lavant 德译：1902年刊本](../lyrics/de/de-lavant-1902.md) | Rasche，Berlin，1902年5月；Lieder-Gemeinschaft der Arbeiter-Sängervereinigungen Deutschlands | 1, 2, 3, 4, 6 | 已收录 |
