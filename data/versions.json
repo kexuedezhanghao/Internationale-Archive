@@ -1,7 +1,7 @@
 [
   {
     "id": "fr-pottier-1887",
-    "title_zh": "鲍狄埃原词：1887年刊本（含疑读）",
+    "title_zh": "鲍狄埃原词：1887年刊本",
     "language": {
       "tag": "fr",
       "label_zh": "法语"
@@ -11,7 +11,7 @@
     "text_author": "Eugène Pottier",
     "text_author_death_year": 1887,
     "composition_year": 1871,
-    "edition_label": "Pottier, Chants révolutionnaires, Paris: Dentu et Cie, 1887，第13–15页；两处疑读待复核",
+    "edition_label": "Pottier, Chants révolutionnaires, Paris: Dentu et Cie, 1887，第13–15页；原两处疑读已人工复核",
     "source_publication_year": 1887,
     "stanza_mapping": [
       1,
@@ -24,13 +24,14 @@
     "kind": "original",
     "lyrics_path": "lyrics/fr/fr-pottier-1887.md",
     "review": {
-      "status": "facsimile-reviewed-with-unresolved-readings",
+      "status": "facsimile-reviewed",
       "date": "2026-10-03",
-      "facsimile_collation": "reviewed-with-unresolved-readings",
-      "scope": "All six stanzas and both refrains visually transcribed; two readings explicitly marked as unresolved; spacing normalized; no 1908 scan collated.",
+      "facsimile_collation": "completed",
+      "scope": "All six stanzas and both refrains visually transcribed; two uncertain readings resolved by human visual review on 2026-10-03; spacing normalized; no 1908 scan collated.",
       "collation_record": "data/collations/fr-pottier-1887.json",
       "collation_report": "docs/collation/fr-pottier-1887.md",
-      "unresolved_reading_ids": [
+      "unresolved_reading_ids": [],
+      "resolved_reading_ids": [
         "FR1887-01",
         "FR1887-02"
       ]
@@ -75,11 +76,11 @@
     "snapshot_sha256": "69a10b2e7d5df89f7093b8366f3840106a7bd7089c3babf80625b5703e292d14",
     "notes": [
       "1887年刊本据多伦多大学Robarts图书馆藏本数字扫描转录，印刷页13–15。",
-      "六段及两次副歌均检查；de后首字母及cannibales后标点保留编辑疑读标记，尚非逐字定稿。",
+      "六段及两次副歌均检查；de后读作la，cannibales后读作单个句点；原疑读均经人工复核，墨点判断与裁图保存在校勘记录。",
       "阅读排版统一空白；不自动修正原刊可见的A、续行引号或已辨标点。",
       "与1908年固定网页转录分别保存；1908年版面尚未校勘。"
     ],
-    "lyrics_sha256": "e53d3b91e691b8e454786fda9c2c89608d75e4cd2f7dd552686b91879fcbfafa",
+    "lyrics_sha256": "0a298ac0ab6cf9b606cc5201636ae861eb90c1da991dc031e9f663f827a6103c",
     "related_version_ids": [
       "fr-pottier-1908"
     ]

@@ -7,7 +7,7 @@
     "fr-pottier-1908"
   ],
   "report_path": "docs/collation/fr-pottier-1887.md",
-  "method": "Manual visual transcription of 1887 printed pages, with explicit unresolved readings; compared to pinned 1908 web transcription.",
+  "method": "Manual visual transcription of 1887 printed pages; two uncertain readings resolved by human visual review on 2026-10-03; compared to pinned 1908 web transcription.",
   "scope": "All six stanzas and opening/closing refrains; 1908 printed pages not collated; spacing normalized.",
   "facsimile": {
     "file_page_url": "https://archive.org/details/chantsrvolutio00pottuoft",
@@ -124,29 +124,43 @@
       "web": "soûlaient",
       "facsimile_version_id": "fr-pottier-1887",
       "web_version_id": "fr-pottier-1908"
+    },
+    {
+      "printed_page": 14,
+      "location": "stanza-5-line-5",
+      "facsimile": "cannibales.",
+      "web": "cannibales,",
+      "facsimile_version_id": "fr-pottier-1887",
+      "web_version_id": "fr-pottier-1908"
     }
   ],
-  "unresolved_readings": [
+  "unresolved_readings": [],
+  "comparison_limit": "Differences are between 1887 facsimile and pinned 1908 webpage; not independently confirmed 1908 edition variants.",
+  "resolved_readings": [
     {
       "id": "FR1887-01",
       "version_id": "fr-pottier-1887",
       "printed_page": 13,
       "location": "stanza-1-line-4-after-de",
-      "status": "pending-human-review",
+      "status": "resolved-human-reviewed",
       "marker": "⟦l/f?⟧",
       "candidates": [
         "l",
         "f"
       ],
       "detail_crop_path": "docs/collation/images/fr-pottier-1887-line4.png",
-      "detail_crop_sha256": "523cdeb36b5f9fd4fd6c4b5a67cf433b9b21eadd660d9930b234d5bb9ade05d5"
+      "detail_crop_sha256": "523cdeb36b5f9fd4fd6c4b5a67cf433b9b21eadd660d9930b234d5bb9ade05d5",
+      "resolved_on": "2026-10-03",
+      "resolved_reading": "la",
+      "resolved_line": "C’est l’irruption de la fin.",
+      "resolution_basis": "局部字形人工辨认为la；l上端有墨点影响。"
     },
     {
       "id": "FR1887-02",
       "version_id": "fr-pottier-1887",
       "printed_page": 14,
       "location": "stanza-5-line-5-end",
-      "status": "pending-human-review",
+      "status": "resolved-human-reviewed",
       "marker": "⟦..?⟧",
       "candidates": [
         "two-periods",
@@ -154,8 +168,11 @@
         "printing-artifact"
       ],
       "detail_crop_path": "docs/collation/images/fr-pottier-1887-cannibales.png",
-      "detail_crop_sha256": "a771054ce174f0d0d3c213aa518f25f295f7d3e542e906bfb1115f45d770ea55"
+      "detail_crop_sha256": "a771054ce174f0d0d3c213aa518f25f295f7d3e542e906bfb1115f45d770ea55",
+      "resolved_on": "2026-10-03",
+      "resolved_reading": ".",
+      "resolved_line": "S’ils s’obstinent, ces cannibales.",
+      "resolution_basis": "人工比较同页前文逗号样式，判断一个句点与一个印刷墨点；墨点不计入正文。"
     }
-  ],
-  "comparison_limit": "Differences are between 1887 facsimile and pinned 1908 webpage; not independently confirmed 1908 edition variants."
+  ]
 }

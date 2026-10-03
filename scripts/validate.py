@@ -165,6 +165,20 @@ def main():
                 assert reading["marker"] in (ROOT / v["lyrics_path"]).read_text(encoding="utf-8")
                 crop = ROOT / reading["detail_crop_path"]
                 assert crop.is_file() and hashlib.sha256(crop.read_bytes()).hexdigest() == reading["detail_crop_sha256"]
+            for reading in collation.get("resolved_readings", []):
+                assert reading["printed_page"] in printed_pages
+                assert reading["version_id"] in collation["version_ids"]
+                assert reading["status"] == "resolved-human-reviewed"
+                assert reading["resolved_on"] and reading["resolution_basis"]
+                v = next(v for v in versions if v["id"] == reading["version_id"])
+                assert reading["id"] in v["review"]["resolved_reading_ids"]
+                assert reading["id"] not in v["review"]["unresolved_reading_ids"]
+                body = (ROOT / v["lyrics_path"]).read_text(encoding="utf-8")
+                lyrics = body.split("```text\n", 1)[1].split("```", 1)[0]
+                assert reading["marker"] not in lyrics
+                assert reading["resolved_line"] in lyrics.splitlines()
+                crop = ROOT / reading["detail_crop_path"]
+                assert crop.is_file() and hashlib.sha256(crop.read_bytes()).hexdigest() == reading["detail_crop_sha256"]
         else:
             for difference in collation["wording_differences"]:
                 assert difference["preface"] and difference["score"]

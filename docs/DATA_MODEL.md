@@ -56,6 +56,8 @@
 
 `facsimile-reviewed-with-unresolved-readings` 表示已对照声明范围的版面，但存在显式疑读；不是逐字定稿。疑读标记、候选字、印刷页码和局部路径记录在 `unresolved_readings`。`record_kind: edition-facsimile-vs-web` 的 `edition_differences` 比较原刊扫描与另一版网页，不据此把网页所属刊本标成已校勘。
 
+经人工复核解决的疑读移入 `resolved_readings`，保留原标记、候选读法及裁图，另记 `resolved_on`、`resolved_line` 与 `resolution_basis`；版本以 `resolved_reading_ids` 关联。全部疑读解决后可将所声明范围的 `facsimile_collation` 改为 `completed`，不改变其它刊本的校勘状态。
+
 ## 快照与更新
 
 `antiwarsongs.snapshot.json` 记录抓取时间、整页字节数与SHA-256，以及导入时的数量核对。HTML原件留在临时研究目录，不随发布包分发。网页后来新增、修订或删除的条目应形成可追踪的目录更新，保留已有人工判断。
