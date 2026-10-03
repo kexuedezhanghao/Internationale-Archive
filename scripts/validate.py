@@ -109,6 +109,33 @@ def main():
     assert embedded, "Missing offline catalogue data"
     embedded_data = json.loads(embedded[1])
     assert embedded_data == {"entries": entries, "versions": versions, "stats": stats}, "Stale offline catalogue"
+    for p in (ROOT / "data/source-checks").glob("*.json"):
+        check = json.loads(p.read_text(encoding="utf-8"))
+        check_ids = set(check["version_ids"])
+        assert len(check_ids) == len(check["version_ids"]) and check_ids <= set(vids)
+        assert (ROOT / check["report_path"]).is_file()
+        admitted_ids = {v["id"] for v in versions if v["id"] in check_ids and v["lyrics_path"]}
+        assert admitted_ids == set(check["full_text_version_ids"])
+        snapshot_urls = set()
+        for page_snapshot in check["snapshots"]:
+            assert urlparse(page_snapshot["url"]).scheme == "https" and page_snapshot["url"] not in snapshot_urls
+            snapshot_urls.add(page_snapshot["url"])
+            assert page_snapshot["snapshot_bytes"] > 0 and re.fullmatch(r"[0-9a-f]{64}", page_snapshot["snapshot_sha256"])
+            assert not page_snapshot["snapshot_distributed"] and page_snapshot["encoding"]
+        for part in check["serial_parts"]:
+            assert part["version_id"] in check_ids and part["url"] in snapshot_urls
+            assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", part["publication_date_as_reported"])
+            assert part["stanza_numbers_in_web"] and set(part["stanza_numbers_in_web"]) <= set(range(1, 7))
+        for conflict in check["date_conflicts"]:
+            assert conflict["version_id"] in check_ids and conflict["status"]
+            assert len({claim["date"] for claim in conflict["claims"]}) >= 2
+            assert all(claim.get("url") or claim.get("source_id") in source_ids for claim in conflict["claims"])
+        for version_id in check_ids:
+            v = next(v for v in versions if v["id"] == version_id)
+            assert v["review"]["source_check_record"] == str(p.relative_to(ROOT))
+            assert v["review"]["source_check_report"] == check["report_path"]
+            if check["facsimiles_obtained"] == 0:
+                assert v["review"]["facsimile_collation"] == "pending"
     for p in (ROOT / "data/collations").glob("*.json"):
         collation = json.loads(p.read_text(encoding="utf-8"))
         assert set(collation["version_ids"]) <= set(vids)

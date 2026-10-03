@@ -20,7 +20,7 @@
     "url": "https://en.wikisource.org/wiki/The_Internationale",
     "role": "historic-transcription-and-edition-evidence",
     "retrieved_on": "2026-10-03",
-    "import_scope": "Four specified web transcriptions plus one manually transcribed historical score lyric; individual source URLs and hashes in versions.json.",
+    "import_scope": "Five specified web transcriptions plus one manually transcribed historical score lyric; individual source URLs and hashes in versions.json.",
     "rights_note": "Historic underlying texts and modern editorial/recording rights are separate. Qu 1923 preface and score compared with a later facsimile reprint; other source facsimile collations remain pending."
   },
   {
@@ -64,5 +64,15 @@
     "import_scope": "Metadata and manual collation of printed pages 6–10 and 151–152; scan PDF and page images not redistributed.",
     "rights_note": "Historical underlying lyrics assessed per version. File page reports a 2012 facsimile source; no modern editorial matter imported.",
     "collation_record": "data/collations/zh-qu-1923.json"
+  },
+  {
+    "id": "early-zh-web-evidence-20261003",
+    "name": "1920–1921年中文译本与1962年刊载的网页证据",
+    "url": "https://www.marxists.org/chinese/reference-books/labor-1920/index.htm",
+    "role": "web-source-checks",
+    "reviewed_on": "2026-10-03",
+    "import_scope": "Four provisional or reviewed identity records, web provenance and one separately assessed historical lyric block; no original newspaper facsimile obtained.",
+    "rights_note": "Liebei, Zhang Taoyu and 1962 identities remain metadata only. Geng/Zheng lyric rights considered individually for US and CN.",
+    "source_check_record": "data/source-checks/early-zh-1920-1962.json"
   }
 ]

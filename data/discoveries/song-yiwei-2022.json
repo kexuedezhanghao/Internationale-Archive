@@ -28,9 +28,13 @@
         "evidence_pdf_page": 20
       }
     ],
-    "metadata_notes": [],
+    "metadata_notes": [
+      "已找到MIA四次连载网页及维基文库比较转录；原刊扫描未得，译者实名与转录差异继续待核。"
+    ],
     "canonical_version_ids": [],
-    "related_version_ids": [],
+    "related_version_ids": [
+      "zh-liebei-1920"
+    ],
     "facsimile_collation": "pending",
     "rights_status": "unassessed",
     "local_lyrics_path": null
@@ -64,9 +68,13 @@
         "evidence_pdf_page": 23
       }
     ],
-    "metadata_notes": [],
+    "metadata_notes": [
+      "已找到维基文库oldid=2439981六段转录，网页第3、4段顺序对应法文第4、3段；原刊与署名身份待核。"
+    ],
     "canonical_version_ids": [],
-    "related_version_ids": [],
+    "related_version_ids": [
+      "zh-zhang-taoyu-1920"
+    ],
     "facsimile_collation": "pending",
     "rights_status": "unassessed",
     "local_lyrics_path": null
@@ -100,9 +108,13 @@
         "evidence_pdf_page": 27
       }
     ],
-    "metadata_notes": [],
+    "metadata_notes": [
+      "首刊日期有冲突：本书题头为1921年5月7日，编者2021年论文与维基文库为5月27日。已重新目视检查本书第10页/PDF第27页，保留照书引文；原报未得，未裁决日期。网页转录全文另存，不等同于本书重排或原报校定文本。"
+    ],
     "canonical_version_ids": [],
-    "related_version_ids": [],
+    "related_version_ids": [
+      "zh-geng-zheng-1921"
+    ],
     "facsimile_collation": "pending",
     "rights_status": "unassessed",
     "local_lyrics_path": null
@@ -1054,9 +1066,13 @@
         "evidence_pdf_page": 96
       }
     ],
-    "metadata_notes": [],
+    "metadata_notes": [
+      "已找到第三方1962年4月28日第6版歌曲题名与刊载说明；未取得原版谱词，尚不收入正文。"
+    ],
     "canonical_version_ids": [],
-    "related_version_ids": [],
+    "related_version_ids": [
+      "zh-collective-1962"
+    ],
     "facsimile_collation": "pending",
     "rights_status": "unassessed",
     "local_lyrics_path": null

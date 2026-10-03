@@ -12,5 +12,9 @@
 | 俄语 | [Коц 俄译：1902年三段版](https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg1930) | Antiwar Songs 标注1902；俄语维基文库亦记早期译本发表于1902年 | 1, 2, 6 | 仅索引 |
 | 俄语 | [Коц 俄译：后续六段本（年代待核对）](https://ru.wikisource.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB_(%D0%9F%D0%BE%D1%82%D1%8C%D0%B5;_%D0%9A%D0%BE%D1%86)) | 完整本年代有分歧：俄语维基文库标1937；Antiwar Songs 相关条目标1931 | 1, 2, 3, 4, 5, 6 | 仅索引 |
 | 中文 | [个人中文可唱译配：原第3、4、5段](https://github.com/kexuedezhanghao/Internationale-ZH-345) | Internationale-ZH-345 / v0.1.0 首次公开草案 | 3, 4, 5 | 仅索引 |
+| 中文 | [列悲译《劳动歌》：1920年四次连载网页转录](https://www.marxists.org/chinese/reference-books/labor-1920/index.htm) | 《劳动者》第2、4、5、6号；MIA四篇网页转录，原刊待核 | 1, 2, 3, 4, 5, 6 | 仅索引 |
+| 中文 | [张逃狱译《劳动国际歌》：1920年六段网页转录](https://zh.wikisource.org/w/index.php?oldid=2439981&title=Translation%3A%E5%8B%9E%E5%8B%95%E5%9C%8B%E9%9A%9B%E6%AD%8C) | 《华工旬刊》第5、6号；维基文库oldid=2439981，原刊待核 | 1, 2, 4, 3, 5, 6 | 仅索引 |
+| 中文 | [耿济之、郑振铎译：1921年《第三国际党颂歌》网页转录](../lyrics/zh/zh-geng-zheng-1921.md) | 维基文库oldid=2439916；1921年译本，5月7日/27日首刊日期有冲突，原版待核 | 1, 2, 6 | 已收录 |
+| 中文 | [中文1962年审订本：《人民日报》刊载线索](https://www.rmrb.zhouenlai.info/人民日报（1946-2003）/1962/04/1962-04-28.htm) | 《人民日报》1962年4月28日第6版；第三方网页仅有题名与刊载说明，原版待核 | 待核对 | 仅索引 |
 
 具体出处、底本、权利依据和待核对事项见 [versions.json](../data/versions.json)。

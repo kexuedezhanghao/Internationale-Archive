@@ -483,5 +483,276 @@
       "原仓库明确说许可暂未确定；本档案先以链接记录。",
       "个人试作，非历史定本或官方译词；版本持续变化时应固定具体提交。"
     ]
+  },
+  {
+    "id": "zh-liebei-1920",
+    "title_zh": "列悲译《劳动歌》：1920年四次连载网页转录",
+    "language": {
+      "tag": "zh",
+      "label_zh": "中文"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "列悲",
+    "text_author": "列悲",
+    "composition_year": null,
+    "source_publication_year": 1920,
+    "edition_label": "《劳动者》第2、4、5、6号；MIA四篇网页转录，原刊待核",
+    "stanza_mapping": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": null,
+    "review": {
+      "status": "identity-provisional",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending",
+      "source_check_record": "data/source-checks/early-zh-1920-1962.json",
+      "source_check_report": "docs/research/early-zh-1920-1962.md"
+    },
+    "rights": {
+      "status": "unassessed",
+      "scope": "this specific translation/edition",
+      "evidence_urls": []
+    },
+    "sources": [
+      {
+        "url": "https://www.marxists.org/chinese/reference-books/labor-1920/index.htm",
+        "role": "serial-issue-index"
+      },
+      {
+        "url": "https://www.marxists.org/chinese/reference-books/labor-1920/2-10.htm",
+        "role": "serial-transcription"
+      },
+      {
+        "url": "https://www.marxists.org/chinese/reference-books/labor-1920/4-06.htm",
+        "role": "serial-transcription"
+      },
+      {
+        "url": "https://www.marxists.org/chinese/reference-books/labor-1920/5-07.htm",
+        "role": "serial-transcription"
+      },
+      {
+        "url": "https://www.marxists.org/chinese/reference-books/labor-1920/6-12.htm",
+        "role": "serial-transcription"
+      },
+      {
+        "url": "https://zh.wikisource.org/wiki/勞動歌",
+        "role": "comparison-transcription"
+      },
+      {
+        "url": "https://zh.wikisource.org/wiki/Talk:勞動歌",
+        "role": "source-dependency"
+      },
+      {
+        "url": "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
+        "role": "research-attribution"
+      }
+    ],
+    "notes": [
+      "译者以原署名列悲登记；维基文库和论文所述“列悲即区声白”尚未由本项目独立核实，不填死亡年。",
+      "MIA与维基文库存在谬说/谬误、将来的世界/将来之世界等转录差异，未合并为正文。",
+      "维基文库讨论页指向MIA、1984年沙东迅编本及网页介绍，不能将两个网站当成两个独立原刊见证。"
+    ]
+  },
+  {
+    "id": "zh-zhang-taoyu-1920",
+    "title_zh": "张逃狱译《劳动国际歌》：1920年六段网页转录",
+    "language": {
+      "tag": "zh",
+      "label_zh": "中文"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "张逃狱",
+    "text_author": "张逃狱",
+    "composition_year": null,
+    "source_publication_year": 1920,
+    "edition_label": "《华工旬刊》第5、6号；维基文库oldid=2439981，原刊待核",
+    "stanza_mapping": [
+      1,
+      2,
+      4,
+      3,
+      5,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": null,
+    "review": {
+      "status": "identity-provisional",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending",
+      "source_check_record": "data/source-checks/early-zh-1920-1962.json",
+      "source_check_report": "docs/research/early-zh-1920-1962.md"
+    },
+    "rights": {
+      "status": "unassessed",
+      "scope": "this specific translation/edition",
+      "evidence_urls": []
+    },
+    "sources": [
+      {
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2439981&title=Translation%3A%E5%8B%9E%E5%8B%95%E5%9C%8B%E9%9A%9B%E6%AD%8C",
+        "role": "pinned-transcription"
+      },
+      {
+        "url": "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
+        "role": "research-publication-history"
+      }
+    ],
+    "notes": [
+      "署名张逃狱的真实身份与死亡年未核实，暂不收入全文。",
+      "网页第3段述煤铁大王，对应法文第4段；第4段述国家法律，对应法文第3段；按网页顺序登记，不擅自重排。",
+      "2022年书中列第5号1920年11月25日第4版及第6号12月5日第3–4版，原件线索为保定留法勤工俭学运动纪念馆。",
+      "另有近史所论文搜索摘要提供法国旧馆藏线索；尚未查得馆藏号或数字化文件，详见本批记录。"
+    ]
+  },
+  {
+    "id": "zh-geng-zheng-1921",
+    "title_zh": "耿济之、郑振铎译：1921年《第三国际党颂歌》网页转录",
+    "language": {
+      "tag": "zh",
+      "label_zh": "中文"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "耿济之、郑振铎",
+    "text_author": "耿济之、郑振铎",
+    "composition_year": null,
+    "source_publication_year": 1921,
+    "edition_label": "维基文库oldid=2439916；1921年译本，5月7日/27日首刊日期有冲突，原版待核",
+    "stanza_mapping": [
+      1,
+      2,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": "lyrics/zh/zh-geng-zheng-1921.md",
+    "review": {
+      "status": "source-reviewed",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending",
+      "source_check_record": "data/source-checks/early-zh-1920-1962.json",
+      "source_check_report": "docs/research/early-zh-1920-1962.md",
+      "scope": "Pinned web lyric block extracted and checked; original newspaper date, edition-specific wording and facsimile collation remain pending."
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "historic Chinese lyric text only; attribution retained; not modern commentary, arrangement or recording",
+      "jurisdictions_considered": [
+        "US",
+        "CN"
+      ],
+      "basis": [
+        "Chinese translation published in 1921; US Copyright Office Circular 22 (rev. 04/2026) supports public-domain status of works published or copyrighted before 1931.",
+        "China Copyright Law, 2020 revision, Article 23: a joint natural-person work uses the last surviving author’s death plus 50 years, through 31 December. Geng died in 1947 and Zheng in 1958, so the considered economic/first-publication term ended on 2008-12-31.",
+        "Article 22 preserves attribution, revision and integrity rights without a time limit; authorship and historical web wording are retained. No assessment of all life-plus-70 jurisdictions is claimed."
+      ],
+      "evidence_urls": [
+        "https://zh.wikisource.org/w/index.php?oldid=2439916&title=Translation%3A%E7%AC%AC%E4%B8%89%E5%9C%8B%E9%9A%9B%E9%BB%A8%E9%A0%8C%E6%AD%8C",
+        "https://www.chinawriter.com.cn/xdzj/283.shtml",
+        "https://www.chinawriter.com.cn/xdzj/346.shtml",
+        "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html",
+        "https://www.copyright.gov/circs/circ22.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2439916&title=Translation%3A%E7%AC%AC%E4%B8%89%E5%9C%8B%E9%9A%9B%E9%BB%A8%E9%A0%8C%E6%AD%8C",
+        "role": "pinned-transcription"
+      },
+      {
+        "url": "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
+        "role": "research-publication-history"
+      },
+      {
+        "url": "https://www.chinawriter.com.cn/xdzj/283.shtml",
+        "role": "translator-death-evidence"
+      },
+      {
+        "url": "https://www.chinawriter.com.cn/xdzj/346.shtml",
+        "role": "translator-death-evidence"
+      },
+      {
+        "url": "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html",
+        "role": "copyright-term-cn"
+      },
+      {
+        "url": "https://www.copyright.gov/circs/circ22.pdf",
+        "role": "copyright-term-us"
+      }
+    ],
+    "notes": [
+      "只提取固定网页的36个非空歌词行；网页所附译者说明及其他现代编辑材料不收入歌词。",
+      "本书的5月7日与网页、编者论文的5月27日均保留为来源主张，原报日期未裁决。",
+      "网页有部分用字与史料书/论文不同；没有以彼、仗等字形默改网页的他、戰。"
+    ],
+    "lyrics_sha256": "99a72b700cfb274efae19378816e79881491868c314e2b6b0ac40269b580d64d",
+    "text_authors": [
+      {
+        "name": "耿济之",
+        "death_year": 1947,
+        "evidence_url": "https://www.chinawriter.com.cn/xdzj/283.shtml"
+      },
+      {
+        "name": "郑振铎",
+        "death_year": 1958,
+        "evidence_url": "https://www.chinawriter.com.cn/xdzj/346.shtml"
+      }
+    ],
+    "text_author_death_year": 1958,
+    "snapshot_filename": "geng-zheng-wikisource-2439916.html",
+    "snapshot_sha256": "b300fbac52215ac9435b5cd37d9681a3e59ff0e44d5391fcb26432fcd7c6f6bd"
+  },
+  {
+    "id": "zh-collective-1962",
+    "title_zh": "中文1962年审订本：《人民日报》刊载线索",
+    "language": {
+      "tag": "zh",
+      "label_zh": "中文"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": null,
+    "text_author": null,
+    "composition_year": null,
+    "source_publication_year": 1962,
+    "edition_label": "《人民日报》1962年4月28日第6版；第三方网页仅有题名与刊载说明，原版待核",
+    "stanza_mapping": [],
+    "kind": "revision",
+    "lyrics_path": null,
+    "review": {
+      "status": "identity-provisional",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending",
+      "source_check_record": "data/source-checks/early-zh-1920-1962.json",
+      "source_check_report": "docs/research/early-zh-1920-1962.md"
+    },
+    "rights": {
+      "status": "unassessed",
+      "scope": "this specific translation/edition",
+      "evidence_urls": []
+    },
+    "sources": [
+      {
+        "url": "https://www.rmrb.zhouenlai.info/人民日报（1946-2003）/1962/04/1962-04-28.htm",
+        "role": "third-party-publication-note"
+      },
+      {
+        "url": "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
+        "role": "research-revision-history"
+      },
+      {
+        "url": "https://data.people.com.cn/",
+        "role": "official-database-entry"
+      }
+    ],
+    "notes": [
+      "研究论文记中国音乐家协会、中央人民广播电台审订，原刊只署鲍狄埃词、狄盖特曲；未据此填单独中文译者。",
+      "第三方网页包含歌曲题名与说明，没有可据以逐字核对的谱词正文。当前不指定歌词段落对应、不收入全文。",
+      "官方数据库仅验证到通用入口，尚未得到该期第6版的有效具体文件地址；不把猜测日期路径登记为原版来源。"
+    ]
   }
 ]

@@ -1,0 +1,171 @@
+{
+  "id": "early-zh-1920-1962",
+  "reviewed_on": "2026-10-03",
+  "scope": "Four publication/translation identities; web evidence only in this batch, no original newspaper facsimiles obtained.",
+  "report_path": "docs/research/early-zh-1920-1962.md",
+  "version_ids": [
+    "zh-liebei-1920",
+    "zh-zhang-taoyu-1920",
+    "zh-geng-zheng-1921",
+    "zh-collective-1962"
+  ],
+  "facsimiles_obtained": 0,
+  "full_text_version_ids": [
+    "zh-geng-zheng-1921"
+  ],
+  "snapshots": [
+    {
+      "url": "https://www.marxists.org/chinese/reference-books/labor-1920/index.htm",
+      "snapshot_filename": "mia-labor-index.html",
+      "snapshot_bytes": 6208,
+      "snapshot_sha256": "912cad75ec4a8e54b67d89be2f2f25d566c9fbee5db2eb6cc05e573d99e9b02e",
+      "encoding": "gb18030",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.marxists.org/chinese/reference-books/labor-1920/2-10.htm",
+      "snapshot_filename": "mia-labor-2.html",
+      "snapshot_bytes": 1660,
+      "snapshot_sha256": "c1525d9cd97b383e190dfc5f1a89ea3b184f6a84921e789e6eee33d53509f47a",
+      "encoding": "gb18030",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.marxists.org/chinese/reference-books/labor-1920/4-06.htm",
+      "snapshot_filename": "mia-labor-4.html",
+      "snapshot_bytes": 1984,
+      "snapshot_sha256": "7041ab39b3c7e645e8ff6da2d59002ff2de27cd8cf92ba7de6503526fdb3efa2",
+      "encoding": "gb18030",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.marxists.org/chinese/reference-books/labor-1920/5-07.htm",
+      "snapshot_filename": "mia-labor-5.html",
+      "snapshot_bytes": 1616,
+      "snapshot_sha256": "db167d9910c5e9be9e4c188f149957da00175c20118c42436d90412412118475",
+      "encoding": "gb18030",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.marxists.org/chinese/reference-books/labor-1920/6-12.htm",
+      "snapshot_filename": "mia-labor-6.html",
+      "snapshot_bytes": 1963,
+      "snapshot_sha256": "283d6f237d632ef2d059cb05ce45576c78aef9033907303d48d3b7065f3530d2",
+      "encoding": "gb18030",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2439916&title=Translation%3A%E7%AC%AC%E4%B8%89%E5%9C%8B%E9%9A%9B%E9%BB%A8%E9%A0%8C%E6%AD%8C",
+      "snapshot_filename": "geng-zheng-wikisource-2439916.html",
+      "snapshot_bytes": 67489,
+      "snapshot_sha256": "b300fbac52215ac9435b5cd37d9681a3e59ff0e44d5391fcb26432fcd7c6f6bd",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2439981&title=Translation%3A%E5%8B%9E%E5%8B%95%E5%9C%8B%E9%9A%9B%E6%AD%8C",
+      "snapshot_filename": "zhang-taoyu-wikisource-2439981.html",
+      "snapshot_bytes": 65645,
+      "snapshot_sha256": "0dc9fb10f0ab65ffa927a8b1ff8aa740748a81bbcd6d321ea80d2cf7b1630806",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    }
+  ],
+  "serial_parts": [
+    {
+      "version_id": "zh-liebei-1920",
+      "issue": 2,
+      "publication_date_as_reported": "1920-10-10",
+      "stanza_numbers_in_web": [
+        1
+      ],
+      "url": "https://www.marxists.org/chinese/reference-books/labor-1920/2-10.htm"
+    },
+    {
+      "version_id": "zh-liebei-1920",
+      "issue": 4,
+      "publication_date_as_reported": "1920-10-24",
+      "stanza_numbers_in_web": [
+        2,
+        3
+      ],
+      "url": "https://www.marxists.org/chinese/reference-books/labor-1920/4-06.htm"
+    },
+    {
+      "version_id": "zh-liebei-1920",
+      "issue": 5,
+      "publication_date_as_reported": "1920-10-31",
+      "stanza_numbers_in_web": [
+        4
+      ],
+      "url": "https://www.marxists.org/chinese/reference-books/labor-1920/5-07.htm"
+    },
+    {
+      "version_id": "zh-liebei-1920",
+      "issue": 6,
+      "publication_date_as_reported": "1920-12-05",
+      "stanza_numbers_in_web": [
+        5,
+        6
+      ],
+      "url": "https://www.marxists.org/chinese/reference-books/labor-1920/6-12.htm"
+    }
+  ],
+  "date_conflicts": [
+    {
+      "version_id": "zh-geng-zheng-1921",
+      "publication": "《民国日报》副刊《觉悟》",
+      "status": "unresolved-original-needed",
+      "claims": [
+        {
+          "date": "1921-05-07",
+          "source_id": "song-yiwei-2022",
+          "book_page": 10,
+          "pdf_page": 27,
+          "evidence": "Entry header visually rechecked; reported citation retained."
+        },
+        {
+          "date": "1921-05-27",
+          "url": "https://zh.wikisource.org/w/index.php?oldid=2439916&title=Translation%3A%E7%AC%AC%E4%B8%89%E5%9C%8B%E9%9A%9B%E9%BB%A8%E9%A0%8C%E6%AD%8C",
+          "evidence": "Pinned web header."
+        },
+        {
+          "date": "1921-05-27",
+          "url": "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
+          "evidence": "Research article paragraph beginning 第三个译本."
+        }
+      ]
+    }
+  ],
+  "holding_leads": [
+    {
+      "version_id": "zh-zhang-taoyu-1920",
+      "institution_as_reported": "保定留法勤工俭学运动纪念馆",
+      "source_id": "song-yiwei-2022",
+      "book_page": 6,
+      "verification_status": "reported-in-book-only"
+    },
+    {
+      "version_id": "zh-zhang-taoyu-1920",
+      "institution_as_reported": "法国国家图书馆凡尔赛分馆（论文所述旧馆藏）",
+      "issues_as_reported": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "url": "https://www.mh.sinica.edu.tw/MHDocument/PublicationDetail/PublicationDetail_1036.pdf",
+      "verification_status": "search-excerpt-lead-only",
+      "note": "Institution-hosted research PDF search excerpt reports this holding. PDF download returned 502; author/title, shelfmark, current location and digital availability not verified."
+    }
+  ],
+  "next_original_targets": [
+    "《劳动者》第2、4、5、6号与1984年编辑本",
+    "《华工旬刊》第5、6号，馆藏号与扫描",
+    "《民国日报·觉悟》1921年5月7日及27日，第2版",
+    "《小说月报》第12卷号外《俄国文学研究》1921年9月，第235–237页",
+    "《人民日报》1962年4月28日第6版"
+  ]
+}
