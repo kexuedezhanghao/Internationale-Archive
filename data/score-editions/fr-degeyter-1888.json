@@ -1,0 +1,148 @@
+{
+  "id": "fr-degeyter-1888",
+  "kind": "printed-score-edition",
+  "language_code": "fr",
+  "source_id": "bnf-degeyter-boldoduc-1888",
+  "title_as_printed": "L'Internationale",
+  "composer_credit_as_printed": "Musique de Degeyter",
+  "lyricist_credit_as_printed": "Paroles d’Eugène Pottier",
+  "composer_identification_by_catalogue": "Degeyter, Pierre (1848-1932)",
+  "imprint_as_printed": "Imp. Ed. Boldoduc.-Lille",
+  "publication_year": 1888,
+  "publication_year_qualifier": "catalogued-in-square-brackets",
+  "publication_year_basis": "BnF catalogue explicitly dates by legal-deposit stamp; f1 red 1888 stamp, f2 handwritten no 8 / 18 88",
+  "repository": "Bibliothèque nationale de France, département Musique",
+  "shelfmark": "VM28-19525",
+  "digital_identifier": "NUMM-1913481",
+  "catalogue_url": "https://catalogue.bnf.fr/ark:/12148/cb46958570c",
+  "facsimile_url": "https://gallica.bnf.fr/ark:/12148/bpt6k1913481c",
+  "manifest_url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/manifest.json",
+  "catalogued_printed_pages": 2,
+  "manifest_view_count": 4,
+  "downloaded_view_count": 4,
+  "visually_reviewed_views": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "stanza_mapping": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "related_lyric_version_ids": [
+    "fr-pottier-1887"
+  ],
+  "musical_features_reviewed": {
+    "notation": "single vocal staff, treble clef",
+    "time_signature": "2/4",
+    "key_signature": "no signature sharps or flats",
+    "opening_indication": "Marche",
+    "refrain_indication": "Refrain plus gai",
+    "refrain_printed_twice_in_score": true
+  },
+  "verified_lexical_difference": {
+    "locator": "f1, first stanza, line 4",
+    "score_word": "éruption",
+    "comparison_word": "irruption",
+    "comparison_version_id": "fr-pottier-1887",
+    "scope": "One lexical difference; not complete line-by-line lyric or punctuation collation"
+  },
+  "images": [
+    {
+      "view": 1,
+      "canvas_id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/canvas/f1",
+      "role": "score-and-first-stanza",
+      "contains_independent_printed_content": true,
+      "width": 2756,
+      "height": 4267,
+      "visually_reviewed_on": "2026-10-04",
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/f1/full/full/0/native.jpg",
+      "snapshot_bytes": 1588526,
+      "snapshot_sha256": "e91ec35fb3598355f4406ebb1d2a20de99213cf2e633de6bf033e70cf30c0fda",
+      "snapshot_distributed_in_repository": false
+    },
+    {
+      "view": 2,
+      "canvas_id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/canvas/f2",
+      "role": "score-verso-with-legal-deposit-stamp",
+      "contains_independent_printed_content": false,
+      "width": 2729,
+      "height": 4226,
+      "visually_reviewed_on": "2026-10-04",
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/f2/full/full/0/native.jpg",
+      "snapshot_bytes": 1103102,
+      "snapshot_sha256": "79a3d1282caacabcc5362a38fbb218047129d592e839c53603c171b1f4b2d6f3",
+      "snapshot_distributed_in_repository": false
+    },
+    {
+      "view": 3,
+      "canvas_id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/canvas/f3",
+      "role": "refrain-and-stanzas-2-to-6",
+      "contains_independent_printed_content": true,
+      "width": 2756,
+      "height": 4267,
+      "visually_reviewed_on": "2026-10-04",
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/f3/full/full/0/native.jpg",
+      "snapshot_bytes": 1438821,
+      "snapshot_sha256": "5af266c40e66da667907436909c4101e1b32bac43cc1494860c12330b2b3651b",
+      "snapshot_distributed_in_repository": false
+    },
+    {
+      "view": 4,
+      "canvas_id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/canvas/f4",
+      "role": "lyrics-verso",
+      "contains_independent_printed_content": false,
+      "width": 2729,
+      "height": 4226,
+      "visually_reviewed_on": "2026-10-04",
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/f4/full/full/0/native.jpg",
+      "snapshot_bytes": 1083866,
+      "snapshot_sha256": "a5bd950676c4333c1ad59ef544b0a7fd8b0f53ea029cdf1e05e019e4ec97b098",
+      "snapshot_distributed_in_repository": false
+    }
+  ],
+  "metadata_snapshots": [
+    {
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb46958570c",
+      "snapshot_bytes": 76533,
+      "snapshot_sha256": "0ce45e8fb8eac95aa457029d3c57ac4ece4c5f53563dd271b7683c09390d8b62",
+      "snapshot_distributed_in_repository": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1913481c/manifest.json",
+      "snapshot_bytes": 6434,
+      "snapshot_sha256": "7b1d3c605288c2464fd9cc50737e09b97ec1ae1ca7b598e0a7a881b78bf4d8f5",
+      "snapshot_distributed_in_repository": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/services/OAIRecord?ark=bpt6k1913481c",
+      "snapshot_bytes": 2390,
+      "snapshot_sha256": "d74d589a76fb47fa12e114ea4e0c519a69f75641c73b1f9a27ab57743d1714f1",
+      "snapshot_distributed_in_repository": false
+    }
+  ],
+  "historical_shelfmark_as_reported_by_brecy": "Fol. Y 447, 1888 A (air noté)",
+  "historical_legal_deposit_as_reported_by_brecy": "Nord, 1888, no 8",
+  "shelfmark_migration_independently_verified": false,
+  "review": {
+    "status": "original-print-facsimile-reviewed",
+    "report_path": "docs/research/fr-degeyter-1888.md",
+    "reviewed_on": "2026-10-04",
+    "note_level_transcription": "pending",
+    "complete_lyric_transcription": "pending",
+    "autograph_manuscript_obtained": false
+  },
+  "rights": {
+    "underlying_work_status_as_reported": "public domain",
+    "basis": "BnF OAI dc:rights",
+    "scan_reuse_conditions_url": "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica",
+    "scope": "Historical printed score; source JPEGs not distributed in Git repository. Modern recordings and arrangements excluded."
+  },
+  "counts_as_new_lyric_identity": false,
+  "counts_as_new_lyric_full_text": false
+}

@@ -179,5 +179,44 @@
     "import_scope": "Institutional approximate dating retained; title, contents and all four lyric stanzas/signature on printed pp.33–34 checked in a 67-page double-spread PDF.",
     "rights_note": "Only historical lyric wording assessed for US admission; no PDF, OCR or modern editorial matter redistributed. Scan file licensing is recorded separately.",
     "evidence_record": "data/source-checks/de-luckhardt-freies-lied-ca1925.json"
+  },
+  {
+    "id": "bnf-degeyter-boldoduc-1888",
+    "name": "L’Internationale, musique de Degeyter; paroles d’Eugène Pottier, Lille: Boldoduc, [1888]",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1913481c",
+    "role": "original-printed-score-facsimile",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Metadata, checksums and manual inspection of all four original Gallica views; no score images in Git repository.",
+    "rights_note": "OAI identifies underlying work as public domain; Gallica scan conditions remain separate.",
+    "score_edition_record": "data/score-editions/fr-degeyter-1888.json"
+  },
+  {
+    "id": "brecy-internationale-1974",
+    "name": "Robert Brécy: A propos de L’Internationale d’Eugène Pottier et de Pierre Degeyter",
+    "url": "https://www.persee.fr/doc/rhmc_0048-8003_1974_num_21_2_2300",
+    "doi": "10.3406/rhmc.1974.2300",
+    "role": "historical-bibliographic-research",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Bibliographic facts and brief paraphrase of pp. 305–306 and note 7; original 1888 identification independently checked through BnF.",
+    "rights_note": "Modern article and OCR not distributed."
+  },
+  {
+    "id": "iskra-1900-1-later-reprint",
+    "name": "Искра, № 1, Декабрь 1900 года: later retypeset reproduction",
+    "url": "https://rossaprimavera.ru/article/b9f755c1",
+    "role": "later-reprint-publication-evidence",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "PDF metadata and manual checks of pages 1, 23–25; reprint year and publisher unidentified; no three-stanza full text admitted.",
+    "rights_note": "PDF and article full text not distributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "nlr-iskra-original-guide",
+    "name": "РНБ: Искра original collection and mixed digital-set guide",
+    "url": "https://nlr.ru/res/inv/ukazat55/record_full.php?record_ID=224888",
+    "role": "institutional-original-holdings-guide",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Holdings metadata and original/reprint distinction; original newspaper target page not obtained.",
+    "rights_note": "Metadata only."
   }
 ]

@@ -278,6 +278,47 @@ def main():
             assert v["review"]["collation_record"] == str(p.relative_to(ROOT))
             assert v["review"]["collation_report"] == collation["report_path"]
             assert v["review"]["scope"]
+    # Score editions and partial publication claims are separate from lyric counts.
+    score_ids = set()
+    for p in (ROOT / "data/score-editions").glob("*.json"):
+        score = json.loads(p.read_text(encoding="utf-8"))
+        assert score["id"] == p.stem and score["id"] not in score_ids
+        score_ids.add(score["id"])
+        assert score["kind"] == "printed-score-edition" and score["source_id"] in source_ids
+        assert (ROOT / score["review"]["report_path"]).is_file()
+        assert set(score["related_lyric_version_ids"]) <= set(vids)
+        assert score["publication_year_basis"] and score["shelfmark"]
+        assert not score["counts_as_new_lyric_identity"] and not score["counts_as_new_lyric_full_text"]
+        images = score["images"]
+        assert len(images) == score["downloaded_view_count"] == score["manifest_view_count"]
+        assert [im["view"] for im in images] == list(range(1, len(images) + 1))
+        assert score["visually_reviewed_views"] == [im["view"] for im in images]
+        assert sum(im["contains_independent_printed_content"] for im in images) == score["catalogued_printed_pages"]
+        assert len({im["url"] for im in images}) == len(images)
+        for evidence in images + score["metadata_snapshots"]:
+            assert urlparse(evidence["url"]).scheme == "https"
+            assert evidence["snapshot_bytes"] > 0 and re.fullmatch(r"[0-9a-f]{64}", evidence["snapshot_sha256"])
+            assert not evidence["snapshot_distributed_in_repository"]
+        for im in images:
+            assert im["width"] > 0 and im["height"] > 0 and im["role"] and im["visually_reviewed_on"]
+        assert len(score["stanza_mapping"]) == len(set(score["stanza_mapping"]))
+        assert set(score["stanza_mapping"]) <= set(range(1, 7))
+    for p in (ROOT / "data/publication-checks").glob("*.json"):
+        claim = json.loads(p.read_text(encoding="utf-8"))
+        assert claim["id"] == p.stem and claim["kind"] == "publication-claim-check"
+        assert claim["source_id"] in source_ids and (ROOT / claim["report_path"]).is_file()
+        assert not claim["counts_as_new_lyric_identity"] and not claim["counts_as_new_lyric_full_text"]
+        pdf = claim["pdf_evidence"]
+        assert pdf["bytes"] > 0 and pdf["pages"] > 0 and not pdf["pdf_distributed_in_repository"]
+        assert re.fullmatch(r"[0-9a-f]{64}", pdf["sha256"])
+        assert re.fullmatch(r"[0-9a-f]{40}", pdf["sha1"])
+        assert pdf["classification"] and pdf["excerpt_scope"] and pdf["attribution_basis"]
+        assert all(1 <= page <= pdf["pages"] for page in pdf["visually_reviewed_pdf_pages"])
+        assert pdf["printed_target_page"] in pdf["visually_reviewed_pdf_pages"]
+        if not claim["original_newspaper_facsimile_obtained"]:
+            assert claim["claim_under_review"]["status"] == "not-verified-against-original-newspaper"
+            assert claim["open_questions"]
+        assert claim["relation_to_kots_1902"]["version_id"] in vids
     # Local Markdown paths: allow parentheses inside normal link destinations.
     missing = []
     for p in ROOT.rglob("*.md"):

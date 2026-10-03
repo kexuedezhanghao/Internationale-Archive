@@ -1,0 +1,73 @@
+{
+  "id": "iskra-1900-1",
+  "kind": "publication-claim-check",
+  "reviewed_on": "2026-10-04",
+  "source_id": "iskra-1900-1-later-reprint",
+  "report_path": "docs/research/iskra-1900-1.md",
+  "publication_title": "Искра",
+  "issue_number_as_reproduced": "1",
+  "issue_date_as_reproduced": "Декабрь 1900 года",
+  "claim_under_review": {
+    "publication_year": 1900,
+    "agent_claimed": "Lenin",
+    "stanzas_claimed": [
+      1,
+      2,
+      6
+    ],
+    "language_claimed": null,
+    "status": "not-verified-against-original-newspaper"
+  },
+  "pdf_evidence": {
+    "url": "https://rossaprimavera.ru/static/gazeta/gazeta_iskra-1.pdf",
+    "landing_url": "https://rossaprimavera.ru/article/b9f755c1",
+    "bytes": 22059176,
+    "sha256": "5af820b7e4bb762d4e3733f3b2a1f5665cb16a189d18bb9751852fbba7f7ebe7",
+    "sha1": "2669545c11b42a9379df1d2fd851f1aa1ad7fd13",
+    "pages": 26,
+    "classification": "later-retypeset-reproduction-scan",
+    "reprint_publication_year": null,
+    "reprint_publisher": null,
+    "pdf_creation_year": 2020,
+    "pdf_distributed_in_repository": false,
+    "visually_reviewed_pdf_pages": [
+      1,
+      23,
+      24,
+      25
+    ],
+    "printed_target_page": 25,
+    "article_title_as_reproduced": "Международный социалистический конгресс в Париже",
+    "attribution_as_reproduced": "[Х. Раковский]",
+    "attribution_basis": "Square-bracket attribution in later reprint, not original masthead/editorial authorship proof",
+    "excerpt_languages": [
+      "fr",
+      "ru"
+    ],
+    "excerpt_scope": "Four-line French refrain in article; Russian prose gloss in footnote",
+    "main_stanzas_verified": []
+  },
+  "original_newspaper_facsimile_obtained": false,
+  "original_repository_lead": {
+    "institution": "Российская национальная библиотека",
+    "shelfmark": "ВП П3/12",
+    "collection": "Вольная русская печать",
+    "guide_url": "https://nlr.ru/res/inv/ukazat55/record_full.php?record_ID=224888",
+    "catalogue_url": "https://primo.nlr.ru/permalink/f/df0lai/07NLR_LMS002460465",
+    "mixed_collection_warning": "Guide says its linked Molot set mixes original microfilm and Soviet modern-spelling reprints; possible NYPL origin is explicitly tentative",
+    "public_folder_url": "https://yadi.sk/d/JLdH-ihuMbHIiw/",
+    "public_folder_listing_obtained": false
+  },
+  "relation_to_kots_1902": {
+    "version_id": "ru-kots-1902",
+    "same_publication_verified": false,
+    "scope": "Kots three-stanza 1902 source is separate; no merger with 1900 refrain quotation"
+  },
+  "open_questions": [
+    "Original newspaper page, spelling and attribution",
+    "Source and language of alleged stanzas 1, 2, 6",
+    "Evidence for Lenin selecting or publishing these stanzas personally"
+  ],
+  "counts_as_new_lyric_identity": false,
+  "counts_as_new_lyric_full_text": false
+}
