@@ -216,7 +216,48 @@
     "url": "https://nlr.ru/res/inv/ukazat55/record_full.php?record_ID=224888",
     "role": "institutional-original-holdings-guide",
     "reviewed_on": "2026-10-04",
-    "import_scope": "Holdings metadata and original/reprint distinction; original newspaper target page not obtained.",
+    "import_scope": "NLR holdings metadata and original/reprint distinction; its linked mixed-set target not obtained. Original first issue subsequently obtained independently from La contemporaine.",
     "rights_note": "Metadata only."
+  },
+  {
+    "id": "la-contemporaine-iskra-1900-original",
+    "name": "La contemporaine / Argonnaute: Искра, 1900, n°0 et 1, GFP 3868",
+    "url": "https://argonnaute.parisnanterre.fr/ark:/14707/xwbp3jtk5zm4",
+    "role": "digitized-original-newspaper",
+    "import_scope": "Ten-page original scan obtained; preliminary statement, first-issue layouts and target Paris congress article checked. No scan or bulk OCR redistributed.",
+    "rights_note": "Collection-level open-licence statement is subject to document exceptions; original historic excerpt and scan terms remain distinct.",
+    "reviewed_on": "2026-10-04",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "rmrb-19621201-zhang-guangnian-web",
+    "name": "张光年：《无产阶级的天才歌手》，《人民日报》1962年12月1日第5版网页转录",
+    "url": "https://cn.govopendata.com/renminribao/1962/12/01/5/",
+    "role": "claim-history-web-transcription",
+    "import_scope": "Brief paraphrase of an early located three-stanza claim; original newspaper page not obtained, stanza numbers not specified.",
+    "rights_note": "No full report or web transcription redistributed.",
+    "reviewed_on": "2026-10-04",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "pottier-bio-1978",
+    "name": "《欧仁·鲍狄埃》编写组：《欧仁·鲍狄埃》，北京：人民出版社，1978年7月第1版",
+    "url": "https://www.marxists.org/chinese/internationale/pottier_bio.pdf",
+    "role": "later-historical-book-evidence",
+    "import_scope": "Title, imprint and target pp.190–191 visually checked; brief distinction between 1900 refrain and 1902 three stanzas recorded.",
+    "rights_note": "Modern book scan, text and OCR not redistributed.",
+    "reviewed_on": "2026-10-04",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "boulogne-internationale-russian-2025",
+    "name": "Pieter Boulogne: “Translated by Arkadiy Kots”. Weaponization, Consecration, Monumentalization and Reincarnation of the Russian “Internationale”",
+    "url": "https://chronotopos.eu/cts/article/view/173",
+    "doi": "10.70596/cts173",
+    "role": "historical-translation-research",
+    "import_scope": "Brief paraphrase of pp.34–35; original Iskra refrain separately verified, Kots selection testimony source still pending.",
+    "rights_note": "Modern research article and OCR not redistributed.",
+    "reviewed_on": "2026-10-04",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]

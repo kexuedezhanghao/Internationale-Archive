@@ -309,6 +309,7 @@ def main():
         assert claim["source_id"] in source_ids and (ROOT / claim["report_path"]).is_file()
         assert not claim["counts_as_new_lyric_identity"] and not claim["counts_as_new_lyric_full_text"]
         pdf = claim["pdf_evidence"]
+        assert pdf.get("source_id", claim["source_id"]) in source_ids
         assert pdf["bytes"] > 0 and pdf["pages"] > 0 and not pdf["pdf_distributed_in_repository"]
         assert re.fullmatch(r"[0-9a-f]{64}", pdf["sha256"])
         assert re.fullmatch(r"[0-9a-f]{40}", pdf["sha1"])
@@ -318,6 +319,54 @@ def main():
         if not claim["original_newspaper_facsimile_obtained"]:
             assert claim["claim_under_review"]["status"] == "not-verified-against-original-newspaper"
             assert claim["open_questions"]
+        else:
+            original = claim["original_pdf_evidence"]
+            assert original["source_id"] == claim["source_id"] and original["source_id"] in source_ids
+            assert original["classification"] == "original-newspaper-facsimile"
+            assert original["bytes"] > 0 and original["pages"] > 0
+            assert not original["pdf_distributed_in_repository"]
+            assert re.fullmatch(r"[0-9a-f]{64}", original["sha256"])
+            assert re.fullmatch(r"[0-9a-f]{40}", original["sha1"])
+            grouped_pages = [page for group in original["issue_groups"] for page in group["pdf_pages"]]
+            assert sorted(grouped_pages) == list(range(1, original["pages"] + 1))
+            assert all(1 <= page <= original["pages"] for page in original["visually_reviewed_pdf_pages"])
+            target_group = next(group for group in original["issue_groups"]
+                                if group["catalogued_issue_number"] == original["masthead_issue_number"])
+            assert original["masthead_pdf_page"] in target_group["pdf_pages"]
+            assert original["target_pdf_page"] in target_group["pdf_pages"]
+            assert target_group["pdf_pages"][original["target_first_issue_leaf"] - 1] == original["target_pdf_page"]
+            assert original["target_pdf_page"] in original["visually_reviewed_pdf_pages"]
+            assert original["review_scope"] and original["attribution_basis"] and original["excerpt_scope"]
+            assert [im["pdf_page"] for im in original["embedded_images"]] == list(range(1, original["pages"] + 1))
+            for im in original["embedded_images"]:
+                assert im["bytes"] > 0 and im["width"] > 0 and im["height"] > 0
+                assert re.fullmatch(r"[0-9a-f]{64}", im["sha256"])
+                assert not im["image_distributed_in_repository"] and im["extraction_basis"]
+            for evidence in original["metadata_snapshots"]:
+                assert urlparse(evidence["url"]).scheme == "https"
+                assert evidence["snapshot_bytes"] > 0
+                assert re.fullmatch(r"[0-9a-f]{64}", evidence["snapshot_sha256"])
+                assert not evidence["snapshot_distributed_in_repository"]
+            if claim["claim_under_review"]["status"] == "not-supported-by-inspected-original-article":
+                assert original["main_stanzas_verified"] == []
+                assert original["french_refrain_reading"] and claim["open_questions"]
+            for evidence in claim.get("claim_history_evidence", []):
+                assert evidence["source_id"] in source_ids and evidence["observation"]
+                if "pages" in evidence:
+                    assert all(1 <= page <= evidence["pages"] for page in evidence["visually_reviewed_pdf_pages"])
+                    assert set(evidence["target_pdf_pages"]) <= set(evidence["visually_reviewed_pdf_pages"])
+                    assert len(evidence["target_pdf_pages"]) == len(evidence["target_printed_pages"])
+                    assert evidence["bytes"] > 0 and re.fullmatch(r"[0-9a-f]{64}", evidence["sha256"])
+                    assert not evidence["pdf_distributed_in_repository"]
+                if evidence.get("web_transcription_only"):
+                    assert not evidence["original_page_obtained"] and evidence["scope"]
+            earliest = claim.get("earliest_combination_check")
+            if earliest:
+                assert earliest["currently_verified_early_version_id"] in vids
+                assert set(earliest["stanza_mapping"]) <= set(range(1, 7))
+                assert (ROOT / earliest["roadmap_path"]).is_file()
+                if earliest["status"] == "todo":
+                    assert not earliest["global_first_adopter_verified"]
         assert claim["relation_to_kots_1902"]["version_id"] in vids
     # Local Markdown paths: allow parentheses inside normal link destinations.
     missing = []

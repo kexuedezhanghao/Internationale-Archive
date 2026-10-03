@@ -2,7 +2,7 @@
   "id": "iskra-1900-1",
   "kind": "publication-claim-check",
   "reviewed_on": "2026-10-04",
-  "source_id": "iskra-1900-1-later-reprint",
+  "source_id": "la-contemporaine-iskra-1900-original",
   "report_path": "docs/research/iskra-1900-1.md",
   "publication_title": "Искра",
   "issue_number_as_reproduced": "1",
@@ -16,7 +16,7 @@
       6
     ],
     "language_claimed": null,
-    "status": "not-verified-against-original-newspaper"
+    "status": "not-supported-by-inspected-original-article"
   },
   "pdf_evidence": {
     "url": "https://rossaprimavera.ru/static/gazeta/gazeta_iskra-1.pdf",
@@ -45,9 +45,10 @@
       "ru"
     ],
     "excerpt_scope": "Four-line French refrain in article; Russian prose gloss in footnote",
-    "main_stanzas_verified": []
+    "main_stanzas_verified": [],
+    "source_id": "iskra-1900-1-later-reprint"
   },
-  "original_newspaper_facsimile_obtained": false,
+  "original_newspaper_facsimile_obtained": true,
   "original_repository_lead": {
     "institution": "Российская национальная библиотека",
     "shelfmark": "ВП П3/12",
@@ -64,10 +65,271 @@
     "scope": "Kots three-stanza 1902 source is separate; no merger with 1900 refrain quotation"
   },
   "open_questions": [
-    "Original newspaper page, spelling and attribution",
-    "Source and language of alleged stanzas 1, 2, 6",
-    "Evidence for Lenin selecting or publishing these stanzas personally"
+    "Original 1962-12-01 page 5 and earlier sources of the three-stanza claim",
+    "Other Iskra issues or related publications containing main stanzas 1,2,6 and the language of that alleged text",
+    "Direct evidence for Lenin personally selecting these stanzas, distinct from editorial role and report authorship",
+    "Earliest adopter or translation of the 1,2,6 combination; Kots early publication and original selection testimony"
   ],
   "counts_as_new_lyric_identity": false,
-  "counts_as_new_lyric_full_text": false
+  "counts_as_new_lyric_full_text": false,
+  "original_pdf_evidence": {
+    "source_id": "la-contemporaine-iskra-1900-original",
+    "institution": "La contemporaine",
+    "shelfmark": "GFP 3868",
+    "collection_url": "https://argonnaute.parisnanterre.fr/ark:/14707/4zxt50fh1387",
+    "landing_url": "https://argonnaute.parisnanterre.fr/ark:/14707/xwbp3jtk5zm4",
+    "url": "https://argonnaute.parisnanterre.fr/media/be241720-e85f-46c8-8876-bb14b669edaa.pdf",
+    "bytes": 12355241,
+    "sha256": "43ebcf4780fd8be585f92dc4819f510b6c96ee0335a8bd50c68a965c872b4b68",
+    "sha1": "db9f7444c12987f53dc7fa592eaa141627a900e7",
+    "pages": 10,
+    "classification": "original-newspaper-facsimile",
+    "pdf_creation_year": 2010,
+    "pdf_distributed_in_repository": false,
+    "issue_groups": [
+      {
+        "catalogued_issue_number": "0",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "content": "Отъ редакціи; preliminary two-column editorial statement"
+      },
+      {
+        "catalogued_issue_number": "1",
+        "pdf_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "content": "December 1900 first issue; eight original three-column newspaper leaves"
+      }
+    ],
+    "visually_reviewed_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "review_scope": "Preliminary statement and eight first-issue layouts surveyed; masthead, whole target article, refrain, footnote and continuation boundary inspected closely. Not a word-by-word collation of the entire newspaper.",
+    "masthead_pdf_page": 3,
+    "masthead_issue_number": "1",
+    "masthead_date": "ДЕКАБРЬ 1900 ГОДА",
+    "publication_day_verified": null,
+    "target_pdf_page": 10,
+    "target_first_issue_leaf": 8,
+    "printed_target_page_verified": null,
+    "article_title_normalized": "Международный социалистический конгресс в Париже",
+    "article_layout": "Starts in lower left column; continues through middle column and upper right column",
+    "original_article_byline_present": false,
+    "attribution_basis": "No original byline at inspected article end; later reprint brackets [Х. Раковский]; research attribution separately recorded.",
+    "excerpt_languages": [
+      "fr",
+      "ru"
+    ],
+    "excerpt_scope": "Four-line French refrain; Russian prose footnote, no main stanzas in the inspected article",
+    "french_refrain_reading": [
+      "C’est la lutte finale,",
+      "Groupons nous et demain",
+      "L’internationale",
+      "Sera le genre humain!"
+    ],
+    "transcription_scope": "Manual reading transcription; apostrophes normalized; footnote marker *) omitted from lyric line and recorded here.",
+    "main_stanzas_verified": [],
+    "byline_and_punctuation_comparison": "Original has no bracketed author attribution and retains ! before the footnote marker; later reprint p.25 adds attribution and lacks this ! in the target line. Not full article collation.",
+    "embedded_images": [
+      {
+        "pdf_page": 1,
+        "bytes": 565716,
+        "sha256": "12ab19825cbdd99f7cbd78e23bdcee830543c983714bd20757d39427222392cf",
+        "width": 1781,
+        "height": 2421,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      },
+      {
+        "pdf_page": 2,
+        "bytes": 555383,
+        "sha256": "39ef38f32bf500d3eb1f8a490027f3bda82ade2929a3288ad58ac94349f59522",
+        "width": 1792,
+        "height": 2421,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      },
+      {
+        "pdf_page": 3,
+        "bytes": 1338596,
+        "sha256": "8c10a48c4a1bfb256b8bc1c1fe4b5f26b95b16df6df4d5b99e048de2e10420e8",
+        "width": 2416,
+        "height": 3515,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      },
+      {
+        "pdf_page": 4,
+        "bytes": 1385652,
+        "sha256": "505c81a6b4afb4fb621a6cf9d1632e27c0cf1e876bab43174fcd297ca0b5236e",
+        "width": 2395,
+        "height": 3515,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      },
+      {
+        "pdf_page": 5,
+        "bytes": 1394744,
+        "sha256": "e71e6b6da5b5550ab2736c1b00c47b10aa5cd35bbed1fa82f4fc339cb0b7c4f5",
+        "width": 2400,
+        "height": 3515,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      },
+      {
+        "pdf_page": 6,
+        "bytes": 1455144,
+        "sha256": "0f7cf19488500138dd2132ed159a8318b2a0a663e88cf4ac99df097ff6493991",
+        "width": 2325,
+        "height": 3483,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      },
+      {
+        "pdf_page": 7,
+        "bytes": 1539581,
+        "sha256": "97b9ccd0ef62a16854e1dce12dd0fa10b1b7b30f7ff55e146bb7177539b6b63f",
+        "width": 2373,
+        "height": 3525,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      },
+      {
+        "pdf_page": 8,
+        "bytes": 1523580,
+        "sha256": "d0eee2a9bb96832f728fec5572f69d4d3472a843a8fd5a05759a8a0bada1c0d0",
+        "width": 2379,
+        "height": 3483,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      },
+      {
+        "pdf_page": 9,
+        "bytes": 1513310,
+        "sha256": "f2c4a9cad0bbbbe18faeb1b82e638d45e480b8b48c79a04922d5ad88f2bbb324",
+        "width": 2400,
+        "height": 3541,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      },
+      {
+        "pdf_page": 10,
+        "bytes": 1405590,
+        "sha256": "f511fddc2a30f4265e2fdfdd629a9a939e55ce200b59f4067aa649240e1fb2ad",
+        "width": 2389,
+        "height": 3499,
+        "extraction_basis": "Original embedded JPEG bytes, not a reconstructed page",
+        "image_distributed_in_repository": false
+      }
+    ],
+    "metadata_snapshots": [
+      {
+        "url": "https://argonnaute.parisnanterre.fr/ark:/14707/4zxt50fh1387",
+        "snapshot_bytes": 37506,
+        "snapshot_sha256": "4fa77a4e2768a35b1549e65cc3481ddfec1a3a730696d1ec74f1c0022d595b99",
+        "snapshot_distributed_in_repository": false
+      },
+      {
+        "url": "https://argonnaute.parisnanterre.fr/ark:/14707/xwbp3jtk5zm4",
+        "snapshot_bytes": 39538,
+        "snapshot_sha256": "75a408f2abbed0d26a125bf490c5e816f87a864996a32a7f6075a38bbff8958e",
+        "snapshot_distributed_in_repository": false
+      },
+      {
+        "url": "https://argonnaute.parisnanterre.fr/api/classificationPlan/v1/tree/4514d1fc-d30c-4742-bbb7-388f2f2ebe0a_4514d1fc-d30c-4742-bbb7-388f2f2ebe0a",
+        "snapshot_bytes": 2367,
+        "snapshot_sha256": "00df0074371dc1cb75dec4db78efffc296c58e077c8da9c8ba57dd987af8b21e",
+        "snapshot_distributed_in_repository": false
+      }
+    ]
+  },
+  "claim_history_evidence": [
+    {
+      "source_id": "rmrb-19621201-zhang-guangnian-web",
+      "publication_date": "1962-12-01",
+      "printed_page_reported": 5,
+      "author": "张光年",
+      "web_transcription_only": true,
+      "original_page_obtained": false,
+      "observation": "Describes first Iskra issue as selecting three of six stanzas; does not enumerate 1,2,6, identify its source or directly establish Lenin's personal selection.",
+      "scope": "Early located circulation of the claim, not established earliest source or primary proof of a 1900 publication",
+      "snapshot": {
+        "url": "https://cn.govopendata.com/renminribao/1962/12/01/5/",
+        "snapshot_bytes": 70537,
+        "snapshot_sha256": "e22a85adf50889ab83565eb6c0a7d2d4a72f43c452aab9982e913f910157b3b7",
+        "snapshot_distributed_in_repository": false
+      }
+    },
+    {
+      "source_id": "pottier-bio-1978",
+      "publication_year": 1978,
+      "publisher": "人民出版社",
+      "publication_place": "北京",
+      "edition": "1978年7月第1版，第1次印刷",
+      "url": "https://www.marxists.org/chinese/internationale/pottier_bio.pdf",
+      "bytes": 3872909,
+      "sha256": "10b209225288798761aa1da79c254a81e31bd38ecfb21a46d10c906d2afc28b1",
+      "pages": 207,
+      "pdf_distributed_in_repository": false,
+      "visually_reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        5,
+        193,
+        194,
+        195,
+        196,
+        197
+      ],
+      "target_pdf_pages": [
+        195,
+        196
+      ],
+      "target_printed_pages": [
+        190,
+        191
+      ],
+      "observation": "Distinguishes 1900 French refrain with Russian gloss from 1902 Russian stanzas 1,2,6. Secondary history, not a substitute for the original newspaper."
+    },
+    {
+      "source_id": "boulogne-internationale-russian-2025",
+      "target_printed_pages": [
+        34,
+        35
+      ],
+      "observation": "Identifies first-issue refrain in a report attributed to Rakovsky; Kots selection rationale cites Sidorovskiy 1987 pp.6–7, not a Kots original independently obtained by this project.",
+      "primary_selection_testimony_obtained": false
+    }
+  ],
+  "earliest_combination_check": {
+    "status": "todo",
+    "stanza_mapping": [
+      1,
+      2,
+      6
+    ],
+    "currently_verified_early_version_id": "ru-kots-1902",
+    "global_first_adopter_verified": false,
+    "scope": "Distinguish earliest located printed edition, actual translator/editor selection, and oral performance; compare pre-1902 sources across languages.",
+    "roadmap_path": "docs/ROADMAP.md"
+  }
 }
