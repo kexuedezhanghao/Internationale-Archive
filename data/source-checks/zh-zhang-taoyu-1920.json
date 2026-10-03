@@ -1,14 +1,16 @@
 {
   "id": "zh-zhang-taoyu-1920",
-  "reviewed_on": "2026-10-03",
-  "scope": "Two BnF original issues downloaded in full; mastheads, lyric locations, six-chapter order and selected web differences inspected. Complete transcription and rights review pending.",
+  "reviewed_on": "2026-10-04",
+  "scope": "All six lyric chapters, cross-column/page continuation and refrain instructions checked against three original pages; reading transcription with punctuation encoding stated, one bird-name reading unresolved. Notes not fully transcribed.",
   "report_path": "docs/research/zh-zhang-taoyu-1920.md",
   "version_ids": [
     "zh-zhang-taoyu-1920"
   ],
   "facsimiles_obtained": 8,
-  "facsimile_count_scope": "Eight full original-publication page images from two four-page issues; one existing translation identity, no new full text; analytic crops not counted.",
-  "full_text_version_ids": [],
+  "facsimile_count_scope": "Eight original full-page images from two issues; one existing translation identity now has a six-chapter reading transcription. Analytic crops are not extra witnesses.",
+  "full_text_version_ids": [
+    "zh-zhang-taoyu-1920"
+  ],
   "snapshots": [
     {
       "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title+all+%22Hua+gong+xun+kan%22&maximumRecords=10&recordSchema=unimarcxchange",
@@ -80,6 +82,14 @@
       "snapshot_bytes": 65645,
       "snapshot_sha256": "0dc9fb10f0ab65ffa927a8b1ff8aa740748a81bbcd6d321ea80d2cf7b1630806",
       "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.copyright.gov/circs/circ22.pdf",
+      "snapshot_filename": "copyright-circ22.pdf",
+      "snapshot_bytes": 396206,
+      "snapshot_sha256": "52534d28df4f4326f2edd9d71f7a89f58b645f1ba4d67b451befa6f9ab6ee543",
+      "encoding": "binary-pdf",
       "snapshot_distributed": false
     }
   ],
@@ -212,8 +222,8 @@
       "printed_page": 4,
       "iiif_canvas_number": 4,
       "masthead_date_verified": "1920-11-25",
-      "visually_reviewed_on": "2026-10-03",
-      "review_scope": "Page header; title, signature, chapters 1–3 and reporter note; structure and selected readings compared to fixed web revision, not complete character-by-character collation.",
+      "visually_reviewed_on": "2026-10-04",
+      "review_scope": "All lyric words, displayed punctuation and continuation checked for reading transcription; one chapter-6 bird-name glyph unresolved across this review. Note locations inspected, notes not fully transcribed.",
       "publication_locator_as_reported": "《華工旬刊》第5號，1920-11-25，第4頁（刊頭與頁眉已核）",
       "snapshot_distributed": false
     },
@@ -269,8 +279,8 @@
       "printed_page": 3,
       "iiif_canvas_number": 3,
       "masthead_date_verified": "1920-12-05",
-      "visually_reviewed_on": "2026-10-03",
-      "review_scope": "Page header; sequel title, signature, chapters 4–5 and opening of chapter 6; selected readings including 誓不當兵 compared to fixed web revision.",
+      "visually_reviewed_on": "2026-10-04",
+      "review_scope": "All lyric words, displayed punctuation and continuation checked for reading transcription; one chapter-6 bird-name glyph unresolved across this review. Note locations inspected, notes not fully transcribed.",
       "publication_locator_as_reported": "《華工旬刊》第6號，1920-12-05，第3頁（刊頭與頁眉已核）",
       "snapshot_distributed": false
     },
@@ -288,8 +298,8 @@
       "printed_page": 4,
       "iiif_canvas_number": 4,
       "masthead_date_verified": "1920-12-05",
-      "visually_reviewed_on": "2026-10-03",
-      "review_scope": "Page header; continuation of chapter 6 and translator note; structure and selected readings, not complete character-by-character collation.",
+      "visually_reviewed_on": "2026-10-04",
+      "review_scope": "All lyric words, displayed punctuation and continuation checked for reading transcription; one chapter-6 bird-name glyph unresolved across this review. Note locations inspected, notes not fully transcribed.",
       "publication_locator_as_reported": "《華工旬刊》第6號，1920-12-05，第4頁（刊頭與頁眉已核）",
       "snapshot_distributed": false
     }
@@ -373,9 +383,9 @@
     }
   ],
   "next_original_targets": [
-    "据第5號第4頁、第6號第3–4頁逐列转录，核对全部字形、标点与副歌提示",
-    "核查逃獄署名与张逃狱称名的身份考证和生卒、译文权利",
-    "保定留法勤工俭学运动纪念馆具体档号仍待查"
+    "复核HG1920-01鸟名细字",
+    "核查逃獄／张逃狱身份、生卒及中国大陆期限",
+    "保定馆藏具体档号与2022年书重排正文仍待核"
   ],
   "comparison_exclusions": [
     {
@@ -387,6 +397,69 @@
       "locator": "第6號第3頁第4章",
       "reading": "敲磕",
       "reason": "Not registered as a confirmed difference."
+    }
+  ],
+  "transcription_review": {
+    "lyrics_path": "lyrics/zh/zh-zhang-taoyu-1920.md",
+    "lyrics_sha256": "98a427f649d7548faede0c356d9fbedf75a159cb90df8863c60919c76e18ab08",
+    "stanza_count": 6,
+    "review_status": "reviewed-with-unresolved-readings",
+    "unresolved_reading_count": 1,
+    "normalization": "Reading transcription: remove vertical spacing; editorial line breaks; solid sentence marks encoded as U+3002; visible exclamation marks and quotation marks retained. Refrain instructions not expanded.",
+    "notes_transcribed": false
+  },
+  "unresolved_readings": [
+    {
+      "id": "HG1920-01",
+      "issue_number": 6,
+      "printed_page": 4,
+      "locator": "第六章：養那…梟與鷲鷹中的首个鸟名",
+      "adopted_reading": "〔鴟？〕",
+      "candidates": [
+        "鴟",
+        "鴞"
+      ],
+      "status": "unresolved",
+      "evidence_url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292839s/f4/full/full/0/native.jpg",
+      "review_region_xyxy": [
+        1820,
+        600,
+        4050,
+        2060
+      ],
+      "reason": "Fine strokes of left component not securely resolved; web reading not used as image proof."
+    }
+  ],
+  "confirmed_differences": [
+    {
+      "locator": "第1章",
+      "facsimile": "末刼",
+      "web": "末劫",
+      "kind": "historical-glyph"
+    },
+    {
+      "locator": "第3章",
+      "facsimile": "祗、偸",
+      "web": "衹、偷",
+      "kind": "historical-glyph"
+    },
+    {
+      "locator": "第5章",
+      "facsimile": "槍械",
+      "web": "槍炮",
+      "kind": "wording"
+    },
+    {
+      "locator": "第5章",
+      "facsimile": "術若",
+      "web": "倘若",
+      "kind": "printed-reading-retained"
+    },
+    {
+      "locator": "第6章",
+      "facsimile": "糞地",
+      "web": "棄地",
+      "kind": "wording"
     }
   ]
 }

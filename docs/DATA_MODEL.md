@@ -50,6 +50,8 @@
 
 `facsimile-reviewed` 表示声明的歌词范围已经对照影印；`completed-with-differences-recorded` 表示完成比较但保留原网页转录、另外记录差异。检查范围在 `review.scope`；不自动涵盖乐谱数字化或原排版摹真。`related_version_ids` 保存同一译者的前文/谱词等关联，仍分别保留文本身份。
 
+`reviewed-with-unresolved-readings` 表示正文已按影印转录，但仍有显式标记的疑读；记录中须说明位置、候选与尚未解决的原因。`digital-edition-score-transcribed` 与 `digital_edition_review: lyric-transcription-completed` 表示现有数字版的扫描唱词已转录；它不证明原报未重排整版已取得，也不替代全文转载的权利依据。1962年记录因公开依据待补继续为 `index-only`。
+
 ## 影印校勘记录
 
 `data/collations/` 保存检查范围、版本ID、原刊与PDF页码、文件摘要、影印的传递来源及词句差异；`docs/collation/` 提供对应的阅读说明。后世重印影像与直接原件扫描明确区分。记录文件和文本摘要可以复核，影印大文件不随仓库分发。

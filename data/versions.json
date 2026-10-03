@@ -654,7 +654,7 @@
   },
   {
     "id": "zh-zhang-taoyu-1920",
-    "title_zh": "逃狱署名《劳动国际歌》：1920年原刊影印（张逃狱译本线索）",
+    "title_zh": "逃狱署名《劳动国际歌》：1920年原刊六章转录",
     "language": {
       "tag": "zh",
       "label_zh": "中文"
@@ -664,7 +664,7 @@
     "text_author": "逃獄",
     "composition_year": null,
     "source_publication_year": 1920,
-    "edition_label": "《华工旬刊》第5号1920年11月25日第4页、第6号12月5日第3–4页；BnF原刊整版已取得",
+    "edition_label": "《华工旬刊》第5号1920年11月25日第4页、第6号12月5日第3–4页；据BnF整版转录，1处疑读",
     "stanza_mapping": [
       1,
       2,
@@ -674,22 +674,30 @@
       6
     ],
     "kind": "translation",
-    "lyrics_path": null,
+    "lyrics_path": "lyrics/zh/zh-zhang-taoyu-1920.md",
     "review": {
-      "status": "original-facsimile-inspected",
-      "date": "2026-10-03",
-      "facsimile_collation": "facsimile-inspected-transcription-pending",
+      "status": "facsimile-reviewed-with-unresolved-readings",
+      "date": "2026-10-04",
+      "facsimile_collation": "reviewed-with-unresolved-readings",
       "source_check_record": "data/source-checks/zh-zhang-taoyu-1920.json",
       "source_check_report": "docs/research/zh-zhang-taoyu-1920.md",
-      "scope": "Two complete four-page issues obtained. Mastheads, lyric locations, six-chapter order and selected web differences inspected; full transcription and punctuation collation pending."
+      "scope": "All six lyric chapters, cross-column/page continuation and refrain instructions checked against three original pages; reading transcription with punctuation encoding stated, one bird-name reading unresolved. Notes not fully transcribed."
     },
     "rights": {
-      "status": "unassessed",
-      "scope": "Specific translation rights remain unassessed; BnF publication-level public-domain classification and Gallica reuse terms recorded separately.",
+      "status": "public-domain-supported",
+      "scope": "1920 historical translation text only, supported in US; CN and other jurisdictions unresolved; not modern editorial material, facsimile reuse, arrangements or recordings",
+      "jurisdictions_considered": [
+        "US"
+      ],
+      "basis": [
+        "Original mastheads and lyric pages verify publication in November and December 1920.",
+        "US Copyright Office Circular 22, revised April 2026, page 9: works published or copyrighted before 1931-01-01 have expired in the US. This publication-year basis does not depend on an inferred translator death date.",
+        "BnF publication-level public-domain classification is supplementary provenance, not a global term decision. Real identity/death date and CN term remain unresolved."
+      ],
       "evidence_urls": [
-        "https://gallica.bnf.fr/services/OAIRecord?ark=ark%3A%2F12148%2Fbpt6k3292838c",
-        "https://gallica.bnf.fr/services/OAIRecord?ark=ark%3A%2F12148%2Fbpt6k3292839s",
-        "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"
+        "https://gallica.bnf.fr/ark:/12148/bpt6k3292838c/f4.item",
+        "https://gallica.bnf.fr/ark:/12148/bpt6k3292839s/f3.item",
+        "https://www.copyright.gov/circs/circ22.pdf"
       ]
     },
     "sources": [
@@ -713,14 +721,15 @@
       }
     ],
     "notes": [
-      "原刊两次署名均为逃獄譯投，不见张字；研究与网页称张逃狱。实名和死亡年尚未核实，全文仍暂缺。",
-      "已取得第5、6号各四个整版；两期刊头、歌词页次与六章连载已核，原刊段序对应法文1、2、4、3、5、6，不重排。",
-      "固定网页2439981与原刊的署名范围分别登记；誓不當兵四字两边均有，不作为漏文。逐字转录与全部标点校勘尚未完成。",
-      "BnF馆藏号JO-61037，数字馆藏号NUMP-20674；OAI出版物标作public domain，不能据此填译者身份或宣称全球权利已核。",
-      "2022年书第6页所报两期歌词页次与BnF影像相合；保定馆藏档号和本书正文仍待查核。"
+      "原刊两次署名均为逃獄譯投，不见张字；研究与网页称张逃狱，实名和死亡年未核实。全文按美国发表年份依据准入，不宣称全球期限已核。",
+      "第5、6号各四个整版已取得；据三张歌词页完成六章阅读转录，对应法文1、2、4、3、5、6，不重排。",
+      "保留原刊術若、槍械、糞地及标点类别；誓不當兵、敲磕和權衡两边均有，不作为漏文或异文。",
+      "HG1920-01：第六章養那…梟的首个鸟名暂读鴟、候选鴞，正文显式标疑；附注未作全文逐字校勘。",
+      "BnF馆藏号JO-61037，数字馆藏号NUMP-20674；2022年书第6页所报歌词页次与BnF影像相合，保定馆藏档号与本书重排正文待核。"
     ],
     "translator_as_printed": "逃獄",
-    "translator_name_in_research": "张逃狱"
+    "translator_name_in_research": "张逃狱",
+    "lyrics_sha256": "98a427f649d7548faede0c356d9fbedf75a159cb90df8863c60919c76e18ab08"
   },
   {
     "id": "zh-geng-zheng-1921",
@@ -830,7 +839,7 @@
     "text_author": null,
     "composition_year": null,
     "source_publication_year": 1962,
-    "edition_label": "《人民日报》1962年4月28日第6版；混合数字文字与扫描图像的PDF，三段词谱已核结构",
+    "edition_label": "《人民日报》1962年4月28日第6版；混合数字版扫描词谱，三段唱词已转录，公开权利依据待补",
     "stanza_mapping": [
       1,
       2,
@@ -839,18 +848,31 @@
     "kind": "revision",
     "lyrics_path": null,
     "review": {
-      "status": "digital-edition-score-reviewed",
-      "date": "2026-10-03",
+      "status": "digital-edition-score-transcribed",
+      "date": "2026-10-04",
       "facsimile_collation": "pending",
       "source_check_record": "data/source-checks/zh-collective-1962.json",
       "source_check_report": "docs/research/zh-collective-1962.md",
-      "digital_edition_review": "score-structure-reviewed-transcription-pending",
-      "scope": "Digital-page dates, issue/page identifiers, title, original lyricist/composer credits, three stacked main lyric rows and shared twice-sung refrain; fine punctuation transcription and musical encoding not completed."
+      "digital_edition_review": "lyric-transcription-completed",
+      "scope": "All three stacked main lyric rows and twice-written common refrain transcribed; displayed punctuation checked. Independent historical edition comparison and musical encoding not completed. Unretypeset original page remains pending."
     },
     "rights": {
-      "status": "unassessed",
-      "scope": "this specific translation/edition",
-      "evidence_urls": []
+      "status": "index-only",
+      "scope": "Specific 1962 Chinese revision; public redistribution basis not established after preliminary authorship/history and term review",
+      "jurisdictions_considered": [
+        "CN"
+      ],
+      "basis": [
+        "Research sources connect the 1962 revision with earlier Xiao San translation and collective revisions; the specific revision authors are not established.",
+        "China Copyright Law (2020), Articles 13 and 23 require distinguishing derivative translation rights, underlying works and natural-person/joint/legal-entity authorship before applying a term.",
+        "Institutional explanatory-note credits and missing Chinese byline alone do not establish legal-entity ownership or expiration. Xiao San death evidence (1983) is background, not attribution of sole 1962 authorship. No uniform expiry or global public-domain claim made."
+      ],
+      "evidence_urls": [
+        "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
+        "https://sfl.csu.edu.cn/info/1216/9189.htm",
+        "https://www.chinawriter.com.cn/xdzj/676.shtml",
+        "https://zscqj.beijing.gov.cn/zscqj/zwgk/flfg18/436481084/index.html"
+      ]
     },
     "sources": [
       {
@@ -886,9 +908,10 @@
       "六页PDF第1版与第6版日期相合，第1版第5041号要目列国际歌，第6版含完整三段词谱；不再按仅有刊载说明登记。",
       "谱图署鲍狄埃词、狄盖特曲，未见中文译者署名；中国音乐家协会、中央人民广播电台署名及修改说明属于PDF数字文字，不填写单独译者。",
       "PDF由数字文字和局部扫描图像组成；内嵌769×1152词谱可供校读，未取得未经重排的原纸报整版。",
-      "三行主歌词分别对应原第1、2、6段，共同副歌连续两次；已检查完整词谱范围，逐字与标点转录仍待完成，全文及权利未准入。",
+      "三行主歌对应法文1、2、6段；全部唱词及可辨标点已核，第二段为才能成功，第三段含一旦把它们，副歌末句为句点。完整转录另存核对稿，公开仓库继续仅索引。",
       "PDF数字文字也作重新发麦，与既有网页相同；说明原扫描字形缺失，未默改成表，也未裁决文本复制关系。",
-      "官方日期入口的登录经过及此前无日期第三方词谱图保留在旧查找记录，未恢复认证流程；本PDF公开下载来源尚未建立。"
+      "官方日期入口的登录经过及此前无日期第三方词谱图保留在旧查找记录，未恢复认证流程；本PDF公开下载来源尚未建立。",
+      "已初查既有译文、1962修订与权利期限资料，但公开全文依据尚未建立；修订作者、独立刊本和具体PDF来源链继续待补。"
     ],
     "digital_edition_source_id": "rmrb-19620428-digital-edition"
   },

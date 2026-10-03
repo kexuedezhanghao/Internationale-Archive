@@ -1,7 +1,7 @@
 {
   "id": "zh-collective-1962",
-  "reviewed_on": "2026-10-03",
-  "scope": "Mixed text/raster six-page digital newspaper edition obtained; pages 1 and 6 and complete score lyric extent visually inspected. Original unretypeset page, detailed transcription and rights review remain pending.",
+  "reviewed_on": "2026-10-04",
+  "scope": "All three stacked main lyric rows and twice-written common refrain transcribed; displayed punctuation checked. Independent historical edition comparison and musical encoding not completed. Unretypeset original page remains pending.",
   "report_path": "docs/research/zh-collective-1962.md",
   "version_ids": [
     "zh-collective-1962"
@@ -9,7 +9,48 @@
   "facsimiles_obtained": 0,
   "facsimile_count_scope": "No unretypeset original full-page scan obtained; the digital edition and its embedded score raster are recorded separately, not counted as a second translation or independent witness.",
   "full_text_version_ids": [],
-  "snapshots": [],
+  "snapshots": [
+    {
+      "url": "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
+      "snapshot_filename": "nju-song-2021.html",
+      "snapshot_bytes": 137176,
+      "snapshot_sha256": "5faecb538b03911c0686a791786497029f7057aeb7ea644863ab9cfa8e8e5aaf",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://sfl.csu.edu.cn/info/1216/9189.htm",
+      "snapshot_filename": "csu-shen-baoji.html",
+      "snapshot_bytes": 158910,
+      "snapshot_sha256": "53aaa9d616c0fc77980ed89d818a1f63a7144aec10588ffca601d6446706643b",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.chinawriter.com.cn/xdzj/676.shtml",
+      "snapshot_filename": "xiao-san-author.html",
+      "snapshot_bytes": 13786,
+      "snapshot_sha256": "98e321d75ac84eb95aa40fcb4f8ff9d782c3c1536debd78d86ddd2be48262cff",
+      "encoding": "gb2312",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://zscqj.beijing.gov.cn/zscqj/zwgk/flfg18/436481084/index.html",
+      "snapshot_filename": "cn-copyright-2020.html",
+      "snapshot_bytes": 98203,
+      "snapshot_sha256": "38d2296773f131e0db6a480df41625fb2a8f161fe110977394ad560fd88acbb7",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://zh.wikisource.org/w/api.php?action=query&titles=%E5%9C%8B%E9%9A%9B%E6%AD%8C_(%E8%90%A7%E4%B8%89)&prop=revisions&rvprop=ids%7Ctimestamp&format=json",
+      "snapshot_filename": "wikisource-xiaosan-api.json",
+      "snapshot_bytes": 307,
+      "snapshot_sha256": "5616d2785e41038a86fc96fdf880d717b52465068ae30cd2ff2d36848a009b3d",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    }
+  ],
   "serial_parts": [],
   "date_conflicts": [],
   "stanza_mapping_verified": [
@@ -70,7 +111,7 @@
       "contains_explanatory_note_raster": false,
       "image_distributed": false
     },
-    "review_scope": "Digital-page dates, issue/page identifiers, title, original lyricist/composer credits, three stacked main lyric rows and shared twice-sung refrain; fine punctuation transcription and musical encoding not completed.",
+    "review_scope": "All three stacked main lyric rows and twice-written common refrain transcribed; displayed punctuation checked. Independent historical edition comparison and musical encoding not completed. Unretypeset original page remains pending.",
     "credits_as_displayed": [
       "鲍狄埃词",
       "狄盖特曲"
@@ -94,9 +135,58 @@
     "website_dependency_assessment": "Same suspicious 重新发麦 in PDF digital text and earlier website transcriptions suggests possible shared digital data; exact copying path and independence not established."
   },
   "remaining_tasks": [
-    "Transcribe and verify all lyric glyphs and fine punctuation from the existing score raster.",
-    "Assess specific Chinese revision authorship/history and rights before full-text admission.",
-    "Seek an unretypeset original newspaper page when available to verify digital-note readings; not a prerequisite for continued score review.",
-    "Establish a public download/provenance chain for this specific PDF without assuming the previously supplied text-only webpage served it."
-  ]
+    "Establish specific Chinese revision authorship/underlying-work relationship and public redistribution basis.",
+    "Compare a separately obtained historical edition; musical encoding not completed.",
+    "Seek unretypeset original page to verify digital-note readings, not to redo completed score transcription.",
+    "Establish public download/provenance chain for this PDF."
+  ],
+  "transcription_review": {
+    "status": "completed",
+    "main_stanza_count": 3,
+    "common_refrain_occurrences_on_score": 2,
+    "unresolved_lyric_reading_count": 0,
+    "normalization": "Remove note-to-syllable spaces and musical-system word breaks; editorial stanza numbers and line breaks; retain readable punctuation.",
+    "private_transcription_filename": "Internationale-ZH-1962-score-transcription-20261004.md",
+    "private_transcription_bytes": 4446,
+    "private_transcription_sha256": "74025402ec35e5f2097b6388d8892daf984299dee6aa2381f0a375c00841f3bb",
+    "full_transcription_distributed": false,
+    "checked_readings": [
+      {
+        "locator": "第二段末句",
+        "reading": "趁热打铁才能成功！"
+      },
+      {
+        "locator": "第三段倒数第二句",
+        "reading": "一旦把它们消灭干净，"
+      },
+      {
+        "locator": "两次副歌末句",
+        "reading": "句点"
+      }
+    ]
+  },
+  "comparison_attempts": [
+    {
+      "title": "國際歌 (萧三)",
+      "revid": 2579224,
+      "revision_timestamp": "2025-07-23T05:30:19Z",
+      "metadata_obtained": true,
+      "body_obtained": false,
+      "body_requests": [
+        "fixed-revision-html",
+        "API-revision-content"
+      ],
+      "result": "HTTP 403",
+      "scope": "Version metadata only; no wording comparison completed."
+    }
+  ],
+  "rights_review": {
+    "date": "2026-10-04",
+    "status": "index-only",
+    "basis_status": "public-redistribution-basis-not-established",
+    "chinese_revision_authors_verified": false,
+    "institutional_note_is_not_ownership_evidence": true,
+    "xiao_san_death_year_as_reported": 1983,
+    "xiao_san_is_not_assigned_as_sole_1962_author": true
+  }
 }
