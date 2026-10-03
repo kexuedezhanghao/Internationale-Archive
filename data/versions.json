@@ -820,7 +820,7 @@
   },
   {
     "id": "zh-collective-1962",
-    "title_zh": "中文1962年审订本：《人民日报》刊载线索",
+    "title_zh": "中文1962年审订本：《人民日报》数字版词谱",
     "language": {
       "tag": "zh",
       "label_zh": "中文"
@@ -830,16 +830,22 @@
     "text_author": null,
     "composition_year": null,
     "source_publication_year": 1962,
-    "edition_label": "《人民日报》1962年4月28日第6版；官方日期入口需登录，第三方词谱图未证实为原报",
-    "stanza_mapping": [],
+    "edition_label": "《人民日报》1962年4月28日第6版；混合数字文字与扫描图像的PDF，三段词谱已核结构",
+    "stanza_mapping": [
+      1,
+      2,
+      6
+    ],
     "kind": "revision",
     "lyrics_path": null,
     "review": {
-      "status": "identity-provisional",
+      "status": "digital-edition-score-reviewed",
       "date": "2026-10-03",
       "facsimile_collation": "pending",
-      "source_check_record": "data/source-checks/early-zh-1920-1962.json",
-      "source_check_report": "docs/research/early-zh-1920-1962.md"
+      "source_check_record": "data/source-checks/zh-collective-1962.json",
+      "source_check_report": "docs/research/zh-collective-1962.md",
+      "digital_edition_review": "score-structure-reviewed-transcription-pending",
+      "scope": "Digital-page dates, issue/page identifiers, title, original lyricist/composer credits, three stacked main lyric rows and shared twice-sung refrain; fine punctuation transcription and musical encoding not completed."
     },
     "rights": {
       "status": "unassessed",
@@ -877,12 +883,14 @@
       }
     ],
     "notes": [
-      "研究论文记中国音乐家协会、中央人民广播电台审订，原刊只署鲍狄埃词、狄盖特曲；未据此填单独中文译者。",
-      "第三方网页包含歌曲题名与说明，没有可据以逐字核对的谱词正文。当前不指定歌词段落对应、不收入全文。",
-      "官方日期路由实际重定向登录页，尚未取得第6版影像；不能据路由猜测具体文件地址。",
-      "ChinesePen所配450×591词谱图无报头、日期与版次，仅作线索；南京大学研究页面的对照表为现代重排，未当作原报影印。",
-      "GovOpenData日期及第6版页面只有歌曲题名与刊载说明，未含谱词或图像；与既有第三方转录共有重新发麦疑似错字，未作为独立原刊见证。"
-    ]
+      "六页PDF第1版与第6版日期相合，第1版第5041号要目列国际歌，第6版含完整三段词谱；不再按仅有刊载说明登记。",
+      "谱图署鲍狄埃词、狄盖特曲，未见中文译者署名；中国音乐家协会、中央人民广播电台署名及修改说明属于PDF数字文字，不填写单独译者。",
+      "PDF由数字文字和局部扫描图像组成；内嵌769×1152词谱可供校读，未取得未经重排的原纸报整版。",
+      "三行主歌词分别对应原第1、2、6段，共同副歌连续两次；已检查完整词谱范围，逐字与标点转录仍待完成，全文及权利未准入。",
+      "PDF数字文字也作重新发麦，与既有网页相同；说明原扫描字形缺失，未默改成表，也未裁决文本复制关系。",
+      "官方日期入口的登录经过及此前无日期第三方词谱图保留在旧查找记录，未恢复认证流程；本PDF公开下载来源尚未建立。"
+    ],
+    "digital_edition_source_id": "rmrb-19620428-digital-edition"
   },
   {
     "id": "zh-huagong-xingshi-1922",

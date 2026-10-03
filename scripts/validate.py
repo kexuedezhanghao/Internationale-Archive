@@ -85,6 +85,8 @@ def main():
     listed_files = set()
     for v in versions:
         assert v["sources"] and all(urlparse(s["url"]).scheme in {"http","https"} for s in v["sources"])
+        if v.get("digital_edition_source_id"):
+            assert v["digital_edition_source_id"] in source_ids
         assert set(v.get("related_version_ids", [])) <= set(vids)
         assert len(v["stanza_mapping"]) == len(set(v["stanza_mapping"]))
         assert all(1 <= n <= 6 for n in v["stanza_mapping"])
@@ -164,6 +166,29 @@ def main():
             assert len(check["version_ids"]) == 1
             v = next(v for v in versions if v["id"] == check["version_ids"][0])
             assert v["stanza_mapping"] == check["stanza_mapping_verified"]
+        digital = check.get("digital_edition_evidence")
+        if digital:
+            assert digital["source_id"] in source_ids
+            assert digital["classification"] == "mixed-digital-text-and-raster-newspaper-edition"
+            assert digital["pdf_bytes"] > 0 and digital["pdf_pages"] > 0
+            assert re.fullmatch(r"[0-9a-f]{64}", digital["pdf_sha256"])
+            assert re.fullmatch(r"[0-9a-f]{40}", digital["pdf_sha1"])
+            assert 1 <= digital["pdf_page"] <= digital["pdf_pages"]
+            assert digital["pdf_page"] in digital["visually_reviewed_pdf_pages"]
+            assert all(1 <= page <= digital["pdf_pages"] for page in digital["visually_reviewed_pdf_pages"])
+            assert digital["publication_citation"] and digital["review_scope"]
+            assert not digital["pdf_distributed"] and digital["metadata_is_not_original_publication_evidence"]
+            if digital["public_download_url"]:
+                assert urlparse(digital["public_download_url"]).scheme == "https"
+            else:
+                assert digital["download_provenance_status"] == "not-established"
+            raster = digital["embedded_score_raster"]
+            assert raster["classification"] == "score-raster-embedded-in-digital-edition"
+            assert raster["bytes"] > 0 and raster["width"] > 0 and raster["height"] > 0
+            assert re.fullmatch(r"[0-9a-f]{64}", raster["sha256"])
+            assert re.fullmatch(r"[0-9a-f]{40}", raster["sha1"])
+            assert not raster["image_distributed"] and raster["display_transform"]
+            assert all(next(v for v in versions if v["id"] == vid)["digital_edition_source_id"] == digital["source_id"] for vid in check_ids)
     for p in (ROOT / "data/collations").glob("*.json"):
         collation = json.loads(p.read_text(encoding="utf-8"))
         assert set(collation["version_ids"]) <= set(vids)

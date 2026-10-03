@@ -71,7 +71,7 @@
     "url": "https://www.marxists.org/chinese/reference-books/labor-1920/index.htm",
     "role": "web-source-checks",
     "reviewed_on": "2026-10-03",
-    "import_scope": "Initial four identity leads through web evidence; three remain in this source check, while Zhang original facsimiles are recorded separately. One historical lyric block admitted after separate rights assessment.",
+    "import_scope": "Initial four identity leads through web evidence; Liebei and Geng/Zheng remain assigned to this check. Zhang original issues and 1962 mixed digital score edition recorded separately; earlier web search history retained.",
     "rights_note": "Liebei, Zhang Taoyu and 1962 identities remain metadata only. Geng/Zheng lyric rights considered individually for US and CN.",
     "source_check_record": "data/source-checks/early-zh-1920-1962.json"
   },
@@ -108,5 +108,16 @@
     "import_scope": "Metadata and manual inspection of eight full-page images from two complete issues; lyric locations, original chapter order, signature and selected web differences recorded. No original images or lyric full text redistributed by this repository.",
     "rights_note": "BnF OAI classifies each issue as public domain; Gallica reuse terms linked separately. Translator identity and specific translation rights assessment remain pending.",
     "source_check_record": "data/source-checks/zh-zhang-taoyu-1920.json"
+  },
+  {
+    "id": "rmrb-19620428-digital-edition",
+    "name": "《人民日报》1962年4月28日六页数字版PDF",
+    "publication_citation": "《国际歌》，《人民日报》，1962年4月28日，第6版。",
+    "role": "mixed-digital-text-and-raster-newspaper-edition",
+    "reviewed_on": "2026-10-03",
+    "public_download_url": null,
+    "import_scope": "File metadata/hashes and visual checks of pages 1 and 6, embedded score credits and three-stanza structure; no PDF, score image or lyric full text redistributed.",
+    "rights_note": "Specific Chinese revision remains unassessed; the digital edition is not declared an unretypeset full-page original scan.",
+    "source_check_record": "data/source-checks/zh-collective-1962.json"
   }
 ]

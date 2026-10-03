@@ -62,6 +62,8 @@
 
 `original-publication-page` 标记完整原刊页；`issues` 保存IIIF卷期清单、画布总数、已下载完整页数与核实日期，`publication_parts` 将原刊章号定位到印刷页。计数范围必须区分局部、整版、整期和版本身份；同一第6章跨两页出现不算两个主歌。`facsimile-inspected-transcription-pending` 表示已取得并检查原刊，但尚未完成逐字转录。`preliminary_differences` 是检查到的局部差异，不能当作全部异文清单。`translator_as_printed` 与 `translator_name_in_research` 分别保留原刊署名和研究称名，未核实的姓氏、实名及生卒不据后者补入。
 
+`digital-edition-score-reviewed` 表示已检查数字报刊中的扫描词谱，不表示整版是未经重排的原纸报扫描。可选`digital_edition_evidence`保存PDF摘要、内嵌谱图摘要、期版定位、数字文字/图像区别和检查范围；原图方向规范化不另计见证。`public_download_url`未建立时为null，不借用只有文字的网页地址。版本以`digital_edition_source_id`关联来源；`facsimile_collation`保留原刊逐字对照的待核状态。
+
 ## 快照与更新
 
 `antiwarsongs.snapshot.json` 记录抓取时间、整页字节数与SHA-256，以及导入时的数量核对。HTML原件留在临时研究目录，不随发布包分发。网页后来新增、修订或删除的条目应形成可追踪的目录更新，保留已有人工判断。

@@ -1,0 +1,102 @@
+{
+  "id": "zh-collective-1962",
+  "reviewed_on": "2026-10-03",
+  "scope": "Mixed text/raster six-page digital newspaper edition obtained; pages 1 and 6 and complete score lyric extent visually inspected. Original unretypeset page, detailed transcription and rights review remain pending.",
+  "report_path": "docs/research/zh-collective-1962.md",
+  "version_ids": [
+    "zh-collective-1962"
+  ],
+  "facsimiles_obtained": 0,
+  "facsimile_count_scope": "No unretypeset original full-page scan obtained; the digital edition and its embedded score raster are recorded separately, not counted as a second translation or independent witness.",
+  "full_text_version_ids": [],
+  "snapshots": [],
+  "serial_parts": [],
+  "date_conflicts": [],
+  "stanza_mapping_verified": [
+    1,
+    2,
+    6
+  ],
+  "digital_edition_evidence": {
+    "source_id": "rmrb-19620428-digital-edition",
+    "filename": "rmrb-19620428.pdf",
+    "pdf_bytes": 2187107,
+    "pdf_sha256": "50b4e3632290216eb59a283bcf5145c8e6274a34fb9a7dc14baeb8bf78b4d91e",
+    "pdf_sha1": "6d63395f08ac98ae4d8e85e7907ab1e79df57e53",
+    "pdf_pages": 6,
+    "classification": "mixed-digital-text-and-raster-newspaper-edition",
+    "publication_citation": "《国际歌》，《人民日报》，1962年4月28日，第6版。",
+    "publication_date_in_digital_page": "1962-04-28",
+    "issue_number_in_digital_page": 5041,
+    "printed_page_in_digital_page": 6,
+    "pdf_page": 6,
+    "visually_reviewed_pdf_pages": [
+      1,
+      6
+    ],
+    "metadata_as_stored": {
+      "format": "PDF 1.3",
+      "title": "《人民日报》１９６２年４月２８日",
+      "author": "青苹果数据中心",
+      "subject": "",
+      "keywords": "",
+      "creator": "JdaEdit - 620428",
+      "producer": "Acrobat PDFWriter 4.0 for Windows",
+      "creationDate": "D:20030823103049",
+      "modDate": "D:20040228122106+08'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "metadata_is_not_original_publication_evidence": true,
+    "public_download_url": null,
+    "download_provenance_status": "not-established",
+    "pdf_distributed": false,
+    "embedded_score_raster": {
+      "xref": 113,
+      "bytes": 78195,
+      "sha256": "5c9c9433df09affe5d48f2d40bdf3e9139b8674108cb06b0889a055718731ebe",
+      "sha1": "e60a0f937e87c861208f67c8dbc9e23b35703b3c",
+      "format": "jpeg",
+      "width": 769,
+      "height": 1152,
+      "classification": "score-raster-embedded-in-digital-edition",
+      "page_bbox_points": [
+        41.327980041503906,
+        64.0799560546875,
+        389.8079833984375,
+        597.5999755859375
+      ],
+      "display_transform": "Native extracted pixels require a vertical flip to match PDF page display; no new detail created.",
+      "contains_explanatory_note_raster": false,
+      "image_distributed": false
+    },
+    "review_scope": "Digital-page dates, issue/page identifiers, title, original lyricist/composer credits, three stacked main lyric rows and shared twice-sung refrain; fine punctuation transcription and musical encoding not completed.",
+    "credits_as_displayed": [
+      "鲍狄埃词",
+      "狄盖特曲"
+    ],
+    "chinese_translator_as_displayed": null,
+    "key_as_displayed": "1=♭B",
+    "time_signature_as_displayed": "4/4",
+    "explanatory_note_representation": "PDF digital text rendered into blank area of the score raster; not an image of the original explanatory note.",
+    "digital_text_observations": [
+      {
+        "locator": "教唱说明署名后",
+        "reading": "按",
+        "original_printed_glyph_verified": false
+      },
+      {
+        "locator": "教唱说明：重新发…",
+        "reading": "麦",
+        "original_printed_glyph_verified": false
+      }
+    ],
+    "website_dependency_assessment": "Same suspicious 重新发麦 in PDF digital text and earlier website transcriptions suggests possible shared digital data; exact copying path and independence not established."
+  },
+  "remaining_tasks": [
+    "Transcribe and verify all lyric glyphs and fine punctuation from the existing score raster.",
+    "Assess specific Chinese revision authorship/history and rights before full-text admission.",
+    "Seek an unretypeset original newspaper page when available to verify digital-note readings; not a prerequisite for continued score review.",
+    "Establish a public download/provenance chain for this specific PDF without assuming the previously supplied text-only webpage served it."
+  ]
+}

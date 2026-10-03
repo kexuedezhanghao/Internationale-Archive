@@ -1,12 +1,11 @@
 {
   "id": "early-zh-1920-1962",
   "reviewed_on": "2026-10-03",
-  "scope": "Three remaining identities checked through web transcriptions and publication leads; no facsimiles of these targets obtained. Zhang Taoyu original issues now documented in a separate source check.",
+  "scope": "Two remaining 1920/1921 identities checked through web evidence; no original facsimiles of these two targets obtained. Zhang original issues and 1962 mixed digital score edition now documented in separate source checks. Earlier 1962 webpage and candidate-image evidence retained as search history.",
   "report_path": "docs/research/early-zh-1920-1962.md",
   "version_ids": [
     "zh-liebei-1920",
-    "zh-geng-zheng-1921",
-    "zh-collective-1962"
+    "zh-geng-zheng-1921"
   ],
   "facsimiles_obtained": 0,
   "full_text_version_ids": [
@@ -174,7 +173,7 @@
     "《劳动者》第2、4、5、6号与1984年编辑本",
     "《民国日报·觉悟》1921年5月7日及27日，第2版",
     "《小说月报》第12卷号外《俄国文学研究》1921年9月，第235–237页",
-    "《人民日报》1962年4月28日第6版"
+    "《人民日报》1962年4月28日第6版未重排原报整版；数字版词谱已取得，另记，不阻塞现有谱词核对"
   ],
   "followup_searches_20261003": [
     {
@@ -296,6 +295,12 @@
       "source_check_record": "data/source-checks/zh-zhang-taoyu-1920.json",
       "report_path": "docs/research/zh-zhang-taoyu-1920.md",
       "scope": "Two complete original issues obtained; transcription pending."
+    },
+    {
+      "version_id": "zh-collective-1962",
+      "source_check_record": "data/source-checks/zh-collective-1962.json",
+      "report_path": "docs/research/zh-collective-1962.md",
+      "scope": "Six-page mixed digital text/raster edition obtained; complete score extent and three-stanza mapping inspected. Original unretypeset page and full-text admission remain pending."
     }
   ]
 }
