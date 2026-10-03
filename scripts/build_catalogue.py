@@ -47,7 +47,11 @@ def main():
             title = f"[{title}](../{v['lyrics_path']})"
         else:
             title = f"[{title}]({v['sources'][0]['url']})"
-        vi.append(f"| {md(v['language']['label_zh'])} | {title} | {md(v['edition_label'])} | {md(', '.join(map(str,v['stanza_mapping']))) if v['stanza_mapping'] else '待核对'} | {'已收录' if v['lyrics_path'] else '仅索引'} |")
+        mapping = ', '.join(map(str, v['stanza_mapping'])) if v['stanza_mapping'] else '待核对'
+        for detail in v.get('stanza_mapping_details', []):
+            extra = '、'.join(map(str, detail['additional_french_stanzas']))
+            mapping += f"；刊本第{detail['printed_stanza']}段亦涉及法文第{extra}段"
+        vi.append(f"| {md(v['language']['label_zh'])} | {title} | {md(v['edition_label'])} | {md(mapping)} | {'已收录' if v['lyrics_path'] else '仅索引'} |")
     vi += ["", "具体出处、底本、权利依据和待核对事项见 [versions.json](../data/versions.json)。", ""]
     (catalogue / "versions.md").write_text("\n".join(vi), encoding="utf-8")
     with (catalogue / "discoveries.csv").open("w", encoding="utf-8-sig", newline="") as f:

@@ -46,6 +46,10 @@
 
 `data/versions.json` 中的一条记录对应已辨识或暂定的某份文本/版次。保存语言、译者、底本、年代、段落对应、正文路径、校勘状态、权利与证据。不同版本日期有冲突时可以使用 `null` 和明确的待办说明，不选一个看起来合理的年份填上去。
 
+`source_publication_year`只记可明确采用的刊本年。机构书目仅给约年而题名页无年时，此字段为null；`source_publication_year_estimate`另记`year`、`qualifier: ca`、`basis`和证据URL，展示文字保留约年。机构估年不等于原书印年、译文创作年或最早发表。需要区分期月时另记`source_publication_month`。
+
+`stanza_mapping`记录主要段落对应，不保证逐段严格一一对应。改写合并其他法文段素材时，`stanza_mapping_details`用`printed_stanza`、`predominant_french_stanza`、`additional_french_stanzas`和`scope`说明交叉关系；如Luckhardt四段本第二段后半还涉及法文第三段主题。
+
 `source-reviewed`：已经人工核对网页的身份与提取边界。`facsimile_collation: pending`：尚未由本项目与原刊影印逐字比较。两者不互相替代。
 
 `facsimile-reviewed` 表示声明的歌词范围已经对照影印；`completed-with-differences-recorded` 表示完成比较但保留原网页转录、另外记录差异。检查范围在 `review.scope`；不自动涵盖乐谱数字化或原排版摹真。`related_version_ids` 保存同一译者的前文/谱词等关联，仍分别保留文本身份。
@@ -61,6 +65,8 @@
 经人工复核解决的疑读移入 `resolved_readings`，保留原标记、候选读法及裁图，另记 `resolved_on`、`resolved_line` 与 `resolution_basis`；版本以 `resolved_reading_ids` 关联。全部疑读解决后可将所声明范围的 `facsimile_collation` 改为 `completed`，不改变其它刊本的校勘状态。
 
 `data/source-checks/` 的可选 `image_evidence` 登记原报截图、未确认刊本的图片及现代重排材料，保存实际下载文件的字节数、SHA-256、尺寸、来源与目视检查范围。`counts_as_facsimile` 只计本批已检查的原刊影像，可包括明确说明范围的局部截图；不等于取得整版。`crop-inspected-full-page-pending` 表示检查了截图，全文校勘与完整刊本身份尚未完成。裁图不含报头时，期版日期应标明是来源所报，不能冒充由图内直接核验。
+
+可选`pdf_evidence`记录实际PDF的URL、字节数、SHA-256／SHA-1、总页数、已目视检查页、印刷页对应与检查范围。`counts_as_facsimile`只计声明目标的历史刊物，现代论文、总目录与不同译者的候选歌集不自动增加目标原刊数；PDF大文件不分发。双页扫描与前置页以逐页`page_mapping`定位，不能套用未经核实的固定偏移。`publication_dating`保存约年限定，`translator_attribution`区分原页署名与现代研究归属。
 
 `original-publication-page` 标记完整原刊页；`issues` 保存IIIF卷期清单、画布总数、已下载完整页数与核实日期，`publication_parts` 将原刊章号定位到印刷页。计数范围必须区分局部、整版、整期和版本身份；同一第6章跨两页出现不算两个主歌。`facsimile-inspected-transcription-pending` 表示已取得并检查原刊，但尚未完成逐字转录。`preliminary_differences` 是检查到的局部差异，不能当作全部异文清单。`translator_as_printed` 与 `translator_name_in_research` 分别保留原刊署名和研究称名，未核实的姓氏、实名及生卒不据后者补入。
 

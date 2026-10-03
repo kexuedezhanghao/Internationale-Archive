@@ -159,5 +159,25 @@
     "import_scope": "Access/coverage metadata only; 1921 target dates and pages not retrieved.",
     "rights_note": "Metadata and historic wording are separate; no scan, OCR or modern commentary redistributed.",
     "evidence_record": "data/source-checks/early-zh-1920-1962.json"
+  },
+  {
+    "id": "zhizn-1902-05-commons",
+    "name": "Жизнь, №5, август 1902，伦敦；Commons扫描",
+    "url": "https://commons.wikimedia.org/wiki/File:Жизнь_1902_№_05.pdf",
+    "role": "historical-publication-evidence",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Whole 294-page PDF obtained; title, contents and printed pp.199–201 checked. All words of the second song on p.201 transcribed; no individual translator byline on inspected song pages.",
+    "rights_note": "Only historical lyric wording assessed for US admission; no PDF, OCR or modern editorial matter redistributed. Scan file licensing is recorded separately.",
+    "evidence_record": "data/source-checks/ru-kots-1902.json"
+  },
+  {
+    "id": "freiburg-freies-lied-ca1925",
+    "name": "FreiDok：Freies Lied，约1925年，V3-5624-c",
+    "url": "https://freidok.uni-freiburg.de/data/224398",
+    "role": "historical-publication-evidence",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Institutional approximate dating retained; title, contents and all four lyric stanzas/signature on printed pp.33–34 checked in a 67-page double-spread PDF.",
+    "rights_note": "Only historical lyric wording assessed for US admission; no PDF, OCR or modern editorial matter redistributed. Scan file licensing is recorded separately.",
+    "evidence_record": "data/source-checks/de-luckhardt-freies-lied-ca1925.json"
   }
 ]

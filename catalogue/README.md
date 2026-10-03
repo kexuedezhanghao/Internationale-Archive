@@ -351,7 +351,7 @@
 | 来源条目 | 类型建议 | 原站有歌词 | 核对状态 |
 |---|---|---|---|
 | [Traduzione letterale tedesca dell'originale francese (Versione definitiva)](https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg3879) | literal-translation-candidate | 是 | unreviewed-discovery |
-| [TEDESCO / GERMAN 1](https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg1937) | translation-candidate | 是 | unreviewed-discovery |
+| [TEDESCO / GERMAN 1](https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg1937) | translation-candidate | 是 | linked-needs-collation |
 | [TEDESCO / GERMAN 2](https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg3931) | translation-candidate | 是 | unreviewed-discovery |
 | [TEDESCO / GERMAN 3](https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg2185) | translation-candidate | 是 | unreviewed-discovery |
 | [TEDESCO / GERMAN 4](https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg276993) | translation-candidate | 是 | unreviewed-discovery |

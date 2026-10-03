@@ -1296,7 +1296,7 @@
     "rights_status": "unassessed",
     "local_lyrics_path": null,
     "notes": [
-      "1902年版线索；转录错字与字形混用待原刊校勘。"
+      "已取得1902年8月《Жизнь》第5期三段原页并另存旧拼写正文；本网页字形混用、错字及与原刊的全部逐字差异仍待核。网页权利状态与本地具体原刊文字分别登记。"
     ]
   },
   {
@@ -2036,11 +2036,15 @@
       "https://www.youtube.com/watch?v=V4uWLIoMLzw",
       "https://www.youtube.com/watch?v=r1dvJkz15mc"
     ],
-    "canonical_version_ids": [],
-    "review_status": "unreviewed-discovery",
+    "canonical_version_ids": [
+      "de-luckhardt-freies-lied-ca1925"
+    ],
+    "review_status": "linked-needs-collation",
     "rights_status": "unassessed",
     "local_lyrics_path": null,
-    "notes": []
+    "notes": [
+      "关联同一Luckhardt译本的约1925年四段刊本供比较；网页具体措辞尚未全面校勘，关联不表示该网页与原书逐字相同。1906为原站所报，未据此证明创作或初刊。"
+    ]
   },
   {
     "id": "aws-2003-agg3931",

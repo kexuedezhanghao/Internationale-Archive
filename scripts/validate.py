@@ -90,6 +90,15 @@ def main():
         assert set(v.get("related_version_ids", [])) <= set(vids)
         assert len(v["stanza_mapping"]) == len(set(v["stanza_mapping"]))
         assert all(1 <= n <= 6 for n in v["stanza_mapping"])
+        if estimate := v.get("source_publication_year_estimate"):
+            assert v["source_publication_year"] is None
+            assert isinstance(estimate["year"], int) and estimate["qualifier"] == "ca"
+            assert estimate["basis"] and urlparse(estimate["url"]).scheme == "https"
+        for detail in v.get("stanza_mapping_details", []):
+            assert 1 <= detail["printed_stanza"] <= len(v["stanza_mapping"])
+            assert detail["predominant_french_stanza"] == v["stanza_mapping"][detail["printed_stanza"] - 1]
+            assert detail["scope"] and detail["additional_french_stanzas"]
+            assert set(detail["additional_french_stanzas"]) <= set(range(1, 7))
         if not v["lyrics_path"]:
             continue
         assert v["rights"]["status"] in allowed and v["rights"]["evidence_urls"]

@@ -1,0 +1,181 @@
+{
+  "id": "de-luckhardt-freies-lied-ca1925",
+  "reviewed_on": "2026-10-04",
+  "scope": "Title, publication details, catalogue date qualification, contents and all four stanzas/refrain wording on pp.33–34 visually checked. Long s normalized; three usw. repetitions retained. Music and earliest publication excluded.",
+  "report_path": "docs/research/de-luckhardt-freies-lied-ca1925.md",
+  "version_ids": [
+    "de-luckhardt-freies-lied-ca1925"
+  ],
+  "facsimiles_obtained": 1,
+  "facsimile_count_unit": "one target historical-publication PDF; not pages, websites or independent translations",
+  "full_text_version_ids": [
+    "de-luckhardt-freies-lied-ca1925"
+  ],
+  "snapshots": [
+    {
+      "url": "https://freidok.uni-freiburg.de/files/224398/atw4-r3GvZ621wvx/V3-5624-c.pdf",
+      "snapshot_filename": "freiburg-224398.pdf",
+      "snapshot_bytes": 152806197,
+      "snapshot_sha256": "a6fe842c1142e14c8b2dc740e034fa75487fe157dfae91c3471af50c084f1de0",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://freidok.uni-freiburg.de/jsonApi/v1/publications?publicationId=224398&fieldset=lp&maxRows=1&lang=de",
+      "snapshot_filename": "freiburg-224398-api.json",
+      "snapshot_bytes": 5958,
+      "snapshot_sha256": "871f96c4e52793f30f218357f00ab244c57f3e26ed516a65911a364a4962afb1",
+      "encoding": "utf-8-json",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://chronotopos.eu/cts/article/view/176",
+      "snapshot_filename": "ceuppens-2025-article.html",
+      "snapshot_bytes": 34656,
+      "snapshot_sha256": "4f1d5474306242d91af8124419d16b22e4d3001edc67ff58d83773e1b1d75b5f",
+      "encoding": "utf-8-html",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://chronotopos.eu/cts/article/download/176/133/584",
+      "snapshot_filename": "ceuppens-2025.pdf",
+      "snapshot_bytes": 593102,
+      "snapshot_sha256": "f4269bf6dc0b0f22667de3af68776b52c80bf4056e41d70005d4dd1e095c2c85",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://freidok.uni-freiburg.de/files/14630/78vebaSbLNVFVwnn/ZPKM_Arbeiterliederb%C3%BCcher_bis_1945.pdf",
+      "snapshot_filename": "freiburg-14630.pdf",
+      "snapshot_bytes": 474468,
+      "snapshot_sha256": "0e6f9a3296a12e79eb6fe00ec5f88d8a3d61716be0ba6230a50a72e5c2378d80",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://freidok.uni-freiburg.de/jsonApi/v1/publications?publicationId=154778&fieldset=lp&maxRows=1&lang=de",
+      "snapshot_filename": "freiburg-154778-api.json",
+      "snapshot_bytes": 6195,
+      "snapshot_sha256": "d69b74b404fbfff3aeb519ec0d04333549a440fd586f73a54de6b4b10fed21f3",
+      "encoding": "utf-8-json",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.musik-von-unten.de/Wacht%20auf.htm",
+      "snapshot_filename": "lancken-wacht.html",
+      "snapshot_bytes": 45658,
+      "snapshot_sha256": "3276eaec561d834bcf30aa0db6b9a2706b80c892c07fdc4c05b35190123a48ff",
+      "encoding": "windows-1252-html",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.copyright.gov/circs/circ22.pdf",
+      "snapshot_filename": "copyright-circ22.pdf",
+      "snapshot_bytes": 396206,
+      "snapshot_sha256": "52534d28df4f4326f2edd9d71f7a89f58b645f1ba4d67b451befa6f9ab6ee543",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    }
+  ],
+  "serial_parts": [],
+  "date_conflicts": [],
+  "pdf_evidence": [
+    {
+      "url": "https://freidok.uni-freiburg.de/files/224398/atw4-r3GvZ621wvx/V3-5624-c.pdf",
+      "source_id": "freiburg-freies-lied-ca1925",
+      "snapshot_filename": "freiburg-224398.pdf",
+      "pdf_bytes": 152806197,
+      "pdf_sha256": "a6fe842c1142e14c8b2dc740e034fa75487fe157dfae91c3471af50c084f1de0",
+      "pdf_sha1": "2dd21ab2ca1b69dda6770188c66e4e1776d7d939",
+      "pdf_pages": 67,
+      "pdf_distributed": false,
+      "counts_as_facsimile": true,
+      "classification": "digitized-historical-publication",
+      "publication_locator": "Freies Lied, song No.24, printed pp.33–34; institutional approximate dating ca.1925",
+      "visually_reviewed_pdf_pages": [
+        2,
+        3,
+        6,
+        18,
+        19
+      ],
+      "page_mapping": [
+        {
+          "pdf_page": 2,
+          "printed_page": null,
+          "content": "undated title page and publisher/printer"
+        },
+        {
+          "pdf_page": 3,
+          "printed_page": null,
+          "content": "printed copyright notice and handwritten ca.1925 annotation"
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 33,
+          "content": "right half: stanzas 1,2 and first six lines of stanza 3"
+        },
+        {
+          "pdf_page": 19,
+          "printed_page": 34,
+          "content": "left half: stanza 3 continuation, stanza 4 and E. Luckhardt signature"
+        }
+      ],
+      "stanza_mapping_verified": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "review_scope": "Title, publication details, catalogue date qualification, contents and all four stanzas/refrain wording on pp.33–34 visually checked. Long s normalized; three usw. repetitions retained. Music and earliest publication excluded."
+    }
+  ],
+  "unresolved_readings": [],
+  "publication_dating": {
+    "year": 1925,
+    "qualifier": "ca",
+    "basis": "institution-catalogue",
+    "url": "https://freidok.uni-freiburg.de/jsonApi/v1/publications?publicationId=224398&fieldset=lp&maxRows=1&lang=de",
+    "exact_printed_year": null,
+    "catalogue_wording": "Erschienen ca. 1925.",
+    "handwritten_annotation": "[ca 1925]",
+    "handwritten_annotation_is_printed_date": false
+  },
+  "stanza_mapping_details": [
+    {
+      "printed_stanza": 2,
+      "predominant_french_stanza": 2,
+      "additional_french_stanzas": [
+        3
+      ],
+      "scope": "Second half also adapts rights, obligations and servitude themes from French stanza 3; basic mapping records predominant correspondence only."
+    }
+  ],
+  "source_file_rights_statement": {
+    "metadata": "CC0",
+    "files": "InC",
+    "url": "https://rightsstatements.org/page/InC/1.0/",
+    "scope": "Institutional file statement, not an open licence for the whole scan. Underlying historical text assessed separately in US."
+  },
+  "earliest_publication_status": "pending; 1906 composition and 1910 publication not verified in an original",
+  "non_target_edition_checks": [
+    {
+      "url": "https://freidok.uni-freiburg.de/data/154778",
+      "scope": "Catalogue only; 1911, 261.–280. Tausend, p.13 assigned to Franz Diederich. PDF not obtained."
+    },
+    {
+      "url": "https://freidok.uni-freiburg.de/data/224698",
+      "scope": "1921, 501.–550. Tausend PDF obtained; contents checked at PDF p.2, Nun reckt empor listed for printed p.17. Lyric page not fully collated; does not count as Luckhardt facsimile."
+    },
+    {
+      "url": "https://freidok.uni-freiburg.de/data/14630",
+      "scope": "1910 V3/5313(1 holding listed; target edition lyric page not obtained."
+    }
+  ],
+  "comparison_notes": [
+    "Original reading preserves first-line comma, Können nur wir, and Partein. after inspection of enlarged pages.",
+    "Basic [1,2,4,6] mapping is predominant; stanza 2 also draws from French stanza 3.",
+    "2022 book marks 1910 but cites a web page consulted in 2020; no full comparison completed.",
+    "Lancken Rot Front 1925 and institutional V7/2913 ca.1927 claims concern a different edition; not adjudicated without its title page."
+  ]
+}

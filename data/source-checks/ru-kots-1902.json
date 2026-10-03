@@ -1,0 +1,115 @@
+{
+  "id": "ru-kots-1902",
+  "reviewed_on": "2026-10-04",
+  "scope": "Printed title, issue, month, city and all three stanzas/refrains visually transcribed; old spelling retained. Translator attribution from research, not a printed individual byline; earliest publication not determined.",
+  "report_path": "docs/research/ru-kots-1902.md",
+  "version_ids": [
+    "ru-kots-1902"
+  ],
+  "facsimiles_obtained": 1,
+  "facsimile_count_unit": "one target historical-publication PDF; not pages, websites or independent translations",
+  "full_text_version_ids": [
+    "ru-kots-1902"
+  ],
+  "snapshots": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/%D0%96%D0%B8%D0%B7%D0%BD%D1%8C_1902_%E2%84%96_05.pdf?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+      "snapshot_filename": "zhizn-1902-05.pdf",
+      "snapshot_bytes": 9988933,
+      "snapshot_sha256": "6dbcd0f43c07f5773bb6bfcb22264677c1354bc4e6aee4fb6cd83ba8064be9e6",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://chronotopos.eu/cts/article/view/173",
+      "snapshot_filename": "boulogne-2025-article.html",
+      "snapshot_bytes": 37184,
+      "snapshot_sha256": "b8769c4aac2b2424e5fefd64947e0284b51a56680e6352bf007edb1a90b6ab8f",
+      "encoding": "utf-8-html",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://chronotopos.eu/cts/article/download/173/130/581",
+      "snapshot_filename": "boulogne-2025.pdf",
+      "snapshot_bytes": 772231,
+      "snapshot_sha256": "0c792669deb180d67fb407fb9e482d52fa92c655f85c45dd34b052f2c60a77fc",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.copyright.gov/circs/circ22.pdf",
+      "snapshot_filename": "copyright-circ22.pdf",
+      "snapshot_bytes": 396206,
+      "snapshot_sha256": "52534d28df4f4326f2edd9d71f7a89f58b645f1ba4d67b451befa6f9ab6ee543",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    }
+  ],
+  "serial_parts": [],
+  "date_conflicts": [],
+  "pdf_evidence": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/%D0%96%D0%B8%D0%B7%D0%BD%D1%8C_1902_%E2%84%96_05.pdf?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+      "source_id": "zhizn-1902-05-commons",
+      "snapshot_filename": "zhizn-1902-05.pdf",
+      "pdf_bytes": 9988933,
+      "pdf_sha256": "6dbcd0f43c07f5773bb6bfcb22264677c1354bc4e6aee4fb6cd83ba8064be9e6",
+      "pdf_sha1": "7be1cd7b2d070e1c7f344decf9a00ee5e98d1149",
+      "pdf_pages": 294,
+      "pdf_distributed": false,
+      "counts_as_facsimile": true,
+      "classification": "digitized-historical-publication",
+      "publication_locator": "Жизнь, №5, август 1902, Лондон; second song Интернаціоналъ, printed p.201",
+      "visually_reviewed_pdf_pages": [
+        4,
+        7,
+        8,
+        9,
+        211,
+        212,
+        213
+      ],
+      "page_mapping": [
+        {
+          "pdf_page": 9,
+          "printed_page": null,
+          "content": "title: issue 5, August 1902, London"
+        },
+        {
+          "pdf_page": 211,
+          "printed_page": 199,
+          "content": "first song; excluded from Internationale transcription"
+        },
+        {
+          "pdf_page": 212,
+          "printed_page": 200,
+          "content": "first song continuation; excluded"
+        },
+        {
+          "pdf_page": 213,
+          "printed_page": 201,
+          "content": "second song: all three stanzas and three full refrains"
+        }
+      ],
+      "stanza_mapping_verified": [
+        1,
+        2,
+        6
+      ],
+      "review_scope": "Printed title, issue, month, city and all three stanzas/refrains visually transcribed; old spelling retained. Translator attribution from research, not a printed individual byline; earliest publication not determined."
+    }
+  ],
+  "unresolved_readings": [],
+  "translator_attribution": {
+    "as_printed": null,
+    "attributed_in_research": "Аркадий Коц",
+    "url": "https://chronotopos.eu/cts/article/view/173",
+    "scope": "No individual translator byline on inspected printed pp.199–201; attribution from modern research."
+  },
+  "comparison_notes": [
+    "Original title page says London; modern 2022 book citation via 1967 collection says London–Geneva. Both descriptions retained.",
+    "A separate Листки жизни 1902 No.2 claim remains pending; this issue is not declared earliest.",
+    "1931/1937 completed version remains a separate index-only identity; no words imported from it.",
+    "Full collation of AWS and 2022/1967 reprints remains pending."
+  ]
+}

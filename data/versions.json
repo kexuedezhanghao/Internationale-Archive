@@ -451,34 +451,68 @@
   },
   {
     "id": "ru-kots-1902",
-    "title_zh": "Коц 俄译：1902年三段版",
+    "title_zh": "Коц俄译：1902年《Жизнь》第5期三段刊本",
     "language": {
       "tag": "ru",
       "label_zh": "俄语"
     },
     "original_author": "Eugène Pottier",
-    "translator": "Аркадий Яковлевич Коц",
+    "translator": "Аркадий Яковлевич Коц（据研究归属；原页无单独译者署名）",
     "text_author": "Аркадий Яковлевич Коц",
     "source_publication_year": 1902,
-    "edition_label": "Antiwar Songs 标注1902；俄语维基文库亦记早期译本发表于1902年",
+    "edition_label": "Жизнь, №5, август 1902, Лондон，印刷第201页；据原刊扫描转录",
     "stanza_mapping": [
       1,
       2,
       6
     ],
     "kind": "translation",
-    "lyrics_path": null,
+    "lyrics_path": "lyrics/ru/ru-kots-1902.md",
     "review": {
-      "status": "identity-provisional",
-      "date": "2026-10-03",
-      "facsimile_collation": "pending"
+      "status": "facsimile-reviewed",
+      "date": "2026-10-04",
+      "facsimile_collation": "reviewed",
+      "source_check_record": "data/source-checks/ru-kots-1902.json",
+      "source_check_report": "docs/research/ru-kots-1902.md",
+      "scope": "Printed title, issue, month, city and all three stanzas/refrains visually transcribed; old spelling retained. Translator attribution from research, not a printed individual byline; earliest publication not determined.",
+      "unresolved_reading_ids": []
     },
     "rights": {
-      "status": "unassessed",
-      "scope": "this specific translation/edition",
-      "evidence_urls": []
+      "status": "public-domain-supported",
+      "scope": "specified historical lyric wording in US only; not scan reuse, modern editorial matter, arrangements or recordings",
+      "jurisdictions_considered": [
+        "US"
+      ],
+      "basis": [
+        "Publication in August 1902 verified visually on title page of the downloaded historical publication.",
+        "Commons PD-RusEmpire tag is not adopted as a global basis for this London publication.",
+        "US Copyright Office Circular 22, revised April 2026, page 10: works published or copyrighted before 1931-01-01 have expired in US.",
+        "No inference about CN or global terms."
+      ],
+      "evidence_urls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/68/%D0%96%D0%B8%D0%B7%D0%BD%D1%8C_1902_%E2%84%96_05.pdf?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+        "https://www.copyright.gov/circs/circ22.pdf"
+      ]
     },
     "sources": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/%D0%96%D0%B8%D0%B7%D0%BD%D1%8C_1902_%E2%84%96_05.pdf?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+        "role": "original-publication-facsimile",
+        "source_id": "zhizn-1902-05-commons"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Жизнь_1902_№_05.pdf",
+        "role": "scan-file-metadata",
+        "source_id": "zhizn-1902-05-commons"
+      },
+      {
+        "url": "https://chronotopos.eu/cts/article/view/173",
+        "role": "translator-attribution-research"
+      },
+      {
+        "url": "https://www.copyright.gov/circs/circ22.pdf",
+        "role": "us-publication-year-rights-basis"
+      },
       {
         "url": "https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg1930",
         "role": "text"
@@ -489,9 +523,18 @@
       }
     ],
     "notes": [
-      "原站转录可见混入拉丁字母与疑似错字；未把这些字形直接作为已校勘正文。",
-      "待查1902年原刊与词句，不从后来的六段本拼接冒充原刊。"
-    ]
+      "三段与三次副歌据原刊转录，对应法文1、2、6；保留旧拼写，未用现代网页或后补六段本拼接。",
+      "Коц归属据研究文献；所见歌词页及同栏目前两页没有单独译者署名。",
+      "本次确证1902年8月《Жизнь》第5期刊载，不声称已解决《Листки жизни》第2期线索或最早发表。",
+      "2022年书经1967年选本重排，逐字比较仍待完成；题名页伦敦与书中伦敦—日内瓦分别保存。",
+      "AWS网页混入字形等问题尚未全面逐字比较；历史词文准入不覆盖全部网页措辞。"
+    ],
+    "composition_year": null,
+    "source_publication_month": 8,
+    "related_version_ids": [
+      "ru-kots-complete-publication-disputed"
+    ],
+    "lyrics_sha256": "e5bc87944a6a03d976e91995fc00ac294eef38b055b5d647b4cddfd2f583a5a8"
   },
   {
     "id": "ru-kots-complete-publication-disputed",
@@ -1113,5 +1156,109 @@
     ],
     "revision_author": null,
     "lyrics_sha256": "303286a88a5ca797b3b0d0b1df8cb13ce6328ba729c845793297888a7bf52edc"
+  },
+  {
+    "id": "de-luckhardt-freies-lied-ca1925",
+    "title_zh": "E. Luckhardt德译：《Freies Lied》约1925年四段刊本",
+    "language": {
+      "tag": "de",
+      "label_zh": "德语"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "E. Luckhardt（原书署名；Emil Luckhardt）",
+    "text_author": "Emil Luckhardt",
+    "composition_year": null,
+    "source_publication_year": null,
+    "source_publication_year_estimate": {
+      "year": 1925,
+      "qualifier": "ca",
+      "basis": "institution-catalogue",
+      "url": "https://freidok.uni-freiburg.de/jsonApi/v1/publications?publicationId=224398&fieldset=lp&maxRows=1&lang=de"
+    },
+    "edition_label": "Freies Lied，Joh. Schöbor，Dresden-Dobritz，约1925年（馆方估年；题名页无年），第24首，印刷第33–34页",
+    "stanza_mapping": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "stanza_mapping_details": [
+      {
+        "printed_stanza": 2,
+        "predominant_french_stanza": 2,
+        "additional_french_stanzas": [
+          3
+        ],
+        "scope": "Second half also adapts rights, obligations and servitude themes from French stanza 3; basic mapping records predominant correspondence only."
+      }
+    ],
+    "kind": "translation",
+    "lyrics_path": "lyrics/de/de-luckhardt-freies-lied-ca1925.md",
+    "review": {
+      "status": "facsimile-reviewed",
+      "date": "2026-10-04",
+      "facsimile_collation": "reviewed",
+      "source_check_record": "data/source-checks/de-luckhardt-freies-lied-ca1925.json",
+      "source_check_report": "docs/research/de-luckhardt-freies-lied-ca1925.md",
+      "scope": "Title, publication details, catalogue date qualification, contents and all four stanzas/refrain wording on pp.33–34 visually checked. Long s normalized; three usw. repetitions retained. Music and earliest publication excluded.",
+      "unresolved_reading_ids": []
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "specified historical lyric wording in US only; not scan reuse, modern editorial matter, arrangements or recordings",
+      "jurisdictions_considered": [
+        "US"
+      ],
+      "basis": [
+        "Institutional catalogue explicitly dates this historical edition approximately 1925; no exact publication year is printed on title page.",
+        "US admission relies on the catalogue dating together with inspected historical pages; reassess if dating is corrected.",
+        "FreiDok marks the scan file InC; this is not treated as an open licence for the whole PDF or a global term finding.",
+        "US Copyright Office Circular 22, revised April 2026, page 10: works published or copyrighted before 1931-01-01 have expired in US.",
+        "No inference about CN or global terms."
+      ],
+      "evidence_urls": [
+        "https://freidok.uni-freiburg.de/jsonApi/v1/publications?publicationId=224398&fieldset=lp&maxRows=1&lang=de",
+        "https://freidok.uni-freiburg.de/files/224398/atw4-r3GvZ621wvx/V3-5624-c.pdf",
+        "https://www.copyright.gov/circs/circ22.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://freidok.uni-freiburg.de/data/224398",
+        "role": "institutional-edition-metadata",
+        "source_id": "freiburg-freies-lied-ca1925"
+      },
+      {
+        "url": "https://freidok.uni-freiburg.de/jsonApi/v1/publications?publicationId=224398&fieldset=lp&maxRows=1&lang=de",
+        "role": "approximate-publication-dating",
+        "source_id": "freiburg-freies-lied-ca1925"
+      },
+      {
+        "url": "https://freidok.uni-freiburg.de/files/224398/atw4-r3GvZ621wvx/V3-5624-c.pdf",
+        "role": "original-publication-facsimile",
+        "source_id": "freiburg-freies-lied-ca1925"
+      },
+      {
+        "url": "https://chronotopos.eu/cts/article/view/176",
+        "role": "translation-history-research"
+      },
+      {
+        "url": "https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg1937",
+        "role": "related-web-version-not-fully-collated"
+      },
+      {
+        "url": "https://www.copyright.gov/circs/circ22.pdf",
+        "role": "us-publication-year-rights-basis"
+      }
+    ],
+    "notes": [
+      "原书末署E. Luckhardt；Lavant与Diederich译本另存，不能因同名合并。",
+      "四段主要对应1、2、4、6；第二段后半还涉及法文第三段，不能当作严格逐段一一对应。",
+      "完整保留Gewölbe第三段、第一处完整副歌与后面三处usw.；不展开原书缩写。",
+      "保留Partein、Sonn、ohn等原词形；第一行末逗号及Können nur wir词序据放大原图复核。",
+      "原站1906与本书1910标记仍属来源所报；本次后出的约1925年歌集不构成1906创作或1910初刊证明。",
+      "题头D-dur. G. Ad. Uthmann.仅照录版面标记，未将Uthmann列为原曲作者。"
+    ],
+    "lyrics_sha256": "b5946a0a3be914711072329f9a1dd6e7b6f6bcb4314628233f24d1cb47cbc30d"
   }
 ]
