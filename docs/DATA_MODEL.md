@@ -23,6 +23,25 @@
 
 同一译本的转写、变体和录音可保持多个来源观察，但关联同一身份记录。部分“Supporting material”是真正的资料章节，部分是用户评论，均不能当作译本。
 
+## 图书来源记录
+
+`data/discoveries/song-yiwei-2022.json` 独立保存2022年史料书前两编的44项文献条目，与网页目录分开计数。它们不自动增加 `data/stats.json` 中的独立版本或历史全文数量。
+
+| 字段 | 含义 |
+|---|---|
+| `book_entry` / `section` | 书中的编号及分编；ID按来源和编号保持稳定 |
+| `agent_or_publication_as_reported` | 目录所写的署名、出版物或活动，不一律解释为译者 |
+| `year_label_as_reported` | 目录年代标记；不直接等同创作年或本书实际采用的刊本年 |
+| `book_page_start` / `pdf_page_start` | 从1开始的起始页；本次扫描正文偏移为17，前置页除外 |
+| `review_status` | `toc-reviewed` 表示目录已目视登记，未宣称全文校勘 |
+| `header_review_status` | `visually-reviewed` 表示所引题头/出处已目视检查，`pending` 表示尚待检查 |
+| `reported_provenance` | 本书报告的原刊、中间编辑本、馆藏或网页出处；附本书/PDF证据页码，尚未独立核实原件 |
+| `related_version_ids` | 与既有版本可能相关，供比较导航；不等同已证明为同一文本 |
+| `canonical_version_ids` | 完成身份比较后才能建立的明确关联，本轮均留空 |
+| `facsimile_collation` / `local_lyrics_path` | 原刊逐字校勘仍待进行；本轮没有收入书中歌词全文 |
+
+扫描SHA-256、字节数、397页总数、目录检查范围及页码实测点在 `song-yiwei-2022.snapshot.json`。源PDF与OCR输出不分发。文字索引由 `scripts/build_book_catalogue.py` 生成。
+
 ## 版本身份
 
 `data/versions.json` 中的一条记录对应已辨识或暂定的某份文本/版次。保存语言、译者、底本、年代、段落对应、正文路径、校勘状态、权利与证据。不同版本日期有冲突时可以使用 `null` 和明确的待办说明，不选一个看起来合理的年份填上去。
@@ -33,4 +52,4 @@
 
 `antiwarsongs.snapshot.json` 记录抓取时间、整页字节数与SHA-256，以及导入时的数量核对。HTML原件留在临时研究目录，不随发布包分发。网页后来新增、修订或删除的条目应形成可追踪的目录更新，保留已有人工判断。
 
-`catalogue/`、`catalogue.html` 和 `data/stats.json` 从数据库生成。CSV是便于阅读的导出；JSON保留完整字段。
+Antiwar Songs 的文字/CSV目录、`catalogue.html` 和 `data/stats.json` 从网页发现数据库与版本数据库生成。图书目录使用独立生成脚本，目前未合入离线网页检索。JSON保留完整字段。

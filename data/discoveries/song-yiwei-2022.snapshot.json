@@ -1,0 +1,89 @@
+{
+  "source_id": "song-yiwei-2022",
+  "reviewed_on": "2026-10-03",
+  "source_material": "user-provided-scan",
+  "source_pdf_sha256": "75af1874b63d7c13255ed78c7c6ce0e35297a5a58fb6ecbbb07485be3f298e0b",
+  "source_pdf_bytes": 51752151,
+  "source_pdf_pages": 397,
+  "source_pdf_distributed": false,
+  "reviewed_toc_pdf_pages": [
+    12,
+    13,
+    14
+  ],
+  "source_entries": 44,
+  "chinese_publication_entries": 33,
+  "foreign_source_entries": 11,
+  "foreign_entries_by_language": {
+    "fr": 2,
+    "ru": 6,
+    "en": 2,
+    "de": 1
+  },
+  "visually_reviewed_header_entries": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.33",
+    "2.4",
+    "2.6",
+    "2.9",
+    "2.10",
+    "2.11"
+  ],
+  "page_mapping": {
+    "indexing": "1-based",
+    "scope": "Numbered body pages referenced by the first two sections; front matter excluded.",
+    "pdf_page_offset": 17,
+    "visually_checked_pairs": [
+      {
+        "book_page": 3,
+        "pdf_page": 20
+      },
+      {
+        "book_page": 6,
+        "pdf_page": 23
+      },
+      {
+        "book_page": 10,
+        "pdf_page": 27
+      },
+      {
+        "book_page": 14,
+        "pdf_page": 31
+      },
+      {
+        "book_page": 17,
+        "pdf_page": 34
+      },
+      {
+        "book_page": 79,
+        "pdf_page": 96
+      },
+      {
+        "book_page": 96,
+        "pdf_page": 113
+      },
+      {
+        "book_page": 100,
+        "pdf_page": 117
+      },
+      {
+        "book_page": 109,
+        "pdf_page": 126
+      },
+      {
+        "book_page": 112,
+        "pdf_page": 129
+      },
+      {
+        "book_page": 115,
+        "pdf_page": 132
+      }
+    ]
+  },
+  "review_scope": "All 44 table-of-contents entries manually reviewed; 10 entry headers/provenance visually checked. OCR is navigation only, not a verified full-text transcription. The third section and appendices are not fully indexed.",
+  "independent_version_total": null,
+  "local_full_texts_added": 0
+}

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check provenance, reference integrity, counts and full-text admission rules."""
 import csv
+from collections import Counter
 import hashlib
 import json
 import re
@@ -30,6 +31,7 @@ def main():
     assert stats["supporting_entries"] + stats["entries_with_lyrics_at_source"] == len(entries)
     assert stats["independent_version_total"] is None, "Do not publish unreviewed entries as independent versions"
     source_ids = {s["id"] for s in sources}
+    assert len(source_ids) == len(sources), "Duplicate source IDs"
     for r in entries:
         assert r["source_id"] in source_ids
         assert urlparse(r["source_url"]).fragment == r["source_anchor"]
@@ -37,6 +39,43 @@ def main():
         assert r["has_lyrics_at_source"] == bool(r["lyric_blocks_at_source"])
         assert r["heading_metadata_only"] and len(" ".join(r["heading_as_reported"])) <= 650
         assert r["local_lyrics_path"] is None, "Unreviewed AWS source texts must not masquerade as local full texts"
+    book_entries = load("data/discoveries/song-yiwei-2022.json")
+    book_snapshot = load("data/discoveries/song-yiwei-2022.snapshot.json")
+    book_ids = [r["id"] for r in book_entries]
+    assert len(book_ids) == len(set(book_ids)) == book_snapshot["source_entries"] == 44
+    assert not set(book_ids) & set(ids), "Discovery IDs collide across sources"
+    assert [r["book_entry"] for r in book_entries] == [f"1.{n}" for n in range(1, 34)] + [f"2.{n}" for n in range(1, 12)]
+    assert sum(r["section"] == 1 for r in book_entries) == book_snapshot["chinese_publication_entries"] == 33
+    assert sum(r["section"] == 2 for r in book_entries) == book_snapshot["foreign_source_entries"] == 11
+    assert dict(Counter(r["language_code"] for r in book_entries if r["section"] == 2)) == book_snapshot["foreign_entries_by_language"]
+    assert book_snapshot["independent_version_total"] is None and book_snapshot["local_full_texts_added"] == 0
+    assert not book_snapshot["source_pdf_distributed"]
+    assert re.fullmatch(r"[0-9a-f]{64}", book_snapshot["source_pdf_sha256"])
+    assert book_snapshot["source_pdf_pages"] == 397 and book_snapshot["source_pdf_bytes"] == 51752151
+    offset = book_snapshot["page_mapping"]["pdf_page_offset"]
+    assert offset == 17
+    for pair in book_snapshot["page_mapping"]["visually_checked_pairs"]:
+        assert pair["pdf_page"] == pair["book_page"] + offset
+    reviewed = []
+    for r in book_entries:
+        assert r["source_id"] == book_snapshot["source_id"] and r["source_id"] in source_ids
+        assert r["pdf_page_start"] == r["book_page_start"] + offset
+        assert 1 <= r["pdf_page_start"] <= book_snapshot["source_pdf_pages"]
+        assert r["review_status"] == "toc-reviewed"
+        assert r["header_review_status"] in {"visually-reviewed", "pending"}
+        assert bool(r["reported_provenance"]) == (r["header_review_status"] == "visually-reviewed")
+        if r["header_review_status"] == "visually-reviewed":
+            reviewed.append(r["book_entry"])
+        for p in r["reported_provenance"]:
+            assert p["citation"] and p["kind"].endswith("-reported")
+            assert p["evidence_book_page"] == r["book_page_start"]
+            assert p["evidence_pdf_page"] == r["pdf_page_start"]
+        assert set(r["related_version_ids"] + r["canonical_version_ids"]) <= set(vids)
+        assert r["local_lyrics_path"] is None and r["rights_status"] == "unassessed"
+        assert r["facsimile_collation"] == "pending"
+    assert reviewed == book_snapshot["visually_reviewed_header_entries"]
+    from build_book_catalogue import render as render_book_catalogue
+    assert (ROOT / "catalogue/book-song-2022.md").read_text(encoding="utf-8") == render_book_catalogue(book_entries), "Stale book catalogue"
     allowed = {"public-domain-supported", "open-license-verified", "permission-verified"}
     listed_files = set()
     for v in versions:
@@ -78,7 +117,7 @@ def main():
     zh = (ROOT / "lyrics/zh/zh-qu-1923.md").read_text(encoding="utf-8")
     assert zh.count("起來，受人污辱咒罵的！") == 1 and zh.count("人類方重興！") == 6
     assert "✽✽✽" in zh
-    print(f"PASS: {len(entries)} discovery entries; {snapshot['lyric_blocks']} source lyric blocks accounted for; {len(versions)} identity records; {len(listed_files)} admitted texts; CSV, embedded catalogue and local links consistent.")
+    print(f"PASS: {len(entries)} AWS discovery entries; {snapshot['lyric_blocks']} source lyric blocks accounted for; {len(book_entries)} book source entries ({len(reviewed)} headers reviewed); {len(versions)} identity records; {len(listed_files)} admitted texts; CSV, embedded catalogue, book index and local links consistent.")
 
 
 if __name__ == "__main__":

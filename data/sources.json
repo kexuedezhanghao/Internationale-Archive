@@ -4,7 +4,11 @@
     "name": "Antiwar Songs / Canzoni Contro la Guerra — L'Internationale",
     "url": "https://www.antiwarsongs.org/canzone.php?id=2003&lang=en",
     "role": "discovery-catalogue",
-    "credited_maintainers": ["Lorenzo Masetti", "Riccardo Venturi", "Arisztid"],
+    "credited_maintainers": [
+      "Lorenzo Masetti",
+      "Riccardo Venturi",
+      "Arisztid"
+    ],
     "retrieved_on": "2026-10-03",
     "import_scope": "Short identifying headings, language labels/codes, date hints, reference links and video links only.",
     "rights_note": "Page-level attribution/reproduction statement observed; not treated as blanket permission for third-party lyrics or recordings.",
@@ -28,5 +32,27 @@
     "readme_blob_sha": "a97debf7ab12a8c4a1301049f9e84768805eca6f",
     "import_scope": "Index metadata and links only.",
     "rights_note": "Author's README says its original work has no specified open license yet."
+  },
+  {
+    "id": "song-yiwei-2022",
+    "name": "《国际歌》在中国：《国际歌》的译本、底本与传播",
+    "editor": "宋逸炜",
+    "reviewer": "孙江",
+    "publisher": "南京大学出版社",
+    "publication_place": "南京",
+    "edition": "2022年5月第1版，第1次印刷",
+    "isbn": "978-7-305-25673-8",
+    "role": "historical-source-guide-and-reprinted-documents",
+    "reviewed_on": "2026-10-03",
+    "access_basis": "user-provided-scan",
+    "bibliography_evidence_pdf_pages": [
+      1,
+      2,
+      3
+    ],
+    "import_scope": "Bibliographic facts; 33 Chinese publication entries and 11 foreign source-text entries from the contents; 10 selected entry headers/citations. No source scans or bulk book/OCR text.",
+    "rights_note": "Metadata only. Modern editorial text and the scan are not distributed. Any historical lyrics require separate admission and collation.",
+    "snapshot_manifest": "data/discoveries/song-yiwei-2022.snapshot.json",
+    "catalogue_path": "catalogue/book-song-2022.md"
   }
 ]

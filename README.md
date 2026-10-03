@@ -11,6 +11,7 @@
 | Antiwar Songs 来源线索 | 509 | 版本、转写、回译、改编、评论、视频和资料条目 |
 | 原站附有歌词的条目 | 388 | 这些全文尚未全部收录或核对，不能算作388个独立译本 |
 | 其他资料条目 | 121 | 无独立歌词块的评论、介绍和音视频等线索 |
+| 2022年史料书来源索引 | 44 | 33项中文文献、11项外文底本；目录已核，10项题头与出处已检查，尚未计作独立译本 |
 | 已建立身份记录 | 7 | 四份历史文本、两个俄语历史版本线索、一份个人现代译配 |
 | 已收录历史全文 | 4 | 法语鲍狄埃、英语 Kerr、德语 Lavant、中文瞿秋白 |
 
@@ -18,6 +19,7 @@ Antiwar Songs 的索引自称170种语言；页面的语言筛选标签有138种
 
 - 打开 [离线检索页](catalogue.html)：搜索语言、译者、年代和版本，并筛选来源类型。
 - 浏览 [完整文字目录](catalogue/README.md) 或 [已整理版本](catalogue/versions.md)。
+- 查阅 [《国际歌》在中国的44项文献与底本索引](catalogue/book-song-2022.md)：含书内/PDF页码、已检查的原刊线索及年代疑点。
 - 下载 [来源目录 CSV](catalogue/discoveries.csv)，或读取 [发现数据库](data/discoveries/antiwarsongs.json) 和 [版本数据库](data/versions.json)。
 - 查看 [收集进度与待办](docs/ROADMAP.md)、[字段含义](docs/DATA_MODEL.md) 和 [权利记录规则](RIGHTS.md)。
 
@@ -66,6 +68,6 @@ python scripts/validate.py
 
 起点是 [Antiwar Songs / Canzoni Contro la Guerra 的《国际歌》专题](https://www.antiwarsongs.org/canzone.php?id=2003&lang=en)。感谢 Lorenzo Masetti、Riccardo Venturi、Arisztid 及多年贡献者的收集、辨识和研究。本档案是独立整理项目，与原站无隶属关系。
 
-同时参考各语言 Wikisource、[LyricsTranslate 汇编](https://lyricstranslate.com/en/internationale-lyrics.html)、[中文马克思主义文库专题](https://www.marxists.org/chinese/pdf/international.htm) 与原始出版物。当前批量导入范围只有 Antiwar Songs；其他站点没有被宣称已全量导入。
+同时参考各语言 Wikisource、[LyricsTranslate 汇编](https://lyricstranslate.com/en/internationale-lyrics.html)、[中文马克思主义文库专题](https://www.marxists.org/chinese/pdf/international.htm) 与原始出版物。网页批量导入范围只有 Antiwar Songs；另已人工登记宋逸炜编《国际歌》在中国（南京大学出版社，2022）的前两编目录。该书第三编与附录仍待完整索引，其他站点也未全量导入。
 
 逐条来源见 [sources.json](data/sources.json) 与各版本记录。许可范围见 [LICENSE.md](LICENSE.md)。
