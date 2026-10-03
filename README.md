@@ -23,6 +23,7 @@ Antiwar Songs 的索引自称170种语言；页面的语言筛选标签有138种
 - 阅读[瞿秋白1923年前文与谱词的影印对照](docs/collation/zh-qu-1923.md)：含原刊页码、扫描来源、字形及副歌差异。
 - 阅读[鲍狄埃1887年刊本转录与复核记录](docs/collation/fr-pottier-1887.md)：六段正文已检查，与1908年网页差异分别记录。
 - 阅读[1920–1921年中文译本与1962年刊载的查找记录](docs/research/early-zh-1920-1962.md)：含连载转录、段序与1921年首刊日期冲突。
+- 阅读[1920年《华工旬刊》两期原刊影印登记](docs/research/zh-zhang-taoyu-1920.md)：八个整版已取得，六章页次、段序与逃獄署名已核；网页漏文另记，全文转录仍待完成。
 - 阅读[1922年《华工醒时报》原报局部影像登记](docs/research/zh-huagong-xingshi-1922.md)：已取得歌词区截图，整版、报头与译者待核，全文未收入。
 - 下载 [来源目录 CSV](catalogue/discoveries.csv)，或读取 [发现数据库](data/discoveries/antiwarsongs.json) 和 [版本数据库](data/versions.json)。
 - 查看 [收集进度与待办](docs/ROADMAP.md)、[字段含义](docs/DATA_MODEL.md) 和 [权利记录规则](RIGHTS.md)。

@@ -1,0 +1,392 @@
+{
+  "id": "zh-zhang-taoyu-1920",
+  "reviewed_on": "2026-10-03",
+  "scope": "Two BnF original issues downloaded in full; mastheads, lyric locations, six-chapter order and selected web differences inspected. Complete transcription and rights review pending.",
+  "report_path": "docs/research/zh-zhang-taoyu-1920.md",
+  "version_ids": [
+    "zh-zhang-taoyu-1920"
+  ],
+  "facsimiles_obtained": 8,
+  "facsimile_count_scope": "Eight full original-publication page images from two four-page issues; one existing translation identity, no new full text; analytic crops not counted.",
+  "full_text_version_ids": [],
+  "snapshots": [
+    {
+      "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title+all+%22Hua+gong+xun+kan%22&maximumRecords=10&recordSchema=unimarcxchange",
+      "snapshot_filename": "bnf-sru-0.xml",
+      "snapshot_bytes": 7644,
+      "snapshot_sha256": "87dd665c295a660af52e0333199806a4e14570f1e677234f12222ba91352e012",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb327875744",
+      "snapshot_filename": "bnf-huagong-current.html",
+      "snapshot_bytes": 75594,
+      "snapshot_sha256": "554dcb9e321a142c1e79a1b0d8a281717c3eecffd120da84b09bce6ef667d1e1",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/cb327875744/date",
+      "snapshot_filename": "gallica-huagong-calendar.html",
+      "snapshot_bytes": 213497,
+      "snapshot_sha256": "0daee08c206f54d31ec4549f0439fe99e3b2c5fb06131154121a258c8917f931",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/services/Issues?ark=ark%3A%2F12148%2Fcb327875744%2Fdate&date=1920",
+      "snapshot_filename": "gallica-huagong-1920-issues.xml",
+      "snapshot_bytes": 566,
+      "snapshot_sha256": "eee04b5fdf38d6175a59533621cba5d0bc2b7be1bf5779843355b46920a15729",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292838c/manifest.json",
+      "snapshot_filename": "issue-5-manifest.json",
+      "snapshot_bytes": 6590,
+      "snapshot_sha256": "dab3ade45a7b3444d7486a3908b2847acd9e73b34b157fe1f4a1f971f93e4ded",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/services/OAIRecord?ark=ark%3A%2F12148%2Fbpt6k3292838c",
+      "snapshot_filename": "issue-5-oai.xml",
+      "snapshot_bytes": 2404,
+      "snapshot_sha256": "3b6b212e07c6aa6312500d08b0766497dd74dc7f86d6fb49f3a81cd1230d7a82",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292839s/manifest.json",
+      "snapshot_filename": "issue-6-manifest.json",
+      "snapshot_bytes": 6591,
+      "snapshot_sha256": "0e6b582f11f3522b840a0f1dd3b75dde1de883d5056ca29077b7e964a4b69db3",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/services/OAIRecord?ark=ark%3A%2F12148%2Fbpt6k3292839s",
+      "snapshot_filename": "issue-6-oai.xml",
+      "snapshot_bytes": 2405,
+      "snapshot_sha256": "0902cb51d3d528a5fe3c38d0c66acdc07928f81ab695b09903b5fc765a660b25",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2439981&title=Translation%3A%E5%8B%9E%E5%8B%95%E5%9C%8B%E9%9A%9B%E6%AD%8C",
+      "snapshot_filename": "zhang-taoyu-wikisource-2439981.html",
+      "snapshot_bytes": 65645,
+      "snapshot_sha256": "0dc9fb10f0ab65ffa927a8b1ff8aa740748a81bbcd6d321ea80d2cf7b1630806",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    }
+  ],
+  "serial_parts": [],
+  "date_conflicts": [],
+  "catalogue": {
+    "ark": "cb327875744",
+    "shelfmark": "JO-61037",
+    "digital_shelfmark": "NUMP-20674",
+    "issue_numbers_available": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "issues": [
+    {
+      "issue_number": 5,
+      "publication_date_verified": "1920-11-25",
+      "ark": "bpt6k3292838c",
+      "issue_url": "https://gallica.bnf.fr/ark:/12148/bpt6k3292838c",
+      "manifest_url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292838c/manifest.json",
+      "oai_url": "https://gallica.bnf.fr/services/OAIRecord?ark=ark%3A%2F12148%2Fbpt6k3292838c",
+      "manifest_canvas_count": 4,
+      "downloaded_full_pages": 4,
+      "printed_pages_verified": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rights_as_reported": "domaine public / public domain",
+      "metadata_datestamp": "2026-03-13",
+      "first_indexation_date_as_reported": "02/03/2020",
+      "license_url": "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"
+    },
+    {
+      "issue_number": 6,
+      "publication_date_verified": "1920-12-05",
+      "ark": "bpt6k3292839s",
+      "issue_url": "https://gallica.bnf.fr/ark:/12148/bpt6k3292839s",
+      "manifest_url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292839s/manifest.json",
+      "oai_url": "https://gallica.bnf.fr/services/OAIRecord?ark=ark%3A%2F12148%2Fbpt6k3292839s",
+      "manifest_canvas_count": 4,
+      "downloaded_full_pages": 4,
+      "printed_pages_verified": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rights_as_reported": "domaine public / public domain",
+      "metadata_datestamp": "2026-03-13",
+      "first_indexation_date_as_reported": "02/03/2020",
+      "license_url": "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"
+    }
+  ],
+  "image_evidence": [
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292838c/f1/full/full/0/native.jpg",
+      "snapshot_filename": "issue-5-f1.jpg",
+      "snapshot_bytes": 3704475,
+      "snapshot_sha256": "2a13f3b02abf8fb7e068eddeee0849fb295786e540810028cdbb417038ca3007",
+      "snapshot_sha1": "ef1f83cb969bd3a8d64353015e8654c5d3fb2bba",
+      "width": 4136,
+      "height": 5360,
+      "classification": "original-publication-page",
+      "counts_as_facsimile": true,
+      "issue_number": 5,
+      "printed_page": 1,
+      "iiif_canvas_number": 1,
+      "masthead_date_verified": "1920-11-25",
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Masthead: Chinese/French serial titles, issue number and date; other articles not collated.",
+      "publication_locator_as_reported": "《華工旬刊》第5號，1920-11-25，第1頁（刊頭與頁眉已核）",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292838c/f2/full/full/0/native.jpg",
+      "snapshot_filename": "issue-5-f2.jpg",
+      "snapshot_bytes": 3787056,
+      "snapshot_sha256": "fa1ec16b91e3ebc5b194309d7efa565cdd0de63ac78764303b820c29f73ed557",
+      "snapshot_sha1": "7f11ad4fca215391a53453ce3533ab1a45440411",
+      "width": 4112,
+      "height": 5416,
+      "classification": "original-publication-page",
+      "counts_as_facsimile": true,
+      "issue_number": 5,
+      "printed_page": 2,
+      "iiif_canvas_number": 2,
+      "masthead_date_verified": "1920-11-25",
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Page header, printed page number, date and general layout; other articles not collated.",
+      "publication_locator_as_reported": "《華工旬刊》第5號，1920-11-25，第2頁（刊頭與頁眉已核）",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292838c/f3/full/full/0/native.jpg",
+      "snapshot_filename": "issue-5-f3.jpg",
+      "snapshot_bytes": 3774465,
+      "snapshot_sha256": "7a542e65c443e6b2cf445d56397f353cc2c153f3945dce5c05974e297cd12ad1",
+      "snapshot_sha1": "9ce42b8634a4bd927fb786de14fcea76ae75a3c1",
+      "width": 4064,
+      "height": 5408,
+      "classification": "original-publication-page",
+      "counts_as_facsimile": true,
+      "issue_number": 5,
+      "printed_page": 3,
+      "iiif_canvas_number": 3,
+      "masthead_date_verified": "1920-11-25",
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Page header, printed page number, date and general layout; other articles not collated.",
+      "publication_locator_as_reported": "《華工旬刊》第5號，1920-11-25，第3頁（刊頭與頁眉已核）",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292838c/f4/full/full/0/native.jpg",
+      "snapshot_filename": "issue-5-f4.jpg",
+      "snapshot_bytes": 3753522,
+      "snapshot_sha256": "fa653a89c3510aeac4e485eb8951a339478f77079d44494d5063496ed540989b",
+      "snapshot_sha1": "204acb708d1782096e5bed37641ea9b4ec83d0d6",
+      "width": 4176,
+      "height": 5416,
+      "classification": "original-publication-page",
+      "counts_as_facsimile": true,
+      "issue_number": 5,
+      "printed_page": 4,
+      "iiif_canvas_number": 4,
+      "masthead_date_verified": "1920-11-25",
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Page header; title, signature, chapters 1–3 and reporter note; structure and selected readings compared to fixed web revision, not complete character-by-character collation.",
+      "publication_locator_as_reported": "《華工旬刊》第5號，1920-11-25，第4頁（刊頭與頁眉已核）",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292839s/f1/full/full/0/native.jpg",
+      "snapshot_filename": "issue-6-f1.jpg",
+      "snapshot_bytes": 3793241,
+      "snapshot_sha256": "15cbd09a64c7140d531858b06e26122da666f73944cdd47c3aa6b1a907a422be",
+      "snapshot_sha1": "95029f5346d5cfea975f5d126ca797b380e73fb0",
+      "width": 4192,
+      "height": 5424,
+      "classification": "original-publication-page",
+      "counts_as_facsimile": true,
+      "issue_number": 6,
+      "printed_page": 1,
+      "iiif_canvas_number": 1,
+      "masthead_date_verified": "1920-12-05",
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Masthead: Chinese/French serial titles, issue number and date; other articles not collated.",
+      "publication_locator_as_reported": "《華工旬刊》第6號，1920-12-05，第1頁（刊頭與頁眉已核）",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292839s/f2/full/full/0/native.jpg",
+      "snapshot_filename": "issue-6-f2.jpg",
+      "snapshot_bytes": 3826466,
+      "snapshot_sha256": "f3eabefb2404e6a256388645efc4289d37c6de733fa87f3cd09a5dbdc7b5978d",
+      "snapshot_sha1": "ca868cbc6e4a0cecbe3e35331f50a337e263dfc7",
+      "width": 4136,
+      "height": 5408,
+      "classification": "original-publication-page",
+      "counts_as_facsimile": true,
+      "issue_number": 6,
+      "printed_page": 2,
+      "iiif_canvas_number": 2,
+      "masthead_date_verified": "1920-12-05",
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Page header, printed page number, date and general layout; other articles not collated.",
+      "publication_locator_as_reported": "《華工旬刊》第6號，1920-12-05，第2頁（刊頭與頁眉已核）",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292839s/f3/full/full/0/native.jpg",
+      "snapshot_filename": "issue-6-f3.jpg",
+      "snapshot_bytes": 3805489,
+      "snapshot_sha256": "975014ddef9f03ea5176fc0a994d76a1a74923a00ace209cd6968443d8a8ce4c",
+      "snapshot_sha1": "1cbf7c7b78e2c0b4ffdcb858a2b4e91a3aeb3926",
+      "width": 4160,
+      "height": 5408,
+      "classification": "original-publication-page",
+      "counts_as_facsimile": true,
+      "issue_number": 6,
+      "printed_page": 3,
+      "iiif_canvas_number": 3,
+      "masthead_date_verified": "1920-12-05",
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Page header; sequel title, signature, chapters 4–5 and opening of chapter 6; selected readings including 誓不當兵 compared to fixed web revision.",
+      "publication_locator_as_reported": "《華工旬刊》第6號，1920-12-05，第3頁（刊頭與頁眉已核）",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292839s/f4/full/full/0/native.jpg",
+      "snapshot_filename": "issue-6-f4.jpg",
+      "snapshot_bytes": 3792922,
+      "snapshot_sha256": "be7206aed9c7f7d70fa160278b4b4408e2afff6d2a137f44ab39d4642678527d",
+      "snapshot_sha1": "e2a2b7dd39f0d0f77c1548f562164b38f49d204c",
+      "width": 4176,
+      "height": 5408,
+      "classification": "original-publication-page",
+      "counts_as_facsimile": true,
+      "issue_number": 6,
+      "printed_page": 4,
+      "iiif_canvas_number": 4,
+      "masthead_date_verified": "1920-12-05",
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Page header; continuation of chapter 6 and translator note; structure and selected readings, not complete character-by-character collation.",
+      "publication_locator_as_reported": "《華工旬刊》第6號，1920-12-05，第4頁（刊頭與頁眉已核）",
+      "snapshot_distributed": false
+    }
+  ],
+  "publication_parts": [
+    {
+      "version_id": "zh-zhang-taoyu-1920",
+      "issue_number": 5,
+      "printed_page": 4,
+      "stanza_numbers_in_original": [
+        1,
+        2,
+        3
+      ],
+      "scope": "Chapters 1–3 and reporter note"
+    },
+    {
+      "version_id": "zh-zhang-taoyu-1920",
+      "issue_number": 6,
+      "printed_page": 3,
+      "stanza_numbers_in_original": [
+        4,
+        5,
+        6
+      ],
+      "scope": "Chapters 4–5 and chapter 6 opening"
+    },
+    {
+      "version_id": "zh-zhang-taoyu-1920",
+      "issue_number": 6,
+      "printed_page": 4,
+      "stanza_numbers_in_original": [
+        6
+      ],
+      "scope": "Chapter 6 continuation and translator note"
+    }
+  ],
+  "stanza_mapping_verified": [
+    1,
+    2,
+    4,
+    3,
+    5,
+    6
+  ],
+  "translator_as_printed": "逃獄",
+  "submission_signature_as_printed": "逃獄譯投",
+  "translator_name_in_research": "张逃狱",
+  "preliminary_differences": [
+    {
+      "id": "HG1920-signature",
+      "locator": "第5號第4頁及第6號第3頁，題名旁",
+      "facsimile": "逃獄譯投",
+      "web": "題頭譯者稱張逃獄",
+      "kind": "attribution-scope",
+      "resolution": "Keep printed signature separate from research name; real identity not verified."
+    }
+  ],
+  "historical_holding_leads": [
+    {
+      "version_id": "zh-zhang-taoyu-1920",
+      "institution_as_reported": "保定留法勤工俭学运动纪念馆",
+      "source_id": "song-yiwei-2022",
+      "book_page": 6,
+      "verification_status": "reported-in-book-only"
+    },
+    {
+      "version_id": "zh-zhang-taoyu-1920",
+      "institution_as_reported": "法国国家图书馆凡尔赛分馆（论文所述旧馆藏）",
+      "issues_as_reported": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "url": "https://www.mh.sinica.edu.tw/MHDocument/PublicationDetail/PublicationDetail_1036.pdf",
+      "verification_status": "historical-lead-current-digital-holding-confirmed-separately",
+      "note": "Old Versailles holding lead retained as reported; current BnF shelfmark and digitized target issues independently confirmed in this record. Historical location is not asserted as current."
+    }
+  ],
+  "next_original_targets": [
+    "据第5號第4頁、第6號第3–4頁逐列转录，核对全部字形、标点与副歌提示",
+    "核查逃獄署名与张逃狱称名的身份考证和生卒、译文权利",
+    "保定留法勤工俭学运动纪念馆具体档号仍待查"
+  ],
+  "comparison_exclusions": [
+    {
+      "locator": "第6號第3頁第5章",
+      "reading": "誓不當兵",
+      "reason": "Present in both original and pinned web revision; earlier omission claim withdrawn after line-by-line web recheck."
+    },
+    {
+      "locator": "第6號第3頁第4章",
+      "reading": "敲磕",
+      "reason": "Not registered as a confirmed difference."
+    }
+  ]
+}

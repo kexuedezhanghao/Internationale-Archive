@@ -145,9 +145,25 @@ def main():
                 assert im["width"] > 0 and im["height"] > 0 and not im["snapshot_distributed"]
                 assert im["visually_reviewed_on"] and im["review_scope"] and im["classification"]
                 if im["counts_as_facsimile"]:
-                    assert im["classification"] == "original-publication-crop"
+                    assert im["classification"] in {"original-publication-crop", "original-publication-page"}
                     assert im["publication_locator_as_reported"]
             assert sum(im["counts_as_facsimile"] for im in images) == check["facsimiles_obtained"]
+        for issue in check.get("issues", []):
+            assert issue["manifest_url"] in snapshot_urls and issue["oai_url"] in snapshot_urls
+            pages = [im for im in check["image_evidence"] if im.get("issue_number") == issue["issue_number"]]
+            assert len(pages) == issue["downloaded_full_pages"] == issue["manifest_canvas_count"]
+            assert sorted(im["printed_page"] for im in pages) == list(range(1, issue["manifest_canvas_count"] + 1))
+            assert all(im["classification"] == "original-publication-page" and im["masthead_date_verified"] == issue["publication_date_verified"] for im in pages)
+        for part in check.get("publication_parts", []):
+            assert part["version_id"] in check_ids
+            assert set(part["stanza_numbers_in_original"]) <= set(range(1, 7))
+            assert any(im["issue_number"] == part["issue_number"] and im["printed_page"] == part["printed_page"] for im in check["image_evidence"])
+        for difference in check.get("preliminary_differences", []):
+            assert difference["facsimile"] and difference["web"] and difference["locator"]
+        if "stanza_mapping_verified" in check:
+            assert len(check["version_ids"]) == 1
+            v = next(v for v in versions if v["id"] == check["version_ids"][0])
+            assert v["stanza_mapping"] == check["stanza_mapping_verified"]
     for p in (ROOT / "data/collations").glob("*.json"):
         collation = json.loads(p.read_text(encoding="utf-8"))
         assert set(collation["version_ids"]) <= set(vids)

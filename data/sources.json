@@ -71,7 +71,7 @@
     "url": "https://www.marxists.org/chinese/reference-books/labor-1920/index.htm",
     "role": "web-source-checks",
     "reviewed_on": "2026-10-03",
-    "import_scope": "Four provisional or reviewed identity records, web provenance and one separately assessed historical lyric block; no original newspaper facsimile obtained.",
+    "import_scope": "Initial four identity leads through web evidence; three remain in this source check, while Zhang original facsimiles are recorded separately. One historical lyric block admitted after separate rights assessment.",
     "rights_note": "Liebei, Zhang Taoyu and 1962 identities remain metadata only. Geng/Zheng lyric rights considered individually for US and CN.",
     "source_check_record": "data/source-checks/early-zh-1920-1962.json"
   },
@@ -96,5 +96,17 @@
     "import_scope": "Metadata and manual inspection of a reported 1922 newspaper crop; no lyric full text, full article or image redistribution.",
     "rights_note": "Translation identity and rights remain pending; attribution proposal recorded separately.",
     "source_check_record": "data/source-checks/zh-huagong-xingshi-1922.json"
+  },
+  {
+    "id": "bnf-huagong-xunkan-1920",
+    "name": "BnF／Gallica：《華工旬刊》第5、6號（1920）",
+    "url": "https://catalogue.bnf.fr/ark:/12148/cb327875744",
+    "role": "digitized-original-newspaper",
+    "retrieved_on": "2026-10-03",
+    "shelfmark": "JO-61037",
+    "digital_shelfmark": "NUMP-20674",
+    "import_scope": "Metadata and manual inspection of eight full-page images from two complete issues; lyric locations, original chapter order, signature and selected web differences recorded. No original images or lyric full text redistributed by this repository.",
+    "rights_note": "BnF OAI classifies each issue as public domain; Gallica reuse terms linked separately. Translator identity and specific translation rights assessment remain pending.",
+    "source_check_record": "data/source-checks/zh-zhang-taoyu-1920.json"
   }
 ]

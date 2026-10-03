@@ -654,17 +654,17 @@
   },
   {
     "id": "zh-zhang-taoyu-1920",
-    "title_zh": "张逃狱译《劳动国际歌》：1920年六段网页转录",
+    "title_zh": "逃狱署名《劳动国际歌》：1920年原刊影印（张逃狱译本线索）",
     "language": {
       "tag": "zh",
       "label_zh": "中文"
     },
     "original_author": "Eugène Pottier",
-    "translator": "张逃狱",
-    "text_author": "张逃狱",
+    "translator": "逃獄",
+    "text_author": "逃獄",
     "composition_year": null,
     "source_publication_year": 1920,
-    "edition_label": "《华工旬刊》第5、6号；维基文库oldid=2439981，原刊待核",
+    "edition_label": "《华工旬刊》第5号1920年11月25日第4页、第6号12月5日第3–4页；BnF原刊整版已取得",
     "stanza_mapping": [
       1,
       2,
@@ -676,18 +676,33 @@
     "kind": "translation",
     "lyrics_path": null,
     "review": {
-      "status": "identity-provisional",
+      "status": "original-facsimile-inspected",
       "date": "2026-10-03",
-      "facsimile_collation": "pending",
-      "source_check_record": "data/source-checks/early-zh-1920-1962.json",
-      "source_check_report": "docs/research/early-zh-1920-1962.md"
+      "facsimile_collation": "facsimile-inspected-transcription-pending",
+      "source_check_record": "data/source-checks/zh-zhang-taoyu-1920.json",
+      "source_check_report": "docs/research/zh-zhang-taoyu-1920.md",
+      "scope": "Two complete four-page issues obtained. Mastheads, lyric locations, six-chapter order and selected web differences inspected; full transcription and punctuation collation pending."
     },
     "rights": {
       "status": "unassessed",
-      "scope": "this specific translation/edition",
-      "evidence_urls": []
+      "scope": "Specific translation rights remain unassessed; BnF publication-level public-domain classification and Gallica reuse terms recorded separately.",
+      "evidence_urls": [
+        "https://gallica.bnf.fr/services/OAIRecord?ark=ark%3A%2F12148%2Fbpt6k3292838c",
+        "https://gallica.bnf.fr/services/OAIRecord?ark=ark%3A%2F12148%2Fbpt6k3292839s",
+        "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"
+      ]
     },
     "sources": [
+      {
+        "url": "https://gallica.bnf.fr/ark:/12148/bpt6k3292838c/f4.item",
+        "role": "original-publication-facsimile",
+        "source_id": "bnf-huagong-xunkan-1920"
+      },
+      {
+        "url": "https://gallica.bnf.fr/ark:/12148/bpt6k3292839s/f3.item",
+        "role": "original-publication-facsimile-sequel",
+        "source_id": "bnf-huagong-xunkan-1920"
+      },
       {
         "url": "https://zh.wikisource.org/w/index.php?oldid=2439981&title=Translation%3A%E5%8B%9E%E5%8B%95%E5%9C%8B%E9%9A%9B%E6%AD%8C",
         "role": "pinned-transcription"
@@ -698,11 +713,14 @@
       }
     ],
     "notes": [
-      "署名张逃狱的真实身份与死亡年未核实，暂不收入全文。",
-      "网页第3段述煤铁大王，对应法文第4段；第4段述国家法律，对应法文第3段；按网页顺序登记，不擅自重排。",
-      "2022年书中列第5号1920年11月25日第4版及第6号12月5日第3–4版，原件线索为保定留法勤工俭学运动纪念馆。",
-      "另有近史所论文搜索摘要提供法国旧馆藏线索；尚未查得馆藏号或数字化文件，详见本批记录。"
-    ]
+      "原刊两次署名均为逃獄譯投，不见张字；研究与网页称张逃狱。实名和死亡年尚未核实，全文仍暂缺。",
+      "已取得第5、6号各四个整版；两期刊头、歌词页次与六章连载已核，原刊段序对应法文1、2、4、3、5、6，不重排。",
+      "固定网页2439981与原刊的署名范围分别登记；誓不當兵四字两边均有，不作为漏文。逐字转录与全部标点校勘尚未完成。",
+      "BnF馆藏号JO-61037，数字馆藏号NUMP-20674；OAI出版物标作public domain，不能据此填译者身份或宣称全球权利已核。",
+      "2022年书第6页所报两期歌词页次与BnF影像相合；保定馆藏档号和本书正文仍待查核。"
+    ],
+    "translator_as_printed": "逃獄",
+    "translator_name_in_research": "张逃狱"
   },
   {
     "id": "zh-geng-zheng-1921",
@@ -852,13 +870,18 @@
       {
         "url": "https://xueheng.nju.edu.cn/xsxx/20240618/i268860.html",
         "role": "research-comparison-retypeset-not-original-image"
+      },
+      {
+        "url": "https://cn.govopendata.com/renminribao/1962/04/28/6/",
+        "role": "third-party-publication-note-no-facsimile"
       }
     ],
     "notes": [
       "研究论文记中国音乐家协会、中央人民广播电台审订，原刊只署鲍狄埃词、狄盖特曲；未据此填单独中文译者。",
       "第三方网页包含歌曲题名与说明，没有可据以逐字核对的谱词正文。当前不指定歌词段落对应、不收入全文。",
       "官方日期路由实际重定向登录页，尚未取得第6版影像；不能据路由猜测具体文件地址。",
-      "ChinesePen所配450×591词谱图无报头、日期与版次，仅作线索；南京大学研究页面的对照表为现代重排，未当作原报影印。"
+      "ChinesePen所配450×591词谱图无报头、日期与版次，仅作线索；南京大学研究页面的对照表为现代重排，未当作原报影印。",
+      "GovOpenData日期及第6版页面只有歌曲题名与刊载说明，未含谱词或图像；与既有第三方转录共有重新发麦疑似错字，未作为独立原刊见证。"
     ]
   },
   {

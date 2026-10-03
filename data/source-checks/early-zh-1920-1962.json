@@ -1,11 +1,10 @@
 {
   "id": "early-zh-1920-1962",
   "reviewed_on": "2026-10-03",
-  "scope": "Four identities checked through web transcriptions and publication leads; no facsimiles of these target originals obtained. Follow-up image candidates inspected and limits recorded.",
+  "scope": "Three remaining identities checked through web transcriptions and publication leads; no facsimiles of these targets obtained. Zhang Taoyu original issues now documented in a separate source check.",
   "report_path": "docs/research/early-zh-1920-1962.md",
   "version_ids": [
     "zh-liebei-1920",
-    "zh-zhang-taoyu-1920",
     "zh-geng-zheng-1921",
     "zh-collective-1962"
   ],
@@ -63,14 +62,6 @@
       "snapshot_distributed": false
     },
     {
-      "url": "https://zh.wikisource.org/w/index.php?oldid=2439981&title=Translation%3A%E5%8B%9E%E5%8B%95%E5%9C%8B%E9%9A%9B%E6%AD%8C",
-      "snapshot_filename": "zhang-taoyu-wikisource-2439981.html",
-      "snapshot_bytes": 65645,
-      "snapshot_sha256": "0dc9fb10f0ab65ffa927a8b1ff8aa740748a81bbcd6d321ea80d2cf7b1630806",
-      "encoding": "utf-8",
-      "snapshot_distributed": false
-    },
-    {
       "url": "https://data.people.com.cn/rmrb/19620428/6?code=2",
       "snapshot_filename": "rmrb-1962-official.html",
       "snapshot_bytes": 12248,
@@ -91,6 +82,22 @@
       "snapshot_filename": "nju-song-2024.html",
       "snapshot_bytes": 115475,
       "snapshot_sha256": "94cc21ff7c005148492102e23608700b700cf818ba810c2c7eace8dbd8ec5b52",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://cn.govopendata.com/renminribao/1962/04/28/",
+      "snapshot_filename": "govopendata-rmrb-19620428.html",
+      "snapshot_bytes": 42949,
+      "snapshot_sha256": "b573b41550a42ef363e73ecfaaf28a3b2241d8fc68fdf8054a8883cd8b35da74",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://cn.govopendata.com/renminribao/1962/04/28/6/",
+      "snapshot_filename": "govopendata-rmrb-19620428-p6.html",
+      "snapshot_bytes": 48385,
+      "snapshot_sha256": "cb04dfdd12463d87b98bc5aea2c7b114bd28603995e04f93fedf7038a823b0e1",
       "encoding": "utf-8",
       "snapshot_distributed": false
     }
@@ -162,33 +169,9 @@
       ]
     }
   ],
-  "holding_leads": [
-    {
-      "version_id": "zh-zhang-taoyu-1920",
-      "institution_as_reported": "保定留法勤工俭学运动纪念馆",
-      "source_id": "song-yiwei-2022",
-      "book_page": 6,
-      "verification_status": "reported-in-book-only"
-    },
-    {
-      "version_id": "zh-zhang-taoyu-1920",
-      "institution_as_reported": "法国国家图书馆凡尔赛分馆（论文所述旧馆藏）",
-      "issues_as_reported": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "url": "https://www.mh.sinica.edu.tw/MHDocument/PublicationDetail/PublicationDetail_1036.pdf",
-      "verification_status": "search-excerpt-lead-only",
-      "note": "Institution-hosted research PDF search excerpt reports this holding. PDF download returned 502; author/title, shelfmark, current location and digital availability not verified."
-    }
-  ],
+  "holding_leads": [],
   "next_original_targets": [
     "《劳动者》第2、4、5、6号与1984年编辑本",
-    "《华工旬刊》第5、6号，馆藏号与扫描",
     "《民国日报·觉悟》1921年5月7日及27日，第2版",
     "《小说月报》第12卷号外《俄国文学研究》1921年9月，第235–237页",
     "《人民日报》1962年4月28日第6版"
@@ -241,6 +224,12 @@
       "kind": "open-archive-title-search",
       "url": "https://archive.org/advancedsearch.php",
       "finding": "Target title variants returned five modern book records, no 1921 supplement. This limited search is not proof of absence."
+    },
+    {
+      "target": "zh-collective-1962",
+      "kind": "third-party-date-and-page-text",
+      "url": "https://cn.govopendata.com/renminribao/1962/04/28/6/",
+      "finding": "Date and page 6 checked: song title and explanatory note only; no lyrics, score, image elements or image links in retrieved HTML. Shares suspicious 重新发麦 with earlier third-party transcription; no independent witness assumed."
     }
   ],
   "image_evidence": [
@@ -299,6 +288,14 @@
       "review_scope": "1951/1962 comparison table, not original Renmin Ribao page.",
       "publication_locator_as_reported": null,
       "snapshot_distributed": false
+    }
+  ],
+  "resolved_target_records": [
+    {
+      "version_id": "zh-zhang-taoyu-1920",
+      "source_check_record": "data/source-checks/zh-zhang-taoyu-1920.json",
+      "report_path": "docs/research/zh-zhang-taoyu-1920.md",
+      "scope": "Two complete original issues obtained; transcription pending."
     }
   ]
 }
