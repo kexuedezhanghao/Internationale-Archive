@@ -1,0 +1,403 @@
+[
+  {
+    "id": "fr-pottier-1908",
+    "title_zh": "鲍狄埃原词：1908年刊本",
+    "language": {
+      "tag": "fr",
+      "label_zh": "法语"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": null,
+    "text_author": "Eugène Pottier",
+    "text_author_death_year": 1887,
+    "composition_year": 1871,
+    "edition_label": "《Chants révolutionnaires》1908年版，第23–25页；创作于1871年",
+    "source_publication_year": 1908,
+    "stanza_mapping": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "kind": "original",
+    "lyrics_path": "lyrics/fr/fr-pottier-1908.md",
+    "review": {
+      "status": "source-reviewed",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending"
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "historic underlying text only; not site commentary or recordings",
+      "jurisdictions_considered": [
+        "US",
+        "CN",
+        "life-plus-70 countries"
+      ],
+      "basis": [
+        "Source edition published in 1908, before 1931.",
+        "Text author died in 1887, more than 70 years before 2026."
+      ],
+      "evidence_urls": [
+        "https://fr.wikisource.org/wiki/L%E2%80%99Internationale",
+        "https://fr.wikisource.org/wiki/Auteur:Eug%C3%A8ne_Pottier"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://fr.wikisource.org/wiki/L%E2%80%99Internationale",
+        "role": "text"
+      },
+      {
+        "url": "https://fr.wikisource.org/w/index.php?title=L%E2%80%99Internationale&oldid=14171457",
+        "role": "pinned-transcription"
+      },
+      {
+        "url": "https://fr.wikisource.org/wiki/Auteur:Eug%C3%A8ne_Pottier",
+        "role": "author-dates"
+      }
+    ],
+    "snapshot_filename": "fr-pottier-1908.html",
+    "snapshot_sha256": "1f21594fb3ec690a5d2714e6a41bb8b7c9b6737c94bd3b476bd793e4d99eb4e4",
+    "notes": [
+      "正文保留此底本的副歌位置与标点，不改作现代演唱排版。",
+      "这是1908年版的转录，不能当作1871年手稿或1887年初版的逐字影印。"
+    ],
+    "lyrics_sha256": "fe74d67f18939cbf95f922ae769a1f04cd6c7437c03e77a02fe885ed214cb884"
+  },
+  {
+    "id": "en-kerr-1900",
+    "title_zh": "Charles Hope Kerr 英译：1900年版网页转录",
+    "language": {
+      "tag": "en",
+      "label_zh": "英语"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "Charles Hope Kerr",
+    "text_author": "Charles Hope Kerr",
+    "text_author_death_year": 1944,
+    "composition_year": null,
+    "edition_label": "Wikisource 标注发表于《Socialist Songs》（1900）",
+    "source_publication_year": 1900,
+    "stanza_mapping": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": "lyrics/en/en-kerr-1900.md",
+    "review": {
+      "status": "source-reviewed",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending"
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "historic underlying text only; not site commentary or recordings",
+      "jurisdictions_considered": [
+        "US",
+        "CN",
+        "life-plus-70 countries"
+      ],
+      "basis": [
+        "Source edition published in 1900, before 1931.",
+        "Text author died in 1944, more than 70 years before 2026."
+      ],
+      "evidence_urls": [
+        "https://en.wikisource.org/wiki/The_Internationale_(Kerr)",
+        "https://en.wikisource.org/wiki/Author:Charles_Hope_Kerr"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikisource.org/wiki/The_Internationale_(Kerr)",
+        "role": "text"
+      },
+      {
+        "url": "https://en.wikisource.org/w/index.php?title=The_Internationale_(Kerr)&oldid=15992758",
+        "role": "pinned-transcription"
+      },
+      {
+        "url": "https://en.wikisource.org/wiki/Author:Charles_Hope_Kerr",
+        "role": "author-dates"
+      }
+    ],
+    "snapshot_filename": "en-kerr-1900.html",
+    "snapshot_sha256": "e631cc85df1870c1c994850b21da25e63601d1e2b293aedc088ff2e2b0b9c2c8",
+    "notes": [
+      "当前网页只列对应原词1、2、3、4、6的五段；不得据此断言1900年原刊也只有五段，原刊校勘待办。",
+      "网页另附的 Alternate chorus 归属未单独核实，已从正文排除；未改写其余措辞。",
+      "首个副歌的引号写法照网页保留，待原刊校勘。"
+    ],
+    "lyrics_sha256": "9d1f19c67d78a0d45622fc45874b60d720db8e5fa97b8eb6605776587abc0271"
+  },
+  {
+    "id": "de-lavant-1902",
+    "title_zh": "Rudolf Lavant 德译：1902年刊本",
+    "language": {
+      "tag": "de",
+      "label_zh": "德语"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "Rudolf Lavant (Richard Cramer)",
+    "text_author": "Rudolf Lavant (Richard Cramer)",
+    "text_author_death_year": 1915,
+    "composition_year": null,
+    "edition_label": "Rasche，Berlin，1902年5月；Lieder-Gemeinschaft der Arbeiter-Sängervereinigungen Deutschlands",
+    "source_publication_year": 1902,
+    "stanza_mapping": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": "lyrics/de/de-lavant-1902.md",
+    "review": {
+      "status": "source-reviewed",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending"
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "historic underlying text only; not site commentary or recordings",
+      "jurisdictions_considered": [
+        "US",
+        "CN",
+        "life-plus-70 countries"
+      ],
+      "basis": [
+        "Source edition published in 1902, before 1931.",
+        "Text author died in 1915, more than 70 years before 2026."
+      ],
+      "evidence_urls": [
+        "https://de.wikisource.org/wiki/Die_Internationale",
+        "https://de.wikisource.org/wiki/Rudolf_Lavant"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://de.wikisource.org/wiki/Die_Internationale",
+        "role": "text"
+      },
+      {
+        "url": "https://de.wikisource.org/w/index.php?title=Die_Internationale&oldid=4167524",
+        "role": "pinned-transcription"
+      },
+      {
+        "url": "https://de.wikisource.org/wiki/Rudolf_Lavant",
+        "role": "author-dates"
+      }
+    ],
+    "snapshot_filename": "de-lavant-1902.html",
+    "snapshot_sha256": "b2128b36528fcc177d70ba2f26b02086c2cdec092a19644c62cbead2cb6fa786",
+    "notes": [
+      "此底本为 Lavant 译本，不能与 Emil Luckhardt 的德语通行译本合并。",
+      "正文仅去除维基行号与排版模板；保留 thun、giebt 等历史拼写。",
+      "底本转录含五段；未自行补译原第五段。"
+    ],
+    "lyrics_sha256": "ac8aced9fea10e405a42890a9ded491417c0c377812c0adb7b91b2e172160e11"
+  },
+  {
+    "id": "zh-qu-1923",
+    "title_zh": "瞿秋白译配：1923年《新青年》版",
+    "language": {
+      "tag": "zh",
+      "label_zh": "中文"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "瞿秋白",
+    "text_author": "瞿秋白",
+    "text_author_death_year": 1935,
+    "composition_year": null,
+    "edition_label": "《新青年》季刊第1期，1923年6月15日；网页传统字形转录",
+    "source_publication_year": 1923,
+    "stanza_mapping": [
+      1,
+      2,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": "lyrics/zh/zh-qu-1923.md",
+    "review": {
+      "status": "source-reviewed",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending"
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "historic underlying text only; not site commentary or recordings",
+      "jurisdictions_considered": [
+        "US",
+        "CN",
+        "life-plus-70 countries"
+      ],
+      "basis": [
+        "Source edition published in 1923, before 1931.",
+        "Text author died in 1935, more than 70 years before 2026."
+      ],
+      "evidence_urls": [
+        "https://zh.wikisource.org/wiki/%E5%9C%8B%E9%9A%9B%E6%AD%8C_(%E7%9E%BF%E7%A7%8B%E7%99%BD)"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://zh.wikisource.org/wiki/%E5%9C%8B%E9%9A%9B%E6%AD%8C_(%E7%9E%BF%E7%A7%8B%E7%99%BD)",
+        "role": "text"
+      },
+      {
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%9C%8B%E9%9A%9B%E6%AD%8C_(%E7%9E%BF%E7%A7%8B%E7%99%BD)&oldid=2439856",
+        "role": "pinned-transcription"
+      }
+    ],
+    "snapshot_filename": "zh-qu-1923.html",
+    "snapshot_sha256": "0a0c7fdb526fd1a86fddaa9dd21b1d8476d728b16b0ff7b80d6bdb25d0efc58e",
+    "notes": [
+      "保持网页原字形与段间标志，未做简繁转换或改用1962年通行歌词。",
+      "只收录歌词区，不把历史前言混入正文。",
+      "维基文库对原文与此译文分别提供公有领域说明。"
+    ],
+    "lyrics_sha256": "7759999768b0bfc881d5cf389b94f134b788500d2a05c16cff4ca614446efcf1"
+  },
+  {
+    "id": "ru-kots-1902",
+    "title_zh": "Коц 俄译：1902年三段版",
+    "language": {
+      "tag": "ru",
+      "label_zh": "俄语"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "Аркадий Яковлевич Коц",
+    "text_author": "Аркадий Яковлевич Коц",
+    "source_publication_year": 1902,
+    "edition_label": "Antiwar Songs 标注1902；俄语维基文库亦记早期译本发表于1902年",
+    "stanza_mapping": [
+      1,
+      2,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": null,
+    "review": {
+      "status": "identity-provisional",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending"
+    },
+    "rights": {
+      "status": "unassessed",
+      "scope": "this specific translation/edition",
+      "evidence_urls": []
+    },
+    "sources": [
+      {
+        "url": "https://www.antiwarsongs.org/canzone.php?id=2003&lang=en#agg1930",
+        "role": "text"
+      },
+      {
+        "url": "https://ru.wikisource.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB_(%D0%9F%D0%BE%D1%82%D1%8C%D0%B5)",
+        "role": "version-history"
+      }
+    ],
+    "notes": [
+      "原站转录可见混入拉丁字母与疑似错字；未把这些字形直接作为已校勘正文。",
+      "待查1902年原刊与词句，不从后来的六段本拼接冒充原刊。"
+    ]
+  },
+  {
+    "id": "ru-kots-complete-publication-disputed",
+    "title_zh": "Коц 俄译：后续六段本（年代待核对）",
+    "language": {
+      "tag": "ru",
+      "label_zh": "俄语"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "Аркадий Яковлевич Коц",
+    "text_author": "Аркадий Яковлевич Коц",
+    "source_publication_year": null,
+    "edition_label": "完整本年代有分歧：俄语维基文库标1937；Antiwar Songs 相关条目标1931",
+    "stanza_mapping": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": null,
+    "review": {
+      "status": "identity-provisional",
+      "date": "2026-10-03",
+      "facsimile_collation": "pending"
+    },
+    "rights": {
+      "status": "unassessed",
+      "scope": "this specific translation/edition",
+      "evidence_urls": []
+    },
+    "sources": [
+      {
+        "url": "https://ru.wikisource.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB_(%D0%9F%D0%BE%D1%82%D1%8C%D0%B5;_%D0%9A%D0%BE%D1%86)",
+        "role": "text"
+      },
+      {
+        "url": "https://ru.wikisource.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB_(%D0%9F%D0%BE%D1%82%D1%8C%D0%B5)",
+        "role": "version-history"
+      }
+    ],
+    "notes": [
+      "1931和1937可能是不同修订或不同出版节点，原刊证据不足，暂不定年。",
+      "后补三段的出版与权利情况另行核对，不沿用1902年三段本的权利结论。"
+    ]
+  },
+  {
+    "id": "zh-personal-345-2026",
+    "title_zh": "个人中文可唱译配：原第3、4、5段",
+    "language": {
+      "tag": "zh",
+      "label_zh": "中文"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "kexuedezhanghao（个人试作）",
+    "source_publication_year": 2026,
+    "edition_label": "Internationale-ZH-345 / v0.1.0 首次公开草案",
+    "stanza_mapping": [
+      3,
+      4,
+      5
+    ],
+    "kind": "singable-adaptation",
+    "lyrics_path": null,
+    "review": {
+      "status": "source-reviewed",
+      "date": "2026-10-03",
+      "facsimile_collation": "not-applicable"
+    },
+    "rights": {
+      "status": "author-license-not-specified",
+      "scope": "modern personal adaptation",
+      "evidence_urls": [
+        "https://github.com/kexuedezhanghao/Internationale-ZH-345/blob/main/README.md"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://github.com/kexuedezhanghao/Internationale-ZH-345",
+        "role": "text"
+      },
+      {
+        "url": "https://github.com/kexuedezhanghao/Internationale-ZH-345/blob/main/README.md",
+        "role": "license-and-version"
+      }
+    ],
+    "notes": [
+      "原仓库明确说许可暂未确定；本档案先以链接记录。",
+      "个人试作，非历史定本或官方译词；版本持续变化时应固定具体提交。"
+    ]
+  }
+]

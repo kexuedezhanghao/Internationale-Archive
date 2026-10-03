@@ -1,0 +1,19 @@
+{
+  "source_id": "antiwarsongs-2003",
+  "source_url": "https://www.antiwarsongs.org/canzone.php?id=2003&lang=en",
+  "retrieved_at": "2026-10-03T03:20:26.815567+00:00",
+  "snapshot_sha256": "36c66ebe55c9b6eca368134cd9326c51b20c1640e7a625d377b9c7f3b5cea5df",
+  "snapshot_bytes": 2770968,
+  "source_entries": 509,
+  "entries_with_lyrics": 388,
+  "lyric_blocks": 388,
+  "source_language_labels": 138,
+  "source_claimed_languages": 170,
+  "independent_version_count": null,
+  "notes": [
+    "The 170-language figure is the source's own index claim; it is not a recount.",
+    "Entries include supporting material, back-translations, scripts and adaptations.",
+    "Submission dates and heading years are not verified publication dates.",
+    "No lyrics or article bodies are imported by this script."
+  ]
+}

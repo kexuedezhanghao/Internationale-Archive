@@ -1,0 +1,32 @@
+[
+  {
+    "id": "antiwarsongs-2003",
+    "name": "Antiwar Songs / Canzoni Contro la Guerra — L'Internationale",
+    "url": "https://www.antiwarsongs.org/canzone.php?id=2003&lang=en",
+    "role": "discovery-catalogue",
+    "credited_maintainers": ["Lorenzo Masetti", "Riccardo Venturi", "Arisztid"],
+    "retrieved_on": "2026-10-03",
+    "import_scope": "Short identifying headings, language labels/codes, date hints, reference links and video links only.",
+    "rights_note": "Page-level attribution/reproduction statement observed; not treated as blanket permission for third-party lyrics or recordings.",
+    "snapshot_manifest": "data/discoveries/antiwarsongs.snapshot.json"
+  },
+  {
+    "id": "wikisource",
+    "name": "Wikisource / 维基文库各语言版本",
+    "url": "https://en.wikisource.org/wiki/The_Internationale",
+    "role": "historic-transcription-and-edition-evidence",
+    "retrieved_on": "2026-10-03",
+    "import_scope": "Four specified historic text transcriptions; individual URLs, fixed revisions and hashes in versions.json.",
+    "rights_note": "Underlying historic text and website-added commentary are treated separately; dates/status recorded per text. Original facsimile collation remains pending."
+  },
+  {
+    "id": "personal-zh-345",
+    "name": "Internationale-ZH-345",
+    "url": "https://github.com/kexuedezhanghao/Internationale-ZH-345",
+    "role": "modern-author-maintained-adaptation",
+    "retrieved_on": "2026-10-03",
+    "readme_blob_sha": "a97debf7ab12a8c4a1301049f9e84768805eca6f",
+    "import_scope": "Index metadata and links only.",
+    "rights_note": "Author's README says its original work has no specified open license yet."
+  }
+]

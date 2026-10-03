@@ -1,0 +1,18 @@
+{
+  "source_entries": 509,
+  "entries_with_lyrics_at_source": 388,
+  "supporting_entries": 121,
+  "source_language_labels": 138,
+  "source_claimed_languages": 170,
+  "curated_records": 7,
+  "local_full_texts": 4,
+  "independent_version_total": null,
+  "kind_suggestions": {
+    "adaptation-candidate": 15,
+    "literal-translation-candidate": 6,
+    "original": 1,
+    "supporting-material": 121,
+    "transcription-candidate": 4,
+    "translation-candidate": 362
+  }
+}

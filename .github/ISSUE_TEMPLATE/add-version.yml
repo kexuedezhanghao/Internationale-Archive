@@ -1,0 +1,27 @@
+name: 补充版本或来源
+description: 提交《国际歌》的译本、译配、异文或音源线索
+title: "[收集] "
+body:
+  - type: input
+    id: language
+    attributes:
+      label: 语言/方言与版本名称
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 原始出处与版本信息
+      description: 提供网址/原刊/页码、译者、年代证据及对应原词哪些段。未知内容请注明未知。
+    validations:
+      required: true
+  - type: textarea
+    id: relationships
+    attributes:
+      label: 与已有版本的关系
+      description: 独立译本、改写、修订、转写、不同字形或另一段录音？有分歧也请保留。
+  - type: textarea
+    id: rights
+    attributes:
+      label: 权利或转载依据
+      description: 如需提交全文/音源，请附公有领域、开放授权或权利人许可证据；否则先提交索引线索。

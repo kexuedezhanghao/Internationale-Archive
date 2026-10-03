@@ -1,0 +1,17 @@
+name: 校勘或身份纠错
+description: 修正词句、译者、年代、来源或权利信息
+title: "[校勘] "
+body:
+  - type: input
+    id: record
+    attributes:
+      label: 条目ID或文件
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 问题与核对证据
+      description: 提供具体词句、原刊/影印页码或可直接比较的来源，说明是错字、原刊异文还是另一版。
+    validations:
+      required: true
