@@ -1,6 +1,6 @@
 {
   "id": "early-zh-1920-1962",
-  "reviewed_on": "2026-10-03",
+  "reviewed_on": "2026-10-04",
   "scope": "Two remaining 1920/1921 identities checked through web evidence; no original facsimiles of these two targets obtained. Zhang original issues and 1962 mixed digital score edition now documented in separate source checks. Earlier 1962 webpage and candidate-image evidence retained as search history.",
   "report_path": "docs/research/early-zh-1920-1962.md",
   "version_ids": [
@@ -98,6 +98,38 @@
       "snapshot_bytes": 48385,
       "snapshot_sha256": "cb04dfdd12463d87b98bc5aea2c7b114bd28603995e04f93fedf7038a823b0e1",
       "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://lib.pku.edu.cn/2xxzzfw/26xwgg/gm/44498288a7fc4faa83ef657c2887a305.htm",
+      "snapshot_filename": "pku-minguo-library.html",
+      "snapshot_bytes": 86428,
+      "snapshot_sha256": "6f91463de3f757381dd1a049542deb32db73b875166945d3be1b3c5dbfb43b5d",
+      "encoding": "utf-8-html",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://dbnav.lib.pku.edu.cn/content/%E7%B9%99%E4%BA%91%E5%8E%86%E5%8F%B2%E6%96%87%E7%8C%AE%E5%BA%93-%E3%80%8A%E6%B0%91%E5%9B%BD%E6%97%A5%E6%8A%A5%E3%80%8B",
+      "snapshot_filename": "pku-db-navigation.html",
+      "snapshot_bytes": 21184,
+      "snapshot_sha256": "27418b01a423ff226f647a6994291b04ac4280069fde703360dba65d1124f942",
+      "encoding": "utf-8-html",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://ci.nii.ac.jp/ncid/AA11575553",
+      "snapshot_filename": "cinii-AA11575553.html",
+      "snapshot_bytes": 74856,
+      "snapshot_sha256": "ebac2bce2c9f2cb4146502f5effca48c4e36079e64c19b2d06dd800c61833342",
+      "encoding": "utf-8-html",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%E5%B0%8F%E8%AF%B4%E6%9C%88%E6%8A%A5+OR+%E5%B0%8F%E8%AA%AA%E6%9C%88%E5%A0%B1+OR+%E5%B0%8F%E8%AA%AC%E6%9C%88%E5%A0%B1+OR+%22Hsiao+shuo+yueh+pao%22%29&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&rows=50&output=json",
+      "snapshot_filename": "xiaoshuo-ia-search.json",
+      "snapshot_bytes": 430,
+      "snapshot_sha256": "3b60b30f3eb04193623f91c66607600f2b000b526961adfe13eb238271d1794e",
+      "encoding": "utf-8-json",
       "snapshot_distributed": false
     }
   ],
@@ -301,6 +333,32 @@
       "source_check_record": "data/source-checks/zh-collective-1962.json",
       "report_path": "docs/research/zh-collective-1962.md",
       "scope": "Six-page mixed digital text/raster edition obtained; complete score extent and three-stanza mapping inspected. Original unretypeset page and full-text admission remain pending."
+    }
+  ],
+  "followup_searches_20261004": [
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "official-library-database-coverage",
+      "url": "https://lib.pku.edu.cn/2xxzzfw/26xwgg/gm/44498288a7fc4faa83ef657c2887a305.htm",
+      "finding": "PKU 2025-03-21 purchase announcement reports NLC-cooperative digitization and full-text/HD image access to Minguo Ribao, 1916–1949 including Shanghai/regional editions. Coverage metadata does not verify exact 1921 dates or pages."
+    },
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "official-database-navigation",
+      "url": "https://dbnav.lib.pku.edu.cn/content/%E7%B9%99%E4%BA%91%E5%8E%86%E5%8F%B2%E6%96%87%E7%8C%AE%E5%BA%93-%E3%80%8A%E6%B0%91%E5%9B%BD%E6%97%A5%E6%8A%A5%E3%80%8B",
+      "finding": "Navigation links http://fanyun.cepiec.com.cn/ . Ordinary HTTPS public landing request returned 502; target images not obtained, no authenticated access attempted."
+    },
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "specific-holding-lead",
+      "url": "https://ci.nii.ac.jp/ncid/AA11575553",
+      "finding": "Catalogue names 1921 vol.12 supplement 俄國文學研究. Tokyo University Humanities/Literature Library lists 12(13),21; 12(13) is only a candidate holding and not yet confirmed as this supplement. Linked OPAC returned 403."
+    },
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "limited-public-archive-query",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%E5%B0%8F%E8%AF%B4%E6%9C%88%E6%8A%A5+OR+%E5%B0%8F%E8%AA%AA%E6%9C%88%E5%A0%B1+OR+%E5%B0%8F%E8%AA%AC%E6%9C%88%E5%A0%B1+OR+%22Hsiao+shuo+yueh+pao%22%29&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&rows=50&output=json",
+      "finding": "Limited title query for Chinese/Japanese variants and Hsiao shuo yueh pao returned numFound 0; not an exhaustive absence finding."
     }
   ]
 }

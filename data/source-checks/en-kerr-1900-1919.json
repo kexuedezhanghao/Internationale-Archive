@@ -1,0 +1,279 @@
+{
+  "id": "en-kerr-1900-1919",
+  "reviewed_on": "2026-10-04",
+  "scope": "Three historical publications visually checked against existing pinned web text; two new reading transcriptions admitted. 1901 is supporting witness, not separate independent translation.",
+  "report_path": "docs/research/en-kerr-1900-1919.md",
+  "version_ids": [
+    "en-kerr-1900",
+    "en-kerr-isr-1900-12",
+    "en-kerr-iww-1919"
+  ],
+  "facsimiles_obtained": 3,
+  "facsimile_count_unit": "historical-publication-PDF; not separate websites, pages or independent translations",
+  "full_text_version_ids": [
+    "en-kerr-1900",
+    "en-kerr-isr-1900-12",
+    "en-kerr-iww-1919"
+  ],
+  "snapshots": [
+    {
+      "url": "https://www.marxists.org/history/usa/pubs/isr/v01n06-dec-1900-ISR-gog-Wisc.pdf",
+      "snapshot_filename": "isr-1900-12.pdf",
+      "snapshot_bytes": 1945882,
+      "snapshot_sha256": "0944bf5fc93a2d69344708cf6eaac1dd0acbcc9732f898aec054b7d84afad46a",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://archive.org/download/socialistsongsw00kerrgoog/socialistsongsw00kerrgoog.pdf",
+      "snapshot_filename": "socialistsongs1901.pdf",
+      "snapshot_bytes": 1452882,
+      "snapshot_sha256": "def07437a3d4ceb30c141631681ed6919a6e2d1349f7009a6549be594a16d24a",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://archive.org/download/SongsOfTheWorkers15thEd/Songs_of_the_workers.pdf",
+      "snapshot_filename": "iww1919.pdf",
+      "snapshot_bytes": 2638988,
+      "snapshot_sha256": "4a03629b0976123c25ed13a76f62083a82c624f2d0600c28f535ed463b84d040",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://archive.org/metadata/SongsOfTheWorkers15thEd",
+      "snapshot_filename": "iww1919-metadata.json",
+      "snapshot_bytes": 5218,
+      "snapshot_sha256": "331c83a804c3d144846eb8bdd9a28c6e58a204e27f602f9d5648c62f92c2b701",
+      "encoding": "utf-8-json",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://archive.org/metadata/socialistsongsw00kerrgoog",
+      "snapshot_filename": "socialistsongs1901-metadata.json",
+      "snapshot_bytes": 5301,
+      "snapshot_sha256": "f91ad462d6d7bc24c9cee2ffc828d48bed0ceee7264bd3ed0bd2e9cf082032c8",
+      "encoding": "utf-8-json",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.marxists.org/history/usa/pubs/isr/index.htm",
+      "snapshot_filename": "isr-index.html",
+      "snapshot_bytes": 61710,
+      "snapshot_sha256": "7d17e6597e4c9188e03a3d0c1342565dbbbd108b3cbc31ccb799486826780aa8",
+      "encoding": "utf-8-html",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.copyright.gov/circs/circ22.pdf",
+      "snapshot_filename": "copyright-circ22.pdf",
+      "snapshot_bytes": 396206,
+      "snapshot_sha256": "52534d28df4f4326f2edd9d71f7a89f58b645f1ba4d67b451befa6f9ab6ee543",
+      "encoding": "binary-pdf",
+      "snapshot_distributed": false
+    }
+  ],
+  "serial_parts": [],
+  "date_conflicts": [],
+  "pdf_evidence": [
+    {
+      "url": "https://www.marxists.org/history/usa/pubs/isr/v01n06-dec-1900-ISR-gog-Wisc.pdf",
+      "source_id": "kerr-isr-1900-12",
+      "snapshot_filename": "isr-1900-12.pdf",
+      "pdf_bytes": 1945882,
+      "pdf_sha256": "0944bf5fc93a2d69344708cf6eaac1dd0acbcc9732f898aec054b7d84afad46a",
+      "pdf_sha1": "67d08feb168a9196cda3fa55ea0dd2f603d49445",
+      "pdf_pages": 64,
+      "pdf_distributed": false,
+      "counts_as_facsimile": true,
+      "classification": "digitized-historical-publication",
+      "publication_locator": "Vol.1 No.6, December 1900; final two unnumbered score pages",
+      "visually_reviewed_pdf_pages": [
+        1,
+        62,
+        63,
+        64
+      ],
+      "page_mapping": [
+        {
+          "pdf_page": 63,
+          "printed_page": null,
+          "content": "stanzas 1,2 and beginning of refrain"
+        },
+        {
+          "pdf_page": 64,
+          "printed_page": null,
+          "content": "refrain continuation and stanzas 3,4,5"
+        }
+      ],
+      "stanza_mapping_verified": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "review_scope": "Printed publication identity and all English lyric words; music and French underlay excluded. 1919 two punctuation marks unresolved."
+    },
+    {
+      "url": "https://archive.org/download/socialistsongsw00kerrgoog/socialistsongsw00kerrgoog.pdf",
+      "source_id": "kerr-socialistsongs-1901",
+      "snapshot_filename": "socialistsongs1901.pdf",
+      "pdf_bytes": 1452882,
+      "pdf_sha256": "def07437a3d4ceb30c141631681ed6919a6e2d1349f7009a6549be594a16d24a",
+      "pdf_sha1": "12d12d29f8460c1c06a6e3d90c7ee5b17c90d31e",
+      "pdf_pages": 49,
+      "pdf_distributed": false,
+      "counts_as_facsimile": true,
+      "classification": "digitized-historical-publication",
+      "publication_locator": "Library of Progress No.37, February 15, 1901; song No.2 (not printed page 2)",
+      "visually_reviewed_pdf_pages": [
+        8,
+        9,
+        11,
+        12
+      ],
+      "page_mapping": [
+        {
+          "pdf_page": 11,
+          "printed_page": null,
+          "content": "song No.2, first score page"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": null,
+          "content": "song No.2, concluding score page"
+        }
+      ],
+      "stanza_mapping_verified": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "review_scope": "Printed publication identity and all English lyric words; music and French underlay excluded. 1919 two punctuation marks unresolved."
+    },
+    {
+      "url": "https://archive.org/download/SongsOfTheWorkers15thEd/Songs_of_the_workers.pdf",
+      "source_id": "kerr-iww-1919-15",
+      "snapshot_filename": "iww1919.pdf",
+      "pdf_bytes": 2638988,
+      "pdf_sha256": "4a03629b0976123c25ed13a76f62083a82c624f2d0600c28f535ed463b84d040",
+      "pdf_sha1": "08edd6849f14fd8cd4bab6c2c4b47f230b6a3578",
+      "pdf_pages": 73,
+      "pdf_distributed": false,
+      "counts_as_facsimile": true,
+      "classification": "digitized-historical-publication",
+      "publication_locator": "Fifteenth Edition, Chicago, October 1919, printed pp.8–9",
+      "visually_reviewed_pdf_pages": [
+        4,
+        5,
+        6,
+        7,
+        13,
+        14
+      ],
+      "page_mapping": [
+        {
+          "pdf_page": 13,
+          "printed_page": 8,
+          "content": "stanza 1, refrain, start of stanza 2"
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 9,
+          "content": "stanza 2 continuation, stanzas 3,4,5; separate closing slogan excluded"
+        }
+      ],
+      "stanza_mapping_verified": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "review_scope": "Printed publication identity and all English lyric words; music and French underlay excluded. 1919 two punctuation marks unresolved."
+    }
+  ],
+  "comparison_notes": [
+    "All three witnesses have five stanzas mapping to [1,2,3,4,6]. Earlier January 1900 pamphlet not obtained.",
+    "1900 December and 1901 English lexical wording matches; punctuation differs. Modern 2022 reprint text not collated.",
+    "Pinned webpage body retained. Its claimed Socialist Songs (1900) source edition remains unidentified."
+  ],
+  "wording_differences": [
+    {
+      "locator": "stanza-1-line-1",
+      "early": "pris'ners",
+      "iww1919": "prisoners"
+    },
+    {
+      "locator": "refrain-line-3",
+      "early": "The International Party",
+      "iww1919": "The Industrial Union"
+    },
+    {
+      "locator": "stanza-3-line-2",
+      "early": "Taxation drains the victim's blood;",
+      "iww1919": "Wage systems drain our blood;"
+    },
+    {
+      "locator": "stanza-3-line-8",
+      "early": "No claims on equals without cause.",
+      "iww1919": "No claims on equal without cause."
+    },
+    {
+      "locator": "stanza-4-line-5",
+      "early": "Fruits of the people's work are buried",
+      "iww1919": "Fruits of the workers' toil are buried"
+    },
+    {
+      "locator": "stanza-4-line-7",
+      "early": "In voting for their restitution",
+      "iww1919": "In working for their restitution"
+    },
+    {
+      "locator": "stanza-5-line-2",
+      "early": "The party we of all who work;",
+      "iww1919": "The union we of all who work;"
+    },
+    {
+      "locator": "stanza-5-line-3",
+      "early": "The earth belongs to us the people,",
+      "iww1919": "The earth belongs to us, the workers,"
+    },
+    {
+      "locator": "stanza-5-line-8",
+      "early": "The blessed sunlight still will stay.",
+      "iww1919": "The blessed sunlight will stay."
+    }
+  ],
+  "unresolved_readings": [
+    {
+      "id": "EN1919-01",
+      "version_id": "en-kerr-iww-1919",
+      "pdf_page": 13,
+      "printed_page": 8,
+      "locator": "stanza-1-line-6-after-slaves",
+      "marker": "〔, / ;?〕",
+      "candidates": [
+        ",",
+        ";"
+      ],
+      "status": "pending-review"
+    },
+    {
+      "id": "EN1919-02",
+      "version_id": "en-kerr-iww-1919",
+      "pdf_page": 14,
+      "printed_page": 9,
+      "locator": "stanza-4-line-7-after-restitution",
+      "marker": "〔- / .?〕",
+      "candidates": [
+        "-",
+        "."
+      ],
+      "status": "pending-review"
+    }
+  ]
+}

@@ -138,6 +138,31 @@ def main():
             assert v["review"]["source_check_report"] == check["report_path"]
             if check["facsimiles_obtained"] == 0:
                 assert v["review"]["facsimile_collation"] == "pending"
+        if "pdf_evidence" in check:
+            pdfs = check["pdf_evidence"]
+            assert sum(pdf["counts_as_facsimile"] for pdf in pdfs) == check["facsimiles_obtained"]
+            for pdf in pdfs:
+                assert pdf["source_id"] in source_ids and pdf["url"] in snapshot_urls
+                assert pdf["pdf_bytes"] > 0 and pdf["pdf_pages"] > 0 and not pdf["pdf_distributed"]
+                assert re.fullmatch(r"[0-9a-f]{64}", pdf["pdf_sha256"])
+                assert re.fullmatch(r"[0-9a-f]{40}", pdf["pdf_sha1"])
+                evidence = next(s for s in check["snapshots"] if s["url"] == pdf["url"])
+                assert evidence["snapshot_bytes"] == pdf["pdf_bytes"]
+                assert evidence["snapshot_sha256"] == pdf["pdf_sha256"]
+                assert pdf["publication_locator"] and pdf["review_scope"]
+                reviewed_pages = pdf["visually_reviewed_pdf_pages"]
+                assert all(1 <= page <= pdf["pdf_pages"] for page in reviewed_pages)
+                assert all(pair["pdf_page"] in reviewed_pages for pair in pdf["page_mapping"])
+                assert len(pdf["stanza_mapping_verified"]) == len(set(pdf["stanza_mapping_verified"]))
+                assert set(pdf["stanza_mapping_verified"]) <= set(range(1, 7))
+            for reading in check.get("unresolved_readings", []):
+                v = next(v for v in versions if v["id"] == reading["version_id"])
+                assert v["id"] in check_ids and reading["id"] in v["review"]["unresolved_reading_ids"]
+                assert v["review"]["facsimile_collation"] == "reviewed-with-unresolved-readings"
+                assert reading["marker"] in (ROOT / v["lyrics_path"]).read_text(encoding="utf-8")
+                assert reading["candidates"] and reading["status"] == "pending-review"
+                assert any(pair["pdf_page"] == reading["pdf_page"] and pair["printed_page"] == reading["printed_page"]
+                           for pdf in pdfs for pair in pdf["page_mapping"])
         if "image_evidence" in check:
             images = check["image_evidence"]
             assert len({im["url"] for im in images}) == len(images)

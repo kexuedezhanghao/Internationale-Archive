@@ -18,5 +18,7 @@
 | 中文 | [耿济之、郑振铎译：1921年《第三国际党颂歌》网页转录](../lyrics/zh/zh-geng-zheng-1921.md) | 维基文库oldid=2439916；1921年译本，5月7日/27日首刊日期有冲突，原版待核 | 1, 2, 6 | 已收录 |
 | 中文 | [中文1962年审订本：《人民日报》数字版词谱](https://www.rmrb.zhouenlai.info/人民日报（1946-2003）/1962/04/1962-04-28.htm) | 《人民日报》1962年4月28日第6版；混合数字版扫描词谱，三段唱词已转录，公开权利依据待补 | 1, 2, 6 | 仅索引 |
 | 中文 | [1922年《华工醒时报》：〈英建利乃济奥乃儿〉报影局部](https://www.thepaper.cn/newsDetail_forward_31624393) | 研究图注定位《华工醒时报》1922年5月30日第6期第3版；已检查歌词区截图，整版报头待核 | 1, 2, 6 | 仅索引 |
+| 英语 | [Charles H. Kerr 英译：1900年12月期刊原谱转录](../lyrics/en/en-kerr-isr-1900-12.md) | International Socialist Review, Vol.1 No.6, December 1900，期末两张无页码谱页 | 1, 2, 3, 4, 6 | 已收录 |
+| 英语 | [Kerr署名英语改写：1919年第15版IWW歌本](../lyrics/en/en-kerr-iww-1919.md) | Songs of the Workers, Fifteenth Edition, Chicago: IWW, October 1919, pp.8–9；两处标点标疑 | 1, 2, 3, 4, 6 | 已收录 |
 
 具体出处、底本、权利依据和待核对事项见 [versions.json](../data/versions.json)。

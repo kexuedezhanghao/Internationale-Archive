@@ -1406,15 +1406,23 @@
       }
     ],
     "metadata_notes": [
-      "正文译者为Charles Hope Kerr。条目标1901年，实际引用1919年第15版歌本；不能据此把仓库标1900年的网页转录直接改年或合并。"
+      "正文译者为Charles Hope Kerr。条目标1901年，实际引用1919年第15版歌本；不能据此把仓库标1900年的网页转录直接改年或合并。",
+      "已独立取得1919年第15版原刊，题名页明记1919年10月，第8–9页完整歌词已核读，另建改写身份；1900年12月刊本及1901年歌集旁证已取得。本书重排全文仍未逐字校勘。"
     ],
     "canonical_version_ids": [],
     "related_version_ids": [
-      "en-kerr-1900"
+      "en-kerr-1900",
+      "en-kerr-isr-1900-12",
+      "en-kerr-iww-1919"
     ],
     "facsimile_collation": "pending",
     "rights_status": "unassessed",
-    "local_lyrics_path": null
+    "local_lyrics_path": null,
+    "external_bibliographic_verification": {
+      "url": "https://archive.org/details/SongsOfTheWorkers15thEd",
+      "reviewed_on": "2026-10-04",
+      "scope": "Printed title page verifies Fifteenth Edition and October 1919; printed pp.8–9 correspond to downloaded PDF13–14. Verification of consulted source, not collation of 2022 reprint lyrics."
+    }
   },
   {
     "id": "song-yiwei-2022-2-10",

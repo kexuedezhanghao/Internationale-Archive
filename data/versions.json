@@ -185,8 +185,11 @@
     "lyrics_path": "lyrics/en/en-kerr-1900.md",
     "review": {
       "status": "source-reviewed",
-      "date": "2026-10-03",
-      "facsimile_collation": "pending"
+      "date": "2026-10-04",
+      "facsimile_collation": "web-compared-to-specified-historical-editions",
+      "source_check_record": "data/source-checks/en-kerr-1900-1919.json",
+      "source_check_report": "docs/research/en-kerr-1900-1919.md",
+      "scope": "Pinned web wording compared to December 1900, 1901 and 1919 facsimiles; webpage source edition not established. Web body retained without correction."
     },
     "rights": {
       "status": "public-domain-supported",
@@ -222,11 +225,16 @@
     "snapshot_filename": "en-kerr-1900.html",
     "snapshot_sha256": "e631cc85df1870c1c994850b21da25e63601d1e2b293aedc088ff2e2b0b9c2c8",
     "notes": [
-      "当前网页只列对应原词1、2、3、4、6的五段；不得据此断言1900年原刊也只有五段，原刊校勘待办。",
-      "网页另附的 Alternate chorus 归属未单独核实，已从正文排除；未改写其余措辞。",
-      "首个副歌的引号写法照网页保留，待原刊校勘。"
+      "网页列五段，对应原词1、2、3、4、6；本次另取得1900年12月、1901年与1919年刊本，三个具体刊本亦为五段，但尚未核定最早1900年刊本。",
+      "网页的victims’为复数，1900年12月与1901年原谱均为victim's单数；原谱副歌为'Tis，网页首个副歌仍保留\"Tis，不默改网页底本。",
+      "1919年IWW原刊确见The Industrial Union；未据一句相同判定网页替代副歌全文的来源或改写者，网页附替代副歌仍排除。",
+      "网页标Socialist Songs（1900）与1901年实物不直接互改年份，网页具体底本待查。"
     ],
-    "lyrics_sha256": "9d1f19c67d78a0d45622fc45874b60d720db8e5fa97b8eb6605776587abc0271"
+    "lyrics_sha256": "a5bbc00b26191a0fbf4937f6f4ca8c447f4fc41b9fd830508fdc994f4d0caa75",
+    "related_version_ids": [
+      "en-kerr-isr-1900-12",
+      "en-kerr-iww-1919"
+    ]
   },
   {
     "id": "de-lavant-1902",
@@ -691,7 +699,7 @@
       ],
       "basis": [
         "Original mastheads and lyric pages verify publication in November and December 1920.",
-        "US Copyright Office Circular 22, revised April 2026, page 9: works published or copyrighted before 1931-01-01 have expired in the US. This publication-year basis does not depend on an inferred translator death date.",
+        "US Copyright Office Circular 22, revised April 2026, page 10: works published or copyrighted before 1931-01-01 have expired in the US. This publication-year basis does not depend on an inferred translator death date.",
         "BnF publication-level public-domain classification is supplementary provenance, not a global term decision. Real identity/death date and CN term remain unresolved."
       ],
       "evidence_urls": [
@@ -964,5 +972,146 @@
       "日期、期号、版次依吴钧2025年文章图注，未由报头独立核验；图中歌词区未见译者署名。",
       "研究提出华林的译者归属，暂存为待核主张，不填确定译者，不宣称最早可唱中文本；未收入全文。"
     ]
+  },
+  {
+    "id": "en-kerr-isr-1900-12",
+    "title_zh": "Charles H. Kerr 英译：1900年12月期刊原谱转录",
+    "language": {
+      "tag": "en",
+      "label_zh": "英语"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "Charles H. Kerr（原刊署名）",
+    "text_author": "Charles H. Kerr",
+    "composition_year": null,
+    "source_publication_year": 1900,
+    "edition_label": "International Socialist Review, Vol.1 No.6, December 1900，期末两张无页码谱页",
+    "stanza_mapping": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": "lyrics/en/en-kerr-isr-1900-12.md",
+    "related_version_ids": [
+      "en-kerr-1900",
+      "en-kerr-iww-1919"
+    ],
+    "review": {
+      "status": "facsimile-reviewed",
+      "date": "2026-10-04",
+      "facsimile_collation": "reviewed",
+      "source_check_record": "data/source-checks/en-kerr-1900-1919.json",
+      "source_check_report": "docs/research/en-kerr-1900-1919.md",
+      "scope": "All five English stanzas and refrain visually transcribed from December 1900 original-publication scan. Music, French refrain and typographic facsimile excluded; 1901 supporting witness checked separately.",
+      "unresolved_reading_ids": []
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "specified historical English wording in US only; not scan reuse, modern editorial matter, arrangements or recordings",
+      "jurisdictions_considered": [
+        "US"
+      ],
+      "basis": [
+        "Publication in 1900 verified visually in the downloaded historical publication.",
+        "US Copyright Office Circular 22, revised April 2026, page 10: works published or copyrighted before 1931-01-01 have expired in US.",
+        "No inference about revision author death dates, CN or global terms."
+      ],
+      "evidence_urls": [
+        "https://www.marxists.org/history/usa/pubs/isr/v01n06-dec-1900-ISR-gog-Wisc.pdf",
+        "https://www.copyright.gov/circs/circ22.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.marxists.org/history/usa/pubs/isr/v01n06-dec-1900-ISR-gog-Wisc.pdf",
+        "role": "original-publication-facsimile",
+        "source_id": "kerr-isr-1900-12"
+      },
+      {
+        "url": "https://www.copyright.gov/circs/circ22.pdf",
+        "role": "us-publication-year-rights-basis"
+      }
+    ],
+    "notes": [
+      "本刊五段对应1、2、3、4、6，不等于已证最早发表。",
+      "1901年歌集作为同词旁证保存，不另算独立译本。"
+    ],
+    "lyrics_sha256": "53ac76492597f7244c89574d06f259ed461f497570f9f6b1e7fdb0a8a7b25f28"
+  },
+  {
+    "id": "en-kerr-iww-1919",
+    "title_zh": "Kerr署名英语改写：1919年第15版IWW歌本",
+    "language": {
+      "tag": "en",
+      "label_zh": "英语"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": "Charles H. Kerr（原刊署名）",
+    "text_author": null,
+    "composition_year": null,
+    "source_publication_year": 1919,
+    "edition_label": "Songs of the Workers, Fifteenth Edition, Chicago: IWW, October 1919, pp.8–9；两处标点标疑",
+    "stanza_mapping": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "kind": "revision",
+    "lyrics_path": "lyrics/en/en-kerr-iww-1919.md",
+    "related_version_ids": [
+      "en-kerr-1900",
+      "en-kerr-isr-1900-12"
+    ],
+    "review": {
+      "status": "facsimile-reviewed-with-unresolved-readings",
+      "date": "2026-10-04",
+      "facsimile_collation": "reviewed-with-unresolved-readings",
+      "source_check_record": "data/source-checks/en-kerr-1900-1919.json",
+      "source_check_report": "docs/research/en-kerr-1900-1919.md",
+      "scope": "All five English stanzas and refrain visually transcribed from specified original-publication scans. Music, French refrain and typographic facsimile excluded; 1919 has two unresolved punctuation readings.",
+      "unresolved_reading_ids": [
+        "EN1919-01",
+        "EN1919-02"
+      ]
+    },
+    "rights": {
+      "status": "public-domain-supported",
+      "scope": "specified historical English wording in US only; not scan reuse, modern editorial matter, arrangements or recordings",
+      "jurisdictions_considered": [
+        "US"
+      ],
+      "basis": [
+        "Publication in 1919 verified visually in the downloaded historical publication.",
+        "US Copyright Office Circular 22, revised April 2026, page 10: works published or copyrighted before 1931-01-01 have expired in US.",
+        "No inference about revision author death dates, CN or global terms."
+      ],
+      "evidence_urls": [
+        "https://archive.org/download/SongsOfTheWorkers15thEd/Songs_of_the_workers.pdf",
+        "https://www.copyright.gov/circs/circ22.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://archive.org/download/SongsOfTheWorkers15thEd/Songs_of_the_workers.pdf",
+        "role": "original-publication-facsimile",
+        "source_id": "kerr-iww-1919-15"
+      },
+      {
+        "url": "https://www.copyright.gov/circs/circ22.pdf",
+        "role": "us-publication-year-rights-basis"
+      }
+    ],
+    "notes": [
+      "题名页明记October, 1919、Fifteenth Edition；印刷8–9页对应本PDF13–14。",
+      "改写者未另署名；Kerr署名按原刊保留，不推定所有改动由Kerr创作。",
+      "保留equal单数及两处标点疑读；本书1901标记、实际1919底本与网页1900标记分别保存。"
+    ],
+    "revision_author": null,
+    "lyrics_sha256": "303286a88a5ca797b3b0d0b1df8cb13ce6328ba729c845793297888a7bf52edc"
   }
 ]

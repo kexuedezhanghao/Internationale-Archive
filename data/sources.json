@@ -119,5 +119,45 @@
     "import_scope": "File metadata/hashes and visual checks of pages 1 and 6, embedded score credits and three-stanza structure; no PDF, score image or lyric full text redistributed.",
     "rights_note": "Specific Chinese revision remains unassessed; the digital edition is not declared an unretypeset full-page original scan.",
     "source_check_record": "data/source-checks/zh-collective-1962.json"
+  },
+  {
+    "id": "kerr-isr-1900-12",
+    "name": "International Socialist Review, Vol.1 No.6, December 1900",
+    "url": "https://www.marxists.org/history/usa/pubs/isr/index.htm",
+    "role": "historical-publication-evidence",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Whole issue downloaded; English lyric score on final two unnumbered pages visually transcribed. Scan-copy institution not independently established.",
+    "rights_note": "Metadata and historic wording are separate; no scan, OCR or modern commentary redistributed.",
+    "evidence_record": "data/source-checks/en-kerr-1900-1919.json"
+  },
+  {
+    "id": "kerr-socialistsongs-1901",
+    "name": "Charles H. Kerr编：Socialist Songs with Music，1901",
+    "url": "https://archive.org/details/socialistsongsw00kerrgoog",
+    "role": "historical-publication-evidence",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Harvard/Google copy as reported in metadata; printed publisher date and No.2 two-page score checked as supporting witness.",
+    "rights_note": "Metadata and historic wording are separate; no scan, OCR or modern commentary redistributed.",
+    "evidence_record": "data/source-checks/en-kerr-1900-1919.json"
+  },
+  {
+    "id": "kerr-iww-1919-15",
+    "name": "IWW: Songs of the Workers, Fifteenth Edition, October 1919",
+    "url": "https://archive.org/details/SongsOfTheWorkers15thEd",
+    "role": "historical-publication-evidence",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Printed title, edition, date and pp.8–9 checked; two punctuation marks unresolved. Separate revised wording identity.",
+    "rights_note": "Metadata and historic wording are separate; no scan, OCR or modern commentary redistributed.",
+    "evidence_record": "data/source-checks/en-kerr-1900-1919.json"
+  },
+  {
+    "id": "pku-fanyun-minguo-2025",
+    "name": "北京大学图书馆：繙云历史文献库《民国日报》购入公告与导航",
+    "url": "https://lib.pku.edu.cn/2xxzzfw/26xwgg/gm/44498288a7fc4faa83ef657c2887a305.htm",
+    "role": "database-access-metadata",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Access/coverage metadata only; 1921 target dates and pages not retrieved.",
+    "rights_note": "Metadata and historic wording are separate; no scan, OCR or modern commentary redistributed.",
+    "evidence_record": "data/source-checks/early-zh-1920-1962.json"
   }
 ]
