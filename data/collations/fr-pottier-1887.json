@@ -124,14 +124,6 @@
       "web": "soûlaient",
       "facsimile_version_id": "fr-pottier-1887",
       "web_version_id": "fr-pottier-1908"
-    },
-    {
-      "printed_page": 14,
-      "location": "stanza-5-line-5",
-      "facsimile": "cannibales.",
-      "web": "cannibales,",
-      "facsimile_version_id": "fr-pottier-1887",
-      "web_version_id": "fr-pottier-1908"
     }
   ],
   "unresolved_readings": [],
@@ -170,9 +162,23 @@
       "detail_crop_path": "docs/collation/images/fr-pottier-1887-cannibales.png",
       "detail_crop_sha256": "a771054ce174f0d0d3c213aa518f25f295f7d3e542e906bfb1115f45d770ea55",
       "resolved_on": "2026-10-03",
-      "resolved_reading": ".",
-      "resolved_line": "S’ils s’obstinent, ces cannibales.",
-      "resolution_basis": "人工比较同页前文逗号样式，判断一个句点与一个印刷墨点；墨点不计入正文。"
+      "resolved_reading": ",",
+      "resolved_line": "S’ils s’obstinent, ces cannibales,",
+      "resolution_basis": "结合句法、同页逗号间距与左侧印迹残留凸起，再复核作逗号：印刷影响使逗号尾部不清晰；右侧点状印迹判为印刷墨点，不计入正文。",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-03",
+          "reading": ".",
+          "basis": "人工比较同页前文逗号样式，判断一个句点与一个印刷墨点；墨点不计入正文。",
+          "status": "superseded"
+        },
+        {
+          "reviewed_on": "2026-10-03",
+          "reading": ",",
+          "basis": "结合句法、同页逗号间距与左侧印迹残留凸起，再复核作逗号：印刷影响使逗号尾部不清晰；右侧点状印迹判为印刷墨点，不计入正文。",
+          "status": "adopted"
+        }
+      ]
     }
   ]
 }

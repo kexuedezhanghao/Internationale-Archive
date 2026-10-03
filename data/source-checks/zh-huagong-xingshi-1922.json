@@ -1,0 +1,109 @@
+{
+  "id": "zh-huagong-xingshi-1922",
+  "reviewed_on": "2026-10-03",
+  "scope": "One researcher-published original newspaper crop inspected; issue/date/page are reported by article caption, not independently checked against masthead.",
+  "report_path": "docs/research/zh-huagong-xingshi-1922.md",
+  "version_ids": [
+    "zh-huagong-xingshi-1922"
+  ],
+  "facsimiles_obtained": 1,
+  "facsimile_count_scope": "One original-publication crop, not a complete issue or full page.",
+  "full_text_version_ids": [],
+  "snapshots": [
+    {
+      "url": "https://www.thepaper.cn/newsDetail_forward_31624393",
+      "snapshot_filename": "paper-1922-song.html",
+      "snapshot_bytes": 80258,
+      "snapshot_sha256": "4cc7e28ceee0ec526970e91a5b0477ed8b8d2b396a4955e91022398f1c9b3386",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    }
+  ],
+  "serial_parts": [],
+  "date_conflicts": [],
+  "image_evidence": [
+    {
+      "url": "https://imgpai.thepaper.cn/newpai/image/1758087226666_ybwh2y_1758088165015.png",
+      "snapshot_filename": "huagong-xingshi-1922-crop.png",
+      "snapshot_bytes": 3255296,
+      "snapshot_sha256": "13d898b5d9d7b464202cc6711ee181678c2abb3ecc7e5b66d170584d03b83493",
+      "width": 1343,
+      "height": 954,
+      "classification": "original-publication-crop",
+      "counts_as_facsimile": true,
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Title, traditional vertical handwriting, units 1–9, three refrains, marginal insertions and final note; not a full symbol-by-symbol transcription.",
+      "publication_locator_as_reported": "《华工醒时报》1922年5月30日第6期第3版（研究图注所报）",
+      "snapshot_distributed": false
+    }
+  ],
+  "display_derivative": {
+    "url": "https://imgpai.thepaper.cn/newpai/image/1758087226666_ybwh2y_1758088165015.png?x-oss-process=image/resize,w_1024",
+    "snapshot_filename": "huagong-xingshi-1922-crop-1024.png",
+    "snapshot_bytes": 1786466,
+    "snapshot_sha256": "984cde5978430f7faea27ee3f0231fbcbb1c19cdf4ca045682e800f39fd4cef0",
+    "width": 1024,
+    "height": 727,
+    "not_an_independent_witness": true,
+    "snapshot_distributed": false
+  },
+  "layout_units": [
+    {
+      "image_units": [
+        1,
+        2
+      ],
+      "function": "main-stanza",
+      "french_stanza": 1
+    },
+    {
+      "image_units": [
+        3
+      ],
+      "function": "refrain",
+      "french_stanza": null
+    },
+    {
+      "image_units": [
+        4,
+        5
+      ],
+      "function": "main-stanza",
+      "french_stanza": 2
+    },
+    {
+      "image_units": [
+        6
+      ],
+      "function": "refrain",
+      "french_stanza": null
+    },
+    {
+      "image_units": [
+        7,
+        8
+      ],
+      "function": "main-stanza",
+      "french_stanza": 6
+    },
+    {
+      "image_units": [
+        9
+      ],
+      "function": "refrain",
+      "french_stanza": null
+    }
+  ],
+  "attribution_claims": [
+    {
+      "name": "华林",
+      "url": "https://www.thepaper.cn/newsDetail_forward_31624393",
+      "status": "research-inference-unconfirmed"
+    }
+  ],
+  "next_original_targets": [
+    "同一期报头与第3版完整影像",
+    "馆藏机构及档号",
+    "逐字核对补字、标点与现代横排转录"
+  ]
+}

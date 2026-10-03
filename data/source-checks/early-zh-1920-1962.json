@@ -1,7 +1,7 @@
 {
   "id": "early-zh-1920-1962",
   "reviewed_on": "2026-10-03",
-  "scope": "Four publication/translation identities; web evidence only in this batch, no original newspaper facsimiles obtained.",
+  "scope": "Four identities checked through web transcriptions and publication leads; no facsimiles of these target originals obtained. Follow-up image candidates inspected and limits recorded.",
   "report_path": "docs/research/early-zh-1920-1962.md",
   "version_ids": [
     "zh-liebei-1920",
@@ -67,6 +67,30 @@
       "snapshot_filename": "zhang-taoyu-wikisource-2439981.html",
       "snapshot_bytes": 65645,
       "snapshot_sha256": "0dc9fb10f0ab65ffa927a8b1ff8aa740748a81bbcd6d321ea80d2cf7b1630806",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://data.people.com.cn/rmrb/19620428/6?code=2",
+      "snapshot_filename": "rmrb-1962-official.html",
+      "snapshot_bytes": 12248,
+      "snapshot_sha256": "ab66fe6ea24f1113346ccb71a8d2b4d67316e0b5ce178317dba61b395458be15",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://www.chinesepen.org/blog/archives/177941",
+      "snapshot_filename": "chinesepen.html",
+      "snapshot_bytes": 165440,
+      "snapshot_sha256": "8a0b82f9a21b80c74b228a9cb97802568737af9e35c979ec72ae2e757c58140a",
+      "encoding": "utf-8",
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://xueheng.nju.edu.cn/xsxx/20240618/i268860.html",
+      "snapshot_filename": "nju-song-2024.html",
+      "snapshot_bytes": 115475,
+      "snapshot_sha256": "94cc21ff7c005148492102e23608700b700cf818ba810c2c7eace8dbd8ec5b52",
       "encoding": "utf-8",
       "snapshot_distributed": false
     }
@@ -193,6 +217,88 @@
       "kind": "database-access-attempt",
       "url": "https://www.peopleinfo.com.cn/",
       "finding": "General entry timed out; no specific 1962-04-28 p.6 image obtained."
+    },
+    {
+      "target": "zh-collective-1962",
+      "kind": "official-date-route-access-attempt",
+      "url": "https://data.people.com.cn/rmrb/19620428/6?code=2",
+      "finding": "Actual request redirected to member/login. No edition image obtained; login wall not bypassed."
+    },
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "open-newspaper-collection-access-attempt",
+      "url": "https://gpa.eastview.com/crl/lqrcn",
+      "finding": "403 Forbidden through direct request and web fetch; no target issue or collection coverage confirmed."
+    },
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "database-access-attempt",
+      "url": "https://www.cnbksy.com/",
+      "finding": "Direct request returned 412; no target newspaper or journal images obtained."
+    },
+    {
+      "target": "zh-geng-zheng-1921",
+      "kind": "open-archive-title-search",
+      "url": "https://archive.org/advancedsearch.php",
+      "finding": "Target title variants returned five modern book records, no 1921 supplement. This limited search is not proof of absence."
+    }
+  ],
+  "image_evidence": [
+    {
+      "url": "https://www.chinesepen.org/wp-content/uploads/2022/05/%E5%9B%BD%E9%99%85%E6%AD%8C1.jpg",
+      "snapshot_filename": "rmrb-1962-third-party-score.jpg",
+      "snapshot_bytes": 63242,
+      "snapshot_sha256": "16af419d3fc762b8a2f7258b52ecc9930fdb2b11281d80abe055f7f16588a50b",
+      "width": 450,
+      "height": 591,
+      "classification": "unverified-edition-score-image",
+      "counts_as_facsimile": false,
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Score visible; no newspaper masthead, date or page number; article caption alone does not establish the 1962 publication.",
+      "publication_locator_as_reported": null,
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://xueheng.nju.edu.cn/DFS//file/2024/06/18/20240618111637255j37nuw.jpg",
+      "snapshot_filename": "nju-s7.jpg",
+      "snapshot_bytes": 56631,
+      "snapshot_sha256": "b7c566341ab55c3c051032a6d8293c8a339e17a4f3d1d2c538fdb14e43ae40da",
+      "width": 771,
+      "height": 863,
+      "classification": "modern-retypeset-excerpt",
+      "counts_as_facsimile": false,
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Modern horizontal excerpt attributed to Zhang Taoyu in article; not original Huagong Xunkan facsimile.",
+      "publication_locator_as_reported": null,
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://xueheng.nju.edu.cn/DFS//file/2024/06/18/202406181117343014va1mh.jpg",
+      "snapshot_filename": "nju-s8.jpg",
+      "snapshot_bytes": 33729,
+      "snapshot_sha256": "9586dfa1743f623ea6d9a7d79005df756f0edd470816c43f3108cb108e8c24d2",
+      "width": 505,
+      "height": 661,
+      "classification": "modern-retypeset-excerpt",
+      "counts_as_facsimile": false,
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "Modern horizontal excerpt attributed to Geng/Zheng in article; not original Min Kuo Jih Pao facsimile.",
+      "publication_locator_as_reported": null,
+      "snapshot_distributed": false
+    },
+    {
+      "url": "https://xueheng.nju.edu.cn/DFS//file/2024/06/18/202406181123283938ebnfn.jpg",
+      "snapshot_filename": "nju-s13.jpg",
+      "snapshot_bytes": 53850,
+      "snapshot_sha256": "8ab458f1ff5b3f59898060e086bbd8d57da8149b13ae8bfb214e0fb6e12bfcaa",
+      "width": 1042,
+      "height": 420,
+      "classification": "modern-retypeset-comparison",
+      "counts_as_facsimile": false,
+      "visually_reviewed_on": "2026-10-03",
+      "review_scope": "1951/1962 comparison table, not original Renmin Ribao page.",
+      "publication_locator_as_reported": null,
+      "snapshot_distributed": false
     }
   ]
 }

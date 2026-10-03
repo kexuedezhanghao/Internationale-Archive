@@ -81,8 +81,20 @@
     "url": "https://archive.org/details/chantsrvolutio00pottuoft",
     "role": "digitized-historical-library-copy",
     "retrieved_on": "2026-10-03",
-    "import_scope": "Manual reading transcription of printed pages 13–15, bibliographic metadata, two detail crops and explicit unresolved readings. Full PDF and OCR output not redistributed.",
+    "import_scope": "Manual reading transcription of printed pages 13–15, bibliographic metadata and two detail crops; initial doubtful readings resolved and correction history retained. Full PDF and OCR output not redistributed.",
     "rights_note": "Historical underlying text assessed individually; modern music and recording rights excluded. Archive metadata reports NOT_IN_COPYRIGHT.",
     "collation_record": "data/collations/fr-pottier-1887.json"
+  },
+  {
+    "id": "wu-jun-huagong-xingshi-1922",
+    "name": "吴钧：《国际歌》1922年中文译本《歌〈英建利乃济奥乃儿〉》考",
+    "url": "https://www.thepaper.cn/newsDetail_forward_31624393",
+    "published_on": "2025-10-18",
+    "publisher": "澎湃新闻",
+    "role": "researcher-published-historical-newspaper-crop",
+    "reviewed_on": "2026-10-03",
+    "import_scope": "Metadata and manual inspection of a reported 1922 newspaper crop; no lyric full text, full article or image redistribution.",
+    "rights_note": "Translation identity and rights remain pending; attribution proposal recorded separately.",
+    "source_check_record": "data/source-checks/zh-huagong-xingshi-1922.json"
   }
 ]

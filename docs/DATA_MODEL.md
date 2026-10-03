@@ -58,6 +58,8 @@
 
 经人工复核解决的疑读移入 `resolved_readings`，保留原标记、候选读法及裁图，另记 `resolved_on`、`resolved_line` 与 `resolution_basis`；版本以 `resolved_reading_ids` 关联。全部疑读解决后可将所声明范围的 `facsimile_collation` 改为 `completed`，不改变其它刊本的校勘状态。
 
+`data/source-checks/` 的可选 `image_evidence` 登记原报截图、未确认刊本的图片及现代重排材料，保存实际下载文件的字节数、SHA-256、尺寸、来源与目视检查范围。`counts_as_facsimile` 只计本批已检查的原刊影像，可包括明确说明范围的局部截图；不等于取得整版。`crop-inspected-full-page-pending` 表示检查了截图，全文校勘与完整刊本身份尚未完成。裁图不含报头时，期版日期应标明是来源所报，不能冒充由图内直接核验。
+
 ## 快照与更新
 
 `antiwarsongs.snapshot.json` 记录抓取时间、整页字节数与SHA-256，以及导入时的数量核对。HTML原件留在临时研究目录，不随发布包分发。网页后来新增、修订或删除的条目应形成可追踪的目录更新，保留已有人工判断。

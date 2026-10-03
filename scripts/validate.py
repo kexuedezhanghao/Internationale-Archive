@@ -136,6 +136,18 @@ def main():
             assert v["review"]["source_check_report"] == check["report_path"]
             if check["facsimiles_obtained"] == 0:
                 assert v["review"]["facsimile_collation"] == "pending"
+        if "image_evidence" in check:
+            images = check["image_evidence"]
+            assert len({im["url"] for im in images}) == len(images)
+            for im in images:
+                assert urlparse(im["url"]).scheme == "https"
+                assert im["snapshot_bytes"] > 0 and re.fullmatch(r"[0-9a-f]{64}", im["snapshot_sha256"])
+                assert im["width"] > 0 and im["height"] > 0 and not im["snapshot_distributed"]
+                assert im["visually_reviewed_on"] and im["review_scope"] and im["classification"]
+                if im["counts_as_facsimile"]:
+                    assert im["classification"] == "original-publication-crop"
+                    assert im["publication_locator_as_reported"]
+            assert sum(im["counts_as_facsimile"] for im in images) == check["facsimiles_obtained"]
     for p in (ROOT / "data/collations").glob("*.json"):
         collation = json.loads(p.read_text(encoding="utf-8"))
         assert set(collation["version_ids"]) <= set(vids)

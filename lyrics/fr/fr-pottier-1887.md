@@ -53,7 +53,7 @@ Les Rois nous soulaient de fumées,
 Paix entre nous, guerre aux tyrans !
 Appliquons la grève aux armées,
 Crosse en l’air et rompons les rangs !
-S’ils s’obstinent, ces cannibales.
+S’ils s’obstinent, ces cannibales,
 A faire de nous des héros,
 Ils sauront bientôt que nos balles
 Sont pour nos propres généraux.
@@ -79,7 +79,7 @@ Paris, juin 1871.
 
 - 六段正文及前、后副歌均按此刊本保存；第二段的页间换页另以空行分开，页眉、花饰及字体大小未摹写。
 - 第13页第一段第四行的 `de la` 经2026年10月3日人工复核：`l` 受墨点影响，正文作 `la`。
-- 第14页第五段第五行末经同日人工复核：与前文逗号字形比较，作单个句点，另一点状印迹判为印刷墨点，不计入正文。原刊下一行起字作不带重音的 `A`。
+- 第14页第五段第五行末经同日人工复核：与前文逗号字形比较，结合句法、前文标点距离与左侧印迹残留凸起，再复核改作逗号：尾部因印刷影响不清晰，右侧点状印迹判为印刷墨点，不计入正文。此前的句点判读已撤回。原刊下一行起字作不带重音的 `A`。
 - 字间空隙统一为普通空格，弯引号及标点间距按本档案文本约定表示；保留实词、大小写、重音及观察到的标点，属于阅读转录而非版面摹真。
 - 与现有1908年网页转录分别保存，主要异文、疑字图与技术定位见[校勘记录](../../docs/collation/fr-pottier-1887.md)。1908年原版面仍未取得，不能把比较结果称作两份影印的完整校勘。
 

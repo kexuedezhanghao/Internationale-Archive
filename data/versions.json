@@ -76,11 +76,11 @@
     "snapshot_sha256": "69a10b2e7d5df89f7093b8366f3840106a7bd7089c3babf80625b5703e292d14",
     "notes": [
       "1887年刊本据多伦多大学Robarts图书馆藏本数字扫描转录，印刷页13–15。",
-      "六段及两次副歌均检查；de后读作la，cannibales后读作单个句点；原疑读均经人工复核，墨点判断与裁图保存在校勘记录。",
+      "六段及两次副歌均检查；de后读作la，cannibales后再复核改作逗号；右侧墨点不计入正文，先前句点判读及更正依据保留在校勘记录。",
       "阅读排版统一空白；不自动修正原刊可见的A、续行引号或已辨标点。",
       "与1908年固定网页转录分别保存；1908年版面尚未校勘。"
     ],
-    "lyrics_sha256": "0a298ac0ab6cf9b606cc5201636ae861eb90c1da991dc031e9f663f827a6103c",
+    "lyrics_sha256": "5729626f80b4a7429302dfd09f1aeba1c752438f0dcec1087d6baa48efc23ede",
     "related_version_ids": [
       "fr-pottier-1908"
     ]
@@ -812,7 +812,7 @@
     "text_author": null,
     "composition_year": null,
     "source_publication_year": 1962,
-    "edition_label": "《人民日报》1962年4月28日第6版；第三方网页仅有题名与刊载说明，原版待核",
+    "edition_label": "《人民日报》1962年4月28日第6版；官方日期入口需登录，第三方词谱图未证实为原报",
     "stanza_mapping": [],
     "kind": "revision",
     "lyrics_path": null,
@@ -840,12 +840,75 @@
       {
         "url": "https://data.people.com.cn/",
         "role": "official-database-entry"
+      },
+      {
+        "url": "https://data.people.com.cn/rmrb/19620428/6?code=2",
+        "role": "official-date-route-login-required"
+      },
+      {
+        "url": "https://www.chinesepen.org/blog/archives/177941",
+        "role": "unverified-edition-score-image-lead"
+      },
+      {
+        "url": "https://xueheng.nju.edu.cn/xsxx/20240618/i268860.html",
+        "role": "research-comparison-retypeset-not-original-image"
       }
     ],
     "notes": [
       "研究论文记中国音乐家协会、中央人民广播电台审订，原刊只署鲍狄埃词、狄盖特曲；未据此填单独中文译者。",
       "第三方网页包含歌曲题名与说明，没有可据以逐字核对的谱词正文。当前不指定歌词段落对应、不收入全文。",
-      "官方数据库仅验证到通用入口，尚未得到该期第6版的有效具体文件地址；不把猜测日期路径登记为原版来源。"
+      "官方日期路由实际重定向登录页，尚未取得第6版影像；不能据路由猜测具体文件地址。",
+      "ChinesePen所配450×591词谱图无报头、日期与版次，仅作线索；南京大学研究页面的对照表为现代重排，未当作原报影印。"
+    ]
+  },
+  {
+    "id": "zh-huagong-xingshi-1922",
+    "title_zh": "1922年《华工醒时报》：〈英建利乃济奥乃儿〉报影局部",
+    "language": {
+      "tag": "zh",
+      "label_zh": "中文"
+    },
+    "original_author": "Eugène Pottier",
+    "translator": null,
+    "text_author": null,
+    "composition_year": null,
+    "source_publication_year": 1922,
+    "edition_label": "研究图注定位《华工醒时报》1922年5月30日第6期第3版；已检查歌词区截图，整版报头待核",
+    "stanza_mapping": [
+      1,
+      2,
+      6
+    ],
+    "kind": "translation",
+    "lyrics_path": null,
+    "review": {
+      "status": "image-evidence-reviewed",
+      "date": "2026-10-03",
+      "facsimile_collation": "crop-inspected-full-page-pending",
+      "source_check_record": "data/source-checks/zh-huagong-xingshi-1922.json",
+      "source_check_report": "docs/research/zh-huagong-xingshi-1922.md",
+      "scope": "Manual inspection of title, numbered layout and lyric groups in a reported original newspaper crop; no full transcription or full-page issue verification."
+    },
+    "rights": {
+      "status": "unassessed",
+      "scope": "this translation and source image; metadata only",
+      "evidence_urls": []
+    },
+    "sources": [
+      {
+        "url": "https://www.thepaper.cn/newsDetail_forward_31624393",
+        "role": "researcher-published-facsimile-and-publication-locator"
+      },
+      {
+        "url": "https://imgpai.thepaper.cn/newpai/image/1758087226666_ybwh2y_1758088165015.png",
+        "role": "original-publication-crop-reproduced-by-researcher"
+      }
+    ],
+    "notes": [
+      "已取得1343×954像素原报局部，能看到繁体竖排歌词、1–9编号、三次副歌及末注；整版、报头和馆藏号尚未取得。",
+      "图中1/2、4/5、7/8分别组成对应法文第1、2、6段的主歌，3/6/9为副歌；九个编号不等于九段主歌。",
+      "日期、期号、版次依吴钧2025年文章图注，未由报头独立核验；图中歌词区未见译者署名。",
+      "研究提出华林的译者归属，暂存为待核主张，不填确定译者，不宣称最早可唱中文本；未收入全文。"
     ]
   }
 ]
