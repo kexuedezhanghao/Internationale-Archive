@@ -435,7 +435,9 @@
     "currently_verified_early_version_id": "ru-kots-1902",
     "global_first_adopter_verified": false,
     "scope": "Distinguish earliest located printed edition, actual translator/editor selection, and oral performance; compare pre-1902 sources across languages.",
-    "roadmap_path": "docs/ROADMAP.md"
+    "roadmap_path": "docs/ROADMAP.md",
+    "self_account_followup_key": "kots_selection_followup",
+    "self_account_original_verified": false
   },
   "related_text_checks": [
     {
@@ -1001,6 +1003,398 @@
       "direct_personal_selection_evidence_found": false,
       "claim_transmission_to_1962_established": false,
       "digitization_date_and_original_holding_not_established": true
+    },
+    {
+      "source_id": "sovmusic-dreyden-1962",
+      "classification": "original-journal-page-images",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "title": "„Интернационал“ в России",
+      "author_as_printed": "Сим. ДРЕЙДЕН",
+      "publication_citation": "Сим. Дрейден: „Интернационал“ в России. Советская музыка, 1962, №5 (май), с.62–76.",
+      "reviewed_on": "2026-10-04",
+      "images": [
+        {
+          "archive_item_id": 1,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_0.jpg",
+          "bytes": 185305,
+          "sha256": "a59995438d748134f573edf1fb29499e259b1a95c83981e3f1d6def7d72b8924",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": null,
+          "role": "cover",
+          "page_number_basis": "Unnumbered front matter inspected; issue title and original contents supply date and article start",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 2,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_1.jpg",
+          "bytes": 129915,
+          "sha256": "aa3930046f82283608c93d5a350ec9b94fe959ce08df223b0d91d1c04370c87c",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": null,
+          "role": "blank-cover-verso",
+          "page_number_basis": "Unnumbered front matter inspected; issue title and original contents supply date and article start",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 3,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_2.jpg",
+          "bytes": 272545,
+          "sha256": "19d7f780c7ef73add2d6b6cce66217fffd19b9fa543d37d33262a4f18be89103",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": null,
+          "role": "issue-title-and-month",
+          "page_number_basis": "Unnumbered front matter inspected; issue title and original contents supply date and article start",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 4,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_3.jpg",
+          "bytes": 247591,
+          "sha256": "c4f6e972c0c62cf2fd978ab0e5f846c34be4e41ed1fca6644abca6a7057872c5",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": null,
+          "role": "original-contents",
+          "page_number_basis": "Unnumbered front matter inspected; issue title and original contents supply date and article start",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 5,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_4.jpg",
+          "bytes": 240188,
+          "sha256": "dabfe06ce87876ad4286adfb90cf6d64d6aeb421439bdc4446b95b4b6a266773",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": null,
+          "role": "unnumbered-photo-plate",
+          "page_number_basis": "Unnumbered front matter inspected; issue title and original contents supply date and article start",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 66,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_65.jpg",
+          "bytes": 354039,
+          "sha256": "bc389a0d2d3f8696f0e23534bd78e99129d8e2aefc12143ebbf2f81be19ea322",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 62,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 67,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_66.jpg",
+          "bytes": 369392,
+          "sha256": "1046cc145dac70ddc9d57f4c823aa8e83e26e755b5923dbc95afcee305575c22",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 63,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 68,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_67.jpg",
+          "bytes": 384310,
+          "sha256": "513f5e82f0d9c98e370a3aaabe4f850aa3d9c93f8f0d2f1580188c9348641e9e",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 64,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 69,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_68.jpg",
+          "bytes": 396613,
+          "sha256": "5d7ff1ae0b416fe0c00eceee87abee366c7b3b086cba52b7cc9a27fc10256557",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 65,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 70,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_69.jpg",
+          "bytes": 370951,
+          "sha256": "03278572be60e995b6b3c75eeb4070554f4f5801b5715456b21d9fdb7bf82644",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 66,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 71,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_70.jpg",
+          "bytes": 385783,
+          "sha256": "c8e0e99eb67b31bd05d7848b8ffffc8b4dfb521aabfa3d4f6d1f909f00e6f5a2",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 67,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 72,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_71.jpg",
+          "bytes": 399452,
+          "sha256": "7a21a7df1fbb9688cc6e8c0e1f7ee179f174ed2e35aa574b8772b1b881a0f66a",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 68,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 73,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_72.jpg",
+          "bytes": 393508,
+          "sha256": "a28c3726e95c666c5deae4db62b454f603885569ec0752d5afcdc92b20a446c6",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 69,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 74,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_73.jpg",
+          "bytes": 382245,
+          "sha256": "a2d92e24238b661f8cac5205e71ecbbd6232c98080a506a68f5d8aea5455fd06",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 70,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 75,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_74.jpg",
+          "bytes": 355583,
+          "sha256": "ab1c41065060cf1b26f690b11a699840e8372e8ff4343e2bba76b6038420fc81",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 71,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 76,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_75.jpg",
+          "bytes": 376707,
+          "sha256": "f90ebfc425382952b637c2b6db93a7ee5ebac0bc8f6969c328794e2eb1b384f5",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 72,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 77,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_76.jpg",
+          "bytes": 394283,
+          "sha256": "5efe6aa0f9eb85229d8d4bbd16d0013920535beeddd8cef769cf46f4699ee1a4",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 73,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 78,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_77.jpg",
+          "bytes": 384147,
+          "sha256": "7545b62c6af4bc9de536e7651c0651f9ef7167db34f1a5bdd6356897211ef85a",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 74,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 79,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_78.jpg",
+          "bytes": 377454,
+          "sha256": "c506e08ae2d3f05ee52b3b85950ab752f6658dde51a18963836d8c07e3c0ea83",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 75,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 80,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_79.jpg",
+          "bytes": 377797,
+          "sha256": "a94e3cf373f69a4fac11a8201330e4cf68b6b3c8064dfe52725d14eb2816146e",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 76,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 81,
+          "url": "https://mus.academy/storage/magazine/releases/pages/228_80.jpg",
+          "bytes": 333360,
+          "sha256": "08bc6d980d5d6d3e9ee941ea7ecc3959eca6d101bf660d5bbaff0e4012e24071",
+          "width": 1420,
+          "height": 1907,
+          "printed_page": 77,
+          "role": "next-article-boundary",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        }
+      ],
+      "downloaded_image_count": 21,
+      "downloaded_image_count_scope": "21 registered and visually inspected cover/front matter/article/boundary images; three further adjacent images downloaded during API batching are not used as evidence.",
+      "article_image_item_ids": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "article_printed_pages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "metadata_snapshots": [
+        {
+          "source_id": "sovmusic-dreyden-1962",
+          "url": "https://mus.academy/archive/number/282/info",
+          "snapshot_bytes": 13708,
+          "snapshot_sha256": "705fac4d2d80403e81a8b7c3f83680d7debd989edeb8a82db25e7559c8db7401",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "source_id": "sovmusic-dreyden-1962",
+          "url": "https://mus.academy/archive/number/282/pages?limit=20&offset=64",
+          "snapshot_bytes": 238095,
+          "snapshot_sha256": "d1c8984db512b8d5dcb3664b19f5ad7874a2767f8603a2d315835db7fd9ece9a",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "source_id": "sovmusic-dreyden-1962",
+          "url": "https://mus.academy/archive/number/282/pages?limit=10&offset=74",
+          "snapshot_bytes": 223696,
+          "snapshot_sha256": "6cb279f24e5a858fa6edec73b1ccfe4e9d52c0e1ee0fc520775f7367e36f2b25",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "source_id": "sovmusic-dreyden-1962",
+          "url": "https://mus.academy/archive/number/282/pages?limit=6&offset=0",
+          "snapshot_bytes": 18200,
+          "snapshot_sha256": "eb4d2e4ab85d68fbd2e07880cfa82c05ff19cd5f45dff7acf05adfff455cd93f",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "snapshots": [
+        {
+          "source_id": "sovmusic-dreyden-1962",
+          "url": "https://mus.academy/archive/number/282/page/36",
+          "snapshot_bytes": 172259,
+          "snapshot_sha256": "00cb275f89d5c63672d5062a16c0f7c8d7cd15e32eca901e346975ca0353d571",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "review_scope": "All fifteen article pages, title/byline, footnotes, reproduced inscription, end and next article boundary visually read. Cover, original contents and front matter inspected. No whole-issue collation or complete modern article transcription.",
+      "observation": "Printed65 quotes four French refrain lines from Iskra1900 No1; its footnote identifies a prose Russian gloss. Printed68 footnote quotes Kots on selecting three stanzas for brevity and performance, citing his1957 poems p110. It does not say Iskra selected/published three main stanzas, does not prove Lenin personally chose them, and does not establish transmission to Zhang Guangnian1962. Printed66 reproduces a1940 dedication in a1939 book to Bonch-Bruevich; this is distinct from the auction copy dedicated to Bulushev.",
+      "three_stanza_selection_statement_found": false,
+      "three_stanza_selection_statement_scope": "Claim that Iskra1900 selected or printed three main stanzas; a separate Kots selection quotation is present.",
+      "direct_personal_selection_evidence_found": false,
+      "direct_personal_selection_evidence_scope": "Lenin personally selecting main stanzas; Kots first-person quotation is a later reprint.",
+      "kots_first_person_selection_quotation_found": true,
+      "claim_transmission_to_1962_established": false,
+      "website_page_mapping": {
+        "archive_number": 282,
+        "storage_prefix": "228_",
+        "web_contents_number": 66,
+        "original_contents_printed_start": 62,
+        "article_api_item_ids": [
+          66,
+          80
+        ],
+        "next_article_api_item_id": 81,
+        "html_page36_api_item_ids": [
+          71,
+          72
+        ],
+        "html_page36_printed_pages": [
+          67,
+          68
+        ]
+      },
+      "lenin_first_hearing_statement": {
+        "printed_page": 65,
+        "author_marks_as_probability": true,
+        "independent_direct_evidence_obtained": false
+      },
+      "digitization_date_and_original_holding_not_established": true
     }
   ],
   "source_trail_followup": {
@@ -1111,7 +1505,9 @@
         "preface_acquired": false,
         "lyric_pages_acquired": false,
         "lyric_stanza_mapping_verified": null,
-        "status": "original-title-leaf-only"
+        "status": "original-title-leaf-only",
+        "different_copy_dedication_reproduction_key": "kots_selection_followup.kots_1940_dedication",
+        "different_copy_dedication_reproduction_obtained": true
       },
       {
         "id": "druskin-internationale-1960-reprint",
@@ -1751,5 +2147,293 @@
       "local_access_note": "Complete local bytes restored and read locally; PDF matches original51752151-byte397-page fingerprint. Supersedes prior truncated-copy inability to read255 onward.",
       "limitations": "Modern editor-retypeset reprint, not1930 original facsimile. Date and183-start locator are reported by the book; original pending. No full modern book text or page images redistributed."
     }
+  },
+  "kots_selection_followup": {
+    "report_path": "docs/research/ru-kots-selection-source-trail.md",
+    "reviewed_on": "2026-10-04",
+    "selection_vs_iskra_claim_distinguished": true,
+    "global_first_adopter_verified": false,
+    "claim_transmission_to_zhang_guangnian_established": false,
+    "pdf_checks": [
+      {
+        "source_id": "worker-songs-nutrikhin-1962",
+        "url": "https://imwerden.de/pdf/pesni_russkikh_rabochikh_1962__ocr.pdf",
+        "bytes": 14449733,
+        "sha256": "afce105c816967aa2ce8476a9d1bed749c5e95419793135ac56e4fef808c92aa",
+        "sha1": "bea6045188dfa6255ffef4852c37bea08be98fcf",
+        "pages": 313,
+        "classification": "scanned-historical-publication",
+        "visually_reviewed_pdf_pages": [
+          4,
+          5,
+          33
+        ],
+        "page_mapping": {
+          "33": 32
+        },
+        "review_scope": "Title leaf, unnumbered editorial description and printed32 of introductory essay only; rest not visually read.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-04",
+        "embedded_images": [
+          {
+            "pdf_page": 4,
+            "xref": 354,
+            "bytes": 131186,
+            "sha256": "f61ca59bc387b063432918f06b6e2a9028b6c7215f369cd0c7b0a09a1c3558f6",
+            "width": 1350,
+            "height": 2079,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 4,
+            "xref": 355,
+            "bytes": 530854,
+            "sha256": "5013576d46500fefa71708313069c029fc6c7c3d9abc466355ddd27edee15ce4",
+            "width": 1350,
+            "height": 2079,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 5,
+            "xref": 360,
+            "bytes": 126718,
+            "sha256": "45837b8eab6eb16a1c955c4cb1b92ef4423d1dc2b45fa13044b5b021b75b3ff9",
+            "width": 2700,
+            "height": 4158,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 33,
+            "xref": 500,
+            "bytes": 231373,
+            "sha256": "b2234e3554fea315dac70aeae441344a2e43ee2c3c4da8d296faef0e1236f863",
+            "width": 2700,
+            "height": 4158,
+            "image_distributed_in_repository": false
+          }
+        ]
+      },
+      {
+        "source_id": "dmitriev-translations-1967",
+        "url": "https://www.booksite.ru/fulltext/577216/text.pdf",
+        "bytes": 2247260,
+        "sha256": "57fad058cd678a192bd73782deda8129cbd80cb3c097815c6c9682e9af10901a",
+        "sha1": "638475e99c024cc25e7af4343dd4b65205736160",
+        "pages": 128,
+        "classification": "scanned-historical-publication",
+        "visually_reviewed_pdf_pages": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "page_mapping": {
+          "7": 3,
+          "8": 4,
+          "9": 5,
+          "10": 6,
+          "11": 7,
+          "12": 8
+        },
+        "review_scope": "1967 title and editorial leaves; Valentin Dmitriev article printed3–8 only, not whole article/book.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-04",
+        "embedded_images": [
+          {
+            "pdf_page": 5,
+            "xref": 149,
+            "bytes": 22482,
+            "sha256": "8c1d7f2dc7d9a5dd2bf458dfaf3dd6149e64d0e52b3c9fd6e336803464285d29",
+            "width": 1329,
+            "height": 2142,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 6,
+            "xref": 153,
+            "bytes": 16374,
+            "sha256": "e8f7361d002d8b8fc5fc420ce9564706b061d5b05d60595e3b714ba939208bfd",
+            "width": 1329,
+            "height": 2142,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 7,
+            "xref": 157,
+            "bytes": 74837,
+            "sha256": "afc121d3fd47101e9eca917332ee676219a8d3f669c13192491b30307211a9f6",
+            "width": 1329,
+            "height": 2142,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 8,
+            "xref": 161,
+            "bytes": 113841,
+            "sha256": "9f8f4dedb449eac8c8e5f6da4504af85114d11de7971763a766b610a38fc1d2d",
+            "width": 1329,
+            "height": 2142,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 9,
+            "xref": 165,
+            "bytes": 103933,
+            "sha256": "a0e5371593c9dbfcaa58914d6f5de12b764a26957356fb1f0dfe2160396837d4",
+            "width": 1329,
+            "height": 2142,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 10,
+            "xref": 169,
+            "bytes": 103366,
+            "sha256": "47a9a3de879aa9b6e1c540b1e9da6be4c741c737d426fbb21d446054d978b404",
+            "width": 1329,
+            "height": 2142,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 11,
+            "xref": 173,
+            "bytes": 109592,
+            "sha256": "8b571b54aba29758460f62227cc51ee973ec6a865647c0b3e7430a70c99d5638",
+            "width": 1329,
+            "height": 2142,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 12,
+            "xref": 177,
+            "bytes": 102667,
+            "sha256": "8cf30ec1eb9ab2dfb6015b80dc1a8489d5a7c0b35d68acd6587ae7814187945d",
+            "width": 1329,
+            "height": 2142,
+            "image_distributed_in_repository": false
+          }
+        ]
+      }
+    ],
+    "observations": [
+      {
+        "source_id": "worker-songs-nutrikhin-1962",
+        "printed_page": 32,
+        "observation": "Introduction attributes choice of three stanzas to Kots and quotes his reasons; footnote2 cites Наш гимн, Звезда1937 No11, printed locator21 as actually seen. Keep that locator distinct from publisher bibliography start319; original1937 not acquired."
+      },
+      {
+        "source_id": "dmitriev-translations-1967",
+        "printed_pages": [
+          4,
+          6,
+          7
+        ],
+        "observation": "Printed4 explicitly describes Iskra1900 No1 French four-line refrain and prose gloss. Printed6–7 identifies Kots selection as first two plus last, and quotes a letter to Bonch-Bruevich about brevity; no adjacent precise citation dates that letter. Footnotes9/16 locate Наш гимн1937 No11; printed5 footnote3 separately cites Bonch-Bruevich1931 No2. These are retrieval leads, not verification of1931 selection testimony."
+      }
+    ],
+    "kots_1940_dedication": {
+      "source_id": "sovmusic-dreyden-1962",
+      "printed_page": 66,
+      "archive_item_id": 70,
+      "classification": "original-inscription-reproduced-in-later-journal",
+      "addressee_as_seen": "Владимир Дмитриевич Бонч-Бруевич",
+      "date_as_seen": "1940-02-23",
+      "place_as_seen": "Москва",
+      "signature_as_seen": "А. Коц",
+      "publication_year_of_reproduction": 1962,
+      "book_identity_basis": "Printed65–66 text and footnote identify1939 Moscow Гослитиздат Internationale copy kept by Bonch-Bruevich family; facsimile shows publisher emblem and dedication, not a complete title/copyright leaf.",
+      "observation": "Inscription thanks Bonch-Bruevich for support at the beginning of Kots writing in1902 and refers to the first three stanzas of his translation. Date and addressee visually checked. It does not identify Lenin as selector or Iskra as publisher; underlying physical copy not acquired.",
+      "complete_handwriting_transcription_done": false,
+      "underlying_original_physical_copy_obtained": false,
+      "same_copy_as_litfund_bulushev_dedication": false,
+      "image_distributed_in_repository": false
+    },
+    "earlier_self_account_leads": [
+      {
+        "id": "kots-nash-gimn-1937",
+        "author_as_reported": "А. Коц",
+        "title_as_reported": "Наш гимн",
+        "periodical": "Звезда",
+        "year": 1937,
+        "issue": 11,
+        "printed_start_as_reported": 319,
+        "start_locator_source_id": "zvezda-publisher-bibliography-1937",
+        "next_article_start_as_reported": 323,
+        "target_page_range_inferred": [
+          319,
+          322
+        ],
+        "original_article_acquired": false,
+        "full_target_text_acquired": false,
+        "access_source_id": "prlib-zvezda-1937-11",
+        "access_status": "Institutional record says available only in electronic reading rooms; no public target scan acquired.",
+        "alternative_cited_locator": {
+          "source_id": "worker-songs-nutrikhin-1962",
+          "printed_page": 32,
+          "footnote": 2,
+          "locator_as_seen": "стр. 21",
+          "resolved": false
+        }
+      },
+      {
+        "id": "kots-poems-1957-p110",
+        "author_as_reported": "А. Коц",
+        "title_as_reported": "Стихотворения",
+        "year": 1957,
+        "printed_target_page": 110,
+        "locator_source_id": "sovmusic-dreyden-1962",
+        "locator_printed_page": 68,
+        "original_page_acquired": false,
+        "full_target_text_acquired": false
+      },
+      {
+        "id": "bonch-bruevich-kots-1931",
+        "author_as_reported": "В. Д. Бонч-Бруевич",
+        "title_as_reported": "Автор «Интернационала»",
+        "periodical": "На литературном посту",
+        "year": 1931,
+        "issue": 2,
+        "locator_source_id": "dmitriev-translations-1967",
+        "locator_printed_page": 5,
+        "original_article_acquired": false,
+        "full_target_text_acquired": false,
+        "selection_quote_verified_in_1931": false
+      }
+    ],
+    "snapshots": [
+      {
+        "source_id": "prlib-zvezda-1937-11",
+        "url": "https://www.prlib.ru/item/1056837",
+        "snapshot_bytes": 50452,
+        "snapshot_sha256": "a2fc372c95817909b6134dec881334e94b6e90682420d66e4f11a37bfbd86f06",
+        "snapshot_distributed_in_repository": false
+      },
+      {
+        "source_id": "zvezda-publisher-bibliography-1937",
+        "url": "https://zvezdaspb.ru/index.php?page=2&razd=1937",
+        "snapshot_bytes": 63679,
+        "snapshot_sha256": "51aec6d3b89d9c01dfa4437eb5688d5ade0a89bba5eceefd1f05de9685f612bf",
+        "snapshot_distributed_in_repository": false
+      }
+    ],
+    "remaining_targets": [
+      "1929 Monde47 French original",
+      "1930 Xinwenyi2(1) original",
+      "1939 Pottier preface/lyrics and Druskin article",
+      "1960 Druskin184–193",
+      "1960 Sokhor booklet",
+      "1937 Kots self-account",
+      "1957 Kots poems110",
+      "1931 Bonch-Bruevich original"
+    ]
   }
 }

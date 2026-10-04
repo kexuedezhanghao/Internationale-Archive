@@ -438,6 +438,45 @@ def main():
                 assert (ROOT / earliest["roadmap_path"]).is_file()
                 if earliest["status"] == "todo":
                     assert not earliest["global_first_adopter_verified"]
+        selection = claim.get("kots_selection_followup")
+        if selection:
+            assert (ROOT / selection["report_path"]).is_file()
+            assert selection["selection_vs_iskra_claim_distinguished"]
+            assert not selection["global_first_adopter_verified"]
+            assert not selection["claim_transmission_to_zhang_guangnian_established"]
+            journal = next(c for c in claim["related_text_checks"] if c["source_id"] == "sovmusic-dreyden-1962")
+            article_ids = journal["article_image_item_ids"]
+            assert article_ids == list(range(66, 81))
+            assert journal["article_printed_pages"] == list(range(62, 77))
+            assert journal["kots_first_person_selection_quotation_found"]
+            assert not journal["three_stanza_selection_statement_found"]
+            assert not journal["direct_personal_selection_evidence_found"]
+            for evidence in selection["pdf_checks"]:
+                assert evidence["source_id"] in source_ids and evidence["bytes"] > 0
+                assert re.fullmatch(r"[0-9a-f]{64}", evidence["sha256"])
+                assert re.fullmatch(r"[0-9a-f]{40}", evidence["sha1"])
+                assert all(1 <= page <= evidence["pages"] for page in evidence["visually_reviewed_pdf_pages"])
+                assert all(int(page) in evidence["visually_reviewed_pdf_pages"] and printed > 0 for page, printed in evidence["page_mapping"].items())
+                assert not evidence["full_publication_visually_read"] and not evidence["pdf_distributed_in_repository"]
+                assert not evidence["counts_as_new_lyric_identity"] and not evidence["counts_as_new_lyric_full_text"]
+                for im in evidence["embedded_images"]:
+                    assert im["pdf_page"] in evidence["visually_reviewed_pdf_pages"]
+                    assert im["bytes"] > 0 and im["width"] > 0 and im["height"] > 0
+                    assert re.fullmatch(r"[0-9a-f]{64}", im["sha256"]) and not im["image_distributed_in_repository"]
+            dedication = selection["kots_1940_dedication"]
+            assert dedication["source_id"] == journal["source_id"]
+            image = next(im for im in journal["images"] if im["archive_item_id"] == dedication["archive_item_id"])
+            assert image["printed_page"] == dedication["printed_page"] == 66
+            assert dedication["date_as_seen"] == "1940-02-23"
+            assert not dedication["same_copy_as_litfund_bulushev_dedication"]
+            assert not dedication["underlying_original_physical_copy_obtained"]
+            for lead in selection["earlier_self_account_leads"]:
+                assert lead["locator_source_id" if "locator_source_id" in lead else "start_locator_source_id"] in source_ids
+                assert not lead["full_target_text_acquired"]
+            for evidence in selection["snapshots"]:
+                assert evidence["source_id"] in source_ids and evidence["snapshot_bytes"] > 0
+                assert re.fullmatch(r"[0-9a-f]{64}", evidence["snapshot_sha256"])
+                assert not evidence["snapshot_distributed_in_repository"]
         followup = claim.get("source_trail_followup")
         if followup:
             assert (ROOT / followup["report_path"]).is_file()

@@ -490,5 +490,60 @@
     "rights_note": "Bibliographic facts only; no page text redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
     "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "sovmusic-dreyden-1962",
+    "name": "Сим. Дрейден: „Интернационал“ в России, Советская музыка1962 №5",
+    "url": "https://mus.academy/archive/number/282",
+    "role": "original-journal-page-images",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Original article printed62–76 fully visually read;65 refrain/gloss,66 reproduced1940 dedication,68 Kots selection quote citing1957 poems110. Website contents66 differs from printed62.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scans, modern full article or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md"
+  },
+  {
+    "id": "worker-songs-nutrikhin-1962",
+    "name": "А. И. Нутрихин: Песни русских рабочих,1962, introductory essay",
+    "url": "https://imwerden.de/pdf/pesni_russkikh_rabochikh_1962__ocr.pdf",
+    "role": "scanned-historical-publication",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Title/editorial leaves and printed32 only; Kots quote and footnote2 citing1937 Наш гимн with locator21 as printed, unresolved. No full book read.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scans, modern full article or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md"
+  },
+  {
+    "id": "dmitriev-translations-1967",
+    "name": "Валентин Дмитриев: Переводы «Интернационала» на русский язык, Тетради переводчика №4,1967",
+    "url": "https://www.booksite.ru/fulltext/577216/text.pdf",
+    "role": "scanned-historical-publication",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Title/editorial leaves and printed3–8 only; four-line Iskra refrain explicitly distinguished from Kots first-two-and-last selection. Later than1962 report; no direct transmission inferred.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scans, modern full article or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md"
+  },
+  {
+    "id": "zvezda-publisher-bibliography-1937",
+    "name": "Журнал Звезда: publisher bibliography1937, entry2701",
+    "url": "https://zvezdaspb.ru/index.php?page=2&razd=1937",
+    "role": "publisher-bibliography",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "1937 No11 entry2701 Коц Наш гимн starts319; next entry2702 starts323. Target319–322 inferred, not visually verified against original.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scans, modern full article or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md"
+  },
+  {
+    "id": "prlib-zvezda-1937-11",
+    "name": "Президентская библиотека: Звезда1937 No11 record1056837",
+    "url": "https://www.prlib.ru/item/1056837",
+    "role": "institutional-catalogue-access-limitation",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "344pp issue, copy source ПБ and original held at Herzen; available only in electronic reading rooms. No target text acquired.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scans, modern full article or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md"
   }
 ]
