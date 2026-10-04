@@ -297,7 +297,7 @@
         ],
         "author_as_displayed": "中国作家协会书记处书记 张光年",
         "target_locator": "Report third text column, upper part, paragraph beginning 列宁曾经给予《国际歌》以崇高评价",
-        "claim_sentence_reading": "早在1900年，列宁创办的《火星报》创刊号上，曾选取《国际歌》六段歌词中最有普遍意义、最为激动人心的三段词，把它介绍给俄国无产者；这三段词因此得到更广泛的流传。",
+        "claim_sentence_reading": "早在1900年，列宁创办的《火星报》创刊号上，曾经选取《国际歌》六段歌词中最有普遍意义、最为激动人心的三段词，把它介绍给俄国无产者；这三段词因此得到更广泛的流传。",
         "reading_basis": "Manual reading of rendered digital text; remove line wraps and glyph spacing, retain readable punctuation. Not a transcription of original printed glyphs.",
         "main_stanza_numbers_explicitly_named": [],
         "original_printed_glyphs_verified": false,
@@ -363,7 +363,23 @@
             "height": 44
           }
         ],
-        "web_comparison_scope": "Target claim agrees with the previously checked web transcription in substance; full-report collation and source independence not established."
+        "web_comparison_scope": "Target claim agrees with the previously checked web transcription in substance; full-report collation and source independence not established.",
+        "reading_review_history": [
+          {
+            "reviewed_on": "2026-10-04",
+            "release": "0.1.13",
+            "reading_fragment": "曾选取",
+            "status": "superseded",
+            "note": "Manual transcription omitted 经; not an edition variant."
+          },
+          {
+            "reviewed_on": "2026-10-04",
+            "release": "0.1.14",
+            "reading_fragment": "曾经选取",
+            "status": "adopted",
+            "basis": "Reinspection of the same rendered target sentence and detail crop."
+          }
+        ]
       },
       "review_status": "web-and-digital-edition-target-checked-original-glyphs-pending"
     },
@@ -420,5 +436,562 @@
     "global_first_adopter_verified": false,
     "scope": "Distinguish earliest located printed edition, actual translator/editor selection, and oral performance; compare pre-1902 sources across languages.",
     "roadmap_path": "docs/ROADMAP.md"
-  }
+  },
+  "related_text_checks": [
+    {
+      "source_id": "lenin-pottier-1913-text",
+      "classification": "historical-author-text-web-transcription",
+      "report_path": "docs/research/iskra-claim-source-trail.md",
+      "title": "Евгений Потье (К 25-летию его смерти)",
+      "author": "В. И. Ленин",
+      "reviewed_on": "2026-10-04",
+      "publication_information_as_reported": "Pravda No.2, 1913-01-03 [16], signed Н. Л.; original newspaper not obtained.",
+      "editions": [
+        {
+          "language": "ru",
+          "edition": "Полное собрание сочинений, 5th edition, vol.22",
+          "printed_pages": [
+            273,
+            274
+          ],
+          "basis": "Chinese transcription edition note and Russian volume transcription"
+        },
+        {
+          "language": "en",
+          "edition": "Collected Works, Progress Publishers, Moscow, 1971, vol.36, Andrew Rothstein",
+          "printed_pages": [
+            223,
+            224
+          ],
+          "basis": "English webpage editorial metadata"
+        }
+      ],
+      "snapshots": [
+        {
+          "url": "https://www.marxists.org/archive/lenin/works/1913/jan/03a.htm",
+          "snapshot_bytes": 5951,
+          "snapshot_sha256": "c0a5beba1c65a59e6919f15068570c71c8dd313fc14b0d7fae66aea0b27b56ea",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://www.marxists.org/chinese/lenin-cworks/22/077.htm",
+          "snapshot_bytes": 4285,
+          "snapshot_sha256": "9a0fb5fe0eac71c24e345afeab51351dafaf10a7b39ee213ad47796d9a574206",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "review_scope": "Complete Chinese and English article text and editorial metadata read; no original 1913 Pravda page or printed collected-works scan checked.",
+      "observation": "Explains world-wide proletarian song and Pottier biography; does not describe Iskra in 1900 or selection of three stanzas. Evaluation wording corresponds to Zhang report, without establishing source for the separate 1900 claim.",
+      "three_stanza_selection_statement_found": false,
+      "direct_personal_selection_evidence_found": false
+    },
+    {
+      "source_id": "lenin-workers-choirs-1913-text",
+      "classification": "historical-author-text-web-transcription",
+      "report_path": "docs/research/iskra-claim-source-trail.md",
+      "title": "The Development of Workers’ Choirs in Germany",
+      "author": "В. И. Ленин",
+      "reviewed_on": "2026-10-04",
+      "publication_information_as_reported": "Written after 1913-01-03 [16]; first published Kommunist 1954 No.6, printed from original, signed T.; original manuscript/publication not obtained.",
+      "editions": [
+        {
+          "language": "en",
+          "edition": "Collected Works, Progress Publishers, Moscow, 1971, vol.36, Andrew Rothstein",
+          "printed_pages": [
+            225,
+            226
+          ],
+          "basis": "English webpage editorial metadata"
+        }
+      ],
+      "snapshots": [
+        {
+          "url": "https://www.marxists.org/archive/lenin/works/1913/jan/03.htm",
+          "snapshot_bytes": 6585,
+          "snapshot_sha256": "523d6ef1f177b91fffa3ed4e150a21f3b476822cb6196d741e1ad6c4ec2d68ef",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "review_scope": "Complete English article, notes and editorial metadata read; no manuscript or first-publication facsimile obtained.",
+      "observation": "Ending matches content quoted at end of Zhang report; article does not state an Iskra three-stanza selection. Writing and first-publication dates kept separate.",
+      "three_stanza_selection_statement_found": false,
+      "direct_personal_selection_evidence_found": false
+    },
+    {
+      "source_id": "sovmusic-zevaes-1933",
+      "classification": "original-journal-page-images",
+      "report_path": "docs/research/iskra-claim-source-trail.md",
+      "title": "„Интернационал“ и его авторы",
+      "author_as_printed": "А. Зэваэс",
+      "publication_citation": "А. Зэваэс: „Интернационал“ и его авторы. Советская музыка, 1933, №2 (Март–апрель), с.62–66. Перев. с франц. С. Семеновского.",
+      "reviewed_on": "2026-10-04",
+      "images": [
+        {
+          "archive_item_id": 1,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_0.jpg",
+          "bytes": 256245,
+          "sha256": "926543ac7330aacabce4fefdd860d4c1ed3db8ff6273fb24c89c30d08971af47",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": null,
+          "role": "frontmatter-or-adjacent-layout",
+          "page_number_basis": "Visual layout only; not article-body evidence.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 2,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_1.jpg",
+          "bytes": 293355,
+          "sha256": "9ac0803070bf0d35916b8097ec4a646094b1f84c044b78da7a75d47060a89822",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": null,
+          "role": "original-contents",
+          "page_number_basis": "Original contents locates article at 62",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 3,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_2.jpg",
+          "bytes": 369007,
+          "sha256": "1b5dd4769f9b4f45afbc51d9015db90f3b79dd9c00ac956ca334e8e874dd8bc5",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": null,
+          "role": "issue-masthead",
+          "page_number_basis": "No.2, March–April 1933",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 4,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_3.jpg",
+          "bytes": 426469,
+          "sha256": "3269d5c89c3af5da96a8e0e152a651453ca4aa78085ead9e01c4fa0dc40e9016",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": null,
+          "role": "frontmatter-or-adjacent-layout",
+          "page_number_basis": "Visual layout only; not article-body evidence.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 63,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_62.jpg",
+          "bytes": 298998,
+          "sha256": "58ee173bf82bb4b04b4ef8e052cae807d3a2b6eeaaf76facac09115c113b3355",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": 61,
+          "role": "previous-article-end",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 64,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_63.jpg",
+          "bytes": 353244,
+          "sha256": "e64483097b05e09bd829fe5ad875e6f1b5a1f1b9d220dfd92f676db389848af0",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": 62,
+          "role": "article-text",
+          "page_number_basis": "Original contents says 62; next page printed 63; no independent numeral visible on opening page",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 65,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_64.jpg",
+          "bytes": 401395,
+          "sha256": "91b77c124cfbcc4dc377c331f620b5f04ed0da25dd9f8f5ec188516f823462d5",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": 63,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 66,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_65.jpg",
+          "bytes": 403672,
+          "sha256": "5fcc77e2401cb7a1bb21e870474773aa48cd444e708289ad5f822772b1ed21fc",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": 64,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 67,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_66.jpg",
+          "bytes": 447048,
+          "sha256": "71ccee025b4bd75fe376a2c6bb613ef90cb2504f6639b3fe88d9700747bbc9b4",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": 65,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 68,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_67.jpg",
+          "bytes": 339459,
+          "sha256": "3cea5920d46cea3d1a604186753b106ef084641729dbcd73b8b936b1a626953a",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": 66,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 69,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_68.jpg",
+          "bytes": 363970,
+          "sha256": "8f3b284d43e6a9c4fb6edd778db28632573a56642f07f524181cdd2c803e2c0f",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": 67,
+          "role": "next-article-start",
+          "page_number_basis": "Original contents and next printed 68; no numeral visible",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 70,
+          "url": "https://mus.academy/storage/magazine/releases/pages/8_69.jpg",
+          "bytes": 352191,
+          "sha256": "466c20f406c46a177fbaa4bdc22ee58a26f32976b24c3a71e6ab5ece6d557082",
+          "width": 1238,
+          "height": 1902,
+          "printed_page": null,
+          "role": "frontmatter-or-adjacent-layout",
+          "page_number_basis": "Visual layout only; not article-body evidence.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        }
+      ],
+      "downloaded_image_count": 12,
+      "article_image_item_ids": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "article_printed_pages": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "metadata_snapshots": [
+        {
+          "url": "https://mus.academy/archive/number/2/info",
+          "snapshot_bytes": 10863,
+          "snapshot_sha256": "dbcc242bc50ef2c643f74f6ae84bad4a3532301662ec8c1f39aa93e1fd98da2b",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://mus.academy/archive/number/2/pages?offset=0&limit=4",
+          "snapshot_bytes": 36992,
+          "snapshot_sha256": "febb48a16b7befce2469b200176bfad7f8047fc828063436956adfc71b78c4df",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://mus.academy/archive/number/2/pages?offset=62&limit=2",
+          "snapshot_bytes": 27733,
+          "snapshot_sha256": "e72a55012a9283d3df12dc190eba9a83b95f15e6ac905e851328de3cd0ca29aa",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://mus.academy/archive/number/2/pages?offset=64&limit=6",
+          "snapshot_bytes": 126286,
+          "snapshot_sha256": "0706eee472b89b1c9341fa2cf63bb6e44ac372c42292d2c7238ca5f6fc1a46e3",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "review_scope": "All target article text pages, footnotes, title/byline, end and next-article boundary visually read; accompanying plates/blank inspected. No full transcription or whole-issue collation.",
+      "observation": "Article discusses French song history, authors and spread; no Iskra three-stanza selection statement. Opening editor note identifies a translation from Monde, 1929-04-27; French original not obtained. Website contents number 64 differs from printed contents 62, and HTML URL page units display two image leaves.",
+      "three_stanza_selection_statement_found": false,
+      "direct_personal_selection_evidence_found": false,
+      "claim_transmission_to_1962_established": false,
+      "digitization_date_and_original_holding_not_established": true,
+      "original_language_lead": {
+        "author": "Alexandre Zévaès",
+        "title_as_cited": "Chants révolutionnaires. L’Internationale. Ses auteurs, son histoire",
+        "periodical": "Monde",
+        "date_as_cited": "1929-04-27",
+        "citation_basis": "Editor note on original Russian opening leaf, printed p.62",
+        "original_article_obtained": false,
+        "status": "todo"
+      }
+    },
+    {
+      "source_id": "sovmusic-rubakin-1956",
+      "classification": "original-journal-page-images",
+      "report_path": "docs/research/iskra-claim-source-trail.md",
+      "title": "Пьер Дегейтер — автор „Интернационала“",
+      "author_as_printed": "А. РУБАКИН",
+      "publication_citation": "А. Рубакин: Пьер Дегейтер — автор „Интернационала“. Советская музыка, 1956, №2 (февраль), с.7–13, ненумерованная иллюстрация.",
+      "reviewed_on": "2026-10-04",
+      "images": [
+        {
+          "archive_item_id": 1,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_0.jpg",
+          "bytes": 129998,
+          "sha256": "9fb7241d598642b025269c6f9b97dd9f3dc960ea7e6cbf94d1d3faeea11c27c8",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": null,
+          "role": "frontmatter-or-adjacent-layout",
+          "page_number_basis": "Visual layout only; not article-body evidence.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 2,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_1.jpg",
+          "bytes": 104086,
+          "sha256": "a2eef1741aeecf7164c4da9bb466f0d1597ae9057e5459aa8215f3dbd6803a28",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": null,
+          "role": "frontmatter-or-adjacent-layout",
+          "page_number_basis": "Visual layout only; not article-body evidence.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 3,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_2.jpg",
+          "bytes": 206673,
+          "sha256": "f8131b811fb5936df22bbd3ab2832dad2ef94705211a6120c86f502de9c675b0",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": null,
+          "role": "original-contents-and-issue-month",
+          "page_number_basis": "No.2, February 1956; original contents locates article at 7",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 4,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_3.jpg",
+          "bytes": 154464,
+          "sha256": "571bdce99748bc2f7b2360fe1def319391b33766c5eae2e0158c855fd644829b",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": null,
+          "role": "frontmatter-or-adjacent-layout",
+          "page_number_basis": "Visual layout only; not article-body evidence.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 9,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_8.jpg",
+          "bytes": 231993,
+          "sha256": "b6c1e7001ddfcd196a9bfb8e2cca20f3aa1f546faf0bfb1059eeb3fb40122da3",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": 7,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 10,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_9.jpg",
+          "bytes": 311857,
+          "sha256": "b58c8fcb9e862e571d699b97ec02b7e270d22e71886eb2713b72e05d53c8f1c3",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": 8,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 11,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_10.jpg",
+          "bytes": 319696,
+          "sha256": "4439c4add8ab24889d988dda7e5a339fc31b38f3bfe90b4d0ff8538f87f3b430",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": 9,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 12,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_11.jpg",
+          "bytes": 309107,
+          "sha256": "f607c62fda4c69b08671825737d66df5f253efba7a08d8a555bcdbfb8c1e64a0",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": 10,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 13,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_12.jpg",
+          "bytes": 191014,
+          "sha256": "2b684659590a10ff01316bc93e95a403167b34346f21653673ea8528310cec3c",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": null,
+          "role": "unnumbered-illustration",
+          "page_number_basis": "Plate caption; no page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 14,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_13.jpg",
+          "bytes": 82225,
+          "sha256": "30b902af978aee511ca2b40f6ed2acffb32433523b055c6b6a8810cad33a6ac3",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": null,
+          "role": "blank-verso",
+          "page_number_basis": "Blank scan; not a numbered text page",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 15,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_14.jpg",
+          "bytes": 296226,
+          "sha256": "739911269065c3a5778c283ed04c7632357fa6bc557d0ed245f802538e6bfe75",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": 11,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 16,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_15.jpg",
+          "bytes": 315205,
+          "sha256": "7ad7a99a68034ebd4a13f55623645ffdc043d722effafe0e2849ad53ab8df48b",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": 12,
+          "role": "article-text",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 17,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_16.jpg",
+          "bytes": 206541,
+          "sha256": "305e4abd5b257a6ef598410cb2ea405762b3c5eeacee34cc7a8ddf195cd155e4",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": 13,
+          "role": "article-text",
+          "page_number_basis": "Continuous article ending; next leaf printed 14 and original contents locates next article at 14; no numeral visible",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 18,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_17.jpg",
+          "bytes": 243584,
+          "sha256": "d1dc67446a1e72dc6099ba83473b6daaf7a0b030a8077c3ac748e6f533dbc4fc",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": 14,
+          "role": "next-article-start",
+          "page_number_basis": "Original printed numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 19,
+          "url": "https://mus.academy/storage/magazine/releases/pages/297_18.jpg",
+          "bytes": 325897,
+          "sha256": "a843556d896145be088e794e790aa3df0f4bd81da9d96f9f6c3c3283c593082c",
+          "width": 1179,
+          "height": 1916,
+          "printed_page": null,
+          "role": "frontmatter-or-adjacent-layout",
+          "page_number_basis": "Visual layout only; not article-body evidence.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        }
+      ],
+      "downloaded_image_count": 15,
+      "article_image_item_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "article_printed_pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "metadata_snapshots": [
+        {
+          "url": "https://mus.academy/archive/number/207/info",
+          "snapshot_bytes": 17511,
+          "snapshot_sha256": "27b6c35415b3fd03fb277e766bb094b917b1df679b5c96c84bfd9d05c349b071",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://mus.academy/archive/number/207/pages?offset=0&limit=9",
+          "snapshot_bytes": 91161,
+          "snapshot_sha256": "2d21aa25e279d0c10b8dc01503468440ff182eb4a812363a9d4b1efa0ef098de",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://mus.academy/archive/number/207/pages?offset=9&limit=10",
+          "snapshot_bytes": 108125,
+          "snapshot_sha256": "c0ca9c186d61baf1b3152e882fe12ef5ec8d7949fa116dc6a654876eb1dec545",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "review_scope": "All target article text pages, footnotes, title/byline, end and next-article boundary visually read; accompanying plates/blank inspected. No full transcription or whole-issue collation.",
+      "observation": "Retrospective account of visiting Degeyter and manuscripts/authorship dispute, without Iskra or stanza-selection statement. Says visit/trip 1928, while 1933 article says Soviet visit 1927; unresolved conflict. Unnumbered plate caption calls illustrated cover first edition but supplies no 1888 date; not used as verified 1888 first printing. Website contents number 9 differs from original printed 7; inserted plate/blank break simple image/page mapping.",
+      "three_stanza_selection_statement_found": false,
+      "direct_personal_selection_evidence_found": false,
+      "claim_transmission_to_1962_established": false,
+      "digitization_date_and_original_holding_not_established": true
+    }
+  ]
 }

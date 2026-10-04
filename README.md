@@ -31,7 +31,7 @@ Antiwar Songs 的索引自称170种语言；页面的语言筛选标签有138种
 - 阅读[俄语Коц1902年三段原刊核对](docs/research/ru-kots-1902.md)：《Жизнь》第5期8月刊印刷第201页已转录，保留旧拼写；后补六段本仍待原刊。
 - 阅读[德语Luckhardt四段原书核对](docs/research/de-luckhardt-freies-lied-ca1925.md)：《Freies Lied》第33–34页已转录，馆方估年约1925；最早1906／1910线索另待查。
 - 阅读[狄盖特1888年原始曲谱登记](docs/research/fr-degeyter-1888.md)：BnF的Boldoduc印本全部四幅已取得，核对送存章、六段范围与plus gai；音符转录待完成。
-- 阅读[《火星报》1900年首期核查](docs/research/iskra-1900-1.md)：已取得首期原报；目标报道为法语副歌与俄语释义，不支持该文章刊载第1、2、6段的说法；1962年张光年报告的三段叙述已核数字版但未明列段号；最早采用该组合另列待办。
+- 阅读[《火星报》1900年首期核查](docs/research/iskra-1900-1.md)：已取得首期原报；目标报道为法语副歌与俄语释义，不支持该文章刊载第1、2、6段的说法；1962年张光年报告的三段叙述已核数字版但未明列段号；最早采用该组合另列待办；[相关列宁文字及1933／1956期刊排查](docs/research/iskra-claim-source-trail.md)未找到三段说法，新增1929年法语原文待核线索。
 - 下载 [来源目录 CSV](catalogue/discoveries.csv)，或读取 [发现数据库](data/discoveries/antiwarsongs.json) 和 [版本数据库](data/versions.json)。
 - 查看 [收集进度与待办](docs/ROADMAP.md)、[字段含义](docs/DATA_MODEL.md) 和 [权利记录规则](RIGHTS.md)。
 

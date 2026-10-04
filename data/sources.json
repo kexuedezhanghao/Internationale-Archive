@@ -270,5 +270,49 @@
     "import_scope": "File metadata and manual checks of pages 1 and 5; report title/byline, date and three-stanza claim checked in rendered PDF text. Not an unretypeset original newspaper scan.",
     "rights_note": "Brief historical-claim excerpt and metadata only; PDF, page images and full report not redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "lenin-pottier-1913-text",
+    "name": "В. И. Ленин: Евгений Потье (1913), MIA Chinese/English collected-works transcriptions",
+    "url": "https://www.marxists.org/archive/lenin/works/1913/jan/03a.htm",
+    "role": "historical-author-text-web-transcription",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Publication metadata and brief source-scope observations; target article text checked, no three-stanza selection statement located.",
+    "rights_note": "Source article, images and bulk transcription not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/iskra-claim-source-trail.md"
+  },
+  {
+    "id": "lenin-workers-choirs-1913-text",
+    "name": "В. И. Ленин: The Development of Workers’ Choirs in Germany, MIA collected-works transcription",
+    "url": "https://www.marxists.org/archive/lenin/works/1913/jan/03.htm",
+    "role": "historical-author-text-web-transcription",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Publication metadata and brief source-scope observations; target article text checked, no three-stanza selection statement located.",
+    "rights_note": "Source article, images and bulk transcription not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/iskra-claim-source-trail.md"
+  },
+  {
+    "id": "sovmusic-zevaes-1933",
+    "name": "А. Зэваэс: „Интернационал“ и его авторы, Советская музыка 1933 №2, original printed pp.62–66",
+    "url": "https://mus.academy/archive/number/2",
+    "role": "original-journal-page-images",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Publication metadata and brief source-scope observations; target article text checked, no three-stanza selection statement located.",
+    "rights_note": "Source article, images and bulk transcription not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/iskra-claim-source-trail.md"
+  },
+  {
+    "id": "sovmusic-rubakin-1956",
+    "name": "А. Рубакин: Пьер Дегейтер — автор „Интернационала“, Советская музыка 1956 №2, original printed pp.7–13",
+    "url": "https://mus.academy/archive/number/207",
+    "role": "original-journal-page-images",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Publication metadata and brief source-scope observations; target article text checked, no three-stanza selection statement located.",
+    "rights_note": "Source article, images and bulk transcription not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/iskra-claim-source-trail.md"
   }
 ]

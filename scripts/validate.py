@@ -379,6 +379,39 @@ def main():
                     for im in digital["page5_image_objects"]:
                         assert im["bytes"] > 0 and im["width"] > 0 and im["height"] > 0
                         assert re.fullmatch(r"[0-9a-f]{64}", im["sha256"])
+                    history = digital.get("reading_review_history", [])
+                    if history:
+                        adopted = [h for h in history if h["status"] == "adopted"]
+                        assert len(adopted) == 1
+                        assert adopted[0]["reading_fragment"] in digital["claim_sentence_reading"]
+                        assert all(h["status"] in {"adopted", "superseded"} and h["reviewed_on"] for h in history)
+            for check in claim.get("related_text_checks", []):
+                assert check["source_id"] in source_ids and (ROOT / check["report_path"]).is_file()
+                assert check["review_scope"] and check["observation"]
+                assert isinstance(check["three_stanza_selection_statement_found"], bool)
+                assert isinstance(check["direct_personal_selection_evidence_found"], bool)
+                snapshots = check.get("snapshots", []) + check.get("metadata_snapshots", [])
+                for evidence in snapshots:
+                    assert urlparse(evidence["url"]).scheme == "https" and evidence["snapshot_bytes"] > 0
+                    assert re.fullmatch(r"[0-9a-f]{64}", evidence["snapshot_sha256"])
+                    assert not evidence["snapshot_distributed_in_repository"]
+                if check["classification"] == "original-journal-page-images":
+                    images = check["images"]
+                    ids = [im["archive_item_id"] for im in images]
+                    assert len(ids) == len(set(ids)) == check["downloaded_image_count"]
+                    assert set(check["article_image_item_ids"]) <= set(ids)
+                    article_images = [im for im in images if im["archive_item_id"] in check["article_image_item_ids"]]
+                    assert check["article_printed_pages"] == [im["printed_page"] for im in article_images if im["printed_page"] is not None]
+                    for im in images:
+                        assert urlparse(im["url"]).scheme == "https"
+                        assert im["bytes"] > 0 and im["width"] > 0 and im["height"] > 0
+                        assert re.fullmatch(r"[0-9a-f]{64}", im["sha256"])
+                        assert im["printed_page"] is None or im["printed_page"] > 0
+                        assert im["role"] and im["page_number_basis"] and im["visually_reviewed_on"]
+                        assert not im["image_distributed_in_repository"]
+                else:
+                    assert check["classification"] == "historical-author-text-web-transcription"
+                    assert check["editions"] and snapshots and check["publication_information_as_reported"]
             earliest = claim.get("earliest_combination_check")
             if earliest:
                 assert earliest["currently_verified_early_version_id"] in vids

@@ -81,3 +81,5 @@
 `antiwarsongs.snapshot.json` 记录抓取时间、整页字节数与SHA-256，以及导入时的数量核对。HTML原件留在临时研究目录，不随发布包分发。网页后来新增、修订或删除的条目应形成可追踪的目录更新，保留已有人工判断。
 
 Antiwar Songs 的文字/CSV目录、`catalogue.html` 和 `data/stats.json` 从网页发现数据库与版本数据库生成。图书目录使用独立生成脚本，目前未合入离线网页检索。JSON保留完整字段。
+
+`publication-checks`中的`related_text_checks`单列说法出处排查：每篇记核读载体、范围、观察及是否找到选三段说明。原刊图像逐项记录接口item id与印刷页次，`null`用于无编号图版、空白或前置页；页次依据与网站目录差异另记。不把未找到说明的文章当作正面传播见证，也不并入歌词计数。`reading_review_history`保留转录错误撤回和采用记录，不把录入更正当作版本异文。
