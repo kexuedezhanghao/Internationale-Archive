@@ -250,6 +250,44 @@
   ],
   "unresolved_readings": [
     {
+      "id": "EN1919-02",
+      "version_id": "en-kerr-iww-1919",
+      "pdf_page": 14,
+      "printed_page": 9,
+      "locator": "stanza-4-line-7-after-restitution",
+      "marker": "〔杂墨？〕",
+      "candidates": [
+        "no-punctuation-stray-ink",
+        ",",
+        ".",
+        "-"
+      ],
+      "status": "pending-review",
+      "previous_marker": "〔- / .?〕",
+      "provisional_reading": "",
+      "provisional_line": "In working for their restitution",
+      "provisional_interpretation": "possible-stray-ink-no-punctuation",
+      "reviewed_on": "2026-10-04",
+      "review_basis": "User observes that the ink mark sits above the usual punctuation position, provisionally prefers stray ink and no punctuation, and explicitly leaves the reading unresolved. A comma is considered only under the conditional hypothesis of displaced punctuation on grammatical grounds; no comma is supplied as an image-confirmed reading.",
+      "review_crop": {
+        "sha256": "d243602b340f2a24402f4bcad3565ee1a9a1b5436b27a1eeb22ee6bf91916e5b",
+        "bytes": 9556,
+        "width": 1275,
+        "height": 261,
+        "region_xyxy": [
+          411,
+          1828,
+          1686,
+          2089
+        ],
+        "processing": "Native source pixels cropped only; no sharpening, enhancement or redrawing.",
+        "distributed_in_repository": false,
+        "coordinate_space": "2470 × 3560 native raster of PDF page 14, printed page 9; not PDF points."
+      }
+    }
+  ],
+  "resolved_readings": [
+    {
       "id": "EN1919-01",
       "version_id": "en-kerr-iww-1919",
       "pdf_page": 13,
@@ -260,20 +298,26 @@
         ",",
         ";"
       ],
-      "status": "pending-review"
-    },
-    {
-      "id": "EN1919-02",
-      "version_id": "en-kerr-iww-1919",
-      "pdf_page": 14,
-      "printed_page": 9,
-      "locator": "stanza-4-line-7-after-restitution",
-      "marker": "〔- / .?〕",
-      "candidates": [
-        "-",
-        "."
-      ],
-      "status": "pending-review"
+      "status": "resolved-human-reviewed",
+      "adopted_reading": ";",
+      "resolved_on": "2026-10-04",
+      "resolved_line": "Arise, ye slaves; no more in thrall!",
+      "resolution_basis": "User visually reviewed the native PDF-image crop and explicitly confirmed a semicolon without reservation on 2026-10-04.",
+      "review_crop": {
+        "sha256": "1978b862c4a314f9b54679b9877892f20c9582ab8c38f14b826435e25c0def42",
+        "bytes": 12118,
+        "width": 1478,
+        "height": 272,
+        "region_xyxy": [
+          374,
+          1725,
+          1852,
+          1997
+        ],
+        "processing": "Native source pixels cropped only; no sharpening, enhancement or redrawing.",
+        "distributed_in_repository": false,
+        "coordinate_space": "2470 × 3570 native raster of PDF page 13, printed page 8; not PDF points."
+      }
     }
   ]
 }

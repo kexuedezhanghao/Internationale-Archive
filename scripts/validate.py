@@ -172,6 +172,17 @@ def main():
                 assert reading["candidates"] and reading["status"] == "pending-review"
                 assert any(pair["pdf_page"] == reading["pdf_page"] and pair["printed_page"] == reading["printed_page"]
                            for pdf in pdfs for pair in pdf["page_mapping"])
+        for reading in check.get("resolved_readings", []):
+            v = next(v for v in versions if v["id"] == reading["version_id"])
+            assert v["id"] in check_ids
+            assert reading["status"] == "resolved-human-reviewed"
+            assert reading["resolved_on"] and reading["resolution_basis"]
+            assert reading["id"] in v["review"]["resolved_reading_ids"]
+            assert reading["id"] not in v["review"]["unresolved_reading_ids"]
+            body = (ROOT / v["lyrics_path"]).read_text(encoding="utf-8")
+            lyrics = body.split("```text\n", 1)[1].split("```", 1)[0]
+            assert reading["marker"] not in lyrics
+            assert reading["resolved_line"] in lyrics.splitlines()
         if "image_evidence" in check:
             images = check["image_evidence"]
             assert len({im["url"] for im in images}) == len(images)

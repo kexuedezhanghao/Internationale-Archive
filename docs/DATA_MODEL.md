@@ -64,6 +64,8 @@
 
 经人工复核解决的疑读移入 `resolved_readings`，保留原标记、候选读法及裁图，另记 `resolved_on`、`resolved_line` 与 `resolution_basis`；版本以 `resolved_reading_ids` 关联。全部疑读解决后可将所声明范围的 `facsimile_collation` 改为 `completed`，不改变其它刊本的校勘状态。
 
+暂按杂墨处理而未定读的印迹仍保留在 `unresolved_readings`，记录 `provisional_reading`、`provisional_line` 和判断依据；不补标点时读法可为空字符串。正文中的 `〔杂墨？〕` 是校勘提示，不是原刊文字或标点，不能将暂行处理标成已解决。
+
 `data/source-checks/` 的可选 `image_evidence` 登记原报截图、未确认刊本的图片及现代重排材料，保存实际下载文件的字节数、SHA-256、尺寸、来源与目视检查范围。`counts_as_facsimile` 只计本批已检查的原刊影像，可包括明确说明范围的局部截图；不等于取得整版。`crop-inspected-full-page-pending` 表示检查了截图，全文校勘与完整刊本身份尚未完成。裁图不含报头时，期版日期应标明是来源所报，不能冒充由图内直接核验。
 
 可选`pdf_evidence`记录实际PDF的URL、字节数、SHA-256／SHA-1、总页数、已目视检查页、印刷页对应与检查范围。`counts_as_facsimile`只计声明目标的历史刊物，现代论文、总目录与不同译者的候选歌集不自动增加目标原刊数；PDF大文件不分发。双页扫描与前置页以逐页`page_mapping`定位，不能套用未经核实的固定偏移。`publication_dating`保存约年限定，`translator_attribution`区分原页署名与现代研究归属。

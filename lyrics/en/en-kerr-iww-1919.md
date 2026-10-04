@@ -4,7 +4,7 @@
 
 来源：[Internet Archive馆藏](https://archive.org/details/SongsOfTheWorkers15thEd) · [原刊扫描PDF](https://archive.org/download/SongsOfTheWorkers15thEd/Songs_of_the_workers.pdf)。题名“The Internationale”，署“By Eugene Pottier (Translated by Charles H. Kerr.)”。原刊未另署改写者，不据出版机构推定具体作者。
 
-阅读转录保留词句、段序与一次副歌，合并跨页的第2段。撇号、引号统一为ASCII。两处模糊标点明确标疑：`〔, / ;?〕`、`〔- / .?〕`；不影响相邻词语的辨读。页末另一条工作时间标语未收入歌词。
+阅读转录保留词句、段序与一次副歌，合并跨页的第2段。撇号、引号统一为ASCII。slaves后的分号于2026年10月4日经用户原图局部复核确认。restitution后的偏高印迹暂按疑似杂墨处理，不补标点，仍用`〔杂墨？〕`保留校勘提示；该提示不是原刊文字或标点，不影响相邻词语的辨读。页末另一条工作时间标语未收入歌词。
 
 ## 歌词
 
@@ -14,7 +14,7 @@ Arise, ye wretched of the earth,
 For justice thunders condemnation,
 A better world's in birth.
 No more tradition's chains shall bind us,
-Arise, ye slaves〔, / ;?〕 no more in thrall!
+Arise, ye slaves; no more in thrall!
 The earth shall rise on new foundations,
 We have been naught, we shall be all.
 
@@ -48,7 +48,7 @@ What have you read in all their story,
 But how they plundered toil?
 Fruits of the workers' toil are buried
 In the strong coffers of a few;
-In working for their restitution〔- / .?〕
+In working for their restitution〔杂墨？〕
 The men will only ask their due.
 
 Toilers from shops and fields united,
@@ -67,4 +67,4 @@ The blessed sunlight will stay.
 
 宋逸炜编《〈国际歌〉在中国》2022年版第109页引用的正是此版第8–9页；该书条目标1901年与实际引用1919年底本分别保存。本次核对历史歌本，不代表已逐字校勘2022年书中的重排正文。
 
-核对范围、差异、两处标点疑读和文件摘要见[核对报告](../../docs/research/en-kerr-1900-1919.md)。权利依据限定美国：历史文字已核定1919年发表，按美国版权局Circular 22（2026年4月修订）所列1931年前出版依据准入，不据此推断改写者生卒或全球期限；不涵盖扫描再利用、现代编曲或录音。
+核对范围、差异、标点复核与剩余疑读和文件摘要见[核对报告](../../docs/research/en-kerr-1900-1919.md)。权利依据限定美国：历史文字已核定1919年发表，按美国版权局Circular 22（2026年4月修订）所列1931年前出版依据准入，不据此推断改写者生卒或全球期限；不涵盖扫描再利用、现代编曲或录音。

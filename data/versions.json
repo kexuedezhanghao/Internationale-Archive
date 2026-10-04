@@ -715,7 +715,7 @@
     "text_author": "逃獄",
     "composition_year": null,
     "source_publication_year": 1920,
-    "edition_label": "《华工旬刊》第5号1920年11月25日第4页、第6号12月5日第3–4页；据BnF整版转录，1处疑读",
+    "edition_label": "《华工旬刊》第5号1920年11月25日第4页、第6号12月5日第3–4页；据BnF整版转录；原鸟名疑读已人工复核",
     "stanza_mapping": [
       1,
       2,
@@ -727,12 +727,16 @@
     "kind": "translation",
     "lyrics_path": "lyrics/zh/zh-zhang-taoyu-1920.md",
     "review": {
-      "status": "facsimile-reviewed-with-unresolved-readings",
+      "status": "facsimile-reviewed",
       "date": "2026-10-04",
-      "facsimile_collation": "reviewed-with-unresolved-readings",
+      "facsimile_collation": "completed",
       "source_check_record": "data/source-checks/zh-zhang-taoyu-1920.json",
       "source_check_report": "docs/research/zh-zhang-taoyu-1920.md",
-      "scope": "All six lyric chapters, cross-column/page continuation and refrain instructions checked against three original pages; reading transcription with punctuation encoding stated, one bird-name reading unresolved. Notes not fully transcribed."
+      "scope": "All six lyric chapters, cross-column/page continuation and refrain instructions checked against three original pages; reading transcription with punctuation encoding stated, original bird-name uncertainty resolved by user visual review on 2026-10-04. Notes not fully transcribed.",
+      "unresolved_reading_ids": [],
+      "resolved_reading_ids": [
+        "HG1920-01"
+      ]
     },
     "rights": {
       "status": "public-domain-supported",
@@ -775,12 +779,12 @@
       "原刊两次署名均为逃獄譯投，不见张字；研究与网页称张逃狱，实名和死亡年未核实。全文按美国发表年份依据准入，不宣称全球期限已核。",
       "第5、6号各四个整版已取得；据三张歌词页完成六章阅读转录，对应法文1、2、4、3、5、6，不重排。",
       "保留原刊術若、槍械、糞地及标点类别；誓不當兵、敲磕和權衡两边均有，不作为漏文或异文。",
-      "HG1920-01：第六章養那…梟的首个鸟名暂读鴟、候选鴞，正文显式标疑；附注未作全文逐字校勘。",
+      "HG1920-01：第六章養那鴟梟與鷲鷹中的鴟已由用户复核确认，原疑读和候选保留于已解决记录；附注未作全文逐字校勘。",
       "BnF馆藏号JO-61037，数字馆藏号NUMP-20674；2022年书第6页所报歌词页次与BnF影像相合，保定馆藏档号与本书重排正文待核。"
     ],
     "translator_as_printed": "逃獄",
     "translator_name_in_research": "张逃狱",
-    "lyrics_sha256": "98a427f649d7548faede0c356d9fbedf75a159cb90df8863c60919c76e18ab08"
+    "lyrics_sha256": "6fcbcb342fd79e56c13e4a58a337cfd5def558b16094aca86d80e423fad4da89"
   },
   {
     "id": "zh-geng-zheng-1921",
@@ -1103,7 +1107,7 @@
     "text_author": null,
     "composition_year": null,
     "source_publication_year": 1919,
-    "edition_label": "Songs of the Workers, Fifteenth Edition, Chicago: IWW, October 1919, pp.8–9；两处标点标疑",
+    "edition_label": "Songs of the Workers, Fifteenth Edition, Chicago: IWW, October 1919, pp.8–9；slaves后分号已核；restitution后疑似杂墨待复核",
     "stanza_mapping": [
       1,
       2,
@@ -1123,10 +1127,12 @@
       "facsimile_collation": "reviewed-with-unresolved-readings",
       "source_check_record": "data/source-checks/en-kerr-1900-1919.json",
       "source_check_report": "docs/research/en-kerr-1900-1919.md",
-      "scope": "All five English stanzas and refrain visually transcribed from specified original-publication scans. Music, French refrain and typographic facsimile excluded; 1919 has two unresolved punctuation readings.",
+      "scope": "All five English stanzas and refrain visually transcribed from specified original-publication scans. Music, French refrain and typographic facsimile excluded; 1919 slaves semicolon resolved by user visual review; restitution ink mark remains unresolved and provisionally treated as stray ink with no supplied punctuation.",
       "unresolved_reading_ids": [
-        "EN1919-01",
         "EN1919-02"
+      ],
+      "resolved_reading_ids": [
+        "EN1919-01"
       ]
     },
     "rights": {
@@ -1159,10 +1165,10 @@
     "notes": [
       "题名页明记October, 1919、Fifteenth Edition；印刷8–9页对应本PDF13–14。",
       "改写者未另署名；Kerr署名按原刊保留，不推定所有改动由Kerr创作。",
-      "保留equal单数及两处标点疑读；本书1901标记、实际1919底本与网页1900标记分别保存。"
+      "保留equal单数；slaves后分号已确认，restitution后疑似杂墨暂不补标点并显式保留疑读；本书1901标记、实际1919底本与网页1900标记分别保存。"
     ],
     "revision_author": null,
-    "lyrics_sha256": "303286a88a5ca797b3b0d0b1df8cb13ce6328ba729c845793297888a7bf52edc"
+    "lyrics_sha256": "9aafed684d907635c906a710a4d58fb3d7e3a396526beffd32d2ec703bdf62ab"
   },
   {
     "id": "de-luckhardt-freies-lied-ca1925",

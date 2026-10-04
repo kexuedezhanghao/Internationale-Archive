@@ -383,7 +383,6 @@
     }
   ],
   "next_original_targets": [
-    "复核HG1920-01鸟名细字",
     "核查逃獄／张逃狱身份、生卒及中国大陆期限",
     "保定馆藏具体档号与2022年书重排正文仍待核"
   ],
@@ -401,35 +400,15 @@
   ],
   "transcription_review": {
     "lyrics_path": "lyrics/zh/zh-zhang-taoyu-1920.md",
-    "lyrics_sha256": "98a427f649d7548faede0c356d9fbedf75a159cb90df8863c60919c76e18ab08",
+    "lyrics_sha256": "6fcbcb342fd79e56c13e4a58a337cfd5def558b16094aca86d80e423fad4da89",
     "stanza_count": 6,
-    "review_status": "reviewed-with-unresolved-readings",
-    "unresolved_reading_count": 1,
+    "review_status": "reviewed",
+    "unresolved_reading_count": 0,
     "normalization": "Reading transcription: remove vertical spacing; editorial line breaks; solid sentence marks encoded as U+3002; visible exclamation marks and quotation marks retained. Refrain instructions not expanded.",
-    "notes_transcribed": false
+    "notes_transcribed": false,
+    "resolved_reading_count": 1
   },
-  "unresolved_readings": [
-    {
-      "id": "HG1920-01",
-      "issue_number": 6,
-      "printed_page": 4,
-      "locator": "第六章：養那…梟與鷲鷹中的首个鸟名",
-      "adopted_reading": "〔鴟？〕",
-      "candidates": [
-        "鴟",
-        "鴞"
-      ],
-      "status": "unresolved",
-      "evidence_url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292839s/f4/full/full/0/native.jpg",
-      "review_region_xyxy": [
-        1820,
-        600,
-        4050,
-        2060
-      ],
-      "reason": "Fine strokes of left component not securely resolved; web reading not used as image proof."
-    }
-  ],
+  "unresolved_readings": [],
   "confirmed_differences": [
     {
       "locator": "第1章",
@@ -460,6 +439,47 @@
       "facsimile": "糞地",
       "web": "棄地",
       "kind": "wording"
+    }
+  ],
+  "resolved_readings": [
+    {
+      "id": "HG1920-01",
+      "issue_number": 6,
+      "printed_page": 4,
+      "locator": "第六章：養那…梟與鷲鷹中的首个鸟名",
+      "adopted_reading": "鴟",
+      "candidates": [
+        "鴟",
+        "鴞"
+      ],
+      "status": "resolved-human-reviewed",
+      "evidence_url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3292839s/f4/full/full/0/native.jpg",
+      "review_region_xyxy": [
+        1820,
+        600,
+        4050,
+        2060
+      ],
+      "version_id": "zh-zhang-taoyu-1920",
+      "marker": "〔鴟？〕",
+      "resolved_on": "2026-10-04",
+      "resolved_line": "呀！費了我們多少血汗。養那鴟梟與鷲鷹。",
+      "resolution_basis": "User visually reviewed the native source crop and explicitly confirmed 鴟 without reservation on 2026-10-04; not inferred from the modern web transcription.",
+      "review_crop": {
+        "sha256": "bc0b1bb67aa111834090e0230d336e4787226256f7cf198cb734675079217f1e",
+        "bytes": 123621,
+        "width": 120,
+        "height": 610,
+        "region_xyxy": [
+          3330,
+          1400,
+          3450,
+          2010
+        ],
+        "processing": "Native source pixels cropped only; no sharpening, enhancement or redrawing.",
+        "distributed_in_repository": false
+      },
+      "original_reason": "Fine strokes of left component not securely resolved; web reading not used as image proof."
     }
   ]
 }
