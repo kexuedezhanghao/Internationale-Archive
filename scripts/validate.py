@@ -196,6 +196,25 @@ def main():
             assert any(im["issue_number"] == part["issue_number"] and im["printed_page"] == part["printed_page"] for im in check["image_evidence"])
         for difference in check.get("preliminary_differences", []):
             assert difference["facsimile"] and difference["web"] and difference["locator"]
+        if "masthead_facsimile_evidence" in check:
+            lyric_page = check["local_facsimile_evidence"]
+            masthead = check["masthead_facsimile_evidence"]
+            for evidence in (lyric_page, masthead):
+                assert evidence["source_id"] in source_ids
+                assert evidence["classification"] == "original-newspaper-page-facsimile"
+                assert evidence["pdf_pages"] == 1 and evidence["pdf_bytes"] > 0
+                assert re.fullmatch(r"[0-9a-f]{64}", evidence["pdf_sha256"])
+                assert re.fullmatch(r"[0-9a-f]{40}", evidence["pdf_sha1"])
+                assert not evidence["pdf_distributed"] and evidence["masthead_date_verified"]
+                raster = evidence["embedded_raster"]
+                assert raster["width"] > 0 and raster["height"] > 0 and raster["bytes"] > 0
+                assert re.fullmatch(r"[0-9a-f]{64}", raster["sha256"])
+                assert not raster["image_distributed"]
+            link = check["same_issue_linkage"]
+            assert link["printed_pages"] == [masthead["printed_page"], lyric_page["printed_page"]]
+            assert link["page1_boundary_reading"] and link["page2_boundary_reading"] and link["boundary_locator"]
+            assert masthead["printed_date_reading"] and masthead["publication_date"] == check["date_conflicts"][0]["adopted_date"]
+            assert check["facsimiles_obtained"] == 2 and masthead["pdf_sha256"] != lyric_page["pdf_sha256"]
         if "stanza_mapping_verified" in check:
             assert len(check["version_ids"]) == 1
             v = next(v for v in versions if v["id"] == check["version_ids"][0])

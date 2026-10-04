@@ -1,16 +1,13 @@
 {
   "id": "early-zh-1920-1962",
   "reviewed_on": "2026-10-04",
-  "scope": "Two remaining 1920/1921 identities checked through web evidence; no original facsimiles of these two targets obtained. Zhang original issues and 1962 mixed digital score edition now documented in separate source checks. Earlier 1962 webpage and candidate-image evidence retained as search history.",
+  "scope": "Historical early Chinese search record. Only Liebei remains assigned here; Geng/Zheng original page and date comparison now recorded in zh-geng-zheng-1921.json. Existing web and catalogue search history retained.",
   "report_path": "docs/research/early-zh-1920-1962.md",
   "version_ids": [
-    "zh-liebei-1920",
-    "zh-geng-zheng-1921"
+    "zh-liebei-1920"
   ],
   "facsimiles_obtained": 0,
-  "full_text_version_ids": [
-    "zh-geng-zheng-1921"
-  ],
+  "full_text_version_ids": [],
   "snapshots": [
     {
       "url": "https://www.marxists.org/chinese/reference-books/labor-1920/index.htm",
@@ -173,37 +170,10 @@
       "url": "https://www.marxists.org/chinese/reference-books/labor-1920/6-12.htm"
     }
   ],
-  "date_conflicts": [
-    {
-      "version_id": "zh-geng-zheng-1921",
-      "publication": "《民国日报》副刊《觉悟》",
-      "status": "unresolved-original-needed",
-      "claims": [
-        {
-          "date": "1921-05-07",
-          "source_id": "song-yiwei-2022",
-          "book_page": 10,
-          "evidence": "Entry header visually rechecked; reported citation retained.",
-          "book_title": "《国际歌》在中国：《国际歌》的译本、底本与传播",
-          "edition": "南京大学出版社，2022年5月第1版"
-        },
-        {
-          "date": "1921-05-27",
-          "url": "https://zh.wikisource.org/w/index.php?oldid=2439916&title=Translation%3A%E7%AC%AC%E4%B8%89%E5%9C%8B%E9%9A%9B%E9%BB%A8%E9%A0%8C%E6%AD%8C",
-          "evidence": "Pinned web header."
-        },
-        {
-          "date": "1921-05-27",
-          "url": "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
-          "evidence": "Research article paragraph beginning 第三个译本."
-        }
-      ]
-    }
-  ],
+  "date_conflicts": [],
   "holding_leads": [],
   "next_original_targets": [
     "《劳动者》第2、4、5、6号与1984年编辑本",
-    "《民国日报·觉悟》1921年5月7日及27日，第2版",
     "《小说月报》第12卷号外《俄国文学研究》1921年9月，第235–237页",
     "《人民日报》1962年4月28日第6版未重排原报整版；数字版词谱已取得，另记，不阻塞现有谱词核对"
   ],
@@ -360,5 +330,8 @@
       "url": "https://archive.org/advancedsearch.php?q=title%3A%28%E5%B0%8F%E8%AF%B4%E6%9C%88%E6%8A%A5+OR+%E5%B0%8F%E8%AA%AA%E6%9C%88%E5%A0%B1+OR+%E5%B0%8F%E8%AA%AC%E6%9C%88%E5%A0%B1+OR+%22Hsiao+shuo+yueh+pao%22%29&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&rows=50&output=json",
       "finding": "Limited title query for Chinese/Japanese variants and Hsiao shuo yueh pao returned numFound 0; not an exhaustive absence finding."
     }
-  ]
+  ],
+  "superseding_checks": {
+    "zh-geng-zheng-1921": "data/source-checks/zh-geng-zheng-1921.json"
+  }
 }

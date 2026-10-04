@@ -794,7 +794,7 @@
     "text_author": "耿济之、郑振铎",
     "composition_year": null,
     "source_publication_year": 1921,
-    "edition_label": "维基文库oldid=2439916；1921年译本，5月7日/27日首刊日期有冲突，原版待核",
+    "edition_label": "维基文库oldid=2439916；已对照1921年5月27日《觉悟》第2版原页，日期由同一期报头和跨版接句直接核实",
     "stanza_mapping": [
       1,
       2,
@@ -803,12 +803,12 @@
     "kind": "translation",
     "lyrics_path": "lyrics/zh/zh-geng-zheng-1921.md",
     "review": {
-      "status": "source-reviewed",
-      "date": "2026-10-03",
-      "facsimile_collation": "pending",
-      "source_check_record": "data/source-checks/early-zh-1920-1962.json",
-      "source_check_report": "docs/research/early-zh-1920-1962.md",
-      "scope": "Pinned web lyric block extracted and checked; original newspaper date, edition-specific wording and facsimile collation remain pending."
+      "status": "source-and-facsimile-reviewed",
+      "date": "2026-10-04",
+      "facsimile_collation": "web-compared-to-specified-historical-editions",
+      "source_check_record": "data/source-checks/zh-geng-zheng-1921.json",
+      "source_check_report": "docs/research/zh-geng-zheng-1921.md",
+      "scope": "Two original-newspaper page exports inspected: printed pages 一 and 二, masthead 覺悟 / 民國日報 / 第四張 and 中華民國十年五月廿七日; same-issue linkage verified through numbered article parts and a sentence continuing across the page boundary. Lyric structure and selected web differences reviewed; complete typography-wide collation and September reprint remain pending."
     },
     "rights": {
       "status": "public-domain-supported",
@@ -836,6 +836,10 @@
         "role": "pinned-transcription"
       },
       {
+        "url": "https://www-cnbksy-com-s-990.erlist.cn/search/detail/20f868cca407b9b13d97ef951101018474e738e59d0ac68cd177381ddddf48a0/12/6ac1bfa319ef832c4f981b5e",
+        "role": "original-page-associated-database-record"
+      },
+      {
         "url": "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
         "role": "research-publication-history"
       },
@@ -857,11 +861,12 @@
       }
     ],
     "notes": [
-      "只提取固定网页的36个非空歌词行；网页所附译者说明及其他现代编辑材料不收入歌词。",
-      "本书的5月7日与网页、编者论文的5月27日均保留为来源主张，原报日期未裁决。",
-      "网页有部分用字与史料书/论文不同；没有以彼、仗等字形默改网页的他、戰。"
+      "固定网页36个非空歌词行保持不变；已另记与《觉悟》原报的词句差异。",
+      "刊载日期1921年5月27日由原报报头中華民國十年五月廿七日直接核实；杭州理髮工人底罷工風潮（一）（二）及理／事之人跨版接句关联第一、二版。2022年书的5月7日照录仍保留为来源差异。",
+      "原页署C.Z.、C.T.并注從俄文譯；完整汉字译者姓名依既有研究归属，不说原页直接署耿济之、郑振铎。",
+      "原刊与网页存在死仗/死戰、彼來/他、勇敢地/勇勇敢敢的、繫起來/響起來等差异。《小说月报》重刊未取得，不能将网页差异归给该重刊。"
     ],
-    "lyrics_sha256": "da930c24d70206387cb71b2a5c744afe1c7b8b6ab80d68da5d78eca1bc7c981c",
+    "lyrics_sha256": "0cbd3563b0b070c5f33628b76caf8bbe42a7efe62fa8310e212aad547d0fe071",
     "text_authors": [
       {
         "name": "耿济之",
@@ -876,7 +881,9 @@
     ],
     "text_author_death_year": 1958,
     "snapshot_filename": "geng-zheng-wikisource-2439916.html",
-    "snapshot_sha256": "b300fbac52215ac9435b5cd37d9681a3e59ff0e44d5391fcb26432fcd7c6f6bd"
+    "snapshot_sha256": "b300fbac52215ac9435b5cd37d9681a3e59ff0e44d5391fcb26432fcd7c6f6bd",
+    "publication_date": "1921-05-27",
+    "publication_date_basis": "Directly read printed masthead 中華民國十年五月廿七日 = 1921-05-27. The masthead page and lyric page have printed numbers 一 and 二; numbered article parts (一)/(二) and a continuing clause connect the pages to the same issue. Database date and internal May 25 datelines corroborate, but are no longer the sole date basis."
   },
   {
     "id": "zh-collective-1962",

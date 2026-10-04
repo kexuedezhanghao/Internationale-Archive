@@ -1,0 +1,219 @@
+{
+  "id": "zh-geng-zheng-1921",
+  "reviewed_on": "2026-10-04",
+  "scope": "Two original-newspaper page exports inspected: printed pages 一 and 二, masthead 覺悟 / 民國日報 / 第四張 and 中華民國十年五月廿七日; same-issue linkage verified through numbered article parts and a sentence continuing across the page boundary. Lyric structure and selected web differences reviewed; complete typography-wide collation and September reprint remain pending.",
+  "report_path": "docs/research/zh-geng-zheng-1921.md",
+  "version_ids": [
+    "zh-geng-zheng-1921"
+  ],
+  "facsimiles_obtained": 2,
+  "facsimile_count_unit": "two page exports from the same newspaper supplement; not a complete issue or two translations",
+  "full_text_version_ids": [
+    "zh-geng-zheng-1921"
+  ],
+  "snapshots": [],
+  "serial_parts": [],
+  "date_conflicts": [
+    {
+      "version_id": "zh-geng-zheng-1921",
+      "publication": "《民国日报》副刊《觉悟》",
+      "status": "may-27-verified-from-printed-masthead-and-cross-page-continuation",
+      "claims": [
+        {
+          "date": "1921-05-07",
+          "source_id": "song-yiwei-2022",
+          "book_page": 10,
+          "evidence": "Entry header visually rechecked; reported citation retained.",
+          "book_title": "《国际歌》在中国：《国际歌》的译本、底本与传播",
+          "edition": "南京大学出版社，2022年5月第1版"
+        },
+        {
+          "date": "1921-05-27",
+          "url": "https://zh.wikisource.org/w/index.php?oldid=2439916&title=Translation%3A%E7%AC%AC%E4%B8%89%E5%9C%8B%E9%9A%9B%E9%BB%A8%E9%A0%8C%E6%AD%8C",
+          "evidence": "Pinned web header."
+        },
+        {
+          "date": "1921-05-27",
+          "url": "https://xueheng.nju.edu.cn/xsxx/20210922/i206225.html",
+          "evidence": "Research article paragraph beginning 第三个译本."
+        },
+        {
+          "date": "1921-05-27",
+          "source_id": "cnbksy-juewu-1921-05-27",
+          "url": "https://www-cnbksy-com-s-990.erlist.cn/search/detail/20f868cca407b9b13d97ef951101018474e738e59d0ac68cd177381ddddf48a0/12/6ac1bfa319ef832c4f981b5e",
+          "evidence": "Database date reported from the accessible detail record; this turn the web reader could not open the supplied URL. Not an independently retrieved metadata snapshot."
+        },
+        {
+          "date": "1921-05-27",
+          "source_id": "cnbksy-juewu-1921-05-27",
+          "evidence": "Original printed masthead 中華民國十年五月廿七日; printed pages 一/二 connected by 杭州理髮工人底罷工風潮（一）（二） and the continuing 理 / 事之人 clause."
+        }
+      ],
+      "adopted_date": "1921-05-27",
+      "adoption_basis": "Directly read printed masthead 中華民國十年五月廿七日 = 1921-05-27. The masthead page and lyric page have printed numbers 一 and 二; numbered article parts (一)/(二) and a continuing clause connect the pages to the same issue. Database date and internal May 25 datelines corroborate, but are no longer the sole date basis."
+    }
+  ],
+  "local_facsimile_evidence": {
+    "source_id": "cnbksy-juewu-1921-05-27",
+    "record_url": "https://www-cnbksy-com-s-990.erlist.cn/search/detail/20f868cca407b9b13d97ef951101018474e738e59d0ac68cd177381ddddf48a0/12/6ac1bfa319ef832c4f981b5e",
+    "classification": "original-newspaper-page-facsimile",
+    "pdf_pages": 1,
+    "pdf_bytes": 1041371,
+    "pdf_sha256": "c845395edd4e0f9d7a0640ddffe0a787fa5ff64add6361194e38dd3d1dd84712",
+    "pdf_sha1": "ade61a18f2bc661ba5e3279dd604083e9b184bb3",
+    "pdf_distributed": false,
+    "publication_locator": "《民国日报》副刊《觉悟》，1921年5月27日，第2版；日期由同一期第一版报头与跨版接句核实，页次据原页。",
+    "pdf_page": 1,
+    "printed_page": 2,
+    "printed_page_verified": true,
+    "masthead_obtained": true,
+    "masthead_date_verified": true,
+    "database_date": "1921-05-27",
+    "database_date_independently_retrieved": false,
+    "database_date_basis": "reported database detail record; direct web open failed this turn",
+    "internal_date_readings": [
+      "一九二一·五·廿五",
+      "五·二五於杭州"
+    ],
+    "internal_date_locator": "adjacent 杭州理髮工人底罷工風潮（二） article header and closing dateline",
+    "visually_reviewed_pdf_pages": [
+      1
+    ],
+    "stanza_mapping_verified": [
+      1,
+      2,
+      6
+    ],
+    "original_title": "第三國際黨頌歌",
+    "translator_initials_in_original": [
+      "C.Z.",
+      "C.T."
+    ],
+    "source_language_note": "從俄文譯",
+    "attribution_limit": "The inspected original uses initials, not the full Chinese names. Geng/Zheng attribution retained from existing publication-history sources.",
+    "review_scope": "Full printed page; title, initials, page number, two adjacent internal date notations, main-stanza/refrain structure and selected lexical readings. Not every glyph or punctuation mark has been adjudicated.",
+    "embedded_raster": {
+      "xref": 6,
+      "format": "jpeg",
+      "width": 1340,
+      "height": 2193,
+      "bytes": 852032,
+      "sha256": "c2eec6f163e7251fbbad071a8afb47e111b779167100406c99ece3cb22d2ad99",
+      "image_distributed": false
+    },
+    "pdf_metadata_is_not_publication_date": true,
+    "public_download_url_established": false,
+    "masthead_date_evidence_key": "masthead_facsimile_evidence"
+  },
+  "web_comparison": {
+    "web_oldid": 2439916,
+    "web_lyric_block_unchanged": true,
+    "differences": [
+      {
+        "location": "第1段第4行",
+        "facsimile": "死仗",
+        "web": "死戰",
+        "scope": "wording fragment; preceding 著/着 glyph not adjudicated"
+      },
+      {
+        "location": "第1段第5行",
+        "facsimile": "我們破壞，全世界的強權",
+        "web": "我們破壞了全世界的強權",
+        "scope": "wording and visible comma; no 了 in the original line"
+      },
+      {
+        "location": "第1段第6行",
+        "facsimile": "連根的把彼來破壞了",
+        "web": "連根的把他破壞了",
+        "scope": "彼/他 and presence of 來"
+      },
+      {
+        "location": "第2段第7行",
+        "facsimile": "勇敢地打鐵",
+        "web": "勇勇敢敢的打鐵",
+        "scope": "wording fragment"
+      },
+      {
+        "location": "第6段第6行",
+        "facsimile": "繩上繫起來",
+        "web": "繩上響起來",
+        "scope": "wording fragment"
+      },
+      {
+        "location": "第6段第7行",
+        "facsimile": "那麼",
+        "web": "那末",
+        "scope": "wording fragment"
+      },
+      {
+        "location": "第6段末行",
+        "facsimile": "火燄來照耀呢",
+        "web": "火焰來照耀的",
+        "scope": "wording fragment; printed final punctuation recorded separately"
+      }
+    ],
+    "scope": "Selected verified lexical differences. Not an exhaustive typographic apparatus; cannot attribute the web variants to the September reprint without obtaining it."
+  },
+  "next_original_targets": [
+    "数据库完整书目元数据（报头日期已由影像核实，不再待补）",
+    "《小说月报》第12卷号外《俄国文学研究》，1921年9月，第235–237页",
+    "原报全部字形、分行与标点的完整摹录"
+  ],
+  "masthead_facsimile_evidence": {
+    "source_id": "cnbksy-juewu-1921-05-27",
+    "classification": "original-newspaper-page-facsimile",
+    "pdf_pages": 1,
+    "pdf_bytes": 1648589,
+    "pdf_sha256": "33f65f451bd0f8c7d20f09bcbed086835d4a7c828cbae2487143764f152c43f6",
+    "pdf_sha1": "1a23af0dd79dadd0d53db968c02b6e53ae86759a",
+    "pdf_distributed": false,
+    "pdf_page": 1,
+    "printed_page": 1,
+    "printed_page_glyph": "一",
+    "printed_page_verified": true,
+    "original_masthead": [
+      "覺悟",
+      "民國日報",
+      "第四張"
+    ],
+    "printed_date_reading": "中華民國十年五月廿七日",
+    "publication_date": "1921-05-27",
+    "masthead_date_verified": true,
+    "sheet_label_limit": "第四張 is the masthead sheet designation, not a replacement for printed page 一 or 二.",
+    "visually_reviewed_pdf_pages": [
+      1
+    ],
+    "review_scope": "Masthead, printed date, page number, article part 一 and page-ending continuation; other newspaper articles not fully transcribed.",
+    "embedded_raster": {
+      "xref": 6,
+      "format": "jpeg",
+      "width": 1737,
+      "height": 2193,
+      "bytes": 1393892,
+      "sha256": "dc33df37953a5014cf18b992aa43befe08a64051b3f94a1d07a663c5886c4904",
+      "image_distributed": false
+    },
+    "pdf_metadata_is_not_publication_date": true,
+    "public_download_url_established": false
+  },
+  "same_issue_linkage": {
+    "status": "verified-by-printed-page-order-article-parts-and-continuing-clause",
+    "evidence_keys": [
+      "masthead_facsimile_evidence",
+      "local_facsimile_evidence"
+    ],
+    "printed_pages": [
+      1,
+      2
+    ],
+    "article_title": "杭州理髮工人底罷工風潮",
+    "part_labels": [
+      "（一）",
+      "（二）"
+    ],
+    "page1_boundary_reading": "理",
+    "page2_boundary_reading": "事之人，須要歸店主一律僱用",
+    "boundary_locator": "Part 一: clause (4), bottom of the last left-hand column; part 二: top of the first right-hand column, followed by clause (5).",
+    "scope": "The boundary fragments join 理事之人 within the same numbered clause. The entire clause is not transcribed; identical title/part labels alone are not treated as sufficient date proof."
+  }
+}

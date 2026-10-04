@@ -71,7 +71,7 @@
     "url": "https://www.marxists.org/chinese/reference-books/labor-1920/index.htm",
     "role": "web-source-checks",
     "reviewed_on": "2026-10-03",
-    "import_scope": "Initial four identity leads through web evidence; Liebei and Geng/Zheng remain assigned to this check. Zhang original issues and 1962 mixed digital score edition recorded separately; earlier web search history retained.",
+    "import_scope": "Historical four-identity search evidence retained. Only Liebei remains assigned to this check; Zhang, Geng/Zheng and 1962 have separate obtained-source records.",
     "rights_note": "Liebei, Zhang Taoyu and 1962 identities remain metadata only. Geng/Zheng lyric rights considered individually for US and CN.",
     "source_check_record": "data/source-checks/early-zh-1920-1962.json"
   },
@@ -402,5 +402,16 @@
     "rights_note": "Bibliographic facts, scope observations and checksums only; source images, modern research and bulk text not redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
     "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "cnbksy-juewu-1921-05-27",
+    "name": "中国近代报纸库：《民国日报·觉悟》1921年5月27日第一、二版",
+    "url": "https://www-cnbksy-com-s-990.erlist.cn/search/detail/20f868cca407b9b13d97ef951101018474e738e59d0ac68cd177381ddddf48a0/12/6ac1bfa319ef832c4f981b5e",
+    "role": "database-record-associated-original-newspaper-page",
+    "reviewed_on": "2026-10-04",
+    "date_provenance": "原报报头中華民國十年五月廿七日直接可见；第一、二版由同题（一）（二）及跨版接句关联。数据库条目日期相合，链接未独立打开。",
+    "import_scope": "Two original-newspaper page exports inspected: printed pages 一 and 二, masthead 覺悟 / 民國日報 / 第四張 and 中華民國十年五月廿七日; same-issue linkage verified through numbered article parts and a sentence continuing across the page boundary. Lyric structure and selected web differences reviewed; complete typography-wide collation and September reprint remain pending. No scan redistribution.",
+    "rights_note": "Underlying historical lyric rights retain the existing US/CN assessment. Database access and scan reuse permissions are not inferred from lyric status.",
+    "source_check_record": "data/source-checks/zh-geng-zheng-1921.json"
   }
 ]
