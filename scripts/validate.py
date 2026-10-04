@@ -360,6 +360,25 @@ def main():
                     assert not evidence["pdf_distributed_in_repository"]
                 if evidence.get("web_transcription_only"):
                     assert not evidence["original_page_obtained"] and evidence["scope"]
+                digital = evidence.get("digital_edition_evidence")
+                if digital:
+                    assert digital["source_id"] in source_ids
+                    assert digital["bytes"] > 0 and digital["pages"] > 0
+                    assert re.fullmatch(r"[0-9a-f]{64}", digital["sha256"])
+                    assert re.fullmatch(r"[0-9a-f]{40}", digital["sha1"])
+                    assert digital["classification"] == "mixed-digital-text-and-raster-newspaper-edition"
+                    assert not digital["pdf_distributed_in_repository"]
+                    assert not digital["original_printed_glyphs_verified"]
+                    assert not digital["unretypeset_original_page_obtained"]
+                    assert all(1 <= page <= digital["pages"] for page in digital["visually_reviewed_pdf_pages"])
+                    assert {digital["target_pdf_page"], digital["masthead_pdf_page"]} <= set(digital["visually_reviewed_pdf_pages"])
+                    assert digital["printed_page_in_digital_page"] > 0
+                    assert digital["review_scope"] and digital["reading_basis"] and digital["claim_sentence_reading"]
+                    if digital["text_extraction_status"] == "unreliable-font-encoding":
+                        assert any(not font["has_ToUnicode"] for font in digital["page5_fonts"])
+                    for im in digital["page5_image_objects"]:
+                        assert im["bytes"] > 0 and im["width"] > 0 and im["height"] > 0
+                        assert re.fullmatch(r"[0-9a-f]{64}", im["sha256"])
             earliest = claim.get("earliest_combination_check")
             if earliest:
                 assert earliest["currently_verified_early_version_id"] in vids

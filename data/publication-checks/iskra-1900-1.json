@@ -65,7 +65,7 @@
     "scope": "Kots three-stanza 1902 source is separate; no merger with 1900 refrain quotation"
   },
   "open_questions": [
-    "Original 1962-12-01 page 5 and earlier sources of the three-stanza claim",
+    "Underlying source and earlier circulation of the three-stanza claim; unretypeset 1962-12-01 page 5 for original-glyph collation of the now-checked digital report",
     "Other Iskra issues or related publications containing main stanzas 1,2,6 and the language of that alleged text",
     "Direct evidence for Lenin personally selecting these stanzas, distinct from editorial role and report authorship",
     "Earliest adopter or translation of the 1,2,6 combination; Kots early publication and original selection testimony"
@@ -267,16 +267,105 @@
       "publication_date": "1962-12-01",
       "printed_page_reported": 5,
       "author": "张光年",
-      "web_transcription_only": true,
+      "web_transcription_only": false,
       "original_page_obtained": false,
-      "observation": "Describes first Iskra issue as selecting three of six stanzas; does not enumerate 1,2,6, identify its source or directly establish Lenin's personal selection.",
-      "scope": "Early located circulation of the claim, not established earliest source or primary proof of a 1900 publication",
+      "observation": "The rendered 1962 digital edition also describes first Iskra issue as selecting three of six stanzas; it does not enumerate 1,2,6 or cite the underlying 1900 evidence. Lenin founding the newspaper is mentioned, without direct evidence of his personal selection.",
+      "scope": "Early located circulation of the claim, now checked against a digital newspaper edition; neither earliest claim source nor primary proof of a 1900 three-stanza publication. Original paper glyphs and digital/web independence pending.",
       "snapshot": {
         "url": "https://cn.govopendata.com/renminribao/1962/12/01/5/",
         "snapshot_bytes": 70537,
         "snapshot_sha256": "e22a85adf50889ab83565eb6c0a7d2d4a72f43c452aab9982e913f910157b3b7",
         "snapshot_distributed_in_repository": false
-      }
+      },
+      "digital_edition_evidence": {
+        "source_id": "rmrb-19621201-digital-edition",
+        "filename": "19621201.pdf",
+        "bytes": 2287143,
+        "sha256": "7751a32d1a0316878b688731d6394f8bf825ef612d519379d4bc907e644a3b7d",
+        "sha1": "38e9414672ef3b93e9d21b9d164c4b9357904163",
+        "pages": 6,
+        "classification": "mixed-digital-text-and-raster-newspaper-edition",
+        "publication_citation": "张光年：《无产阶级的天才歌手——在〈国际歌〉作词者鲍狄埃逝世七十五周年、作曲者狄盖特逝世三十周年纪念大会上的报告》，《人民日报》，1962年12月1日，第5版。",
+        "publication_date_in_digital_page": "1962-12-01",
+        "issue_number_in_digital_masthead": 5258,
+        "printed_page_in_digital_page": 5,
+        "target_pdf_page": 5,
+        "masthead_pdf_page": 1,
+        "visually_reviewed_pdf_pages": [
+          1,
+          5
+        ],
+        "author_as_displayed": "中国作家协会书记处书记 张光年",
+        "target_locator": "Report third text column, upper part, paragraph beginning 列宁曾经给予《国际歌》以崇高评价",
+        "claim_sentence_reading": "早在1900年，列宁创办的《火星报》创刊号上，曾选取《国际歌》六段歌词中最有普遍意义、最为激动人心的三段词，把它介绍给俄国无产者；这三段词因此得到更广泛的流传。",
+        "reading_basis": "Manual reading of rendered digital text; remove line wraps and glyph spacing, retain readable punctuation. Not a transcription of original printed glyphs.",
+        "main_stanza_numbers_explicitly_named": [],
+        "original_printed_glyphs_verified": false,
+        "unretypeset_original_page_obtained": false,
+        "metadata_as_stored": {
+          "/Producer": "GPL Ghostscript 9.55.0",
+          "/CreationDate": "D:20221120122149+08'00'",
+          "/ModDate": "D:20221120122149+08'00'",
+          "/Title": "19621201",
+          "/Author": "",
+          "/Subject": "",
+          "/Keywords": "",
+          "/Creator": "PDFCreator Free 5.0.1"
+        },
+        "metadata_is_not_original_publication_evidence": true,
+        "public_download_url": null,
+        "download_provenance_status": "not-established",
+        "pdf_distributed_in_repository": false,
+        "review_scope": "Six-page structure inspected; pages 1 and 5 visually reviewed, with close checks of masthead/date, page-5 title/byline/date and target three-stanza sentence. Not a word-by-word collation of the full report or whole newspaper.",
+        "text_representation": "Rendered target sentence is PDF text; page-5 rasters are a photograph and narrow graphic elements, not a full-page historical text scan.",
+        "text_extraction_status": "unreliable-font-encoding",
+        "text_extraction_basis": "All three page-5 Type0 subset fonts lack ToUnicode; pypdf extraction is visibly garbled. Extracted character codes not used as wording evidence.",
+        "page5_fonts": [
+          {
+            "resource": "/R24",
+            "base_font": "/OEKGVK+SimSun",
+            "subtype": "/Type0",
+            "has_ToUnicode": false
+          },
+          {
+            "resource": "/R20",
+            "base_font": "/AHCYSL+STSong-Light-Acro",
+            "subtype": "/Type0",
+            "has_ToUnicode": false
+          },
+          {
+            "resource": "/R16",
+            "base_font": "/EAYHDN+SimHei",
+            "subtype": "/Type0",
+            "has_ToUnicode": false
+          }
+        ],
+        "page5_image_objects": [
+          {
+            "name": "R71.png",
+            "bytes": 228858,
+            "sha256": "8f03ef26a9897da2f74e125d07858cdd97fd509681c0bb3c17d6117ff8ef8833",
+            "width": 747,
+            "height": 400
+          },
+          {
+            "name": "R70.tiff",
+            "bytes": 4416,
+            "sha256": "494a1c97cad8eae91be61489c7030aa85cab1a0f6c1210e546d5132d8ac247cc",
+            "width": 4143,
+            "height": 36
+          },
+          {
+            "name": "R39.jpg",
+            "bytes": 1525,
+            "sha256": "92e91e14102b6f8877de74aaacc31d712f15d0f697e64461215c1493ff58d68e",
+            "width": 233,
+            "height": 44
+          }
+        ],
+        "web_comparison_scope": "Target claim agrees with the previously checked web transcription in substance; full-report collation and source independence not established."
+      },
+      "review_status": "web-and-digital-edition-target-checked-original-glyphs-pending"
     },
     {
       "source_id": "pottier-bio-1978",
