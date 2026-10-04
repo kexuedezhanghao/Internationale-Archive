@@ -438,6 +438,44 @@ def main():
                 assert (ROOT / earliest["roadmap_path"]).is_file()
                 if earliest["status"] == "todo":
                     assert not earliest["global_first_adopter_verified"]
+        followup = claim.get("source_trail_followup")
+        if followup:
+            assert (ROOT / followup["report_path"]).is_file()
+            for snapshot_evidence in followup["snapshots"]:
+                assert snapshot_evidence["source_id"] in source_ids
+                assert snapshot_evidence["snapshot_bytes"] > 0
+                assert re.fullmatch(r"[0-9a-f]{64}", snapshot_evidence["snapshot_sha256"])
+                assert not snapshot_evidence["snapshot_distributed_in_repository"]
+            reprint = followup.get("reprint_check_2022")
+            if reprint:
+                assert reprint["source_id"] == book_snapshot["source_id"]
+                assert reprint["sha256"] == book_snapshot["source_pdf_sha256"]
+                assert reprint["bytes"] == book_snapshot["source_pdf_bytes"]
+                assert reprint["pages"] == book_snapshot["source_pdf_pages"]
+                assert reprint["classification"] == "modern-retypeset-reprint-of-historical-article"
+                assert reprint["full_reprinted_article_visually_read"]
+                assert not reprint["original_1930_article_facsimile_obtained"]
+                assert not reprint["pdf_distributed_in_repository"]
+                assert not reprint["counts_as_new_lyric_identity"] and not reprint["counts_as_new_lyric_full_text"]
+                start, end = reprint["book_printed_page_range"]
+                pdf_pages = [page + offset for page in range(start, end + 1)]
+                assert reprint["visually_reviewed_pdf_pages"] == pdf_pages
+                assert [im["pdf_page"] for im in reprint["embedded_images"]] == pdf_pages
+                for im in reprint["embedded_images"]:
+                    assert im["pdf_page"] == im["book_page"] + offset
+                    assert im["bytes"] > 0 and im["width"] > 0 and im["height"] > 0
+                    assert re.fullmatch(r"[0-9a-f]{64}", im["sha256"])
+                    assert not im["image_distributed_in_repository"]
+                for excerpt in reprint["lyric_excerpts"]:
+                    assert 1 <= excerpt["french_stanza"] <= 6
+                    assert set(excerpt["french_lines_in_stanza"]) <= set(range(1, 9))
+                    assert all(start <= page <= end for page in excerpt["book_pages"])
+                reads = book_snapshot["additional_third_section_reads"]
+                matching = [r for r in reads if r["publication_check_record"] == str(p.relative_to(ROOT))]
+                assert len(matching) == 1 and matching[0]["pdf_pages"] == pdf_pages
+                assert matching[0]["book_printed_pages"] == list(range(start, end + 1))
+                original_lead = next(r for r in followup["leads"] if r["id"] == "sun-xinwenyi-1930")
+                assert not original_lead["full_target_text_acquired"] and original_lead["reprint_text_visually_read"]
         assert claim["relation_to_kots_1902"]["version_id"] in vids
     # Local Markdown paths: allow parentheses inside normal link destinations.
     missing = []

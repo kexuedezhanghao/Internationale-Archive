@@ -1,6 +1,6 @@
 {
   "source_id": "song-yiwei-2022",
-  "reviewed_on": "2026-10-03",
+  "reviewed_on": "2026-10-04",
   "source_material": "scanned-copy",
   "source_pdf_sha256": "75af1874b63d7c13255ed78c7c6ce0e35297a5a58fb6ecbbb07485be3f298e0b",
   "source_pdf_bytes": 51752151,
@@ -117,7 +117,51 @@
       }
     ]
   },
-  "review_scope": "All 44 table-of-contents entries and all 44 entry headers/provenance visually reviewed. Bibliographic facts remain as reported by the book; original editions have not all been independently verified. OCR is navigation only. The third section and appendices are not fully indexed.",
+  "review_scope": "All 44 table-of-contents entries and all 44 entry headers/provenance visually reviewed. Bibliographic facts remain as reported by the book; original editions have not all been independently verified. OCR is navigation only. The third section and appendices are not fully indexed. One third-section article, Sun1930 reprint pp238–252, fully read on2026-10-04; remaining third section and appendices not fully indexed.",
   "independent_version_total": null,
-  "local_full_texts_added": 0
+  "local_full_texts_added": 0,
+  "additional_third_section_reads": [
+    {
+      "article_title": "国际歌的作者及其历史",
+      "author_as_reprinted": "孙春霆",
+      "original_publication_year_as_reprinted": 1930,
+      "book_printed_pages": [
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "pdf_pages": [
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269
+      ],
+      "status": "full-reprinted-article-visually-read-original-pending",
+      "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+      "report_path": "docs/research/monde-1929-and-pottier-1939.md"
+    }
+  ]
 }

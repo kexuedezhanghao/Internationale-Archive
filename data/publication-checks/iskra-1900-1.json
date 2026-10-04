@@ -1046,7 +1046,9 @@
         "independently_verified_source_id": "sovmusic-zevaes-1933",
         "independent_scope": "Original Russian editor note on printed62 confirms French author/title/date, but not issue47 or page range.",
         "full_target_text_acquired": false,
-        "status": "research-citation-original-pending"
+        "status": "research-citation-original-pending",
+        "additional_issue_confirmation_source_id": "song-yiwei-2022",
+        "additional_confirmation_scope": "Chinese article opening in2022 reprint directly says issue47; French original issue/pages remain pending."
       },
       {
         "id": "sun-xinwenyi-1930",
@@ -1064,13 +1066,26 @@
         "locator_basis": "Modern research, printed269 main paragraph and note109; not original1930.",
         "adaptation_relation_as_reported": "Based on the Zévaès article as 撮寫; not presumed a complete literal translation.",
         "verse_translator_as_reported": "戴望舒",
-        "verse_translation_basis": "Note109 reports that the1930 preface credits Dai for quoted French poems; original preface not acquired.",
+        "verse_translation_basis": "2022 reprint opening directly credits Dai for quoted poems; original1930 preface not acquired.",
         "search_excerpt_misreading": "孫春霖",
         "adopted_research_reading": "孫春霆",
         "reading_basis": "Rendered PDF paragraph and note109 plus extracted PDF text; original byline still pending.",
         "full_target_text_acquired": false,
         "lyric_stanza_mapping_verified": null,
-        "status": "research-citation-original-pending"
+        "status": "modern-reprint-read-original-pending",
+        "reprint_source_id": "song-yiwei-2022",
+        "reprint_text_acquired": true,
+        "reprint_text_visually_read": true,
+        "original_facsimile_acquired": false,
+        "reprint_check_key": "source_trail_followup.reprint_check_2022",
+        "lyric_excerpt_stanzas_verified_in_reprint": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
       },
       {
         "id": "pottier-internationale-1939",
@@ -1097,6 +1112,37 @@
         "lyric_pages_acquired": false,
         "lyric_stanza_mapping_verified": null,
         "status": "original-title-leaf-only"
+      },
+      {
+        "id": "druskin-internationale-1960-reprint",
+        "author_as_reported": "М. С. Друскин",
+        "article_title_as_reported": "Интернационал",
+        "book_title_as_reported": "История и современность: Статьи о музыке",
+        "place_as_reported": "Ленинград",
+        "publisher_as_reported": "Советский композитор",
+        "year_as_reported": 1960,
+        "printed_pages_as_reported": [
+          184,
+          193
+        ],
+        "earlier_1939_article_pages_as_reported": [
+          35,
+          48
+        ],
+        "locator_source_id": "druskin-wikipedia-bibliography",
+        "locator_basis": "Secondary author bibliography web page opened and target entry read; original1939/1960 pages not acquired",
+        "full_target_text_acquired": false,
+        "status": "secondary-bibliography-original-pending"
+      },
+      {
+        "id": "sokhor-internationale-1960",
+        "author_as_reported": "А. Н. Сохор",
+        "title_as_reported": "«Интернационал» и его авторы",
+        "year_as_reported": 1960,
+        "locator_source_id": "publ-lib-sokhor-series",
+        "locator_basis": "Unlinked title entry in series bibliography; adjacent linked1959 book is a different work",
+        "full_target_text_acquired": false,
+        "status": "unlinked-bibliography-original-pending"
       }
     ],
     "images": [
@@ -1202,6 +1248,60 @@
         "snapshot_sha256": "96f9bd3b7db6d81920e22fc375b6d0154d5befede2a441e7c9ee3494b49fafea",
         "snapshot_distributed_in_repository": false,
         "review_scope": "Named related passages and notes37,49,64; rest not fully read."
+      },
+      {
+        "source_id": "ukhta-pottier-1939",
+        "url": "https://www.ukhta-lib.ru/resources/rare-ukhta-lib.pdf",
+        "snapshot_bytes": 705397,
+        "snapshot_sha256": "cd8a70ec6781136e000c786031a07356bd66f884e75a5b13d58bc131ab6dcef9",
+        "content_type": "application/pdf",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "22-page holdings catalogue; PDF12/printed12 entry197 lists1939 Internationale58pp and old ownership marks; target book text not acquired."
+      },
+      {
+        "source_id": "lingner-monde-research",
+        "url": "https://www.max-lingner-stiftung.de/projekte/forschung",
+        "snapshot_bytes": 23041,
+        "snapshot_sha256": "84af7467de5647b6b9859bd39385d58f78b04fd2f435fb78815b99fb79be0287",
+        "content_type": "text/html; charset=utf-8",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "Cooperation/digitization-project paragraph only; no1929 target issue file."
+      },
+      {
+        "source_id": "rsl-pottier-1938",
+        "url": "https://search.rsl.ru/ru/record/01005330606",
+        "snapshot_bytes": 67465,
+        "snapshot_sha256": "d8ab2f1d7097fa371f16b5db89021b51524d15efe1be29dadd3f3da271cc3177",
+        "content_type": "text/html; charset=UTF-8",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "1938 selected poems192pp; distinct from1939 target58pp. Generic viewer modal is not a working target scan."
+      },
+      {
+        "source_id": "monde-bookseller-1929-conflict",
+        "url": "https://lebouquinfrancais.fr/livre-51701631-monde-du-4-mai-1929.html",
+        "snapshot_bytes": 87430,
+        "snapshot_sha256": "c03b6ac8a55c981b88f6c7446cbc28aa127893c0b8c920b2eeabf28bc705d401",
+        "content_type": "text/html; charset=UTF-8",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "Title date4May conflicts with descriptionN47; generic book placeholder only. No original facsimile obtained."
+      },
+      {
+        "source_id": "publ-lib-sokhor-series",
+        "url": "https://publ.lib.ru/ARCHIVES/V/%27%27V_pomosch%27_slushatelyam_narodnyh_universitetov_kul%27tury%27%27_%28ser.%29/_VPSNUK.html",
+        "snapshot_bytes": 70705,
+        "snapshot_sha256": "e8e624d1b819196408a964216fa358e95db3f1c42567fb3a7f2f7dea8b12f7ac",
+        "content_type": "text/html; charset=windows-1251",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "1960 Internationale title unlinked; linked Sokhor1959 Solovyev-Sedoy download is a different book."
+      },
+      {
+        "source_id": "herzen-pottier-card-unavailable",
+        "url": "https://lib.herzen.spb.ru/gak_jpg/020/19/00000010/00000044.tif",
+        "snapshot_bytes": 44123,
+        "snapshot_sha256": "eb1c35ee8478d1698872bc30c97279b1d3ecc3f37bfe81a557b19c6a61304b94",
+        "content_type": "text/html; charset=UTF-8",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "Old TIFF URL returned text/html, not a catalogue-card image; no target card acquired."
       }
     ],
     "retrieval_checks": [
@@ -1247,6 +1347,49 @@
         "source_id": "tokyo-sanetou-xinwenyi",
         "result": "Entry実1955 lists vol1 nos1,2 and vol2 no2; target vol2 no1 not listed.",
         "target_issue_obtained": false
+      },
+      {
+        "source_id": "ukhta-pottier-1939",
+        "result": "22-page holdings catalogue; PDF12/printed12 entry197 lists1939 Internationale58pp and old ownership marks; target book text not acquired.",
+        "target_issue_obtained": false,
+        "target_text_obtained": false,
+        "catalogue_pdf_pages": 22,
+        "visually_reviewed_pdf_pages": [
+          12
+        ],
+        "entry_number": 197,
+        "printed_page": 12,
+        "classification": "holdings-list-not-target-book-scan"
+      },
+      {
+        "source_id": "lingner-monde-research",
+        "result": "Cooperation/digitization-project paragraph only; no1929 target issue file.",
+        "target_issue_obtained": false,
+        "target_text_obtained": false
+      },
+      {
+        "source_id": "rsl-pottier-1938",
+        "result": "1938 selected poems192pp; distinct from1939 target58pp. Generic viewer modal is not a working target scan.",
+        "target_issue_obtained": false,
+        "target_text_obtained": false
+      },
+      {
+        "source_id": "monde-bookseller-1929-conflict",
+        "result": "Title date4May conflicts with descriptionN47; generic book placeholder only. No original facsimile obtained.",
+        "target_issue_obtained": false,
+        "target_text_obtained": false
+      },
+      {
+        "source_id": "publ-lib-sokhor-series",
+        "result": "1960 Internationale title unlinked; linked Sokhor1959 Solovyev-Sedoy download is a different book.",
+        "target_issue_obtained": false,
+        "target_text_obtained": false
+      },
+      {
+        "source_id": "herzen-pottier-card-unavailable",
+        "result": "Old TIFF URL returned text/html, not a catalogue-card image; no target card acquired.",
+        "target_issue_obtained": false,
+        "target_text_obtained": false
       }
     ],
     "related_passage_check": {
@@ -1283,6 +1426,330 @@
     "global_first_adopter_verified": false,
     "counts_as_new_lyric_identity": false,
     "counts_as_new_lyric_full_text": false,
-    "limitations": "Modern citations, institutional holdings and partial book photographs are distinct. None supplies the three complete target texts; no exhaustion claim."
+    "limitations": "French1929 and Chinese1930 originals and1939 book body pending. Complete1930 article read only in2022 modern reprint, without three-stanza claim. Institutional holdings, secondary bibliography and partial photos remain separate; no exhaustion or1962 transmission claim.",
+    "reprint_check_2022": {
+      "source_id": "song-yiwei-2022",
+      "classification": "modern-retypeset-reprint-of-historical-article",
+      "bytes": 51752151,
+      "sha256": "75af1874b63d7c13255ed78c7c6ce0e35297a5a58fb6ecbbb07485be3f298e0b",
+      "sha1": "f500a31206f3aaca9b6c061e6c8f52e0a155265b",
+      "pages": 397,
+      "visually_reviewed_pdf_pages": [
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269
+      ],
+      "book_printed_page_range": [
+        238,
+        252
+      ],
+      "book_pdf_page_offset": 17,
+      "embedded_images": [
+        {
+          "pdf_page": 255,
+          "book_page": 238,
+          "format": "jpeg",
+          "bytes": 172936,
+          "sha256": "d5d1fc369cb6fbd51442c75056ba7f04a0725ad785736e5a852418752f412ab1",
+          "width": 1488,
+          "height": 2585,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 256,
+          "book_page": 239,
+          "format": "jpeg",
+          "bytes": 170078,
+          "sha256": "c39e31cddbc4254f11f0635b3f3a76c0fa1ff00669522fe2499ce93e19951c49",
+          "width": 1488,
+          "height": 2584,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 257,
+          "book_page": 240,
+          "format": "jpeg",
+          "bytes": 91883,
+          "sha256": "75ce597f2f31f1bb3f6bb4e2dca094f9e65fdcf11d97c51793185eae917001b3",
+          "width": 1488,
+          "height": 2585,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 258,
+          "book_page": 241,
+          "format": "jpeg",
+          "bytes": 137188,
+          "sha256": "51635cc22d0cc79c57decf016908fbe36dda7044fcc7dd8886b4a4d5d1851028",
+          "width": 1488,
+          "height": 2584,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 259,
+          "book_page": 242,
+          "format": "jpeg",
+          "bytes": 106776,
+          "sha256": "89756428da7e323df50bc93b12eeb34117c5bdcb1db9f96295cc2268a95653a2",
+          "width": 1488,
+          "height": 2585,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 260,
+          "book_page": 243,
+          "format": "jpeg",
+          "bytes": 84230,
+          "sha256": "b79c8ddad5cdf91ac98bf97f27479b0d0d78588dd8afe5a71e1089565371cf7a",
+          "width": 1488,
+          "height": 2584,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 261,
+          "book_page": 244,
+          "format": "jpeg",
+          "bytes": 136352,
+          "sha256": "1cad22e452e054ec766a6db60d754f1ef9c77da9840f79f6964ed3921122b54a",
+          "width": 1488,
+          "height": 2585,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 262,
+          "book_page": 245,
+          "format": "jpeg",
+          "bytes": 210332,
+          "sha256": "c7bf58e8b4442c2ddf0f0589c8ac701dd637d3d1e3366d571525dd93a9e54a25",
+          "width": 1488,
+          "height": 2584,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 263,
+          "book_page": 246,
+          "format": "jpeg",
+          "bytes": 184312,
+          "sha256": "6d30315c507eece6b01944ca07285728c05f36aedefc595fbff81668615d1b21",
+          "width": 1488,
+          "height": 2585,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 264,
+          "book_page": 247,
+          "format": "jpeg",
+          "bytes": 104396,
+          "sha256": "616064f1f40bdf5cdc408374de7e23383118b1ffe470307c9edf8682b8dc7888",
+          "width": 1488,
+          "height": 2584,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 265,
+          "book_page": 248,
+          "format": "jpeg",
+          "bytes": 178880,
+          "sha256": "b596d875b2f0f21fd169656bf69ee9ff869f935ac4276a6de0184b2b0ca243e3",
+          "width": 1488,
+          "height": 2585,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 266,
+          "book_page": 249,
+          "format": "jpeg",
+          "bytes": 199202,
+          "sha256": "a870f37e244dc3219aa93bca837779739959b5e95777030c31f55db7b75f09c9",
+          "width": 1488,
+          "height": 2584,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 267,
+          "book_page": 250,
+          "format": "jpeg",
+          "bytes": 168680,
+          "sha256": "640806b22e01dbeaf2af4925dc2fb8bbd8d258f1bc8f55c1e4bc65ce8cb4375e",
+          "width": 1488,
+          "height": 2585,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 268,
+          "book_page": 251,
+          "format": "jpeg",
+          "bytes": 213659,
+          "sha256": "88c0c2c247f5fbe16c5f8f4a6300a698168b40b69f2965c8ea4d6bc2b1fb9f23",
+          "width": 1488,
+          "height": 2584,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 269,
+          "book_page": 252,
+          "format": "jpeg",
+          "bytes": 177463,
+          "sha256": "42818110717d92e4d55d5652575bdedb553f438a2ee068e9b02b0fecbbccf00d",
+          "width": 1488,
+          "height": 2585,
+          "image_distributed_in_repository": false
+        }
+      ],
+      "pdf_distributed_in_repository": false,
+      "reviewed_on": "2026-10-04",
+      "article_title_as_reprinted": "国际歌的作者及其历史",
+      "article_author_as_reprinted": "孙春霆",
+      "article_original_citation_as_reprinted": {
+        "periodical": "新文艺",
+        "volume": 2,
+        "issue": 1,
+        "date": "1930-03-15",
+        "printed_page_range": [
+          183,
+          208
+        ]
+      },
+      "citation_discrepancy": {
+        "research_source_id": "kwong-zevaes-xinwenyi-2015",
+        "research_printed_page_range": [
+          184,
+          208
+        ],
+        "status": "original-start-page-pending"
+      },
+      "article_boundary": {
+        "start_book_page": 238,
+        "end_book_page": 252,
+        "end_marker": "全文",
+        "following_article_title": "拘捕",
+        "following_article_starts_on_same_book_page": true
+      },
+      "preface_observations": {
+        "monde_issue_number": 47,
+        "publication_name_as_reprinted": "世界（Le Monde）",
+        "target_identity_basis": "1929 Paris serial edited by Barbusse, independently cited in1933 Russian original and2015 research; not1944 Le Monde",
+        "french_author": "Alexandre Zévaès",
+        "quoted_poems_translator": "戴望舒",
+        "scope": "Quoted poems in the article, including several other revolutionary songs; not automatically full six-stanza Internationale translation"
+      },
+      "lyric_excerpt_mapping_basis": "Manual comparison with the verified1887 six-stanza French text; these are project-assigned stanza mappings, not article stanza labels",
+      "lyric_excerpts": [
+        {
+          "book_pages": [
+            246,
+            247
+          ],
+          "french_stanza": 3,
+          "french_lines_in_stanza": [
+            1,
+            2
+          ],
+          "chinese_gloss_present": true
+        },
+        {
+          "book_pages": [
+            247
+          ],
+          "french_stanza": 4,
+          "french_lines_in_stanza": [
+            2,
+            3,
+            4
+          ],
+          "chinese_gloss_present": true,
+          "scope_note": "Mining and railway kings fragment; opening line1 not quoted"
+        },
+        {
+          "book_pages": [
+            247
+          ],
+          "french_stanza": 6,
+          "french_lines_in_stanza": [
+            1,
+            2
+          ],
+          "chinese_gloss_present": true
+        },
+        {
+          "book_pages": [
+            247
+          ],
+          "french_stanza": 2,
+          "french_lines_in_stanza": [
+            1,
+            2,
+            3
+          ],
+          "chinese_gloss_present": true
+        },
+        {
+          "book_pages": [
+            247,
+            248
+          ],
+          "french_stanza": 5,
+          "french_lines_in_stanza": [
+            1,
+            2
+          ],
+          "chinese_gloss_present": true
+        },
+        {
+          "book_pages": [
+            248
+          ],
+          "french_stanza": 1,
+          "french_lines_in_stanza": [
+            7,
+            8
+          ],
+          "chinese_gloss_present": true
+        },
+        {
+          "book_pages": [
+            250
+          ],
+          "french_stanza": 5,
+          "french_lines_in_stanza": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "chinese_gloss_present": false,
+          "scope_note": "Eight-line French quotation in reported1894 Gosselin prosecution narrative; no adjacent full Chinese rendering"
+        }
+      ],
+      "full_reprinted_article_visually_read": true,
+      "original_1930_article_facsimile_obtained": false,
+      "original_french_article_acquired": false,
+      "three_stanza_selection_statement_found": false,
+      "direct_personal_selection_evidence_found": false,
+      "claim_transmission_to_1962_established": false,
+      "complete_three_stanza_lyric_text_present": false,
+      "complete_six_stanza_lyric_text_present": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "review_scope": "All15 pages of this reprinted article from opening through全文; no original1930 glyph collation or whole third-section negative claim. No bulk OCR used for this reading.",
+      "local_access_note": "Complete local bytes restored and read locally; PDF matches original51752151-byte397-page fingerprint. Supersedes prior truncated-copy inability to read255 onward.",
+      "limitations": "Modern editor-retypeset reprint, not1930 original facsimile. Date and183-start locator are reported by the book; original pending. No full modern book text or page images redistributed."
+    }
   }
 }

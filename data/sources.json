@@ -43,14 +43,14 @@
     "edition": "2022年5月第1版，第1次印刷",
     "isbn": "978-7-305-25673-8",
     "role": "historical-source-guide-and-reprinted-documents",
-    "reviewed_on": "2026-10-03",
+    "reviewed_on": "2026-10-04",
     "access_basis": "scanned-copy",
     "bibliography_evidence_pdf_pages": [
       1,
       2,
       3
     ],
-    "import_scope": "Bibliographic facts; all 33 Chinese and 11 foreign contents entries and all 44 entry headers/citations visually reviewed. No source scans or bulk book/OCR text.",
+    "import_scope": "Bibliographic facts; all33 Chinese and11 foreign entries and44 headers/citations visually reviewed; additional third-section Sun1930 article reprint pp238–252 fully read. No scans or bulk book/OCR text.",
     "rights_note": "Metadata only. Modern editorial text and the scan are not distributed. Any historical lyrics require separate admission and collation.",
     "snapshot_manifest": "data/discoveries/song-yiwei-2022.snapshot.json",
     "catalogue_path": "catalogue/book-song-2022.md"
@@ -413,5 +413,82 @@
     "import_scope": "Two original-newspaper page exports inspected: printed pages 一 and 二, masthead 覺悟 / 民國日報 / 第四張 and 中華民國十年五月廿七日; same-issue linkage verified through numbered article parts and a sentence continuing across the page boundary. Lyric structure and selected web differences reviewed; complete typography-wide collation and September reprint remain pending. No scan redistribution.",
     "rights_note": "Underlying historical lyric rights retain the existing US/CN assessment. Database access and scan reuse permissions are not inferred from lyric status.",
     "source_check_record": "data/source-checks/zh-geng-zheng-1921.json"
+  },
+  {
+    "id": "ukhta-pottier-1939",
+    "name": "Ухтинская библиотека: rare-book catalogue, entry197",
+    "url": "https://www.ukhta-lib.ru/resources/rare-ukhta-lib.pdf",
+    "role": "institutional-holdings-pdf",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "22-page holdings catalogue; PDF12/printed12 entry197 lists1939 Internationale58pp and old ownership marks; target book text not acquired.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scan, modern full text or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "lingner-monde-research",
+    "name": "Max-Lingner-Stiftung: Forschung",
+    "url": "https://www.max-lingner-stiftung.de/projekte/forschung",
+    "role": "institutional-digitization-project-description",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Cooperation/digitization-project paragraph only; no1929 target issue file.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scan, modern full text or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "rsl-pottier-1938",
+    "name": "РГБ record01005330606: Потье, Избранные стихотворения,1938",
+    "url": "https://search.rsl.ru/ru/record/01005330606",
+    "role": "different-edition-catalogue",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "1938 selected poems192pp; distinct from1939 target58pp. Generic viewer modal is not a working target scan.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scan, modern full text or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "monde-bookseller-1929-conflict",
+    "name": "Le Bouquin Français: Monde Du4 Mai1929, descriptionN47",
+    "url": "https://lebouquinfrancais.fr/livre-51701631-monde-du-4-mai-1929.html",
+    "role": "conflicting-bookseller-candidate",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Title date4May conflicts with descriptionN47; generic book placeholder only. No original facsimile obtained.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scan, modern full text or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "publ-lib-sokhor-series",
+    "name": "Publ.lib.ru: music series bibliography, Сохор1960",
+    "url": "https://publ.lib.ru/ARCHIVES/V/%27%27V_pomosch%27_slushatelyam_narodnyh_universitetov_kul%27tury%27%27_%28ser.%29/_VPSNUK.html",
+    "role": "unlinked-bibliography-lead",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "1960 Internationale title unlinked; linked Sokhor1959 Solovyev-Sedoy download is a different book.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scan, modern full text or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "herzen-pottier-card-unavailable",
+    "name": "Herzen library: old Pottier catalogue-card URL",
+    "url": "https://lib.herzen.spb.ru/gak_jpg/020/19/00000010/00000044.tif",
+    "role": "unavailable-image-candidate",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Old TIFF URL returned text/html, not a catalogue-card image; no target card acquired.",
+    "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scan, modern full text or bulk OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "druskin-wikipedia-bibliography",
+    "name": "俄语维基百科：М. С. Друскин作者书目",
+    "url": "https://ru.wikipedia.org/wiki/Друскин,_Михаил_Семёнович",
+    "role": "secondary-bibliography-lead",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Only entry for1939 Internationale and reported1960 reprint pp184–193 read through web retrieval. Direct local HTML download403; no local raw snapshot claimed. Original texts pending.",
+    "rights_note": "Bibliographic facts only; no page text redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
   }
 ]
