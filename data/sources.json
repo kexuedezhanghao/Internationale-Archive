@@ -690,5 +690,35 @@
     "import_scope": "Publisher PDF title/abstract63 and bibliography context81–82 visually read only. Footnote48 names1959 Druskin brochure; bibliography locates История песен in2012 collected works vol5,382–455. Neither1959p16 nor2012 reprint pages obtained; exact correspondence unestablished.",
     "rights_note": "Bibliographic metadata, bounded observations and checksums only; PDF and full article not redistributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "muratova-literary-bibliography-1963",
+    "name": "История русской литературы конца XIX — начала XX века. Библиографический указатель. Под ред. К. Д. Муратовой. М.—Л.: Издательство Академии наук СССР, 1963, с.15,17,271–272",
+    "url": "https://biblio.imli.ru/images/abook/russliteratura/Istoriya_russkoj_literatury_kontca_XIX_-_nachala_XX_v._Bibliograficheskij_ukazatel._1963_1_.pdf",
+    "role": "historical-bibliography-original-page-locator",
+    "import_scope": "Original title and printed15,17,271–272 read. Entries6963–6973 locate1937 Книжные новости19:60–61,1957 autobiography3–4, Dymshits5–12 and letter excerpts136,142,143. July28,1930 and1931 article8–10 kept distinct from earlier June28 and4–10 records. Target originals not acquired.",
+    "reviewed_on": "2026-10-04",
+    "rights_note": "Metadata, bounded observations and checksums only; no PDF, page images, full bibliography or OCR redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "matsuev-literature-criticism-1940",
+    "name": "Н. Мацуев. Художественная литература русская и переводная в оценке критики.1933–1937 гг. Библиографический указатель. М.: Государственное издательство «Художественная литература»,1940,с.5,165",
+    "url": "https://imwerden.de/pdf/matsuev_khudozhestvennaya_literatura_v_otsenke_kritiki_1933-1937_1940__ocr.pdf",
+    "role": "near-contemporary-bibliography-original-page-locator",
+    "import_scope": "Cover, title, abbreviations5 and Pottier bibliography165 read. Registers Kots1937 Книжные новости19:60–61 and Звезда10:213–216; neither1937 article original acquired. Куриленков in same issue57–59 separately located.",
+    "reviewed_on": "2026-10-04",
+    "rights_note": "Metadata, bounded observations and checksums only; no scan, complete entry or OCR redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "druskin-collected-v5-publisher-catalogue",
+    "name": "М. С. Друскин. Собрание сочинений в7 томах.Т.5:Русская революционная песня.2012. ISBN978-5-7379-0526-2. Композитор Санкт-Петербург catalogue and РГБМ record",
+    "url": "https://compozitor.spb.ru/catalog/knigi/druskin-m-russkaya-revolyutsionnaya-pesnya/",
+    "role": "publisher-and-library-catalogue-reprint-locator",
+    "import_scope": "Publisher product description and unpaginated contents read; RGUB catalogue read separately. Интернационал, История песен and correspondence with Academia listed separately. No volume body, preview PDF or exact1959p16 mapping acquired; public product HTML inspected only.",
+    "reviewed_on": "2026-10-04",
+    "rights_note": "Metadata, limited observations and snapshot checksums only; product HTML, cover and book contents not redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
   }
 ]

@@ -3120,6 +3120,164 @@
         "pdf_distributed_in_repository": false,
         "counts_as_new_lyric_identity": false,
         "counts_as_new_lyric_full_text": false
+      },
+      {
+        "source_id": "muratova-literary-bibliography-1963",
+        "url": "https://biblio.imli.ru/images/abook/russliteratura/Istoriya_russkoj_literatury_kontca_XIX_-_nachala_XX_v._Bibliograficheskij_ukazatel._1963_1_.pdf",
+        "bytes": 18149023,
+        "sha256": "87c2b4bd823889b5f403a0d623088520b4dda45533ea122ac1a389dfd70625a9",
+        "sha1": "9a6a18521f31707ac5386c2447eb3081031386de",
+        "pages": 521,
+        "classification": "historical-bibliography-facsimile",
+        "visually_reviewed_pdf_pages": [
+          1,
+          15,
+          17,
+          271,
+          272
+        ],
+        "page_mapping": {
+          "15": 15,
+          "17": 17,
+          "271": 271,
+          "272": 272
+        },
+        "review_scope": "Title leaf and printed15,17,271–272 only; no whole-book collation. Printed271–272 are original bibliography, not the cited1931,1937 or1957 target pages.",
+        "full_publication_visually_read": false,
+        "embedded_images": [],
+        "embedded_images_note": "Original scan pages visually reviewed through page renders; embedded source images were not separately extracted or registered.",
+        "rendered_pages_reviewed": [
+          {
+            "pdf_page": 1,
+            "printed_page": null,
+            "bytes": 89578,
+            "sha256": "6a04bc0a865fc0fea8f4e9f84d28a3b5c0350996417c14a186af1695264bd281",
+            "sha1": "cdd4903244658eb2f9c3d592c09be73013ca1726",
+            "width": 706,
+            "height": 1102,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 15,
+            "printed_page": 15,
+            "bytes": 407461,
+            "sha256": "9b9e9e431fa1e3b1b2aac4900da8f09f9a4d85b442295ef42f75793716733ce7",
+            "sha1": "f06fa91806da198ccbb564af49e9bacb760f2c92",
+            "width": 706,
+            "height": 1102,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 17,
+            "printed_page": 17,
+            "bytes": 397466,
+            "sha256": "f481c1950d61eccae935142676e1d6b5f0a646199283d7ab9d6aa8e9d1d60067",
+            "sha1": "c1bb977d1bfa2028421cc6b6665ab95f81a6c4d7",
+            "width": 706,
+            "height": 1102,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 271,
+            "printed_page": 271,
+            "bytes": 392558,
+            "sha256": "7138fc60e969a06a85b64104891049e0f82bb8b375cf90886d1e330d997ded82",
+            "sha1": "f4eddbd04f75f7631657f2a0abe5c6d38213ed0a",
+            "width": 706,
+            "height": 1102,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 272,
+            "printed_page": 272,
+            "bytes": 369982,
+            "sha256": "0e01404e54b1a519342824ee0a2237ee62fd8f2efaa2d850cbab89b73df7e00b",
+            "sha1": "b131f69f22e85ee015f3592640f97bd559609e96",
+            "width": 706,
+            "height": 1102,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          }
+        ],
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false
+      },
+      {
+        "source_id": "matsuev-literature-criticism-1940",
+        "url": "https://imwerden.de/pdf/matsuev_khudozhestvennaya_literatura_v_otsenke_kritiki_1933-1937_1940__ocr.pdf",
+        "bytes": 20366957,
+        "sha256": "b84012440002fe80bb07be91e18ae7b0f10efee8582cd1d1f06cfa2eaad52f4c",
+        "sha1": "d9619344040ae392594decb76ed3e008bc55f122",
+        "pages": 343,
+        "classification": "historical-bibliography-facsimile",
+        "visually_reviewed_pdf_pages": [
+          1,
+          2,
+          6,
+          166
+        ],
+        "page_mapping": {
+          "6": 5,
+          "166": 165
+        },
+        "review_scope": "Cover, title leaf, printed5 abbreviation key and165 Pottier bibliography only; mapping established for these selected pages, not a fixed whole-book offset.",
+        "full_publication_visually_read": false,
+        "embedded_images": [],
+        "embedded_images_note": "Original scan pages visually reviewed through page renders; embedded source images were not separately extracted or registered.",
+        "rendered_pages_reviewed": [
+          {
+            "pdf_page": 1,
+            "printed_page": null,
+            "bytes": 652594,
+            "sha256": "e162bcbb7947d62ff337fab196bf6a06e0880c06ede64affd07b477309223332",
+            "sha1": "05db53f7aec62dc773ce3aedb43247a8055b43c6",
+            "width": 580,
+            "height": 897,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 2,
+            "printed_page": null,
+            "bytes": 49143,
+            "sha256": "da956023c7449a712b04c9bde1bfa4c95a4e29092ccb19a8549e80736c736cda",
+            "sha1": "36297855e0f248083e121ff5835cbfb4d9e499d9",
+            "width": 559,
+            "height": 880,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 6,
+            "printed_page": 5,
+            "bytes": 148132,
+            "sha256": "e64b77aee8651b34c64c7ffcf8d464c441b922055d8258d0314ce3a95bb7d926",
+            "sha1": "89c8791f88834286dd26126cc8d74bdd0e494ae6",
+            "width": 559,
+            "height": 880,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 166,
+            "printed_page": 165,
+            "bytes": 241472,
+            "sha256": "f8ef6a05eda64beccdca7698009bf9808cce61ba8f66f8a92415f8b8f506c642",
+            "sha1": "855f40335be432c8cdc6091870f2253de0ce0f7b",
+            "width": 634,
+            "height": 997,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          }
+        ],
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false
       }
     ],
     "observations": [
@@ -3347,7 +3505,13 @@
       "Друскин2012 vol5: История песен382–455 and editorial/imprint pages; verify1959 reprint and locate originalp16 without assumed offset",
       "1948 Kots Tolstoy memoir original367–368 and title leaf; check1939 dateline, Paris duration and Popov1906 book claim",
       "1950 Paris Éditions sociales Thorez speeches booklet and1949-10-01 original; identify origin of Russian1952 footnote11–12",
-      "1906 clandestine10 revolutionary songs, Д.Черномордиков arrangement: title and score original;1952 note alone does not establish first edition"
+      "1906 clandestine10 revolutionary songs, Д.Черномордиков arrangement: title and score original;1952 note alone does not establish first edition",
+      "Коц.К истории русского текста «Интернационала»,Книжные новости1937No19,60–61; also Куриленков57–59 in same issue; originals and relation to Наш гимн unverified",
+      "Коц.Стихотворения1957:original autobiography3–4,Дымшиц5–12 and letter excerpts136,142,143, alongside priority110; check152 versus151 bibliographic extent",
+      "1930 Kots-to-Bonch letter:June28 in1954 note554 versus July28 in1963 bibliography271–272; identity, date and selection passage need original comparison",
+      "1931 Bonch article:1963 bibliography8–10 versus2018 reference4–10; acquire full4–10 and issue contents rather than overwrite either locator",
+      "1950 Куриленков small-series anthology455pages:find Kots annotation, compare with1954 large-series edition;1948 abridged intro158–174 is a separate route",
+      "Друскин2012vol5:separate Интернационал article and Academia publication correspondence; locate contents pages/editorial sources without assuming1959p16 correspondence"
     ],
     "bibliography_followup_20261004": {
       "reviewed_on": "2026-10-04",
@@ -4124,6 +4288,155 @@
           "snapshot_distributed_in_repository": false
         }
       }
+    },
+    "bibliography_followup_20261004_round25": {
+      "source_ids": [
+        "muratova-literary-bibliography-1963",
+        "matsuev-literature-criticism-1940"
+      ],
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "new1937_target": {
+        "author_as_registered": "А. Коц / А. Я. Коц",
+        "title_as_registered": "К истории русского текста «Интернационала»",
+        "journal": "Книжные новости",
+        "year": 1937,
+        "issue": 19,
+        "printed_pages_as_registered": [
+          60,
+          61
+        ],
+        "locators": [
+          {
+            "source_id": "matsuev-literature-criticism-1940",
+            "printed_page": 165
+          },
+          {
+            "source_id": "muratova-literary-bibliography-1963",
+            "printed_page": 272,
+            "entry": 6972
+          }
+        ],
+        "target_original_acquired": false,
+        "same_text_as_nash_gimn_established": false
+      },
+      "zvezda10_range": {
+        "source_id": "matsuev-literature-criticism-1940",
+        "printed_page": 165,
+        "registered_range": [
+          213,
+          216
+        ],
+        "prior_range_was_inferred_from_next_article": true,
+        "target_original_acquired": false
+      },
+      "1957_book_locators": {
+        "source_id": "muratova-literary-bibliography-1963",
+        "printed_pages": [
+          271,
+          272
+        ],
+        "edition_as_registered": "М.:Гослитиздат,1957,152с.",
+        "pagination_verified_from1957_original": false,
+        "autobiography": [
+          3,
+          4
+        ],
+        "dymshits_intro": [
+          5,
+          12
+        ],
+        "letter_excerpt_pages": [
+          136,
+          142,
+          143
+        ],
+        "letter_entry": 6963,
+        "autobiography_entry": 6964,
+        "intro_entry": 6973,
+        "target110_acquired": false,
+        "other_target_pages_acquired": false
+      },
+      "1930_letter_date_discrepancy": {
+        "muratova_entry6963": "28 июля1930",
+        "muratova_printed_pages": [
+          271,
+          272
+        ],
+        "1954_poetry_note": "28 июня1930",
+        "1954_note_printed_page": 554,
+        "author_and_addressee_in_both": "А. Коц → В. Д. Бонч-Бруевич",
+        "same_letter_established": false,
+        "date_resolved": false,
+        "selection_quotation_letter_identified": false
+      },
+      "1931_article_range_discrepancy": {
+        "muratova_entry6971": "На литературном посту,1931,№2,с.8–10",
+        "muratova_letter_entry6963": "same journal1931No2,8–10; partial reprints1957,136,142,143",
+        "earlier2018_reference_range": "4–10",
+        "target_original_acquired": false,
+        "article_full_range_resolved": false
+      },
+      "1907_book_publisher": {
+        "muratova_entry6960": "Наш голос",
+        "printed_page": 271,
+        "1930_lelevich_literal": "Народ",
+        "1954_note554_and_auction_catalogue": "Наш голос",
+        "1907_original_acquired": false,
+        "separate_editions_established": false
+      },
+      "1950_anthology_locator": {
+        "muratova_entry117_printed_page": 15,
+        "citation_as_registered": "Революционная поэзия.1890–1917.Подгот.текста,вступ.статья и прим.В.Куриленкова.Л.:Сов.писатель,1950,455с.Библиотека поэта.Малая серия,2-е изд.",
+        "intro_entry145_printed_page": 17,
+        "intro_title": "Большевистские традиции революционной поэзии",
+        "intro_pages": [
+          5,
+          82
+        ],
+        "abridged1948_new_mir_reference": "Новый мир,1948,№2,158–174",
+        "different_from1954_dymshits_big_series_edition": true,
+        "original1950_book_acquired": false,
+        "1950_kots_annotation_page_identified": false
+      },
+      "completion_year_resolved": false,
+      "claim_transmission_to_zhang_guangnian_established": false,
+      "lenin_selection_evidence_found": false
+    },
+    "druskin_publisher_followup_20261004_round25": {
+      "source_id": "druskin-collected-v5-publisher-catalogue",
+      "snapshots": [
+        {
+          "url": "https://compozitor.spb.ru/catalog/knigi/?PAGEN_1=4",
+          "snapshot_bytes": 432310,
+          "snapshot_sha256": "12397a777fa59d1a6d460f0c7159a3bab08cf424a626718dd1d319864bc55dcf",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://compozitor.spb.ru/catalog/knigi/druskin-m-russkaya-revolyutsionnaya-pesnya/",
+          "snapshot_bytes": 79375,
+          "snapshot_sha256": "d73f9c49fbd96038444a744138379278e38e8f096ce66b9f83220404980ec1c9",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://rgub.ru/searchopac/book.php?id=RGUB%5CBIBL%5C0000793101",
+          "snapshot_bytes": 119071,
+          "snapshot_sha256": "5e65bd386d7861706997c13727fa92bbd489517c22e0241b86c4423d7a6fc0ab",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "isbn": "978-5-7379-0526-2",
+      "publisher_extent_as_reported": "800 pages",
+      "rgub_extent_as_reported": "795,[4]с.",
+      "separate_contents_entries": [
+        "Интернационал",
+        "История песен",
+        "Переписка с издательством «Academia» о публикации «Интернационала»"
+      ],
+      "web_contents_page_numbers_present": false,
+      "pdf_preview_link_found_in_checked_product_html": false,
+      "volume_body_acquired": false,
+      "1959_p16_mapping_established": false,
+      "scope": "One public product page and linked catalogue listing plus one RGUB catalogue record; no authenticated access or publisher-wide absence claim."
     }
   }
 }
