@@ -1395,6 +1395,369 @@
         "independent_direct_evidence_obtained": false
       },
       "digitization_date_and_original_holding_not_established": true
+    },
+    {
+      "source_id": "sovmusic-thorez-1952",
+      "classification": "original-journal-page-images",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "title": "«Интернационал»",
+      "author_as_printed": "Морис ТОРЕЗ",
+      "publication_citation": "Морис Торез. «Интернационал». Советская музыка,1952,№9 (сентябрь),с.9–14.",
+      "reviewed_on": "2026-10-04",
+      "images": [
+        {
+          "archive_item_id": 1,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_0.jpg",
+          "bytes": 197632,
+          "sha256": "ea9d6326ad17f6e79da5497926d168c689d784160f18421551b4fb65465593d5",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": null,
+          "role": "cover",
+          "page_number_basis": "Unnumbered cover, original contents, inserted portrait or blank verso visually inspected",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 3,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_2.jpg",
+          "bytes": 269904,
+          "sha256": "7797024b7b4c612652f0e4ebf04c644c2dd51500e26fce3308cd23676cd23907",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": null,
+          "role": "issue-title-month-and-original-contents",
+          "page_number_basis": "Unnumbered cover, original contents, inserted portrait or blank verso visually inspected",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 11,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_10.jpg",
+          "bytes": 332803,
+          "sha256": "251cdce0ef8e81ae9e775a03d2b4f3bc31130f666e404849175c92cb2fc79b6a",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": 9,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 12,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_11.jpg",
+          "bytes": 388833,
+          "sha256": "151ed14caf08a3cf892a4ab12062db457d5dd1e03808bb72e63f1d0969892519",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": 10,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 13,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_12.jpg",
+          "bytes": 162678,
+          "sha256": "78553ea800dfa4a4585872bcc7180cb9c394ac1e2bc842bd9851fa440afcae0b",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": null,
+          "role": "unnumbered-pottier-portrait",
+          "page_number_basis": "Unnumbered cover, original contents, inserted portrait or blank verso visually inspected",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 14,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_13.jpg",
+          "bytes": 98266,
+          "sha256": "b9ac124a37f435b9d9a79bdbd1fe18bd3202b614f4d5f5b1afcd026fb0ee3830",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": null,
+          "role": "blank-portrait-verso",
+          "page_number_basis": "Unnumbered cover, original contents, inserted portrait or blank verso visually inspected",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 15,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_14.jpg",
+          "bytes": 373716,
+          "sha256": "6553b8a6be4619a34bdf299751fe0c88457346051a7535f2fd61c1dd95c3e5e3",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": 11,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 16,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_15.jpg",
+          "bytes": 420781,
+          "sha256": "9eb8dfb668ce3eb9de064c414ef09ffb6e085f94fa1195681a2ca36e7165e4db",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": 12,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 17,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_16.jpg",
+          "bytes": 190183,
+          "sha256": "48e2f47371c1b8c28ac084dea0f9f8d405bc1764e39ca832d360c51bccbce157",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": null,
+          "role": "unnumbered-degeyter-portrait",
+          "page_number_basis": "Unnumbered cover, original contents, inserted portrait or blank verso visually inspected",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 18,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_17.jpg",
+          "bytes": 133355,
+          "sha256": "d841dcc46c3c15e40ae65830d26eb3c6343cbecdff6e408892d207e9b83b5cc4",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": null,
+          "role": "blank-portrait-verso",
+          "page_number_basis": "Unnumbered cover, original contents, inserted portrait or blank verso visually inspected",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 19,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_18.jpg",
+          "bytes": 399031,
+          "sha256": "d94b4777aaaeeff5ee4f31b8a90692b9b0673cba3b37d958f5a2e92deff33f28",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": 13,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 20,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_19.jpg",
+          "bytes": 313234,
+          "sha256": "d32209ecb08528f506a18c0670e30b5972f22f5c5ccc521f0154a8b04f8248f3",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": 14,
+          "role": "article-body",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "archive_item_id": 21,
+          "url": "https://mus.academy/storage/magazine/releases/pages/155_20.jpg",
+          "bytes": 347126,
+          "sha256": "fd3ed677cf379d546628c38e85dddc1711e1604a0c3ddabcbffebf2dfb64c5b4",
+          "width": 1352,
+          "height": 1916,
+          "printed_page": 15,
+          "role": "next-article-boundary",
+          "page_number_basis": "Visible printed page numeral",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        }
+      ],
+      "downloaded_image_count": 13,
+      "downloaded_image_count_scope": "13 registered and visually reviewed images: cover, contents, six body pages, two inserted portraits, two blank versos and next article heading. A further downloaded item22 was not visually read or used as evidence.",
+      "article_image_item_ids": [
+        11,
+        12,
+        15,
+        16,
+        19,
+        20
+      ],
+      "article_printed_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "metadata_snapshots": [
+        {
+          "url": "https://mus.academy/archive/number/166/info",
+          "snapshot_bytes": 11583,
+          "snapshot_sha256": "42bceac6a1d4eeb1550b5f815f68700037c732fbcbb010664ca4d965ae65defa",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://mus.academy/archive/number/166/pages?offset=0&limit=23",
+          "snapshot_bytes": 115087,
+          "snapshot_sha256": "49cfdec8199ffefaa2d35a563a167175ea5569db51ce96c36a7d5708f95c8439",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://mus.academy/archive/number/166/pages?offset=10&limit=10",
+          "snapshot_bytes": 104306,
+          "snapshot_sha256": "92dc816d8790b38cb248af353b905eae65f329213c4469e08dd394a22acf6a18",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://mus.academy/archive/number/166/pages?offset=20&limit=2",
+          "snapshot_bytes": 34552,
+          "snapshot_sha256": "884f1e15537209db9b6911c9d5491503484bb1dfacb6b937051752588a7cb00d",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "review_scope": "All six body pages9–14, introduction, footnotes, credits and end read; original issue title/month/contents, inserted plates/versos and next article title on15 inspected. No whole-issue collation.",
+      "observation": "Russian footnote2 begins on11 and continues on12: Kots/Danin translated1,2,6 in1902; complete Russian versions attributed to Kots1931 and Gatov1932. It prints Жизнь London1902 No8, unlike verified No5; no exact source for footnote given. No Kots rationale, Iskra1900 three main stanzas, or Lenin selecting them. Editorial introduction identifies1949-10-01 speech and1950 Paris Éditions sociales booklet, but neither original acquired.",
+      "three_stanza_selection_statement_found": false,
+      "three_stanza_selection_statement_scope": "Claim that Iskra1900 selected/published three main stanzas. Separate Russian note explicitly identifies Kots1,2,6.",
+      "direct_personal_selection_evidence_found": false,
+      "direct_personal_selection_evidence_scope": "Lenin personally selecting main stanzas.",
+      "kots_first_person_selection_quotation_found": false,
+      "claim_transmission_to_1962_established": false,
+      "website_page_mapping": {
+        "archive_number": 166,
+        "storage_prefix": "155_",
+        "web_contents_number": 11,
+        "original_contents_printed_start": 9,
+        "article_api_item_ids": [
+          11,
+          12,
+          15,
+          16,
+          19,
+          20
+        ],
+        "inserted_unnumbered_items": [
+          13,
+          14,
+          17,
+          18
+        ],
+        "next_article_api_item_id": 21,
+        "next_article_printed_page": 15,
+        "fixed_offset_for_whole_issue_established": false
+      },
+      "editorial_and_translation_provenance": {
+        "printed_start_page": 9,
+        "speech_date_as_reported_and_end_dateline": "1949-10-01",
+        "booklet_publication_as_reported": "Paris, Éditions sociales,1950; speeches on La Marseillaise and Internationale; preface Marcel Cachin",
+        "booklet_original_acquired": false,
+        "speech_original_acquired": false,
+        "printed_end_page": 14,
+        "prose_translation_credits_as_printed": [
+          "Е. Даттель",
+          "Е. Эйгиз"
+        ],
+        "other_poetry_translation_credits_as_printed": [
+          "А. Арго",
+          "А. Гатов"
+        ],
+        "internationale_russian_translation_attributed_by_footnote_to": "А. Коц",
+        "russian_footnote_author_or_french_original_origin_established": false
+      },
+      "russian_translation_note": {
+        "printed_pages": [
+          11,
+          12
+        ],
+        "footnote_number": 2,
+        "kots_stanza_mapping_as_reported": [
+          1,
+          2,
+          6
+        ],
+        "initial_translation_year_as_reported": 1902,
+        "journal_issue_as_printed": "Жизнь (Лондон,1902 год,№8)",
+        "verified_1902_issue_in_existing_archive": 5,
+        "issue_discrepancy_resolved": false,
+        "full_translation_years_as_reported": {
+          "А. Коц": 1931,
+          "А. Гатов": 1932
+        },
+        "completion_year_independently_verified": false,
+        "earlier_publication_lead_as_reported": "1906 clandestine10 revolutionary songs; piano with chorus arrangement Д. Черномордикова; score original not acquired",
+        "global_first_russian_translation_claim_verified": false
+      }
+    },
+    {
+      "source_id": "kots-tolstoy-memoir-feb-1948",
+      "classification": "historical-author-text-web-transcription",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "title": "Мои две встречи с Л. Н. Толстым",
+      "author": "А. Я. Коц",
+      "reviewed_on": "2026-10-04",
+      "publication_information_as_reported": "ФЭБ metadata date1948; associated bibliography: Л.Н.Толстой: К120-летию со дня рождения (1828–1948),т.II,М.:Государственный литературный музей,1948,с.363–368,Летописи Государственного литературного музея,кн.12. Printed title leaf and first publication unverified.",
+      "editions": [
+        {
+          "language": "ru",
+          "edition": "ФЭБ electronic scholarly Tolstoy edition; memoir and П.Попов comments",
+          "printed_page_markers": [
+            363,
+            364,
+            365,
+            366,
+            367,
+            368
+          ],
+          "basis": "Page markers in scholarly HTML; bibliographic host/year metadata and external catalogue, not original facsimile"
+        }
+      ],
+      "snapshots": [
+        {
+          "url": "https://feb-web.ru/feb/tolstoy/critics/l2c/l2c2363-.htm",
+          "snapshot_bytes": 901,
+          "snapshot_sha256": "d30c08e555acc24fb0dabe1135ae3afaaf93dd946adcbb76574315a52cc1d0c7",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://feb-web.ru/feb/tolstoy/critics/l2c/l2c2363-.htm?cmd=2",
+          "snapshot_bytes": 24856,
+          "snapshot_sha256": "a064e1ac3d9299df59f4ce0c5512a386224d6d58daddcd554807d61c9b7dc9f8",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "url": "https://feb-web.ru/feb/tolstoy/critics/l2c/l2c2363-.htm?cmd=t",
+          "snapshot_bytes": 2198,
+          "snapshot_sha256": "e3ba54feceedbd89bcd49fee3e5768a28a3fba6ba1a29996a9974ca235996749",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "review_scope": "Scholarly digital title/author/year metadata, first-person publication paragraph under367, author1939 dateline and separately headed Popov biographical opening under368 read. Whole memoir/poem/commentary not collated; no facsimile or manuscript acquired.",
+      "observation": "First-person367 recollects1902 composition after translating Internationale and writing Песнь пролетариев, sending poems to Жизнь and publication in London1902 No5 August. Author dateline1939 is distinct from electronic edition1948 publication metadata; not proven first publication1939. Text spells пятнадцатилетнего for Paris stay; original unverified. Popov biography on368 separately reports1906 poetry book under Данин, unlike1907 sources; not author self-account.",
+      "three_stanza_selection_statement_found": false,
+      "three_stanza_selection_statement_scope": "No statement that Iskra selected/published three main stanzas, and no explicit Kots three-stanza rationale in this memoir.",
+      "direct_personal_selection_evidence_found": false,
+      "direct_personal_selection_evidence_scope": "Lenin personally selecting main stanzas.",
+      "first_person_publication_recollection_found": true,
+      "kots_first_person_selection_quotation_found": false,
+      "original_printed_pages_acquired": false,
+      "manuscript_acquired": false,
+      "claim_transmission_to_1962_established": false,
+      "author_editor_distinctions": {
+        "author_dateline_as_transcribed": "1939 г.",
+        "feb_metadata_year": "1948",
+        "1939_first_publication_verified": false,
+        "first_person_publication_passage_page_marker": 367,
+        "editor_comments_heading": "П. Попов. Комментарии",
+        "editor_biography_page_marker": 368,
+        "paris_duration_literal": "пятнадцатилетнего",
+        "paris_duration_original_checked": false,
+        "editor_book_year_as_transcribed": 1906,
+        "book_year_discrepancy_resolved": false
+      }
     }
   ],
   "source_trail_followup": {
@@ -2699,6 +3062,64 @@
         ],
         "embedded_images": [],
         "embedded_image_review_scope": "Page renders reviewed; embedded image components not individually extracted or registered."
+      },
+      {
+        "source_id": "podrezova-revolutionary-song-letters-2024",
+        "url": "https://www.nlobooks.ru/upload/iblock/fe8/6oc9gpdxwu2bbhr0ysr17ypamr5n19i7/190-NLO-Podrezova.pdf",
+        "bytes": 344569,
+        "sha256": "f33cba6a67d8e25eb624b4fd482cff881ae4ccbb96310e8e10c089ec635f53d8",
+        "sha1": "1e0952575a034042cf4f8dfbfc4b7d8a236adbfd",
+        "pages": 21,
+        "classification": "born-digital-modern-research-article",
+        "visually_reviewed_pdf_pages": [
+          1,
+          19,
+          20
+        ],
+        "page_mapping": {
+          "1": 63,
+          "19": 81,
+          "20": 82
+        },
+        "review_scope": "Title/abstract63, discussion and footnote48 on81 and reference list82 only; exact1959-to2012 page correspondence unestablished. No1959 or2012 source pages acquired.",
+        "full_publication_visually_read": false,
+        "embedded_images": [],
+        "embedded_images_note": "Born-digital text reviewed through page rendering; no embedded original facsimile images claimed.",
+        "rendered_pages_reviewed": [
+          {
+            "pdf_page": 1,
+            "printed_page": 63,
+            "bytes": 381510,
+            "sha256": "6096f9bb0338f7581ccdb923f8532792511fa76e565ee0047eab910bdf6f0864",
+            "width": 960,
+            "height": 1500,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 19,
+            "printed_page": 81,
+            "bytes": 430633,
+            "sha256": "ff26b3c0f5bda04be82738d187fd5194364b9c387d39325a59c081604ac2927b",
+            "width": 1088,
+            "height": 1700,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 20,
+            "printed_page": 82,
+            "bytes": 577449,
+            "sha256": "da042a36a12d1854d12ea0adfa6f05f71c20a8ba890ff5e176918196bcd05290",
+            "width": 1088,
+            "height": 1700,
+            "visually_reviewed_on": "2026-10-04",
+            "render_distributed_in_repository": false
+          }
+        ],
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false
       }
     ],
     "observations": [
@@ -2922,7 +3343,11 @@
       "1931 Bonch-Bruevich original",
       "М.С.Друскин. Русская революционная песня. Л.,1959, p16 original; locator Boulogne2025 p43",
       "Сим.Дрейден. Музыка — революции! М.,1981, p55 original; locator Boulogne2025 p43",
-      "Д-н. Песни пролетариев.1907 original title and lyric pages; Народ / Наш голос publisher discrepancy unresolved"
+      "Д-н. Песни пролетариев.1907 original title and lyric pages; Народ / Наш голос publisher discrepancy unresolved",
+      "Друскин2012 vol5: История песен382–455 and editorial/imprint pages; verify1959 reprint and locate originalp16 without assumed offset",
+      "1948 Kots Tolstoy memoir original367–368 and title leaf; check1939 dateline, Paris duration and Popov1906 book claim",
+      "1950 Paris Éditions sociales Thorez speeches booklet and1949-10-01 original; identify origin of Russian1952 footnote11–12",
+      "1906 clandestine10 revolutionary songs, Д.Черномордиков arrangement: title and score original;1952 note alone does not establish first edition"
     ],
     "bibliography_followup_20261004": {
       "reviewed_on": "2026-10-04",
@@ -3637,6 +4062,67 @@
         "later_catalogue_publisher_as_reported": "Наш голос",
         "resolved": false,
         "distinct_editions_established": false
+      }
+    },
+    "periodical1952_followup_20261004": {
+      "source_id": "sovmusic-thorez-1952",
+      "russian_note_printed_pages": [
+        11,
+        12
+      ],
+      "early_stanza_mapping_note_obtained": true,
+      "1931_completion_claim_in_original1952_note": true,
+      "completion_year_resolved": false,
+      "1954_thirty_five_years_later_statement_retained": true,
+      "1902_issue_literal_discrepancy": [
+        "1952 note:No8",
+        "verified original:No5"
+      ],
+      "footnote_provenance_established": false,
+      "claim_transmission_to_zhang_guangnian_established": false
+    },
+    "memoir_digital_text_followup_20261004": {
+      "source_id": "kots-tolstoy-memoir-feb-1948",
+      "digital_first_person1902_publication_recollection_read": true,
+      "original1948_scan_obtained": false,
+      "selection_rationale_found": false,
+      "1939_dateline_not_first_publication_proof": true,
+      "editor1906_book_claim_not_author_testimony": true,
+      "paris_duration_literal_retained": "пятнадцатилетнего"
+    },
+    "druskin_reprint_followup_20261004": {
+      "source_id": "podrezova-revolutionary-song-letters-2024",
+      "locator_original_pdf_pages": [
+        1,
+        19,
+        20
+      ],
+      "locator_printed_pages": [
+        63,
+        81,
+        82
+      ],
+      "footnote_number": 48,
+      "brochure_as_reported": "Русская революционная песня. Л.:Музгиз,1959",
+      "later_popular_version_reference": "Друскин2012в:407",
+      "collected_edition_reference": "М.С.Друскин. Собрание сочинений:В7т. Ред.-сост.Л.Г.Ковнацкая. Т.5:Русская революционная песня. Сост.,вступ.статья,материалы,публикация писем и документов,комментарии С.В.Подрезовой. СПб.:Композитор Санкт-Петербург,2012.",
+      "popular_version_title_and_range_as_reported": "История песен,с.382–455",
+      "1959_to_2012_reprint_identification_status": "Modern scholar calls quoted2012в text popular version and footnote names1959 brochure; direct reprint title/imprint correspondence still needs2012 volume inspection.",
+      "1959_p16_acquired": false,
+      "2012_reprint_pages_acquired": false,
+      "exact_page_mapping_established": false,
+      "study_title_and_range_as_reported": "Русская революционная песня:Исследование,с.49–294",
+      "other_web_reprint_checked": {
+        "url": "https://opentextnn.ru/music/muzykalnye-jepohi/xx-v/druskin-revoljucionnaja-pesnja/",
+        "title": "Революционная песня в русском освободительном движении",
+        "edition_citation_as_reported": "Друскин.Собрание сочинений.Т.5,2012,с.51–70",
+        "same_as1959_p16_verified": false,
+        "snapshot": {
+          "url": "https://opentextnn.ru/music/muzykalnye-jepohi/xx-v/druskin-revoljucionnaja-pesnja/",
+          "snapshot_bytes": 470382,
+          "snapshot_sha256": "df94533017ae984bb3b63b985e142c0f3f1bc2ac07a7fd90f6f661f7b08fa0f3",
+          "snapshot_distributed_in_repository": false
+        }
       }
     }
   }

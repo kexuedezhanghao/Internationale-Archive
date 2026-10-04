@@ -660,5 +660,35 @@
     "import_scope": "Public catalogue description for book3 in a22-book bound volume only. Title leaf and lyric pages not acquired or visually verified. Reports Наш голос, unlike Народ in Lelevich1930; edition distinction unresolved.",
     "rights_note": "Bibliographic metadata and access limits only; auction photographs and page text not redistributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "sovmusic-thorez-1952",
+    "name": "Морис Торез. «Интернационал». Советская музыка, 1952, №9, сентябрь, с.9–14",
+    "url": "https://mus.academy/archive/number/166",
+    "role": "historical-periodical-speech-translation-and-notes",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Six original article pages9–14, editorial introduction, footnotes and translation credits read; cover, issue contents, inserted portraits/versos and next heading on15 inspected separately. Russian footnote11–12 reports1902 stanza1,2,6 and1931 completion, but also prints Жизнь No8; source attribution of that footnote remains unestablished.",
+    "rights_note": "Bibliographic metadata, bounded observations and checksums only; no scans, full speech, complete footnote or lyric excerpts redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "kots-tolstoy-memoir-feb-1948",
+    "name": "А. Я. Коц. Мои две встречи с Л. Н. Толстым. Л. Н. Толстой: К120-летию со дня рождения (1828–1948), т.II, М.: Государственный литературный музей, 1948, с.363–368; ФЭБ scholarly digital text, П. Попов comments",
+    "url": "https://feb-web.ru/feb/tolstoy/critics/l2c/l2c2363-.htm",
+    "role": "historical-author-memoir-scholarly-web-transcription",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Scholarly digital title/author/year metadata, first-person publication passage under367 and author dateline/editor biography under368 checked. No complete memoir collation,1948 facsimile or manuscript acquired; first-person recollection and Popov biography distinguished.",
+    "rights_note": "Bibliographic metadata, limited observations and snapshot checksums only; no memoir, poem, editorial commentary or HTML redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "podrezova-revolutionary-song-letters-2024",
+    "name": "Светлана Подрезова. «В письмах всего не напишешь». Архив революционной песни в письмах. Новое литературное обозрение, 2024, №190 (6), с.63–83. DOI10.53953/08696365_2024_190_6_63",
+    "url": "https://www.nlobooks.ru/upload/iblock/fe8/6oc9gpdxwu2bbhr0ysr17ypamr5n19i7/190-NLO-Podrezova.pdf",
+    "role": "modern-scholarly-reprint-locator",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Publisher PDF title/abstract63 and bibliography context81–82 visually read only. Footnote48 names1959 Druskin brochure; bibliography locates История песен in2012 collected works vol5,382–455. Neither1959p16 nor2012 reprint pages obtained; exact correspondence unestablished.",
+    "rights_note": "Bibliographic metadata, bounded observations and checksums only; PDF and full article not redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
   }
 ]
