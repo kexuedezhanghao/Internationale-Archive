@@ -255,10 +255,12 @@
     "url": "https://chronotopos.eu/cts/article/view/173",
     "doi": "10.70596/cts173",
     "role": "historical-translation-research",
-    "import_scope": "Brief paraphrase of pp.34–35; original Iskra refrain separately verified, Kots selection testimony source still pending.",
+    "import_scope": "Publisher PDF cover/abstract, printed34–35,43,50–51 visually inspected. Selection cites Sidorovskiy1987 pp6–7; new1959/1981 locators and Znamya/Zvezda naming discrepancy recorded. Original1937/1957 self-accounts remain unacquired.",
     "rights_note": "Modern research article and OCR not redistributed.",
     "reviewed_on": "2026-10-04",
-    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "public_download_url": "https://chronotopos.eu/cts/article/download/173/130/581",
+    "publication_citation": "Pieter Boulogne (2025). Chronotopos6(1), 32–51. DOI10.70596/cts173; issue label1/2024, published2025-05-26."
   },
   {
     "id": "rmrb-19621201-digital-edition",
@@ -636,6 +638,27 @@
     "reviewed_on": "2026-10-04",
     "import_scope": "Title/responsibility leaves and printed179–180 only; April journal revival distinguished from explicit August No5 lyric publication; cites Bonch-Bruevich1931 No2 p5. Not a read of1931 original or a1962 report source.",
     "rights_note": "Bibliography, limited observations and checksums only; modern book, source images and bulk OCR not redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "lelevich-kots-novy-mir-1930-10",
+    "name": "Г. Лелевич. Один из зачинателей (К истории пролетарской поэзии). Новый мир, 1930, № 10, октябрь, с.178–181",
+    "url": "https://imwerden.de/publ-13474",
+    "public_download_url": "https://imwerden.de/pdf/novy_mir_1930_10__ocr.pdf",
+    "role": "historical-periodical-commentary",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Original October1930 cover, imprint, contents and full article178–181 visually read; next article heading on182 checked as boundary only. Identifies Kots/Danin/Д-н, reports1902 Жизнь publication and1907 book, and compares book wording with common singing. No three-stanza selection rationale or1931 completion date established.",
+    "rights_note": "Bibliographic metadata, limited observations and checksums only; periodical scan, full article and bulk OCR not redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "kots-pesni-1907-litfund-catalogue",
+    "name": "Литфонд, аукцион58, сессия2, лот98, книга3: Д-н. Песни пролетариев. Стихотворения. СПб.: Наш голос, 1907, 32с. — catalogue description",
+    "url": "https://www.litfund.ru/auction/58s2/98/?page=5&sortby=sp&sortorder=dn",
+    "role": "historical-book-catalogue-lead",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Public catalogue description for book3 in a22-book bound volume only. Title leaf and lyric pages not acquired or visually verified. Reports Наш голос, unlike Народ in Lelevich1930; edition distinction unresolved.",
+    "rights_note": "Bibliographic metadata and access limits only; auction photographs and page text not redistributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
   }
 ]

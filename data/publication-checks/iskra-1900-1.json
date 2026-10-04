@@ -2517,6 +2517,188 @@
             "image_distributed_in_repository": false
           }
         ]
+      },
+      {
+        "source_id": "lelevich-kots-novy-mir-1930-10",
+        "url": "https://imwerden.de/pdf/novy_mir_1930_10__ocr.pdf",
+        "bytes": 13383499,
+        "sha256": "5234271c5e784fb440d95569e3ab98978704f922ab0d43220965140e0b3a2325",
+        "sha1": "88bcefa7c759aa500733051bc1e0f378633c88dc",
+        "pages": 208,
+        "classification": "scanned-historical-periodical-with-ocr",
+        "visually_reviewed_pdf_pages": [
+          1,
+          2,
+          3,
+          178,
+          179,
+          180,
+          181,
+          182
+        ],
+        "page_mapping": {
+          "178": 178,
+          "179": 179,
+          "180": 180,
+          "181": 181,
+          "182": 182
+        },
+        "review_scope": "Cover (October1930 No10), imprint and contents; full Lelevich article178–181. Only next-section/next-article heading on182 reviewed to verify boundary. PDF4 and183 rendered but not admitted as read evidence; remainder not read.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-04",
+        "reviewed_page_renders": [
+          {
+            "pdf_page": 1,
+            "bytes": 1181544,
+            "sha256": "9e0690aa1f092fcbad89e8497b33697f1df1b194bc504733d0b3784fd62f5041",
+            "width": 591,
+            "height": 933,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 2,
+            "bytes": 16786,
+            "sha256": "4c1ae87c6c28ca2e04a4dab6f44b9265f7e295b7624401445f23744d58470b68",
+            "width": 591,
+            "height": 988,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 3,
+            "bytes": 113272,
+            "sha256": "50b02fce7d33aea5364cbbba83b60ff89118ff3b47ed91d7a0a62eeb3c5ea36e",
+            "width": 591,
+            "height": 988,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 178,
+            "bytes": 209348,
+            "sha256": "fa777d3d782d3d47fba5196d70be5c3ce83dfd7d9d0d8eda1964c7b18daf0fa3",
+            "width": 591,
+            "height": 988,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 179,
+            "bytes": 271316,
+            "sha256": "d287b0ea172ec12d51a9132d2f0401a465f21f848b29124d3913f1a63ebcbcf1",
+            "width": 591,
+            "height": 988,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 180,
+            "bytes": 252324,
+            "sha256": "22046116ec816effdbe7cefd0f8e95b9ec405f3c45845f72259aca25d26cf7cc",
+            "width": 591,
+            "height": 988,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 181,
+            "bytes": 236855,
+            "sha256": "45423a198d80eab8b53d9c0c14be235f675d5889e2dde5a6cd4d32cf1c98e3ae",
+            "width": 591,
+            "height": 988,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 182,
+            "bytes": 206698,
+            "sha256": "da2e7d0a0f9c6d716329f8404b4e75034df4e183763f82584f1be79c225ab025",
+            "width": 591,
+            "height": 988,
+            "image_distributed_in_repository": false
+          }
+        ],
+        "embedded_images": [],
+        "embedded_image_review_scope": "Page renders reviewed; embedded image components not individually extracted or registered."
+      },
+      {
+        "source_id": "boulogne-internationale-russian-2025",
+        "url": "https://chronotopos.eu/cts/article/download/173/130/581",
+        "bytes": 772231,
+        "sha256": "0c792669deb180d67fb407fb9e482d52fa92c655f85c45dd34b052f2c60a77fc",
+        "sha1": "e42afa53f98e860be81d521f76b2a482787cd7ef",
+        "pages": 21,
+        "classification": "born-digital-modern-research-article",
+        "visually_reviewed_pdf_pages": [
+          1,
+          4,
+          5,
+          13,
+          20,
+          21
+        ],
+        "page_mapping": {
+          "4": 34,
+          "5": 35,
+          "13": 43,
+          "20": 50,
+          "21": 51
+        },
+        "review_scope": "Cover/abstract, printed34–35 and43, reference list50–51 only. Issue label1/2024 distinguished from publisher citation2025 and publication2025-05-26. Historical sources cited by this paper have not thereby been acquired.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-04",
+        "reviewed_page_renders": [
+          {
+            "pdf_page": 1,
+            "bytes": 141530,
+            "sha256": "16beb4a5fcdc3c3f9d995f0df8449cb041681d54ea537eab338a0050f505ea8b",
+            "width": 774,
+            "height": 1095,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 4,
+            "bytes": 204981,
+            "sha256": "bf727c0e054ca4c59f63c0e8f76ff0a18f72c476aad3fd32502d9b3a779a4dd2",
+            "width": 774,
+            "height": 1095,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 5,
+            "bytes": 182999,
+            "sha256": "630badab2939924990ec38a2348d1d58e4c2da19654f54c5f793f0dc793c7183",
+            "width": 774,
+            "height": 1095,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 13,
+            "bytes": 198591,
+            "sha256": "80990fc93c5beb9fb8ba5e4faf43bd4f97f39358e5c2c100b54bd058faa0afe2",
+            "width": 774,
+            "height": 1095,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 20,
+            "bytes": 165703,
+            "sha256": "2a8cfe91e3972da85e37f20b4cbee9465207ed91feb2c1a9037de4e6e0154936",
+            "width": 774,
+            "height": 1095,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 21,
+            "bytes": 183913,
+            "sha256": "a6eaf22ba7237e1b4898b5dbedc0821dc427c54754ffe0f505795d1f65fd8db5",
+            "width": 774,
+            "height": 1095,
+            "image_distributed_in_repository": false
+          }
+        ],
+        "embedded_images": [],
+        "embedded_image_review_scope": "Page renders reviewed; embedded image components not individually extracted or registered."
       }
     ],
     "observations": [
@@ -2550,6 +2732,29 @@
           180
         ],
         "observation": "April1902 entry describes journal revival but explicitly places Internationale in August No5 p201. Its citation identifies Bonch-Bruevich1931 No2 p5 for publication/reception, not an inspected1931 selection quotation or a1962 report source."
+      },
+      {
+        "source_id": "lelevich-kots-novy-mir-1930-10",
+        "printed_pages": [
+          178,
+          179,
+          180,
+          181
+        ],
+        "observation": "Original October1930 article explicitly attributes Russian Internationale to Kots/Danin/Д-н, reports1902 publication and a1907 poetry booklet, and notes разроем versus usual sung разрушим. Does not explain selection1,2,6, date completion of omitted stanzas, or establish Lenin responsibility."
+      },
+      {
+        "source_id": "boulogne-internationale-russian-2025",
+        "printed_pages": [
+          43,
+          50,
+          51
+        ],
+        "observation": "Publisher PDF supplies1959 Druskin p16 and1981 Dreyden p55 locators;1937 journal printed as Znamya conflicts with verified Zvezda index and1954 note. Cited books remain unacquired; discrepancy not silently corrected."
+      },
+      {
+        "source_id": "kots-pesni-1907-litfund-catalogue",
+        "observation": "1907 booklet catalogue reports Наш голос whereas Lelevich1930 p179 prints Народ; neither title leaf nor lyrics acquired, and separate editions not established."
       }
     ],
     "kots_1940_dedication": {
@@ -2714,7 +2919,10 @@
       "1960 Sokhor booklet",
       "1937 Kots self-account",
       "1957 Kots poems110",
-      "1931 Bonch-Bruevich original"
+      "1931 Bonch-Bruevich original",
+      "М.С.Друскин. Русская революционная песня. Л.,1959, p16 original; locator Boulogne2025 p43",
+      "Сим.Дрейден. Музыка — революции! М.,1981, p55 original; locator Boulogne2025 p43",
+      "Д-н. Песни пролетариев.1907 original title and lyric pages; Народ / Наш голос publisher discrepancy unresolved"
     ],
     "bibliography_followup_20261004": {
       "reviewed_on": "2026-10-04",
@@ -3266,6 +3474,170 @@
       "establishes_new_lyric_witness": false,
       "claim_transmission_to_zhang_guangnian_established": false,
       "lenin_personal_selection_verified": false
+    },
+    "contemporary_commentary_followup_20261004": {
+      "source_id": "lelevich-kots-novy-mir-1930-10",
+      "author_as_seen": "Г. Лелевич",
+      "title_as_seen": "Один из зачинателей",
+      "subtitle_as_seen": "К истории пролетарской поэзии",
+      "journal_as_seen": "Новый мир",
+      "issue": 10,
+      "year": 1930,
+      "month_as_seen": "Октябрь",
+      "place_as_seen": "Москва",
+      "article_printed_pages": [
+        178,
+        179,
+        180,
+        181
+      ],
+      "original_article_acquired": true,
+      "original_article_fully_visually_read": true,
+      "contents_start_page": 178,
+      "next_article_start_page": 182,
+      "authorship_observation": {
+        "printed_page": 179,
+        "identifies_kots_as_translator": true,
+        "pseudonyms_as_seen": [
+          "А. Данин",
+          "Д-н"
+        ],
+        "scope": "Article links Данин with Kots and calls him the Russian Internationale translator; contemporaneous attribution, not a signed1902 lyric page or global first-adopter proof."
+      },
+      "publication_observation": {
+        "printed_page": 179,
+        "reported_year": 1902,
+        "reported_journal": "Жизнь",
+        "scope": "Reports publication of Песнь пролетариев and the Russian Internationale while Kots was in France; no issue number or stanza-selection rationale given here."
+      },
+      "book1907_as_reported": {
+        "printed_page": 179,
+        "author_as_cited": "Д-н",
+        "title_as_cited": "Песни пролетариев",
+        "publisher_as_cited": "Народ",
+        "series_as_cited": "На разные темы",
+        "series_number": 4,
+        "year_as_cited": 1907,
+        "pages_reported_in_prose": 32,
+        "price_as_cited": "8 коп.",
+        "original_book_acquired": false,
+        "title_leaf_acquired": false,
+        "lyric_pages_acquired": false,
+        "publisher_independently_verified": false
+      },
+      "wording_comparison_as_reported": {
+        "printed_page": 181,
+        "book_word": "разроем",
+        "usual_sung_word": "разрушим",
+        "last_quatrain_of_book_quoted_in_article": true,
+        "full_quatrain_transcribed_or_distributed": false,
+        "original_book_wording_independently_verified": false,
+        "scope": "Lelevich compares1907 book wording with usual singing. This is a quotation witness and retrieval lead, not a collation against acquired1907 original pages."
+      },
+      "separate_song_observation": {
+        "printed_page": 181,
+        "song": "Песнь пролетариев",
+        "relation_to_manifesto_reported_via": "Левицкая",
+        "not_internationale_selection_explanation": true,
+        "not_a_dated_kots_letter": true
+      },
+      "selection_rationale_verified": false,
+      "remaining_stanzas_completion_date_verified": false,
+      "lenin_personal_selection_verified": false,
+      "global_first_adopter_verified": false,
+      "claim_transmission_to_zhang_guangnian_established": false
+    },
+    "modern_paper_original_pdf_followup_20261004": {
+      "source_id": "boulogne-internationale-russian-2025",
+      "publication_year_as_cited": 2025,
+      "publication_date_on_publisher_site": "2025-05-26",
+      "issue_label_as_seen": "1/2024",
+      "printed_pages_reviewed": [
+        34,
+        35,
+        43,
+        50,
+        51
+      ],
+      "selection_citation": {
+        "author": "Lev I. Sidorovskiy",
+        "title_as_cited": "Pochashche poyte pesni Revolyutsii ...",
+        "year": 1987,
+        "place_as_cited": "Leningrad",
+        "publisher_as_cited": "Sovetskiy kompozitor",
+        "pages": [
+          6,
+          7
+        ],
+        "original_book_acquired": false
+      },
+      "additional_locators": [
+        {
+          "author": "М. С. Друскин",
+          "title": "Русская революционная песня",
+          "place": "Ленинград",
+          "publisher_as_cited": "Государственное музыкальное издательство",
+          "year": 1959,
+          "target_page": 16,
+          "locator_printed_page": 43,
+          "bibliography_printed_page": 50,
+          "original_book_acquired": false,
+          "distinct_from_1954_monograph_and_1960_article": true
+        },
+        {
+          "author": "Сим. Дрейден",
+          "title": "Музыка — революции!",
+          "place": "Москва",
+          "publisher": "Советский композитор",
+          "year": 1981,
+          "target_page": 55,
+          "locator_printed_page": 43,
+          "bibliography_printed_page": 50,
+          "scope": "Trigger for completing omitted stanzas: preparation of Pottier anthology, as reported by Boulogne; not independently read1981 original.",
+          "original_book_acquired": false
+        }
+      ],
+      "journal_name_conflict": {
+        "paper_printed_page": 43,
+        "paper_journal_as_seen": "Znamya",
+        "article_as_seen": "Our Anthem / Наш гимн",
+        "year": 1937,
+        "issue": 11,
+        "paper_cites": "Druskin1959:16",
+        "previously_verified_publisher_index_journal": "Звезда",
+        "previously_verified_1954_note_journal": "Звезда",
+        "resolved": false,
+        "scope": "Literal modern-paper journal name retained. Do not move1937 target search or silently emend this paper before checking cited1959 source."
+      },
+      "primary_selection_testimony_obtained": false,
+      "claim_transmission_to_zhang_guangnian_established": false
+    },
+    "book1907_catalogue_followup_20261004": {
+      "source_id": "kots-pesni-1907-litfund-catalogue",
+      "auction_number": 58,
+      "auction_session": 2,
+      "auction_date": "2017-05-18",
+      "lot_number": 98,
+      "bound_volume_book_number": 3,
+      "title_as_reported": "Д-н. Песни пролетариев. Стихотворения",
+      "place_as_reported": "СПб.",
+      "publisher_as_reported": "Наш голос",
+      "year_as_reported": 1907,
+      "pages_as_reported": 32,
+      "catalogue_text_reviewed": true,
+      "title_leaf_visually_verified": false,
+      "lyric_pages_acquired": false,
+      "photographs_visually_reviewed": false,
+      "local_html_snapshot_acquired": false,
+      "local_download_result": "HTTP404 at exact advertised lot URL and shortened URL; web-retrieval catalogue text available. Thumbnails did not establish a readable title page.",
+      "publisher_conflict": {
+        "earlier_source": "lelevich-kots-novy-mir-1930-10",
+        "earlier_printed_page": 179,
+        "earlier_publisher_as_seen": "Народ",
+        "later_catalogue_publisher_as_reported": "Наш голос",
+        "resolved": false,
+        "distinct_editions_established": false
+      }
     }
   }
 }
