@@ -545,5 +545,55 @@
     "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scans, modern full article or bulk OCR redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
     "research_report": "docs/research/ru-kots-selection-source-trail.md"
+  },
+  {
+    "id": "matsuev-bibliography-1962",
+    "name": "Н. Мацуев: Советская художественная литература и критика. 1958–1959. Москва: Советский писатель, 1962",
+    "url": "https://imwerden.de/pdf/matsuev_sovetskaya_khudozhestvennaya_literatura_i_kritika_1958-1959_1962__ocr.pdf",
+    "role": "historical-bibliography-facsimile",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Title, description, compiler introduction and printed172 entry for Kots1957 only; target1957 book not acquired.",
+    "rights_note": "Bibliographic metadata, limited observations and hashes only; no scan, article text, anthology lyrics or bulk OCR distributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "facetia-mastera-translations-vol2",
+    "name": "Мастера русского стихотворного перевода. Книга 2 — modern web transcription of Kots note560",
+    "url": "https://facetia.ru/node/5489",
+    "role": "secondary-publication-locator",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Kots introductory note and note560 only: identifies1957 base and cites1937 Zvezda11 p321 for remaining text; neither printed anthology nor original1937 acquired.",
+    "rights_note": "Bibliographic metadata, limited observations and hashes only; no scan, article text, anthology lyrics or bulk OCR distributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "prlib-nalitpost-1931-2",
+    "name": "Президентская библиотека: На литературном посту. Г.6.1931.2.Январь",
+    "url": "https://www.prlib.ru/item/1622089",
+    "role": "institutional-issue-catalogue",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Exact issue catalogue:48 pages,9000 copies,Herzen original without cover; electronic-reading-room-only access, no target article acquired.",
+    "rights_note": "Bibliographic metadata, limited observations and hashes only; no scan, article text, anthology lyrics or bulk OCR distributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "raan-nalitpost-holdings",
+    "name": "Russian Art Archive Network: На литературном посту, magazine holdings",
+    "url": "https://russianartarchive.net/en/catalogue/document/P4116",
+    "role": "institutional-holdings-check",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "All nine issue links on this record checked;1931 No2 not among them. This limited record is not a claim about all institutional holdings.",
+    "rights_note": "Bibliographic metadata, limited observations and hashes only; no scan, article text, anthology lyrics or bulk OCR distributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "cpcl-kots-biography",
+    "name": "СПСЛ / CPCL: Коц, Аркадий Яковлевич, biographical bibliography",
+    "url": "https://en.cpcl.info/encyclopedia/bioref/kots_a_ya/",
+    "role": "secondary-bibliographic-comparison",
+    "retrieved_on": "2026-10-04",
+    "import_scope": "Works bibliography prints1957 poems publication place Л.; retained alongside historical bibliography М. without declaring a second edition or silently correcting either.",
+    "rights_note": "Bibliographic metadata, limited observations and hashes only; no scan, article text, anthology lyrics or bulk OCR distributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
   }
 ]

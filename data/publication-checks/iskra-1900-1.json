@@ -2322,6 +2322,73 @@
             "image_distributed_in_repository": false
           }
         ]
+      },
+      {
+        "source_id": "matsuev-bibliography-1962",
+        "url": "https://imwerden.de/pdf/matsuev_sovetskaya_khudozhestvennaya_literatura_i_kritika_1958-1959_1962__ocr.pdf",
+        "bytes": 50643128,
+        "sha256": "9012010b19fc0dc59149a5398838d94f9b3517cabd79cfa78623a14fcd96f7c2",
+        "sha1": "870772a57f661d7c16109bff9f0e0b8cc79afe6d",
+        "pages": 676,
+        "classification": "scanned-historical-bibliography",
+        "visually_reviewed_pdf_pages": [
+          2,
+          3,
+          4,
+          173
+        ],
+        "page_mapping": {
+          "4": 3,
+          "173": 172
+        },
+        "review_scope": "Title leaf, description, compiler introduction printed3 and Kots entry printed172 only. OCR used to locate the entry; no other hit pages treated as visually read.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-04",
+        "embedded_images": [
+          {
+            "pdf_page": 2,
+            "xref": 93732,
+            "bytes": 37385,
+            "sha256": "511d9dee9f4f886fcfc863e3e4f3958b67d234b1dbefbde0db5fb63a040e959b",
+            "sha1": "d5c9337c0360c894f8bf2edc75f15eaa31a8723a",
+            "width": 2139,
+            "height": 3268,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 3,
+            "xref": 93733,
+            "bytes": 57375,
+            "sha256": "7eb68d954d43269943d1993869a4ab8757bbd0fc351a610e6565b205708dc4a3",
+            "sha1": "d11aab23a1a3f7f597e36bd12c7148e062250945",
+            "width": 2139,
+            "height": 3268,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 4,
+            "xref": 93734,
+            "bytes": 130227,
+            "sha256": "dcd547b4c8fd2fe1e814ad33ec8c7a6608962370825efad75cc1ec178329faac",
+            "sha1": "d2a1096e0345a38afe3b90319c2ddf9a12fd027d",
+            "width": 2139,
+            "height": 3268,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 173,
+            "xref": 93903,
+            "bytes": 212766,
+            "sha256": "2403a363aa45e1eb536e250e35ef17c4064de36246311bf7d5e59e614817f072",
+            "sha1": "bd578f93046f529a5f8e20dc8e38471533eee42c",
+            "width": 2139,
+            "height": 3268,
+            "image_distributed_in_repository": false
+          }
+        ]
       }
     ],
     "observations": [
@@ -2338,6 +2405,11 @@
           7
         ],
         "observation": "Printed4 explicitly describes Iskra1900 No1 French four-line refrain and prose gloss. Printed6–7 identifies Kots selection as first two plus last, and quotes a letter to Bonch-Bruevich about brevity; no adjacent precise citation dates that letter. Footnotes9/16 locate Наш гимн1937 No11; printed5 footnote3 separately cites Bonch-Bruevich1931 No2. These are retrieval leads, not verification of1931 selection testimony."
+      },
+      {
+        "source_id": "matsuev-bibliography-1962",
+        "printed_page": 172,
+        "observation": "Historical bibliography identifies the1957 Moscow Гослитиздат poems as151 pages, edited by A.L.Dymshits,10000 copies; this is bibliographic evidence only, not a read of Kots self-account or page110."
       }
     ],
     "kots_1940_dedication": {
@@ -2382,7 +2454,8 @@
           "footnote": 2,
           "locator_as_seen": "стр. 21",
           "resolved": false
-        }
+        },
+        "remaining_stanzas_locator_followup_key": "bibliography_followup_20261004.zvezda_1937_page321"
       },
       {
         "id": "kots-poems-1957-p110",
@@ -2393,7 +2466,8 @@
         "locator_source_id": "sovmusic-dreyden-1962",
         "locator_printed_page": 68,
         "original_page_acquired": false,
-        "full_target_text_acquired": false
+        "full_target_text_acquired": false,
+        "book_identity_followup_key": "bibliography_followup_20261004.kots_1957_book"
       },
       {
         "id": "bonch-bruevich-kots-1931",
@@ -2406,7 +2480,9 @@
         "locator_printed_page": 5,
         "original_article_acquired": false,
         "full_target_text_acquired": false,
-        "selection_quote_verified_in_1931": false
+        "selection_quote_verified_in_1931": false,
+        "access_source_id": "prlib-nalitpost-1931-2",
+        "access_status": "Exact1931 No2 institutional record acquired; original only in electronic reading rooms, article unacquired."
       }
     ],
     "snapshots": [
@@ -2423,6 +2499,34 @@
         "snapshot_bytes": 63679,
         "snapshot_sha256": "51aec6d3b89d9c01dfa4437eb5688d5ade0a89bba5eceefd1f05de9685f612bf",
         "snapshot_distributed_in_repository": false
+      },
+      {
+        "source_id": "facetia-mastera-translations-vol2",
+        "url": "https://facetia.ru/node/5489",
+        "snapshot_bytes": 912613,
+        "snapshot_sha256": "fa3e672d456a66b44faf8ea1006e1621dd84fc4c0f5d17ee9fe1ab2d1081fbb0",
+        "snapshot_distributed_in_repository": false
+      },
+      {
+        "source_id": "prlib-nalitpost-1931-2",
+        "url": "https://www.prlib.ru/item/1622089",
+        "snapshot_bytes": 51260,
+        "snapshot_sha256": "6c95d1f013ea7d0b5bc5410e8f7fdd19bde8440112385771081990dfa06a6fe4",
+        "snapshot_distributed_in_repository": false
+      },
+      {
+        "source_id": "raan-nalitpost-holdings",
+        "url": "https://russianartarchive.net/en/catalogue/document/P4116",
+        "snapshot_bytes": 62067,
+        "snapshot_sha256": "ea3f47363519ce7fd330bdaac9bd7e04967c1053f186399fe05428fb04b04f42",
+        "snapshot_distributed_in_repository": false
+      },
+      {
+        "source_id": "cpcl-kots-biography",
+        "url": "https://en.cpcl.info/encyclopedia/bioref/kots_a_ya/",
+        "snapshot_bytes": 14253,
+        "snapshot_sha256": "3055cf19522b8e26023aac010ebde671f3011572be3ce1bbe54b9b922df796bb",
+        "snapshot_distributed_in_repository": false
       }
     ],
     "remaining_targets": [
@@ -2434,6 +2538,121 @@
       "1937 Kots self-account",
       "1957 Kots poems110",
       "1931 Bonch-Bruevich original"
-    ]
+    ],
+    "bibliography_followup_20261004": {
+      "reviewed_on": "2026-10-04",
+      "target_originals_acquired": false,
+      "kots_1957_book": {
+        "bibliography_source_id": "matsuev-bibliography-1962",
+        "bibliography_printed_page": 172,
+        "author_as_seen": "Коц, Аркадий",
+        "title_as_seen": "Стихотворения",
+        "responsibility_as_seen": "Подгот. текста, вступ. ст. и примеч. А. Л. Дымшица.",
+        "place_as_seen": "М.",
+        "publisher_as_seen": "Гослитиздат",
+        "year_as_seen": 1957,
+        "pagination_as_seen": "151 стр.",
+        "copies_as_seen": 10000,
+        "price_as_seen": "3 р. 10 к.",
+        "review_locator_as_seen": "Что читать, 1959, №10, стр.24. А. Дун. Поэзия борьбы.",
+        "review_original_acquired": false,
+        "target_page_110_acquired": false,
+        "place_conflict": {
+          "comparison_source_id": "cpcl-kots-biography",
+          "place_as_seen": "Л.",
+          "resolved": false,
+          "separate_editions_established": false
+        },
+        "coverage_note": "Bibliography covers1958–1959; printed3 permits earlier books reviewed in those years. Do not change the Kots entry year1957 to the bibliography coverage years."
+      },
+      "zvezda_1937_page321": {
+        "source_id": "facetia-mastera-translations-vol2",
+        "web_note_number": 560,
+        "locator_as_seen": "Звезда,1937,№11,с.321",
+        "locator_applies_to": "Remaining stanzas, in article Наш гимн, as reported by the web anthology note.",
+        "original_1937_page_acquired": false,
+        "printed_anthology_acquired": false,
+        "does_not_resolve_nutrikhin_locator21": true
+      },
+      "bonch_1931_issue": {
+        "source_id": "prlib-nalitpost-1931-2",
+        "catalogue_title_as_seen": "На литературном посту. Г.6.1931.2.Январь",
+        "catalogue_pages": 48,
+        "copies_as_reported": 9000,
+        "original_holding_as_reported": "РГПУ им. А.И. Герцена",
+        "copy_note_as_reported": "Экз.: без обл.",
+        "access": "Electronic reading rooms only.",
+        "issue_original_acquired": false,
+        "target_article_original_acquired": false,
+        "catalogue_alone_verifies_article_presence": false
+      },
+      "raan_holdings": {
+        "source_id": "raan-nalitpost-holdings",
+        "listed_issue_count": 9,
+        "listed_year_issue_pairs": [
+          [
+            1928,
+            4
+          ],
+          [
+            1928,
+            17
+          ],
+          [
+            1929,
+            6
+          ],
+          [
+            1930,
+            18
+          ],
+          [
+            1931,
+            25
+          ],
+          [
+            1931,
+            29
+          ],
+          [
+            1932,
+            3
+          ],
+          [
+            1932,
+            4
+          ],
+          [
+            1932,
+            5
+          ]
+        ],
+        "target1931_issue2_listed": false,
+        "all_institutional_holdings_exhausted": false
+      },
+      "retrieval_limits": [
+        {
+          "url": "https://rusneb.ru/catalog/000199_000009_010507521/",
+          "result": "HTTP403; no issue bytes acquired."
+        },
+        {
+          "url": "https://dspace.nplg.gov.ge/bitstream/1234/428336/1/Jurnalnaia_Letopis_1931_N2.pdf",
+          "result": "HTTP410 on direct download; search extract is not a read of the catalogue original."
+        },
+        {
+          "url": "https://search.rsl.ru/ru/search",
+          "result": "Public search shell acquired; advertised public search request returned500 twice, no matching bibliographic results or target bytes acquired."
+        },
+        {
+          "url": "https://www.googleapis.com/books/v1/volumes",
+          "result": "HTTP429 on author/title query; no target volume acquired."
+        },
+        {
+          "url": "https://archive.org/advancedsearch.php",
+          "query": "creator:(\"Коц\") OR title:(\"Kots\" AND \"Stikhotvoreniia\")",
+          "result": "Three returned records had other authors/titles; no target in this result set, not an exhaustive absence claim."
+        }
+      ]
+    }
   }
 }
