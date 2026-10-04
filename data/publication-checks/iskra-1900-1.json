@@ -737,7 +737,16 @@
         "date_as_cited": "1929-04-27",
         "citation_basis": "Editor note on original Russian opening leaf, printed p.62",
         "original_article_obtained": false,
-        "status": "todo"
+        "status": "todo",
+        "issue_number_as_cited": 47,
+        "printed_pages_as_cited": [
+          10,
+          11,
+          16
+        ],
+        "additional_locator_source_id": "kwong-zevaes-xinwenyi-2015",
+        "additional_locator_basis": "Modern research printed269 note109; not verified against French original.",
+        "followup_report_path": "docs/research/monde-1929-and-pottier-1939.md"
       }
     },
     {
@@ -993,5 +1002,287 @@
       "claim_transmission_to_1962_established": false,
       "digitization_date_and_original_holding_not_established": true
     }
-  ]
+  ],
+  "source_trail_followup": {
+    "reviewed_on": "2026-10-04",
+    "report_path": "docs/research/monde-1929-and-pottier-1939.md",
+    "research_pdf_evidence": {
+      "source_id": "kwong-zevaes-xinwenyi-2015",
+      "url": "https://www.cuhk.edu.hk/ics/journal/articles/v61p245.pdf",
+      "classification": "modern-research-pdf",
+      "bytes": 2407644,
+      "sha256": "bd3e86b8850b756dc7fe1dcdf810e5579fa75aabd8b7629b4d6f42ef864f9fb9",
+      "sha1": "5f0a0d054560a4c7b1c5025a260cb45f7fc5b48f",
+      "pages": 38,
+      "visually_reviewed_pdf_pages": [
+        1,
+        25
+      ],
+      "target_pdf_pages": [
+        25
+      ],
+      "target_printed_pages": [
+        269
+      ],
+      "review_scope": "Title, author and journal issue/date on first PDF page; rendered printed269, main paragraph and note109. Not entire article read.",
+      "historical_target_facsimile": false,
+      "pdf_distributed_in_repository": false
+    },
+    "leads": [
+      {
+        "id": "zevaes-monde-1929",
+        "title": "Chants révolutionnaires: L’internationale, ses auteurs, son histoire",
+        "author": "Alexandre Zévaès",
+        "periodical": "Monde",
+        "publication_date_as_cited": "1929-04-27",
+        "issue_number_as_cited": 47,
+        "printed_pages_as_cited": [
+          10,
+          11,
+          16
+        ],
+        "locator_source_id": "kwong-zevaes-xinwenyi-2015",
+        "locator_basis": "Modern research, printed269 note109; issue and pages not verified in original French.",
+        "independently_verified_source_id": "sovmusic-zevaes-1933",
+        "independent_scope": "Original Russian editor note on printed62 confirms French author/title/date, but not issue47 or page range.",
+        "full_target_text_acquired": false,
+        "status": "research-citation-original-pending"
+      },
+      {
+        "id": "sun-xinwenyi-1930",
+        "title": "國際歌的作者及其歷史",
+        "author_as_cited": "孫春霆",
+        "periodical": "新文藝",
+        "year_month_as_cited": "1930-03",
+        "volume_as_cited": 2,
+        "issue_as_cited": 1,
+        "printed_page_range_as_cited": [
+          184,
+          208
+        ],
+        "locator_source_id": "kwong-zevaes-xinwenyi-2015",
+        "locator_basis": "Modern research, printed269 main paragraph and note109; not original1930.",
+        "adaptation_relation_as_reported": "Based on the Zévaès article as 撮寫; not presumed a complete literal translation.",
+        "verse_translator_as_reported": "戴望舒",
+        "verse_translation_basis": "Note109 reports that the1930 preface credits Dai for quoted French poems; original preface not acquired.",
+        "search_excerpt_misreading": "孫春霖",
+        "adopted_research_reading": "孫春霆",
+        "reading_basis": "Rendered PDF paragraph and note109 plus extracted PDF text; original byline still pending.",
+        "full_target_text_acquired": false,
+        "lyric_stanza_mapping_verified": null,
+        "status": "research-citation-original-pending"
+      },
+      {
+        "id": "pottier-internationale-1939",
+        "author_as_seen": "Эжен Потье",
+        "title_as_seen": "Интернационал",
+        "publisher_as_seen": "Государственное издательство «Художественная литература»",
+        "place_as_seen": "Москва",
+        "year_as_seen": 1939,
+        "locator_source_id": "litfund-pottier-1939",
+        "locator_basis": "Original title leaf photo, cover and auction metadata; whole book not acquired.",
+        "translator_as_reported": "А. Коц",
+        "pages_as_reported": 58,
+        "inserted_plate_leaves_as_reported": 18,
+        "dedication_as_reported": {
+          "writer": "А. Коц",
+          "addressee": "Александр Иванович Булушев",
+          "date": "1940-01-14",
+          "basis": "Auction description only; dedication leaf not pictured.",
+          "autograph_visually_verified": false
+        },
+        "original_title_leaf_acquired": true,
+        "full_target_text_acquired": false,
+        "preface_acquired": false,
+        "lyric_pages_acquired": false,
+        "lyric_stanza_mapping_verified": null,
+        "status": "original-title-leaf-only"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://storage06.litfund.ru/images/lots/410/410-239-9875-2-P6117264.jpg",
+        "bytes": 277635,
+        "sha256": "4cd91b42d9556b54db4c1b4ad72b74f708eba4e769faf75dc0a3ff6bd6055fe5",
+        "width": 1309,
+        "height": 950,
+        "source_id": "litfund-pottier-1939",
+        "role": "commune-wall-colour-plate",
+        "visually_reviewed_on": "2026-10-04",
+        "image_distributed_in_repository": false
+      },
+      {
+        "url": "https://storage06.litfund.ru/images/lots/410/410-239-9875-2-P6117265.jpg",
+        "bytes": 149574,
+        "sha256": "6444734ff0a029c21fe66d40e7e41b04109cd94a49066bc5c9fd16abc47c5722",
+        "width": 681,
+        "height": 950,
+        "source_id": "litfund-pottier-1939",
+        "role": "communards-illustration-plate",
+        "visually_reviewed_on": "2026-10-04",
+        "image_distributed_in_repository": false
+      },
+      {
+        "url": "https://storage06.litfund.ru/images/lots/410/410-239-9875-2-P6117516.jpg",
+        "bytes": 186258,
+        "sha256": "11a71a5d16ca79e11ea900f04d4c8658fda78414eee94ba8c18e19ff25b3f48a",
+        "width": 681,
+        "height": 950,
+        "source_id": "litfund-pottier-1939",
+        "role": "book-cover",
+        "visually_reviewed_on": "2026-10-04",
+        "image_distributed_in_repository": false
+      },
+      {
+        "url": "https://storage06.litfund.ru/images/lots/410/410-239-9875-2-P6117263.jpg",
+        "bytes": 78318,
+        "sha256": "180a53badcc4b63cfca55fce0be5580bb3ebe5d0a45d047988a79fb36261bd46",
+        "width": 675,
+        "height": 950,
+        "source_id": "litfund-pottier-1939",
+        "role": "original-title-leaf",
+        "visually_reviewed_on": "2026-10-04",
+        "image_distributed_in_repository": false
+      }
+    ],
+    "downloaded_image_count": 4,
+    "snapshots": [
+      {
+        "source_id": "musee-histoire-vivante-monde",
+        "url": "https://www.museehistoirevivante.fr/collections/presse/monde-1928-1935",
+        "snapshot_bytes": 36684,
+        "snapshot_sha256": "706df559c2fe8d75600c863a2192d5af85fb690aa2847c933cf6aa81718535c7",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "Collection digitization and consultation statements only."
+      },
+      {
+        "source_id": "bnf-monde-digital-list",
+        "url": "https://gallica.bnf.fr/ark:/12148/cb32818161n/date",
+        "snapshot_bytes": 213137,
+        "snapshot_sha256": "c18dda057cd6a1fc5305c14a7188138040d9743d23a4bbae4484dbaf8aae2cc9",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "Retrieved digital issue-list year entries."
+      },
+      {
+        "source_id": "cedinci-monde-paris",
+        "url": "https://catalogo.cedinci.org/bib/26755",
+        "snapshot_bytes": 84513,
+        "snapshot_sha256": "193a22da16bd6fe21ca16379e4f5ce57175ce6805048f0aa4376ed8d402ec952",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "French serial identity, publication range, shelfmark and Disp. specific holdings list."
+      },
+      {
+        "source_id": "americalee-monde-1936",
+        "url": "https://americalee.cedinci.org/s/americalee/item/5131",
+        "snapshot_bytes": 57507,
+        "snapshot_sha256": "f7532be8ada491aebf83bc103c6c806c6fd9963bd2310e54321c8dae67c1c0db",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "Montevideo/1936/Spanish identity and issue range."
+      },
+      {
+        "source_id": "tokyo-sanetou-xinwenyi",
+        "url": "https://www.library.metro.tokyo.lg.jp/collection/features/catalog/sanetou/contents/index.html",
+        "snapshot_bytes": 420508,
+        "snapshot_sha256": "cfc2bd153fcb65e66fc0d2b9c43cae552f54103690d8975aeee12392935506c3",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "Entry実1955 and introductory microfilm access note; other holdings not reviewed."
+      },
+      {
+        "source_id": "litfund-pottier-1939",
+        "url": "https://www.litfund.ru/auction/410/239/",
+        "snapshot_bytes": 137129,
+        "snapshot_sha256": "d3a883cd6f77f203262518b1b2ce3d050a4dec7150fa6ee3e2015ada827d0aaf",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "Lot publication metadata, reported dedication and four explicit full image links."
+      },
+      {
+        "source_id": "dommanget-1938-mia",
+        "url": "https://www.marxists.org/francais/dommanget/works/1938/00/internat.htm",
+        "snapshot_bytes": 122764,
+        "snapshot_sha256": "96f9bd3b7db6d81920e22fc375b6d0154d5befede2a441e7c9ee3494b49fafea",
+        "snapshot_distributed_in_repository": false,
+        "review_scope": "Named related passages and notes37,49,64; rest not fully read."
+      }
+    ],
+    "retrieval_checks": [
+      {
+        "source_id": "musee-histoire-vivante-monde",
+        "result": "Museum collection digitized but incomplete; museum describes onsite appointment consultation. No public target issue file obtained.",
+        "linked_pdf": {
+          "url": "https://www.museehistoirevivante.fr/sites/default/files/archives/p3.pdf",
+          "bytes": 7907,
+          "sha256": "8aef9cc85136d090f63c3f2ac14eb285686132c7bb0601ce73d7a65f8687aeaf",
+          "pages": 1,
+          "visually_reviewed_pdf_pages": [
+            1
+          ],
+          "observation": "Only large pdf text on coloured page; placeholder, not a historical newspaper.",
+          "counts_as_target_facsimile": false,
+          "pdf_distributed_in_repository": false
+        }
+      },
+      {
+        "source_id": "bnf-monde-digital-list",
+        "result": "Retrieved issue list offers1933,1934,1935. Target1929 not provided by this list.",
+        "checked_year_entries": [
+          1933,
+          1934,
+          1935
+        ],
+        "target_issue_obtained": false
+      },
+      {
+        "source_id": "cedinci-monde-paris",
+        "result": "Publication range1–353 is not a complete holdings statement. Specific Disp. list omits47.",
+        "shelfmark": "SJMPa C2/10-5",
+        "specific_holdings_as_reported": "89,97,121,142,151,152,157,190,204,205,249,263,274,316-329,331,333,335-340,342,343,344(det.),345",
+        "target_issue_obtained": false
+      },
+      {
+        "source_id": "americalee-monde-1936",
+        "result": "Montevideo Spanish serial1936, issues1–6; wrong publication identity for Paris1929 target.",
+        "target_issue_obtained": false
+      },
+      {
+        "source_id": "tokyo-sanetou-xinwenyi",
+        "result": "Entry実1955 lists vol1 nos1,2 and vol2 no2; target vol2 no1 not listed.",
+        "target_issue_obtained": false
+      }
+    ],
+    "related_passage_check": {
+      "source_id": "dommanget-1938-mia",
+      "classification": "historical-book-web-transcription",
+      "original_book_acquired": false,
+      "named_passages_read": [
+        "Portée socialiste incomparable de L’Internationale",
+        "Degeyter authorship dispute",
+        "Lent cheminement de L’Internationale sur le plan mondial"
+      ],
+      "note_numbers_checked": [
+        37,
+        49,
+        64
+      ],
+      "observation": "Notes37/64 point to Monde1929-04-27 pp10/11. No Iskra three-stanza explanation in the inspected passages.",
+      "whole_book_read": false,
+      "whole_webpage_keyword_checks": [
+        "Iskra",
+        "russe",
+        "Lénine"
+      ],
+      "keyword_matches_found": false,
+      "limitation": "Keyword non-matches are navigation results; no whole-book negative claim or1962 transmission established."
+    },
+    "retrieval_policy": {
+      "excluded_institution": "中国国家图书馆",
+      "abbreviation": "NLC China",
+      "effective_on": "2026-10-04",
+      "scope": "No future retrieval or login route through this institution; preserve historical records. Other national libraries are separate institutions."
+    },
+    "claim_transmission_to_1962_established": false,
+    "global_first_adopter_verified": false,
+    "counts_as_new_lyric_identity": false,
+    "counts_as_new_lyric_full_text": false,
+    "limitations": "Modern citations, institutional holdings and partial book photographs are distinct. None supplies the three complete target texts; no exhaustion claim."
+  }
 }

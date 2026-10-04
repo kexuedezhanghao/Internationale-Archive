@@ -314,5 +314,93 @@
     "rights_note": "Source article, images and bulk transcription not redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
     "research_report": "docs/research/iskra-claim-source-trail.md"
+  },
+  {
+    "id": "kwong-zevaes-xinwenyi-2015",
+    "name": "鄺可怡：俄蘇文學、法語左翼與中國現代派，中國文化研究所學報61，2015，245–282頁",
+    "url": "https://www.cuhk.edu.hk/ics/journal/articles/v61p245.pdf",
+    "role": "modern-historical-research",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Title/author page and printed p.269 with note109 visually checked. Bibliographic lead only; 1929 French and 1930 Chinese originals not acquired.",
+    "rights_note": "Bibliographic facts, scope observations and checksums only; source images, modern research and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "musee-histoire-vivante-monde",
+    "name": "Musée de l’Histoire Vivante: Monde (1928–1935) collection",
+    "url": "https://www.museehistoirevivante.fr/collections/presse/monde-1928-1935",
+    "role": "institutional-collection-and-access-guide",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Public digitization range, incomplete museum holdings and onsite appointment route checked. Linked one-page PDF visually confirmed as placeholder.",
+    "rights_note": "Bibliographic facts, scope observations and checksums only; source images, modern research and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "bnf-monde-digital-list",
+    "name": "Gallica: Monde, digital issue list cb32818161n",
+    "url": "https://gallica.bnf.fr/ark:/12148/cb32818161n/date",
+    "role": "institutional-digital-issue-list",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Downloaded issue list names 1933,1934,1935; no 1929 target in this retrieved list. No global availability conclusion.",
+    "rights_note": "Bibliographic facts, scope observations and checksums only; source images, modern research and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "cedinci-monde-paris",
+    "name": "CeDInCI: MONDE, Paris, Henri Barbusse, catalogue26755",
+    "url": "https://catalogo.cedinci.org/bib/26755",
+    "role": "institutional-specific-holdings-record",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Publication range and Disp. specific holdings distinguished; shelfmark SJMPa C2/10-5. Listed holdings do not include issue47.",
+    "rights_note": "Bibliographic facts, scope observations and checksums only; source images, modern research and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "americalee-monde-1936",
+    "name": "AmericaLee: MONDE, Montevideo, 1936, item5131",
+    "url": "https://americalee.cedinci.org/s/americalee/item/5131",
+    "role": "different-publication-candidate-check",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Identity checked: Uruguay, Spanish, 1936 issues1–6. Not the Paris1929 target.",
+    "rights_note": "Bibliographic facts, scope observations and checksums only; source images, modern research and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "tokyo-sanetou-xinwenyi",
+    "name": "東京都立図書館：実藤文庫目録、実1955 新文藝",
+    "url": "https://www.library.metro.tokyo.lg.jp/collection/features/catalog/sanetou/contents/index.html",
+    "role": "institutional-specific-holdings-record",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Entry実1955 lists1(1,2),2(2), positive microfilm; does not list target2(1). No inference about other Japanese collections.",
+    "rights_note": "Bibliographic facts, scope observations and checksums only; source images, modern research and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "litfund-pottier-1939",
+    "name": "Литфонд auction410 lot239: Потье, Интернационал, Москва1939",
+    "url": "https://www.litfund.ru/auction/410/239/",
+    "role": "auction-original-book-photographs",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "All four linked original-size images visually checked. Cover, title leaf and two plates obtained; preface, lyrics and reported Kots dedication not pictured.",
+    "rights_note": "Bibliographic facts, scope observations and checksums only; source images, modern research and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
+  },
+  {
+    "id": "dommanget-1938-mia",
+    "name": "Maurice Dommanget: De la Marseillaise à l’Internationale (1938), MIA web transcription",
+    "url": "https://www.marxists.org/francais/dommanget/works/1938/00/internat.htm",
+    "role": "historical-book-web-transcription",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Only named related passages and notes37,49,64 read; no original1938 edition obtained and no full-book negative finding.",
+    "rights_note": "Bibliographic facts, scope observations and checksums only; source images, modern research and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/monde-1929-and-pottier-1939.md"
   }
 ]

@@ -72,6 +72,10 @@
 
 `digital-edition-score-reviewed` 表示已检查数字报刊中的扫描词谱，不表示整版是未经重排的原纸报扫描。可选`digital_edition_evidence`保存PDF摘要、内嵌谱图摘要、期版定位、数字文字/图像区别和检查范围；原图方向规范化不另计见证。`public_download_url`未建立时为null，不借用只有文字的网页地址。版本以`digital_edition_source_id`关联来源；`facsimile_collation`保留原刊逐字对照的待核状态。
 
+## 出处续查线索
+
+`publication-checks`可另有`source_trail_followup`，以`leads`保存现代研究所报题名、期页及原文取得状态，以`research_pdf_evidence`限定实际阅读页，以`images`登记局部实物照片的角色。`retrieval_checks`区别公开数字档年份、具体馆藏期号、不同刊物与占位文件。`full_target_text_acquired`不因题名页照片或书目定位为真；未取得的歌词段序为null，不用空数组暗示原文没有主歌。转引链、首创者与歌词计数另核，`retrieval_policy`不删除历史证据。
+
 ## 快照与更新
 
 `data/score-editions/`保存具体乐谱印本，字段包括刊印年份及定年依据、馆藏号、数字幅次、每幅角色与摘要、段落范围、谱面检查范围和相关歌词身份。`catalogued_printed_pages`与`manifest_view_count`分别计正文印刷页和数字幅次；背面须保留而不得计作另一页独立曲谱。未转录的音符不能标作数字化完成。乐谱印本不自动增加`versions.json`的歌词身份或历史全文数量。
