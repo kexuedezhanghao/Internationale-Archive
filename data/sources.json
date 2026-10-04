@@ -395,6 +395,18 @@
     "research_report": "docs/research/monde-1929-and-pottier-1939.md"
   },
   {
+    "id": "rsl-pottier-internationale-1939",
+    "name": "РГБ record01005198800 and public viewer: Эжен Потье, Интернационал, Москва: Гослитиздат, 1939",
+    "url": "https://search.rsl.ru/ru/record/01005198800",
+    "public_viewer_url": "https://viewer.rsl.ru/ru/rsl01005198800",
+    "role": "historical-book-public-page-images",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Viewer scan pages6,7,45,55,56,105 visually read: French/Russian title leaves, commentary start printed33, Druskin printed43–44 and contents. Printed43 distinguishes July28,1930 translation-origin letter from April1931 stanza-selection letter. Lyrics24–31 and remaining pages not visually reviewed.",
+    "rights_note": "Bibliographic metadata, bounded observations and checksums only; no page images, complete commentary, lyrics or OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md"
+  },
+  {
     "id": "dommanget-1938-mia",
     "name": "Maurice Dommanget: De la Marseillaise à l’Internationale (1938), MIA web transcription",
     "url": "https://www.marxists.org/francais/dommanget/works/1938/00/internat.htm",
@@ -627,6 +639,16 @@
     "reviewed_on": "2026-10-04",
     "import_scope": "Five lot photographs and advertised original-resolution title spread visually inspected; title/publisher/Moscow1957 verified. No copyright leaf, contents, page110 or lyrics shown. Inscription identity unverified.",
     "rights_note": "Bibliographic metadata, limited observations and hashes only; photographs and inscription text not redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "rsl-kots-poems-1957",
+    "name": "РГБ record01006245378: А. Я. Коц, Стихотворения, Москва: Гослитиздат [Ленинградское отделение], 1957",
+    "url": "https://search.rsl.ru/ru/record/01006245378",
+    "role": "institutional-book-catalogue",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "MARC catalogue and card metadata checked:151 pages plus portrait leaf; Moscow imprint with bracketed Leningrad branch; contents names Наш гимн, Две встречи с Л.Н.Толстым and Эжен Потье. No public text scan; page110 remains unacquired.",
+    "rights_note": "Bibliographic metadata and access status only; no scan or text redistributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
   },
   {

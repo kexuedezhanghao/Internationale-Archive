@@ -1851,8 +1851,8 @@
         "publisher_as_seen": "Государственное издательство «Художественная литература»",
         "place_as_seen": "Москва",
         "year_as_seen": 1939,
-        "locator_source_id": "litfund-pottier-1939",
-        "locator_basis": "Original title leaf photo, cover and auction metadata; whole book not acquired.",
+        "locator_source_id": "rsl-pottier-internationale-1939",
+        "locator_basis": "RSL institutional catalogue and public page images; earlier auction title leaf remains a separate copy witness.",
         "translator_as_reported": "А. Коц",
         "pages_as_reported": 58,
         "inserted_plate_leaves_as_reported": 18,
@@ -1868,7 +1868,14 @@
         "preface_acquired": false,
         "lyric_pages_acquired": false,
         "lyric_stanza_mapping_verified": null,
-        "status": "original-title-leaf-only",
+        "commentary_selected_pages_acquired": true,
+        "commentary_printed_pages_visually_reviewed": [
+          33,
+          43,
+          44
+        ],
+        "contents_page_acquired": true,
+        "status": "public-scan-selected-pages-reviewed",
         "different_copy_dedication_reproduction_key": "kots_selection_followup.kots_1940_dedication",
         "different_copy_dedication_reproduction_obtained": true
       },
@@ -2185,7 +2192,7 @@
     "global_first_adopter_verified": false,
     "counts_as_new_lyric_identity": false,
     "counts_as_new_lyric_full_text": false,
-    "limitations": "French1929 and Chinese1930 originals and1939 book body pending. Complete1930 article read only in2022 modern reprint, without three-stanza claim. Institutional holdings, secondary bibliography and partial photos remain separate; no exhaustion or1962 transmission claim.",
+    "limitations": "French1929 and Chinese1930 originals pending. RSL1939 public scan only selectively read: titles, contents, commentary start and printed43–44; lyrics24–31, copyright and other pages remain pending. Complete1930 article read only in2022 modern reprint, without three-stanza claim. No exhaustion or1962 transmission claim.",
     "reprint_check_2022": {
       "source_id": "song-yiwei-2022",
       "classification": "modern-retypeset-reprint-of-historical-article",
@@ -3602,12 +3609,13 @@
     "remaining_targets": [
       "1929 Monde47 French original",
       "1930 Xinwenyi2(1) original",
-      "1939 Pottier preface/lyrics and Druskin article",
+      "1939 Pottier copyright/lyrics24–31 and unreviewed Druskin commentary pages; printed43–44 already acquired",
       "1960 Druskin184–193",
       "1960 Sokhor booklet",
       "1937 Kots self-account",
       "1957 Kots poems110",
       "1931 Bonch-Bruevich original",
+      "April1931 Kots-to-Bonch selection-rationale original letter; distinct from July28,1930 letter",
       "М.С.Друскин. Русская революционная песня. Л.,1959, p16 original; locator Boulogne2025 p43",
       "Сим.Дрейден. Музыка — революции! М.,1981, p55 original; locator Boulogne2025 p43",
       "Д-н. Песни пролетариев.1907 original title and lyric pages; Народ / Наш голос publisher discrepancy unresolved",
@@ -4645,6 +4653,176 @@
       "claim_transmission_to_zhang_guangnian_established": false,
       "global_first_adopter_verified": false,
       "completion_year_resolved": false
+    },
+    "rsl_1939_book_followup_20261004_round27": {
+      "source_id": "rsl-pottier-internationale-1939",
+      "record_url": "https://search.rsl.ru/ru/record/01005198800",
+      "viewer_url": "https://viewer.rsl.ru/ru/rsl01005198800",
+      "classification": "historical-book-public-page-images-with-searchable-text-layer",
+      "catalogue_metadata": {
+        "author": "Эжен Потье",
+        "title": "Интернационал",
+        "commentator": "М.Друскин",
+        "place": "Москва",
+        "publisher": "Гослитиздат",
+        "year": 1939,
+        "printed_extent": "58с.,18вкл.л.ил.,портр.,факс.",
+        "shelfmarks": [
+          "FB Z 27/111",
+          "FB Z 67/116"
+        ]
+      },
+      "viewer_scan_count": 112,
+      "viewer_whole_pdf_download_obtained": false,
+      "searchable_text_layer_used_for_location_only": true,
+      "visually_reviewed_scan_pages": [
+        6,
+        7,
+        45,
+        55,
+        56,
+        105
+      ],
+      "page_mapping": {
+        "45": 33,
+        "55": 43,
+        "56": 44
+      },
+      "review_scope": "French/Russian title leaves; printed33 commentary start; printed43–44 letter quotations and footnotes; contents. Copyright, lyrics24–31, other commentary and all other scans not visually reviewed.",
+      "contents_as_seen": {
+        "F_Kon_article_starts": 11,
+        "Pottier_full_text_Kots_translation": [
+          24,
+          29
+        ],
+        "hymn": [
+          30,
+          31
+        ],
+        "Druskin_commentary_starts": 33,
+        "illustrations_start": 49,
+        "illustration_list": [
+          51,
+          53
+        ]
+      },
+      "page_images": [
+        {
+          "scan_page": 6,
+          "role": "French-title-leaf",
+          "bytes": 131707,
+          "sha256": "34224ffe1ce716bcb7a44b33e645f2a7187afa7065c4db171079622fced40a97",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 7,
+          "role": "Russian-title-leaf",
+          "bytes": 141272,
+          "sha256": "a95dd894be262b6c29cc35b7ba9e3d7a6d73199f90fb46bfb49e725786c94638",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 45,
+          "printed_page": 33,
+          "role": "Druskin-commentary-start",
+          "bytes": 106007,
+          "sha256": "625c101173c39a37cab006b8c90775e14776b02f3976c078f158c701ab16398a",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 55,
+          "printed_page": 43,
+          "role": "two-letter-footnotes-and-selection-quotation-start",
+          "bytes": 244051,
+          "sha256": "15d160948787281087a2bc51fbf6ae279714c9a0e805e95055620cb4130320fc",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 56,
+          "printed_page": 44,
+          "role": "selection-quotation-continuation",
+          "bytes": 240628,
+          "sha256": "a8799f8c8fee1dfa7a6ebb864240ff3d04fa6fd059ac673c7a7c4e1ea5362cae",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 105,
+          "role": "contents",
+          "bytes": 114528,
+          "sha256": "472eec0ece421d13e5dacd0364f022273155ee19dcee8b74b1336335931c97d3",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        }
+      ],
+      "letter_distinction": {
+        "translation_origin_letter": {
+          "date_as_1939_footnote": "28 июля1930",
+          "subject": "how Kots conceived translating Internationale",
+          "same_as_selection_rationale_letter": false
+        },
+        "selection_rationale_letter": {
+          "date_as_1939_footnote": "апрель1931",
+          "addressee": "В.Д.Бонч-Бруевич",
+          "selected_stanzas": [
+            1,
+            2,
+            6
+          ],
+          "quotation_crosses_printed_pages": [
+            43,
+            44
+          ],
+          "original_letter_acquired": false,
+          "classification": "near-primary-editorial-quotation-in-1939-book"
+        },
+        "january1931_periodical_can_contain_april1931_letter": false,
+        "bonch1931_article_still_relevant_for": "publication history and July28,1930 letter context"
+      },
+      "comparison_with_dmitriev1967": {
+        "core_stanza_sequence_and_reasons_match": true,
+        "phrase_present_in1939_but_not1967_requotation": "и в защиту трудового крестьянства",
+        "original_letter_wording_resolved": false,
+        "transmission_to1962_established": false
+      },
+      "rsl1957_catalogue_followup": {
+        "source_id": "rsl-kots-poems-1957",
+        "record_url": "https://search.rsl.ru/ru/record/01006245378",
+        "catalogue_imprint_as_seen": "Москва : Гослитиздат. [Ленингр. отд-ние],1957",
+        "extent_as_seen": "151с.,1л.портр.",
+        "named_contents_as_seen": [
+          "Наш гимн",
+          "Две встречи с Л.Н.Толстым",
+          "Эжен Потье"
+        ],
+        "public_fulltext_available": false,
+        "page110_acquired": false,
+        "second_Leningrad_edition_established": false,
+        "interpretation": "Bracketed Leningrad branch may explain later bibliographic abbreviation Л.; it does not override Moscow on the title leaf or prove another edition."
+      },
+      "lenin_direct_editing_verified": false,
+      "claim_transmission_to_zhang_guangnian_established": false,
+      "global_first_adopter_verified": false,
+      "completion_year_resolved": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_score": false
     }
   }
 }
