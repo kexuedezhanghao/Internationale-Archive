@@ -2389,6 +2389,29 @@
             "image_distributed_in_repository": false
           }
         ]
+      },
+      {
+        "source_id": "fakhretdinov-marseillaise-2018",
+        "url": "https://www.kunstkamera.ru/files/pdf/036/fakhretdinov.pdf",
+        "bytes": 991646,
+        "sha256": "b2038776eb4124fe5cade9ce3bdbdafa016ea5849edf6ea4f3efab991ed20f1a",
+        "sha1": "dfde36f005fe871bd18d8f3b22a7744ca1230afe",
+        "pages": 38,
+        "classification": "publisher-born-digital-scholarly-article",
+        "visually_reviewed_pdf_pages": [
+          1,
+          31
+        ],
+        "page_mapping": {
+          "31": 146
+        },
+        "review_scope": "Title/abstract leaf and printed146 bibliography only; not the full2018 article or the cited1931 original.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-04",
+        "embedded_images": []
       }
     ],
     "observations": [
@@ -2482,7 +2505,33 @@
         "full_target_text_acquired": false,
         "selection_quote_verified_in_1931": false,
         "access_source_id": "prlib-nalitpost-1931-2",
-        "access_status": "Exact1931 No2 institutional record acquired; original only in electronic reading rooms, article unacquired."
+        "access_status": "Exact1931 No2 institutional record acquired; original only in electronic reading rooms, article unacquired.",
+        "target_page_range_as_cited": [
+          4,
+          10
+        ],
+        "page_range_locator_source_id": "fakhretdinov-marseillaise-2018",
+        "page_range_locator_printed_page": 146
+      },
+      {
+        "id": "kots-eugene-pottier-1937",
+        "author_as_reported": "А. Коц",
+        "title_as_reported": "Эжен Потье",
+        "periodical": "Звезда",
+        "year": 1937,
+        "issue": 10,
+        "printed_start_as_reported": 213,
+        "start_locator_source_id": "zvezda-publisher-bibliography-1937",
+        "publisher_entry": 2672,
+        "next_article_start_as_reported": 217,
+        "target_page_range_inferred": [
+          213,
+          216
+        ],
+        "original_article_acquired": false,
+        "full_target_text_acquired": false,
+        "self_account_locator_source_id": "revolutionary-poetry-dymshits-1954",
+        "self_account_locator_printed_page": 554
       }
     ],
     "snapshots": [
@@ -2584,7 +2633,16 @@
         "access": "Electronic reading rooms only.",
         "issue_original_acquired": false,
         "target_article_original_acquired": false,
-        "catalogue_alone_verifies_article_presence": false
+        "catalogue_alone_verifies_article_presence": false,
+        "article_page_range_followup": {
+          "source_id": "fakhretdinov-marseillaise-2018",
+          "locator_printed_page": 146,
+          "cited_original_pages": [
+            4,
+            10
+          ],
+          "original_pages_visually_verified": false
+        }
       },
       "raan_holdings": {
         "source_id": "raan-nalitpost-holdings",
@@ -2653,6 +2711,287 @@
           "result": "Three returned records had other authors/titles; no target in this result set, not an exhaustive absence claim."
         }
       ]
+    },
+    "range_pdf_checks": [
+      {
+        "source_id": "revolutionary-poetry-dymshits-1954",
+        "url": "https://publ.lib.ru/ARCHIVES/B/%27%27Biblioteka_poeta%27%27_%28seriya%29/%d0%e5%e2%ee%eb%fe%f6%e8%ee%ed%ed%e0%ff%20%ef%ee%fd%e7%e8%ff.(1954).pdf",
+        "retrieval_method": "HTTP206 byte-range reads of an advertised public PDF; selected pages copied into derived single-page PDF containers and rendered.",
+        "server_full_bytes": 24097877,
+        "server_etag": "\"6272b723-16fb455\"",
+        "server_last_modified": "Wed, 04 May 2022 17:25:55 GMT",
+        "pages": 647,
+        "full_pdf_downloaded": false,
+        "whole_pdf_sha256_available": false,
+        "prefix_used": {
+          "range_start": 0,
+          "range_end": 7040770,
+          "bytes": 7040771,
+          "sha256": "5729bf3058f8375304f5b4ed7c53b29ed3c9099a45c94f89367afad69c966f52",
+          "scope": "Partial prefix retained from interrupted public download; not a whole-PDF hash."
+        },
+        "tail_used": {
+          "range_start": 24032341,
+          "range_end": 24097876,
+          "bytes": 65536,
+          "sha256": "2eaeda9aefbb4b79367bb69a99bb1982c25f26b825dc451f2c693435e7cd2b2d"
+        },
+        "additional_ranges_used_for_notes": [
+          {
+            "range_start": 23986176,
+            "range_end": 24051711,
+            "bytes": 65536,
+            "sha256": "a5cf3324be60fe61aa87285f41b755299d23dc48110765f6640573d3aae93107"
+          },
+          {
+            "range_start": 20709376,
+            "range_end": 20774911,
+            "bytes": 65536,
+            "sha256": "84781cb259f4f1bb8a4ce0a13a0df0a3423cbc2febb60f47a38c75f4f9e0ff63"
+          },
+          {
+            "range_start": 23920640,
+            "range_end": 23986175,
+            "bytes": 65536,
+            "sha256": "31d1d04808656333af5b9c937d50ee568fb2748a29b5f51e34cf4f9259ae3655"
+          },
+          {
+            "range_start": 20643840,
+            "range_end": 20709375,
+            "bytes": 65536,
+            "sha256": "ea56c83b73b167a3fb55ebf206cffa11502439ceda0271cb60aae6e22742fcaf"
+          },
+          {
+            "range_start": 20774912,
+            "range_end": 20840447,
+            "bytes": 65536,
+            "sha256": "dd07c1edb494884873ce80369822f00af34ebc72720a2c3a8309335729fb9ee2"
+          }
+        ],
+        "visually_reviewed_pdf_pages": [
+          2,
+          3,
+          4,
+          580,
+          581
+        ],
+        "page_mapping": {
+          "580": 553,
+          "581": 554
+        },
+        "review_scope": "Series/title/responsibility leaves and printed553–554 only. Intermediate extraction trials were not used as evidence. Page offset varies; do not extrapolate a constant offset to the whole book.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "derived_page_containers_not_original_whole_pdf": true,
+        "page_evidence": [
+          {
+            "pdf_page": 2,
+            "printed_page": null,
+            "role": "series-title",
+            "extracted_pdf_bytes": 60579,
+            "extracted_pdf_sha256": "df87f7684aad4ba81185e6ad905760a002c5f6292cbf6ab0200aefe62d196e26",
+            "rendered_page_bytes": 338123,
+            "rendered_page_sha256": "2e5645b127422fcc12c65e2a3ee2b41323283f40e21c2db3b737c56dc1092952",
+            "embedded_images": [
+              {
+                "extracted_pdf_xref": 96,
+                "bytes": 653673,
+                "sha256": "7dcbd5a18a0ffe44bafbec9d84a404f2bf4369d394a16f5c6e4104c81be4682d",
+                "width": 779,
+                "height": 1155,
+                "image_distributed_in_repository": false
+              },
+              {
+                "extracted_pdf_xref": 97,
+                "bytes": 266063,
+                "sha256": "71e2567cedbdd42307f46059b2092f0f3859ee445110cdbac038ce547ab1cc0e",
+                "width": 779,
+                "height": 1155,
+                "image_distributed_in_repository": false
+              }
+            ]
+          },
+          {
+            "pdf_page": 3,
+            "printed_page": null,
+            "role": "title-and-second-edition",
+            "extracted_pdf_bytes": 60401,
+            "extracted_pdf_sha256": "ba7f1dd64b81cef5c02f6fe799f8723e9b6e40206ce13c2cf6775e2b24871dce",
+            "rendered_page_bytes": 347243,
+            "rendered_page_sha256": "89a0339d6a8cd2484108dac188f2f061d18bd15703b69ea1aa814c89b160531b",
+            "embedded_images": [
+              {
+                "extracted_pdf_xref": 96,
+                "bytes": 529167,
+                "sha256": "4b1edf7120a1bcad16a1ce81aed7fdad0559c74a8c03e4877cfaedfec9468e21",
+                "width": 694,
+                "height": 1150,
+                "image_distributed_in_repository": false
+              },
+              {
+                "extracted_pdf_xref": 97,
+                "bytes": 263463,
+                "sha256": "8e75d5874f2f4d2c13a19889dd4152837aeefdc38f4b9274d6399027d9e1728d",
+                "width": 694,
+                "height": 1150,
+                "image_distributed_in_repository": false
+              }
+            ]
+          },
+          {
+            "pdf_page": 4,
+            "printed_page": null,
+            "role": "editorial-responsibility",
+            "extracted_pdf_bytes": 55861,
+            "extracted_pdf_sha256": "7c7e86b72853d9758995e227f35791b5d41b6b055b6954b0b59c0c772edc05b2",
+            "rendered_page_bytes": 255477,
+            "rendered_page_sha256": "19a28a34f5f6d16a786ebff45d8f2188dcdb6be2a55094ee9338ff2a5d288434",
+            "embedded_images": [
+              {
+                "extracted_pdf_xref": 96,
+                "bytes": 492699,
+                "sha256": "6b3bba055c5ad80b8866a4c2ae1feafb0137c0a5486ea4b990d80a70f137f2f6",
+                "width": 714,
+                "height": 1142,
+                "image_distributed_in_repository": false
+              },
+              {
+                "extracted_pdf_xref": 97,
+                "bytes": 62101,
+                "sha256": "b5529dc2062bad312e5e6808a81e5ebcb8a9048986404c3a844f71a1fbf9be52",
+                "width": 714,
+                "height": 1142,
+                "image_distributed_in_repository": false
+              }
+            ]
+          },
+          {
+            "pdf_page": 580,
+            "printed_page": 553,
+            "role": "kots-biographical-and-internationale-note",
+            "extracted_pdf_bytes": 86342,
+            "extracted_pdf_sha256": "1a69bffa578bc4bdf20a97673e3fdcefe07fd4239b7be974a1c7d3f6ecf38e12",
+            "rendered_page_bytes": 539537,
+            "rendered_page_sha256": "2732fe42a6e5a1b08c30e04b44d444baa9b0e4f50ba84a9d12c5919eadd8c98b",
+            "embedded_images": [
+              {
+                "extracted_pdf_xref": 96,
+                "bytes": 531457,
+                "sha256": "c8f36d2609b62a5b57b31e9b69948c0155715ceaf2045afdb364379873aaa6f2",
+                "width": 729,
+                "height": 1134,
+                "image_distributed_in_repository": false
+              },
+              {
+                "extracted_pdf_xref": 97,
+                "bytes": 854013,
+                "sha256": "27e7856fc60cb06f8d12e30fcbc7bb8f1a81d6adb335fa24882d4758525b092d",
+                "width": 729,
+                "height": 1134,
+                "image_distributed_in_repository": false
+              }
+            ]
+          },
+          {
+            "pdf_page": 581,
+            "printed_page": 554,
+            "role": "internationale-note-continuation-and-separate-proletarian-song-note",
+            "extracted_pdf_bytes": 90968,
+            "extracted_pdf_sha256": "228f77e6a94525fae59572322e9d9660722cc7ac044aa908a4ea2e2740fbd582",
+            "rendered_page_bytes": 568665,
+            "rendered_page_sha256": "686827b770e9432270a63005effc067a6ced165325ff482acd27cee2c1f8a586",
+            "embedded_images": [
+              {
+                "extracted_pdf_xref": 96,
+                "bytes": 551125,
+                "sha256": "ca2483d9efa4b2f19e00c079504f0476c959bc8a34f236a13f81414fb323eb15",
+                "width": 720,
+                "height": 1134,
+                "image_distributed_in_repository": false
+              },
+              {
+                "extracted_pdf_xref": 97,
+                "bytes": 1030809,
+                "sha256": "d8f80565027d38bfde0b7b54a270afa304bcb846a07b6a876470f16a1da22cfd",
+                "width": 720,
+                "height": 1134,
+                "image_distributed_in_repository": false
+              }
+            ]
+          }
+        ],
+        "reviewed_on": "2026-10-04"
+      }
+    ],
+    "earlier_anthology_followup_20261004": {
+      "source_id": "revolutionary-poetry-dymshits-1954",
+      "printed_pages": [
+        553,
+        554
+      ],
+      "edition_as_seen": "Второе издание",
+      "first_second_sixth_stanzas_reported": true,
+      "author_1907_publication_as_stated_text_basis": true,
+      "1907_original_acquired": false,
+      "1954_lyric_pages_visually_reviewed": false,
+      "remaining_stanzas": {
+        "printed_page": 553,
+        "interval_as_seen": "35 лет спустя",
+        "periodical_as_seen": "Звезда",
+        "year_as_seen": 1937,
+        "issue_as_seen": 11,
+        "completion_date_conflict_with_existing1931_lead_resolved": false,
+        "original1937_acquired": false
+      },
+      "two_self_account_articles_reported": {
+        "printed_page": 554,
+        "year": 1937,
+        "titles_and_issues": [
+          {
+            "title": "Эжен Потье",
+            "issue": 10
+          },
+          {
+            "title": "Наш гимн",
+            "issue": 11
+          }
+        ],
+        "originals_acquired": false
+      },
+      "dated_letter": {
+        "printed_page": 554,
+        "writer_as_seen": "А. Я. Коц",
+        "recipient_as_seen": "В. Д. Бонч-Бруевич",
+        "date_as_seen": "1930-06-28",
+        "note_heading_as_seen": "Песнь пролетариев",
+        "subject_scope": "Communist Manifesto as inspiration for Proletarian Song / new Proletarian Marseillaise.",
+        "dates_internationale_three_stanza_selection_letter": false,
+        "same_letter_as_dmitriev1967_selection_quote_established": false,
+        "original_letter_acquired": false
+      },
+      "lenin_statement_scope": "The inspected notes report Lenin using images and lines from the Russian text; no personal selection or Iskra three-stanza publication statement is present in these two pages.",
+      "lenin_personal_selection_verified": false,
+      "claim_transmission_to_zhang_guangnian_established": false,
+      "full_six_stanza_reprint_leads_as_reported": [
+        {
+          "title": "Эжен Потье. Избранные стихотворения",
+          "publisher": "Гослитиздат",
+          "year": 1938
+        },
+        {
+          "title": "Эжен Потье. Избранное",
+          "publisher": "Гослитиздат",
+          "year": 1950
+        },
+        {
+          "title": "Эжен Потье. Интернационал",
+          "publisher": "Гослитиздат",
+          "year": 1939
+        }
+      ],
+      "these_reprint_lyric_pages_acquired": false
     }
   }
 }

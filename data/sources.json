@@ -526,11 +526,11 @@
   },
   {
     "id": "zvezda-publisher-bibliography-1937",
-    "name": "Журнал Звезда: publisher bibliography1937, entry2701",
+    "name": "Журнал Звезда: publisher bibliography1937, entries2672 and2701",
     "url": "https://zvezdaspb.ru/index.php?page=2&razd=1937",
     "role": "publisher-bibliography",
     "reviewed_on": "2026-10-04",
-    "import_scope": "1937 No11 entry2701 Коц Наш гимн starts319; next entry2702 starts323. Target319–322 inferred, not visually verified against original.",
+    "import_scope": "No10 entry2672 Коц Эжен Потье starts213, next2673 starts217; No11 entry2701 Наш гимн starts319, next2702 starts323. Ranges213–216 and319–322 inferred; originals not visually verified.",
     "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scans, modern full article or bulk OCR redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
     "research_report": "docs/research/ru-kots-selection-source-trail.md"
@@ -594,6 +594,27 @@
     "retrieved_on": "2026-10-04",
     "import_scope": "Works bibliography prints1957 poems publication place Л.; retained alongside historical bibliography М. without declaring a second edition or silently correcting either.",
     "rights_note": "Bibliographic metadata, limited observations and hashes only; no scan, article text, anthology lyrics or bulk OCR distributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "revolutionary-poetry-dymshits-1954",
+    "name": "Революционная поэзия (1890–1917). Второе издание. Ленинград: Советский писатель, 1954. Вступительная статья, подготовка текста и примечания А. Л. Дымшица",
+    "url": "https://publ.lib.ru/ARCHIVES/B/%27%27Biblioteka_poeta%27%27_%28seriya%29/%d0%e5%e2%ee%eb%fe%f6%e8%ee%ed%ed%e0%ff%20%ef%ee%fd%e7%e8%ff.(1954).pdf",
+    "role": "historical-anthology-notes-facsimile",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Series/title/responsibility leaves and printed553–554 only, obtained by byte ranges; second edition. No full PDF or lyric pages admitted. Separate Proletarian Song letter date from Internationale selection quotation.",
+    "rights_note": "Bibliography, limited observations and checksums only; no source scans, modern notes, lyrics or bulk OCR redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "fakhretdinov-marseillaise-2018",
+    "name": "Рустам Фахретдинов: «Русская марсельеза»: жестокий романс Петра Лаврова. Антропологический форум, 2018, №36, с.117–153",
+    "url": "https://www.kunstkamera.ru/files/pdf/036/fakhretdinov.pdf",
+    "doi": "10.31250/1815-8870-2018-14-36-117-153",
+    "role": "scholarly-bibliographic-locator",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Title/abstract leaf and printed146 reference list only; Bonch-Bruevich1931 No2 pp4–10 locator, not the1931 article original.",
+    "rights_note": "Bibliographic metadata and limited observations only; modern article and PDF not redistributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
   }
 ]
