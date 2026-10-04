@@ -615,7 +615,7 @@
     "doi": "10.31250/1815-8870-2018-14-36-117-153",
     "role": "scholarly-bibliographic-locator",
     "reviewed_on": "2026-10-04",
-    "import_scope": "Title/abstract leaf and printed146 reference list only; Bonch-Bruevich1931 No2 pp4–10 locator, not the1931 article original.",
+    "import_scope": "Title/abstract, printed146 bibliography, and additionally printed123–124 quotation context/printed150 references; identifies July28,1930 letter citation as Bonch1931:9 about Proletarian Marseillaise, not proof of Internationale selection. Full modern article and cited originals not reviewed.",
     "rights_note": "Bibliographic metadata and limited observations only; modern article and PDF not redistributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
   },
@@ -719,6 +719,17 @@
     "import_scope": "Publisher product description and unpaginated contents read; RGUB catalogue read separately. Интернационал, История песен and correspondence with Academia listed separately. No volume body, preview PDF or exact1959p16 mapping acquired; public product HTML inspected only.",
     "reviewed_on": "2026-10-04",
     "rights_note": "Metadata, limited observations and snapshot checksums only; product HTML, cover and book contents not redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "journal-bibliography-1931-no2",
+    "name": "Государственная центральная книжная палата РСФСР. Журнальная летопись. Орган государственной библиографии.1931,№2.Москва,1931",
+    "url": "https://dspace.nplg.gov.ge/bitstream/1234/428336/1/Jurnalnaia_Letopis_1931_N2.pdf",
+    "catalogue_url": "https://dspace.nplg.gov.ge/handle/1234/428336",
+    "role": "contemporary-state-bibliography-original-page-locator",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Title, colophon, abbreviation key and two repeated Bonch-Bruevich entries on PDF114/117; printed117 visible, PDF114 page number clipped. Registers НЛП2:4–10; the cited1931 article itself remains unacquired.",
+    "rights_note": "Metadata, bounded observations and hashes only; no scans, bibliography text or bulk OCR redistributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
   }
 ]

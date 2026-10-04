@@ -2763,18 +2763,53 @@
         "classification": "publisher-born-digital-scholarly-article",
         "visually_reviewed_pdf_pages": [
           1,
-          31
+          8,
+          9,
+          31,
+          35
         ],
         "page_mapping": {
-          "31": 146
+          "31": 146,
+          "8": 123,
+          "9": 124,
+          "35": 150
         },
-        "review_scope": "Title/abstract leaf and printed146 bibliography only; not the full2018 article or the cited1931 original.",
+        "review_scope": "Title/abstract and printed146 bibliography previously read; round26 adds printed123–124 quotation context and printed150 references. Rest not visually read; cited1931/1936 originals not acquired.",
         "full_publication_visually_read": false,
         "pdf_distributed_in_repository": false,
         "counts_as_new_lyric_identity": false,
         "counts_as_new_lyric_full_text": false,
         "reviewed_on": "2026-10-04",
-        "embedded_images": []
+        "embedded_images": [],
+        "rendered_page_images_round26": [
+          {
+            "pdf_page": 8,
+            "bytes": 447290,
+            "sha256": "4908e97f58ffb95ea640a2199462378665599ea1d5fa5e4c1ccaae729afc072d",
+            "sha1": "d8a710c38b7bd57c2ab4ed000a033487905d5a78",
+            "width": 1063,
+            "height": 1700,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 9,
+            "bytes": 437253,
+            "sha256": "5005ea3e5b21db742fc2595c1d3857458eadf9c49fa3f3539e8e7fd375b40abe",
+            "sha1": "7ac527ccb6133e543c601a68318277efb3ddf988",
+            "width": 1063,
+            "height": 1700,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 35,
+            "bytes": 480645,
+            "sha256": "fa1c701e00cfcf175393b69667d570cdb9a5caabd91be8cc2108ccaa21a626ff",
+            "sha1": "a2e77be5b6160c6507f4dd39e68ba879bc0606cf",
+            "width": 1126,
+            "height": 1800,
+            "image_distributed_in_repository": false
+          }
+        ]
       },
       {
         "source_id": "imli-literary-chronology-2017",
@@ -3278,6 +3313,80 @@
         "pdf_distributed_in_repository": false,
         "counts_as_new_lyric_identity": false,
         "counts_as_new_lyric_full_text": false
+      },
+      {
+        "source_id": "journal-bibliography-1931-no2",
+        "url": "https://dspace.nplg.gov.ge/bitstream/1234/428336/1/Jurnalnaia_Letopis_1931_N2.pdf",
+        "bytes": 24178746,
+        "sha256": "c86238bebac1a93579ac8a69e7373d1e5522df71f4e7d92c1423c07806a19066",
+        "sha1": "4f5ff4e2af300c23f648c66d8be33ca652cab77e",
+        "pages": 124,
+        "classification": "scanned-contemporary-bibliography",
+        "visually_reviewed_pdf_pages": [
+          1,
+          2,
+          3,
+          114,
+          117
+        ],
+        "page_mapping": {
+          "117": 117
+        },
+        "page_mapping_note": "PDF1 title, PDF2 colophon, PDF3 unnumbered abbreviation key. PDF114 header number is clipped; 114 is only inferred from sequence and is not a directly confirmed printed number. PDF117 visibly prints117.",
+        "review_scope": "Only these five pages: title/colophon, НЛП expansion and duplicated subject-index entries. Rest not visually read; bibliography is not the referenced article original.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-04",
+        "embedded_images": [],
+        "rendered_page_images": [
+          {
+            "pdf_page": 1,
+            "bytes": 1447689,
+            "sha256": "30065c304c76c1e88f3521518b54e136c08e1e8eb93c15a974403d0a39975597",
+            "sha1": "e543ae42ee755b8c79a81a4ec4df82bdf8182fb0",
+            "width": 1127,
+            "height": 1800,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 2,
+            "bytes": 1025700,
+            "sha256": "4270aa939e735a31ef4f3ce1168bcbf638f197e270f63c94152bc0ff9cf028be",
+            "sha1": "e3ba322d25de9dacbada8ef2b0805dfa0cfc2ea1",
+            "width": 939,
+            "height": 1500,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 3,
+            "bytes": 2504334,
+            "sha256": "00274a97eaaa10d342d93af5012885a10d72bcbcc435a6f3cc83800e1bd876cb",
+            "sha1": "01e93146868e0b95b43e2866e7247917524c082d",
+            "width": 1127,
+            "height": 1800,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 114,
+            "bytes": 2741661,
+            "sha256": "c3fc1318bdebcc5feb52ab5c99dc41567b8d9cef2cfe90a9bad22cbc7bf52d45",
+            "sha1": "6f76676bdd2de54e9df8ef881494e9815a410407",
+            "width": 1127,
+            "height": 1800,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 117,
+            "bytes": 2318023,
+            "sha256": "994f31d95448397a2a9f61c08c2a32ae92b042d49c7cc81365ebf1aa5917d9bc",
+            "sha1": "f2f858ab91e2416d2e66000524f1f73bdc06d3ba",
+            "width": 1127,
+            "height": 1800,
+            "image_distributed_in_repository": false
+          }
+        ]
       }
     ],
     "observations": [
@@ -4437,6 +4546,105 @@
       "volume_body_acquired": false,
       "1959_p16_mapping_established": false,
       "scope": "One public product page and linked catalogue listing plus one RGUB catalogue record; no authenticated access or publisher-wide absence claim."
+    },
+    "contemporary_bibliography_followup_20261004_round26": {
+      "source_id": "journal-bibliography-1931-no2",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "same_year_bibliography": {
+        "year": 1931,
+        "issue": 2,
+        "locators": [
+          {
+            "pdf_page": 114,
+            "section": "XXIII literature/criticism",
+            "printed_page_directly_visible": false
+          },
+          {
+            "pdf_page": 117,
+            "printed_page": 117,
+            "section": "XXVI history"
+          }
+        ],
+        "journal_abbreviation": "НЛП",
+        "expansion": "На литературном посту",
+        "abbreviation_key_pdf_page": 3,
+        "registered_article": "Вл.Бонч-Бруевич.Автор «Интернационала»",
+        "registered_issue": 2,
+        "registered_range": [
+          4,
+          10
+        ],
+        "registered_month_and_year": "Я’31",
+        "description_is_bibliographic_annotation_not_verified_article_subtitle": true,
+        "two_entries_are_same_bibliographic_witness": true,
+        "target1931_article_acquired": false,
+        "full_article_range_resolved": false,
+        "later1963_range": [
+          8,
+          10
+        ],
+        "later2018_range": [
+          4,
+          10
+        ]
+      },
+      "letter_quotation_context": {
+        "source_id": "fakhretdinov-marseillaise-2018",
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "printed_pages": [
+          123,
+          124
+        ],
+        "date_as_reported": "28 июля1930",
+        "letter_direction": "А.Я.Коц → В.Д.Бонч-Бруевич",
+        "citation_as_reported": "Бонч-Бруевич1931:9",
+        "quotation_subject": "Choice of French Marseillaise rather than Lavrov song as the basis for Proletarian Marseillaise",
+        "internationale_selection_letter_identified": false,
+        "same_letter_as1954_june28_established": false,
+        "date_resolved": false
+      },
+      "1936_earlier_quotation_lead": {
+        "author": "А.Л.Дымшиц",
+        "title": "О «рабочих марсельезах»",
+        "publication": "Советский фольклор:Статьи и материалы",
+        "issue": "4–5",
+        "year": 1936,
+        "imprint_as2018_reference": "М.;Л.:Изд-во АН СССР",
+        "2018_reference_printed_page": 150,
+        "2018_registered_range": [
+          281,
+          297
+        ],
+        "2018_body_citation_printed_page": 124,
+        "target_page": 291,
+        "quotation_topic": "Bonch-Bruevich recollection of emigre political groups singing Internationale versus Lavrov Marseillaise",
+        "public_collection": "https://electro.nekrasovka.ru/collections/128",
+        "linked_item_url": "https://electro.nekrasovka.ru/books/6191354",
+        "linked_item_fetch_result": "HTTP502 via web and direct urllib; transient candidate for one bounded retry next round",
+        "catalogue_range_discrepancy": "Omsk university contents list281–298, versus2018 bibliography281–297; originals needed",
+        "target_original_acquired": false,
+        "selection_claim_present_in_target_verified": false
+      },
+      "search_scope": [
+        "Bounded public web queries for Kots1957, Zvezda1937No10/11, Knizhnye novosti1937No19 and Bonch1931No2; no target original obtained in these searches.",
+        "Druskin1959p16, Dreyden1981p55, Sidorovskiy1987p6–7: catalogue or secondary hits only, no target pages.",
+        "libmonster article returned403; djvu.online Eventov1967 and Bonch1933 URLs returned6182-byte challenge pages, not readable source texts.",
+        "NPLG collection title browsing exposed1937 Journal bibliography issues; offset80/100/120 requests returned410. Date-filter empty display is not proof of missing holdings.",
+        "Imwerden ?search=Коц returned home page, not valid search results; publisher-series _BP.html contains a1954 download and plain1950 listing, no1950 scan obtained.",
+        "Nekrasov collection publicly links1936 issue4–5; item fetch twice502. No login, captcha bypass, purchase or institution contact."
+      ],
+      "next_independent_routes": [
+        "Retry observed Nekrasov item once after transient502; if readable inspect title/contents and printed291, then article boundaries.",
+        "Use visible NPLG Journal bibliography1937 item links to locate author/title index for Knizhnye novosti1937No19; bibliography is locator only, not source substitution.",
+        "Continue priority1957p110,1937Zvezda10/11,1931article4–10; add1931p9 letter context comparison with1957pp136/142/143 and1954p554."
+      ],
+      "lenin_direct_editing_verified": false,
+      "claim_transmission_to_zhang_guangnian_established": false,
+      "global_first_adopter_verified": false,
+      "completion_year_resolved": false
     }
   }
 }
