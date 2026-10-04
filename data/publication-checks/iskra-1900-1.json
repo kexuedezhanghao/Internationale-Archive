@@ -2412,6 +2412,111 @@
         "counts_as_new_lyric_full_text": false,
         "reviewed_on": "2026-10-04",
         "embedded_images": []
+      },
+      {
+        "source_id": "imli-literary-chronology-2017",
+        "url": "https://imwerden.de/pdf/letopis_literaturnykh_sobyty_vyp2.1_1901-1904_2017__ocr.pdf",
+        "bytes": 32045779,
+        "sha256": "db0b417cfe15b37c360d55f0c4907b4d65d4b124d1907c93e1e92bcbebe5658d",
+        "sha1": "a3c6f221a9d036dcbd6ec26662779cd016c9a9c3",
+        "pages": 530,
+        "classification": "scanned-modern-scholarly-chronology",
+        "visually_reviewed_pdf_pages": [
+          2,
+          3,
+          180,
+          181
+        ],
+        "page_mapping": {
+          "180": 179,
+          "181": 180
+        },
+        "review_scope": "Title/responsibility leaves and printed179–180 only. OCR index hits and separately rendered PDF4 are not admitted as read evidence.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-04",
+        "embedded_images": [
+          {
+            "pdf_page": 2,
+            "xref": 4283,
+            "bytes": 81758,
+            "sha256": "a2411454a5566b9502721d92320ab6391e3a3c2a9b66c8e22482896cecfc8e81",
+            "width": 3192,
+            "height": 4883,
+            "extracted_format": "png",
+            "extraction_basis": "PyMuPDF extract_image; decoded PNG from JBIG2 image stream, not a raw JBIG2 stream checksum.",
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 3,
+            "xref": 4284,
+            "bytes": 104603,
+            "sha256": "4433acf3241c8a6fdf87dd413266ab55fdc34b80629c6a1502d892a967744462",
+            "width": 3192,
+            "height": 4883,
+            "extracted_format": "png",
+            "extraction_basis": "PyMuPDF extract_image; decoded PNG from JBIG2 image stream, not a raw JBIG2 stream checksum.",
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 180,
+            "xref": 4461,
+            "bytes": 313435,
+            "sha256": "cac64ee4154e3b04250f48c6d0e8091e8ad8018a5a6c0dc41820140719c1d61f",
+            "width": 3192,
+            "height": 4883,
+            "extracted_format": "png",
+            "extraction_basis": "PyMuPDF extract_image; decoded PNG from JBIG2 image stream, not a raw JBIG2 stream checksum.",
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 181,
+            "xref": 4462,
+            "bytes": 261763,
+            "sha256": "02d5aeeea8d50ff3cc8e7e537c19a135da650f9dadc2b992505abca6c753f259",
+            "width": 3192,
+            "height": 4883,
+            "extracted_format": "png",
+            "extraction_basis": "PyMuPDF extract_image; decoded PNG from JBIG2 image stream, not a raw JBIG2 stream checksum.",
+            "image_distributed_in_repository": false
+          }
+        ],
+        "reviewed_page_renders": [
+          {
+            "pdf_page": 2,
+            "bytes": 43635,
+            "sha256": "e5fc21acd0e6f4262d2d733c1961d85357e9c340e1743e424dfb9c8646406370",
+            "width": 460,
+            "height": 704,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 3,
+            "bytes": 53652,
+            "sha256": "cdc3a6e07b25d9c82c6511b3f567dcf0b168724c28c44a06eb51a0e5da8bf1aa",
+            "width": 460,
+            "height": 704,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 180,
+            "bytes": 180695,
+            "sha256": "9acde501bfa4bbd2a1d989516e5543bccd9b99d6df262613c4120bd809f1a7ec",
+            "width": 460,
+            "height": 704,
+            "image_distributed_in_repository": false
+          },
+          {
+            "pdf_page": 181,
+            "bytes": 150838,
+            "sha256": "db68239c7714d3102cfffd2e6cf2c435cfe0185e1fc532a0c6abac28f2528a60",
+            "width": 460,
+            "height": 704,
+            "image_distributed_in_repository": false
+          }
+        ]
       }
     ],
     "observations": [
@@ -2433,6 +2538,18 @@
         "source_id": "matsuev-bibliography-1962",
         "printed_page": 172,
         "observation": "Historical bibliography identifies the1957 Moscow Гослитиздат poems as151 pages, edited by A.L.Dymshits,10000 copies; this is bibliographic evidence only, not a read of Kots self-account or page110."
+      },
+      {
+        "source_id": "kots-poems-1957-north-auction-photos",
+        "observation": "Actual1957 title-leaf photograph verifies А.Коц, Стихотворения, Moscow and State Publishing House of Artistic Literature. Five lot photographs plus the original-resolution title image contain no p110, copyright leaf, contents or lyrics; autograph label is not attributed to Kots."
+      },
+      {
+        "source_id": "imli-literary-chronology-2017",
+        "printed_pages": [
+          179,
+          180
+        ],
+        "observation": "April1902 entry describes journal revival but explicitly places Internationale in August No5 p201. Its citation identifies Bonch-Bruevich1931 No2 p5 for publication/reception, not an inspected1931 selection quotation or a1962 report source."
       }
     ],
     "kots_1940_dedication": {
@@ -2490,7 +2607,10 @@
         "locator_printed_page": 68,
         "original_page_acquired": false,
         "full_target_text_acquired": false,
-        "book_identity_followup_key": "bibliography_followup_20261004.kots_1957_book"
+        "book_identity_followup_key": "bibliography_followup_20261004.kots_1957_book",
+        "title_leaf_photograph_acquired": true,
+        "title_leaf_source_id": "kots-poems-1957-north-auction-photos",
+        "title_leaf_followup_key": "book_titlepage_photos_followup_20261004"
       },
       {
         "id": "bonch-bruevich-kots-1931",
@@ -2511,7 +2631,8 @@
           10
         ],
         "page_range_locator_source_id": "fakhretdinov-marseillaise-2018",
-        "page_range_locator_printed_page": 146
+        "page_range_locator_printed_page": 146,
+        "specific_page_locator_followup_key": "chronology_followup_20261004.bonch1931_page5"
       },
       {
         "id": "kots-eugene-pottier-1937",
@@ -2576,6 +2697,13 @@
         "snapshot_bytes": 14253,
         "snapshot_sha256": "3055cf19522b8e26023aac010ebde671f3011572be3ce1bbe54b9b922df796bb",
         "snapshot_distributed_in_repository": false
+      },
+      {
+        "source_id": "kots-poems-1957-north-auction-photos",
+        "url": "https://ru.bidspirit.com/ui/lotPage/north-auction-house/source/catalog/auction/69654/lot/192162/view",
+        "snapshot_bytes": 173742,
+        "snapshot_sha256": "45dc64127f8e55a658958acb0c83ec0f0a26b5460ad6fb45fe19e3ef30faa4b4",
+        "snapshot_distributed_in_repository": false
       }
     ],
     "remaining_targets": [
@@ -2610,9 +2738,15 @@
           "comparison_source_id": "cpcl-kots-biography",
           "place_as_seen": "Л.",
           "resolved": false,
-          "separate_editions_established": false
+          "separate_editions_established": false,
+          "verified_photographed_copy_place": "Москва",
+          "verified_copy_source_id": "kots-poems-1957-north-auction-photos",
+          "resolved_for_photographed_copy": true,
+          "resolution_scope": "Moscow directly visible on this copy; CPCL Л. retained as reported, and a separate Leningrad edition not established."
         },
-        "coverage_note": "Bibliography covers1958–1959; printed3 permits earlier books reviewed in those years. Do not change the Kots entry year1957 to the bibliography coverage years."
+        "coverage_note": "Bibliography covers1958–1959; printed3 permits earlier books reviewed in those years. Do not change the Kots entry year1957 to the bibliography coverage years.",
+        "title_leaf_photograph_acquired": true,
+        "title_leaf_source_id": "kots-poems-1957-north-auction-photos"
       },
       "zvezda_1937_page321": {
         "source_id": "facetia-mastera-translations-vol2",
@@ -2992,6 +3126,146 @@
         }
       ],
       "these_reprint_lyric_pages_acquired": false
+    },
+    "book_titlepage_photos_followup_20261004": {
+      "source_id": "kots-poems-1957-north-auction-photos",
+      "lot_number": 1142,
+      "auction_id": 69654,
+      "asset_id": 192162,
+      "title_as_seen": "А. Коц. Стихотворения",
+      "place_as_seen": "Москва",
+      "publisher_as_seen": "Государственное издательство художественной литературы",
+      "year_as_seen": 1957,
+      "title_leaf_photograph_acquired": true,
+      "copyright_leaf_acquired": false,
+      "contents_acquired": false,
+      "target_page110_acquired": false,
+      "self_account_text_acquired": false,
+      "book_full_scan_acquired": false,
+      "distinct_lot_photo_count": 5,
+      "photos": [
+        {
+          "photo_number": 1,
+          "url": "https://bidspirit-images.global.ssl.fastly.net/north-auction-house/cloned-images/192162/001/a_ignore_q_80_w_1000_c_limit_001.jpg",
+          "role": "portrait-and-title-spread",
+          "bytes": 57400,
+          "sha256": "aae329a8d12eb36cca6647e94749109ebd396a3814e99c9031caf8b2da8f1274",
+          "width": 1000,
+          "height": 667,
+          "resolution_basis": "Public lot thumbnail asset at the same CDN w1000 transformation advertised for photo1; only the five visible photo indices used.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "photo_number": 2,
+          "url": "https://bidspirit-images.global.ssl.fastly.net/north-auction-house/cloned-images/192162/002/a_ignore_q_80_w_1000_c_limit_002.jpg",
+          "role": "inscribed-flyleaf",
+          "bytes": 54970,
+          "sha256": "bb011dbced19ce3b1751b03a82a5475de3cbe4673f5ded0e8a1a1e558d960918",
+          "width": 1000,
+          "height": 667,
+          "resolution_basis": "Public lot thumbnail asset at the same CDN w1000 transformation advertised for photo1; only the five visible photo indices used.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "photo_number": 3,
+          "url": "https://bidspirit-images.global.ssl.fastly.net/north-auction-house/cloned-images/192162/003/a_ignore_q_80_w_1000_c_limit_003.jpg",
+          "role": "front-cover",
+          "bytes": 160469,
+          "sha256": "728a6fffe2fa6ea4f3944179f6d62cbb5e1eecfbd9f16011bc0ea75f46a26583",
+          "width": 1000,
+          "height": 1217,
+          "resolution_basis": "Public lot thumbnail asset at the same CDN w1000 transformation advertised for photo1; only the five visible photo indices used.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "photo_number": 4,
+          "url": "https://bidspirit-images.global.ssl.fastly.net/north-auction-house/cloned-images/192162/004/a_ignore_q_80_w_1000_c_limit_004.jpg",
+          "role": "binding-and-spine",
+          "bytes": 39793,
+          "sha256": "c116a3bd68d22b7bd9325287764d2549229dbaa2b48c4ef13f227598f723553d",
+          "width": 1000,
+          "height": 750,
+          "resolution_basis": "Public lot thumbnail asset at the same CDN w1000 transformation advertised for photo1; only the five visible photo indices used.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "photo_number": 5,
+          "url": "https://bidspirit-images.global.ssl.fastly.net/north-auction-house/cloned-images/192162/005/a_ignore_q_80_w_1000_c_limit_005.jpg",
+          "role": "back-cover",
+          "bytes": 35088,
+          "sha256": "07f5e11d5bd121dac6727184303a0302acb1e9621c035d03682d9b19155973e7",
+          "width": 1000,
+          "height": 750,
+          "resolution_basis": "Public lot thumbnail asset at the same CDN w1000 transformation advertised for photo1; only the five visible photo indices used.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        },
+        {
+          "photo_number": 1,
+          "url": "https://bidspirit-images.global.ssl.fastly.net/north-auction-house/cloned-images/192162/001/001.jpg",
+          "role": "portrait-and-title-spread-original-resolution",
+          "bytes": 412184,
+          "sha256": "9b7b9288697d1508b5317e7640e22ff028ffdd04cc799d8f3913505e7cc6fa6e",
+          "width": 2000,
+          "height": 1333,
+          "resolution_basis": "Original image URL explicitly advertised in lot HTML; same photograph as photo1, not an additional book leaf.",
+          "visually_reviewed_on": "2026-10-04",
+          "image_distributed_in_repository": false
+        }
+      ],
+      "inscription": {
+        "photograph_acquired": true,
+        "date_as_seen": "11.XII.57",
+        "signature_as_seen": "Саша",
+        "writer_identity_verified": false,
+        "attributed_to_kots": false,
+        "full_inscription_transcribed_or_distributed": false
+      },
+      "catalogue_only_pagination": "151 с., 1 л. портр.",
+      "pagination_independently_verified_from_book": false,
+      "limits": "Title leaf verifies Moscow for this photographed1957 copy. No second edition established; CPCL Л. remains literal in its own source record. Page110, copyright leaf, contents and lyrics absent from the five photographs."
+    },
+    "chronology_followup_20261004": {
+      "source_id": "imli-literary-chronology-2017",
+      "printed_pages": [
+        179,
+        180
+      ],
+      "year_as_seen": 2017,
+      "edition_scope_as_seen": "Выпуск 2. Часть 1. 1901–1904",
+      "general_editor_as_seen": "А. В. Лавров",
+      "editor_compiler_as_seen": "В. А. Келдыш",
+      "isbn_as_seen": "978-5-9208-0530-0",
+      "bibliography_pagination_as_seen": "528 с.",
+      "source_pdf_pages": 530,
+      "entry_heading_as_seen": "1902. Апрель",
+      "journal_revival_event": "First issue of revived Жизнь in London, under April1902 heading.",
+      "lyric_publication_event": {
+        "month_as_seen": "август",
+        "issue_as_seen": 5,
+        "journal": "Жизнь",
+        "printed_lyric_page_as_seen": 201,
+        "kots_translation_reported": true,
+        "incorrectly_dated_to_april_by_entry_heading": false
+      },
+      "bonch1931_page5": {
+        "title_as_cited": "Автор «Интернационала»",
+        "periodical_as_cited": "На литературном посту",
+        "year": 1931,
+        "issue": 2,
+        "page_as_cited": 5,
+        "quotation_scope": "Russian Internationale publication and reception among Russian social democrats; not an identified three-stanza selection quotation.",
+        "original_page_acquired": false,
+        "selection_quote_verified_in_1931": false
+      },
+      "supports_existing1902_scan_as_secondary_citation": true,
+      "establishes_new_lyric_witness": false,
+      "claim_transmission_to_zhang_guangnian_established": false,
+      "lenin_personal_selection_verified": false
     }
   }
 }

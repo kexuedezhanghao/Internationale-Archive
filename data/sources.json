@@ -552,7 +552,7 @@
     "url": "https://imwerden.de/pdf/matsuev_sovetskaya_khudozhestvennaya_literatura_i_kritika_1958-1959_1962__ocr.pdf",
     "role": "historical-bibliography-facsimile",
     "retrieved_on": "2026-10-04",
-    "import_scope": "Title, description, compiler introduction and printed172 entry for Kots1957 only; target1957 book not acquired.",
+    "import_scope": "Title, description, compiler introduction and printed172 entry for Kots1957 only; target1957 page110 not acquired. A1957 title-leaf photograph is recorded separately.",
     "rights_note": "Bibliographic metadata, limited observations and hashes only; no scan, article text, anthology lyrics or bulk OCR distributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
   },
@@ -615,6 +615,27 @@
     "reviewed_on": "2026-10-04",
     "import_scope": "Title/abstract leaf and printed146 reference list only; Bonch-Bruevich1931 No2 pp4–10 locator, not the1931 article original.",
     "rights_note": "Bibliographic metadata and limited observations only; modern article and PDF not redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "kots-poems-1957-north-auction-photos",
+    "name": "А. Коц. Стихотворения. Москва: Государственное издательство художественной литературы, 1957 — title leaf and copy photographs",
+    "url": "https://ru.bidspirit.com/ui/lotPage/north-auction-house/source/catalog/auction/69654/lot/192162/view",
+    "role": "historical-book-copy-photographs",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Five lot photographs and advertised original-resolution title spread visually inspected; title/publisher/Moscow1957 verified. No copyright leaf, contents, page110 or lyrics shown. Inscription identity unverified.",
+    "rights_note": "Bibliographic metadata, limited observations and hashes only; photographs and inscription text not redistributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "imli-literary-chronology-2017",
+    "name": "Летопись литературных событий в России конца XIX — начала XX в. (1891 — октябрь 1917). Выпуск 2. Часть 1 (1901–1904). Под общей редакцией А. В. Лаврова; редактор-составитель В. А. Келдыш. Москва: ИМЛИ РАН, 2017",
+    "url": "https://imwerden.de/pdf/letopis_literaturnykh_sobyty_vyp2.1_1901-1904_2017__ocr.pdf",
+    "isbn": "978-5-9208-0530-0",
+    "role": "scholarly-chronology-and-original-article-locator",
+    "reviewed_on": "2026-10-04",
+    "import_scope": "Title/responsibility leaves and printed179–180 only; April journal revival distinguished from explicit August No5 lyric publication; cites Bonch-Bruevich1931 No2 p5. Not a read of1931 original or a1962 report source.",
+    "rights_note": "Bibliography, limited observations and checksums only; modern book, source images and bulk OCR not redistributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
   }
 ]
