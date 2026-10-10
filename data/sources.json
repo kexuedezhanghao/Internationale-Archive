@@ -806,5 +806,17 @@
     "import_scope": "Title metadata identifies publication cityParis; historical1939 footnote saysLille.1894-08-15 issue not obtained. No issue-content or subscription-access claim.",
     "rights_note": "Bibliographic facts only; no article or page images redistributed.",
     "research_report": "docs/research/ru-degeyter-1928.md"
+  },
+  {
+    "id": "journal-bibliography-1938-no3",
+    "name": "Всесоюзная книжная палата: Летопись журнальных статей, XIII год, 1938 №3, февраль",
+    "url": "https://dspace.nplg.gov.ge/handle/1234/433980",
+    "public_download_url": "https://dspace.nplg.gov.ge/bitstream/1234/433980/1/Jurnalnaia_Letopis_1938_N3.pdf",
+    "role": "contemporary-original-bibliography-facsimile",
+    "reviewed_on": "2026-10-10",
+    "import_scope": "Masthead and printed2,144,148,163 visually reviewed. Entry7554 explicitly lists Kots, Nash gimn, Zvezda1937 No11 pp319–322. Cross-reference and author index are the same registration; original1937 article remains unacquired. Entry7557 supplies an unacquired1938 Pottier article lead.",
+    "rights_note": "Bibliographic facts, bounded observations and checksums only; no PDF, images, article body or OCR redistributed.",
+    "research_report": "docs/research/ru-kots-1937-registration.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]

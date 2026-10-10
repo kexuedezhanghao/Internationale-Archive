@@ -3495,7 +3495,15 @@
           "locator_as_seen": "стр. 21",
           "resolved": false
         },
-        "remaining_stanzas_locator_followup_key": "bibliography_followup_20261004.zvezda_1937_page321"
+        "remaining_stanzas_locator_followup_key": "bibliography_followup_20261004.zvezda_1937_page321",
+        "target_page_range_explicit_in_contemporary_bibliography": [
+          319,
+          322
+        ],
+        "explicit_page_range_source_id": "journal-bibliography-1938-no3",
+        "explicit_page_range_entry": 7554,
+        "explicit_page_range_bibliography_printed_page": 148,
+        "explicit_page_range_followup_key": "contemporary_1937_article_registration_20261010"
       },
       {
         "id": "kots-poems-1957-p110",
@@ -5912,6 +5920,179 @@
         "kots_completion_year_resolved": false,
         "earliest_126_adopter_verified": false
       }
+    },
+    "contemporary_1937_article_registration_20261010": {
+      "source_id": "journal-bibliography-1938-no3",
+      "report_path": "docs/research/ru-kots-1937-registration.md",
+      "reviewed_on": "2026-10-10",
+      "publication": {
+        "title_as_masthead": "Летопись журнальных статей",
+        "institution_as_masthead": "Всесоюзная книжная палата",
+        "year_of_publication": 1938,
+        "issue": 3,
+        "month_as_masthead": "Февраль",
+        "year_of_series_as_masthead": "XIII",
+        "older_filename_title_not_adopted_as_masthead": true
+      },
+      "pdf": {
+        "public_download_url": "https://dspace.nplg.gov.ge/bitstream/1234/433980/1/Jurnalnaia_Letopis_1938_N3.pdf",
+        "total_pages": 170,
+        "bytes": 52549807,
+        "sha256": "39c47f79dae2da143641c11d4cc18844d40f9ed4cfec2a506ddce3167309e2f5",
+        "whole_pdf_acquired": true,
+        "whole_pdf_visually_reviewed": false,
+        "visually_reviewed_pdf_pages": [
+          1,
+          2,
+          144,
+          148,
+          163
+        ],
+        "unreviewed_rendered_pdf_pages": [
+          3
+        ],
+        "ocr_used_for_location_only": true,
+        "pdf_distributed_in_repository": false
+      },
+      "page_images": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1,
+          "page_number_basis": "inferred from next page2; numeral not visible",
+          "role": "masthead",
+          "bytes": 2068553,
+          "sha256": "4cda9ef3e357ccc9a0b385afff1130885649d0f8ad543aead8c32ea529f74404",
+          "width": 873,
+          "height": 1400,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 2,
+          "printed_page": 2,
+          "page_number_basis": "directly visible",
+          "role": "front-matter",
+          "bytes": 1957770,
+          "sha256": "78503e9f6f083d1a54de49d4ec1efe28a43603f25b57434078d136bd12c4827f",
+          "width": 873,
+          "height": 1400,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": 144,
+          "page_number_basis": "directly visible",
+          "role": "poetry-cross-reference",
+          "bytes": 3288089,
+          "sha256": "4ee3137655e0f1feb6c61b1764ef4c86d157744557e90a8296807d8e52a798d2",
+          "width": 1122,
+          "height": 1800,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": 148,
+          "page_number_basis": "directly visible",
+          "role": "bibliographic-entries7554-and7557",
+          "bytes": 4746464,
+          "sha256": "87b2476961da236124162e38428f8e7ba6a7410f51d7d0d680554f64cab8575f",
+          "width": 1371,
+          "height": 2200,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 163,
+          "printed_page": 163,
+          "page_number_basis": "directly visible",
+          "role": "author-index",
+          "bytes": 3562960,
+          "sha256": "e3ec6718c65af5e4d86b03109621055e9e01fe112e636012561f87169d32949b",
+          "width": 1122,
+          "height": 1800,
+          "image_distributed_in_repository": false
+        }
+      ],
+      "target_registration": {
+        "printed_page": 148,
+        "entry": 7554,
+        "author_as_seen": "КОЦ А.",
+        "title_as_seen": "Наш гимн",
+        "periodical_as_seen": "Звезда",
+        "article_year_as_seen": 1937,
+        "article_issue_as_seen": 11,
+        "page_range_as_seen": "319—22",
+        "page_range_normalized": [
+          319,
+          322
+        ],
+        "range_explicit_in_bibliography": true,
+        "range_verified_in_original_article": false,
+        "annotation_subject_summary": "Creation history of the Internationale and its author Eugene Pottier, a nineteenth-century French proletarian poet.",
+        "annotation_is_article_subtitle_verified": false,
+        "original_article_acquired": false,
+        "full_target_text_acquired": false,
+        "completion_year_verified": false,
+        "first_full_text_publication_verified": false,
+        "ocr_author_as_extracted": "КОД",
+        "adopted_author_basis": "Visually read entry7554 and author index163 show Коц; OCR is not authoritative."
+      },
+      "same_registration_cross_references": [
+        {
+          "printed_page": 144,
+          "role": "poetry-classification-cross-reference",
+          "target_entry": 7554
+        },
+        {
+          "printed_page": 163,
+          "role": "author-index",
+          "author_as_seen": "Коц А.",
+          "target_entry": 7554
+        }
+      ],
+      "cross_references_are_independent_witnesses": false,
+      "additional_unacquired_lead": {
+        "printed_page": 148,
+        "entry": 7557,
+        "heading_as_seen": "ПОТЬЕ ЭЖЕН. (1816—1887).",
+        "periodical_as_seen": "Тридцать дней",
+        "year_as_seen": 1938,
+        "issue_as_seen": 1,
+        "page_range_as_seen": "77—78",
+        "target_page_range": [
+          77,
+          78
+        ],
+        "original_article_acquired": false,
+        "author_byline_verified": false,
+        "Kots_authorship_inferred": false
+      },
+      "bounded_public_alternatives": [
+        {
+          "url": "https://djvu.online/tag/%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%2B%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0?year=1937",
+          "observed_scope": "Public search-service year-filter page shows one1937 item: Dvenadtsat chasov voiny, Zvezda No5. Not targetNo10 or11. Direct tag request returns a6182-byte challenge document.",
+          "target_original_acquired": false,
+          "challenge_bypassed": false
+        },
+        {
+          "url": "https://electro.nekrasovka.ru/books/6191354",
+          "observed_scope": "Bounded retry of previously located1936 folklore issue returns502 again; target291 not acquired. Temporary failure is not evidence of no holdings.",
+          "target_original_acquired": false
+        },
+        {
+          "url": "https://www.litfund.ru/auction/627/263/",
+          "observed_scope": "Auction catalogue describes1936–1938 Knizhnye novosti bindings and1937 issues1–24. No target1937 No19 pp60–61 image inspected.",
+          "target_original_acquired": false
+        },
+        {
+          "observed_scope": "Search hits for newspaper Krasnaya zvezda rejected as a different title from literary journal Zvezda.",
+          "title_mismatch_excluded": true
+        }
+      ],
+      "unresolved_claims": [
+        "Original1937 article body and its end page still unverified.",
+        "1931 versus1937 completion chronology and first publication of all added stanzas remain unresolved.",
+        "1962 footnote prints21; no silent change to321.",
+        "No new evidence for Lenin choosing stanzas, global first use of[1,2,6], or claim transmission to Zhang Guangnian."
+      ]
     }
   }
 }
