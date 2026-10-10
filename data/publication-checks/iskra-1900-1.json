@@ -1394,7 +1394,8 @@
         "author_marks_as_probability": true,
         "independent_direct_evidence_obtained": false
       },
-      "digitization_date_and_original_holding_not_established": true
+      "digitization_date_and_original_holding_not_established": true,
+      "censorship_original67_comparison_followup": "kots_selection_followup.censorship_citation_audit_20261011"
     },
     {
       "source_id": "sovmusic-thorez-1952",
@@ -2537,15 +2538,23 @@
           4,
           5,
           33,
+          36,
+          37,
+          256,
+          257,
           288,
           289
         ],
         "page_mapping": {
           "33": 32,
           "288": 277,
-          "289": 278
+          "289": 278,
+          "36": 33,
+          "37": 34,
+          "256": 245,
+          "257": 246
         },
-        "review_scope": "Prior title/description and introductory32 retained. Newly reviewed directly numbered notes277–278 only, via existing complete PDF whose digest matches original record; not all notes/book or additional lyric pages.",
+        "review_scope": "Prior title/description, introductory32 and notes277–278 retained. Additional directly numbered introduction33–34 and general notes introduction245–246 reviewed; not full introductory essay, all notes, full book or additional lyric pages.",
         "full_publication_visually_read": false,
         "pdf_distributed_in_repository": false,
         "counts_as_new_lyric_identity": false,
@@ -2616,8 +2625,61 @@
             "role": "publishing-confiscation-note-and-next-entry",
             "visually_reviewed_on": "2026-10-11",
             "image_distributed_in_repository": false
+          },
+          {
+            "file": "worker-songs1962-036.png",
+            "pdf_page": 36,
+            "printed_page": 33,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 214895,
+            "sha256": "ffc25ce407b961418f427cc8eba323ffa06c6425d6aeb91cd70360cc9f1ff6b7",
+            "width": 519,
+            "height": 799,
+            "role": "archival-citation-scope-and-general-compilation-apparatus",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "worker-songs1962-037.png",
+            "pdf_page": 37,
+            "printed_page": 34,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 215350,
+            "sha256": "71a06b599bf2c060542f8e74ad9bac39f423dfb22be80951250f0bad005b923a",
+            "width": 519,
+            "height": 799,
+            "role": "archival-citation-scope-and-general-compilation-apparatus",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "worker-songs1962-256.png",
+            "pdf_page": 256,
+            "printed_page": 245,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 181476,
+            "sha256": "253ba02ac6301d0e6673e0137d9ea683fe8e44dd8656d2ca1c0376a3855ac9e2",
+            "width": 519,
+            "height": 799,
+            "role": "archival-citation-scope-and-general-compilation-apparatus",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "worker-songs1962-257.png",
+            "pdf_page": 257,
+            "printed_page": 246,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 239174,
+            "sha256": "b6006b8d47e01602eafbb92426aceacd2c9802f65a6e76ca3c3a76e0ed13a745",
+            "width": 519,
+            "height": 799,
+            "role": "archival-citation-scope-and-general-compilation-apparatus",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
           }
-        ]
+        ],
+        "review_scope_before_0_1_37": "Prior title/description and introductory32 retained. Newly reviewed directly numbered notes277–278 only, via existing complete PDF whose digest matches original record; not all notes/book or additional lyric pages."
       },
       {
         "source_id": "dmitriev-translations-1967",
@@ -7237,12 +7299,13 @@
           "further_host_requests_stopped": true
         },
         "historical_https_redirect_failure_retained": true,
-        "human_followup": "Printed39–41 now acquired and reviewed through supplied archive. Original title/imprint and decision-date apparatus still pending; full-book attachment failed to become available locally.",
+        "human_followup": "Printed39–41 reviewed. Full-book reuploads still unavailable. Read-text endpoint200 is empty, image endpoint429; original title/imprint/edition still pending. Please supply individual title/imprint/preface images.",
         "parent_series_1907_metadata_is_not_original1907_list": true,
         "original_title_or_printed40_acquired_at_0_1_35": false,
         "original_title_acquired": false,
         "printed40_original_image_acquired": true,
-        "current_acquisition_followup": "manual_banned_index_pages_20261011"
+        "current_acquisition_followup": "manual_banned_index_pages_20261011",
+        "access_followup_0_1_37": "censorship_citation_audit_20261011"
       },
       "other_bounded_access_checks": [
         {
@@ -7488,7 +7551,218 @@
         "completion_year_for_supplementary_stanzas_established": false,
         "counts_as_new_lyric_identity": false,
         "counts_as_new_lyric_full_text": false
-      }
+      },
+      "current_followup": "censorship_citation_audit_20261011"
+    },
+    "censorship_citation_audit_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-kots-publishing-censorship.md",
+      "scope": "Citation and disposal-claim comparison using existing publications; original target title/imprint and censorship file remain pending.",
+      "worker_songs1962_apparatus": {
+        "source_id": "worker-songs-nutrikhin-1962",
+        "newly_visually_reviewed_pdf_pages": [
+          36,
+          37,
+          256,
+          257
+        ],
+        "printed_pages": [
+          33,
+          34,
+          245,
+          246
+        ],
+        "rendered_images": [
+          {
+            "file": "worker-songs1962-036.png",
+            "pdf_page": 36,
+            "printed_page": 33,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 214895,
+            "sha256": "ffc25ce407b961418f427cc8eba323ffa06c6425d6aeb91cd70360cc9f1ff6b7",
+            "width": 519,
+            "height": 799,
+            "role": "archival-citation-scope-and-general-compilation-apparatus",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "worker-songs1962-037.png",
+            "pdf_page": 37,
+            "printed_page": 34,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 215350,
+            "sha256": "71a06b599bf2c060542f8e74ad9bac39f423dfb22be80951250f0bad005b923a",
+            "width": 519,
+            "height": 799,
+            "role": "archival-citation-scope-and-general-compilation-apparatus",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "worker-songs1962-256.png",
+            "pdf_page": 256,
+            "printed_page": 245,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 181476,
+            "sha256": "253ba02ac6301d0e6673e0137d9ea683fe8e44dd8656d2ca1c0376a3855ac9e2",
+            "width": 519,
+            "height": 799,
+            "role": "archival-citation-scope-and-general-compilation-apparatus",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "worker-songs1962-257.png",
+            "pdf_page": 257,
+            "printed_page": 246,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 239174,
+            "sha256": "b6006b8d47e01602eafbb92426aceacd2c9802f65a6e76ca3c3a76e0ed13a745",
+            "width": 519,
+            "height": 799,
+            "role": "archival-citation-scope-and-general-compilation-apparatus",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          }
+        ],
+        "introduction33_34_archive_footnote": {
+          "target_book_as_printed": "Песни революции",
+          "footnote_printed_page": 34,
+          "archive_and_fond_names_only": true,
+          "belongs_to_kots_collection_note277_278": false,
+          "not_transferred_to_kots_censorship_file": true
+        },
+        "general_notes245_246": {
+          "reports_general_use_of_interior_ministry_and_print_affairs_committee_archives": true,
+          "provides_case_locator_for12000_1698_in_reviewed_pages": false,
+          "limited_negative_scope": "Only four new pages and previously reviewed277–278; not an absence claim across the full publication."
+        }
+      },
+      "sovmusic1962_original67_recheck": {
+        "source_id": "sovmusic-dreyden-1962",
+        "printed_page": 67,
+        "archive_item_id": 71,
+        "image_url": "https://mus.academy/storage/magazine/releases/pages/228_70.jpg",
+        "bytes": 385783,
+        "sha256": "c8e0e99eb67b31bd05d7848b8ffffc8b4dfb521aabfa3d4f6d1f909f00e6f5a2",
+        "width": 1420,
+        "height": 1907,
+        "digest_matches_previously_reviewed_original": true,
+        "new_publication_or_new_independent_witness": false,
+        "quoted_poetry_title_as_printed": "Песни Пролетария",
+        "quoted_alias_as_printed": "Д-н",
+        "quoted_series_as_printed": "На разные темы",
+        "quoted_series_number": 4,
+        "banned_index_publication_year_as_author_reports": 1913,
+        "banned_index_cutoff_as_author_reports": "1913-01-01",
+        "poetry_collection_year_as_author_reports": 1907,
+        "disposal_as_author_reports": "Almost the entire print run destroyed; modifier almost retained.",
+        "original_title_difference_from_manual_index40_is_not_web_ocr_only": true,
+        "same_edition_as_manual_index_or1962_brochure_verified": false,
+        "specific_kots_censorship_case_locator_provided_in_reviewed_page": false,
+        "other_score_and_songbook_footnotes_not_transferred_to_kots": true,
+        "image_distributed_in_repository": false
+      },
+      "comparison_limits": {
+        "catalogue40_plural_genitive_title_preserved": "Пѣсни пролетаріевъ",
+        "songbook1962_singular_title_preserved": "Песнь пролетариев",
+        "journal1962_different_title_preserved": "Песни Пролетария",
+        "partial_seizure_almost_all_destroyed_and_all_destroyed_not_merged": true,
+        "same_publication_and_same_disposal_stage_established": false,
+        "banned_index1913_1914_edition_relation_resolved": false,
+        "original_arrest_order_seizure_return_or_judicial_decision_acquired": false
+      },
+      "full_book_reupload_status": {
+        "file_name": "禁书目录.zip",
+        "messages_at_Asia_Shanghai": [
+          "2026-10-11T00:49:14+08:00",
+          "2026-10-11T00:52:53+08:00"
+        ],
+        "local_copy_available": false,
+        "contents_read_or_used": false,
+        "retry_requested_as_individual_title_imprint_preface_images": true,
+        "previous_supplied39_41_remain_usable": true
+      },
+      "bounded_public_access_checks": {
+        "read_text_endpoint": {
+          "requested_url": "http://elib.shpl.ru/ru/pages/4029918/read",
+          "requested_at": "2026-10-10T16:56:38.382903+00:00",
+          "scope": "single renewed GET of publicly advertised title-page read route after prior task ended; no auth or challenge bypass",
+          "http_status": 200,
+          "final_url": "http://elib.shpl.ru/ru/pages/4029918/read",
+          "content_type": "application/json; charset=utf-8",
+          "bytes": 11,
+          "sha256": "63be7e41e020bc00ee1c7926929730c6f0a0b9c0c3d83427c76eb5acfba8dc67",
+          "response_observation": "JSON text field empty; this is a text endpoint, not an original page image.",
+          "original_image_acquired": false
+        },
+        "public_viewer_scripts": [
+          {
+            "name": "shpl-application.js",
+            "url": "http://elib.shpl.ru/assets/application-ea9081e6ad70794034156c8ea7b59af45a2edd561b7ff402d2aa7d094ba81dee.js",
+            "status": 200,
+            "final_url": "http://elib.shpl.ru/assets/application-ea9081e6ad70794034156c8ea7b59af45a2edd561b7ff402d2aa7d094ba81dee.js",
+            "content_type": "application/javascript",
+            "bytes": 1446379,
+            "sha256": "b9963a48d7d0b308579bf9db38e12d2aa2f88886c7931860bde46292cccd7d5b"
+          },
+          {
+            "name": "shpl-docview-script.js",
+            "url": "http://elib.shpl.ru/ru/nodes/63448-po-1-e-yanvarya-1913-goda-1914/docview_script",
+            "status": 200,
+            "final_url": "http://elib.shpl.ru/ru/nodes/63448-po-1-e-yanvarya-1913-goda-1914/docview_script",
+            "content_type": "text/javascript; charset=utf-8",
+            "bytes": 16835,
+            "sha256": "aae9c87a940380d5fd671bf1fcfdeea67949d5b8e80f6666b1c10a06476ea640"
+          }
+        ],
+        "advertised_image_request": {
+          "page_id": 4029918,
+          "viewer_page_index_1based": 1,
+          "url": "http://elib.shpl.ru/pages/4029918/zooms/8",
+          "local_filename": "shpl-front-4029918.jpg",
+          "request_at": "2026-10-10T16:58:13.852903+00:00",
+          "url_basis": "public application.js pageUrl and advertised page ID/project_zoom_nums",
+          "http_status": 429,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        "stopped_further_requests_to_shpl_after429": true,
+        "original_title_imprint_or_edition_images_acquired": false,
+        "excluded_later_index": {
+          "catalogue_url": "https://www.prlib.ru/item/803264",
+          "classification": "official-catalogue-metadata-only",
+          "cutoff_as_catalogue_reports": "1914-04-15",
+          "text_year_as_catalogue_reports": 1915,
+          "cover_year_as_catalogue_reports": 1916,
+          "pages_as_catalogue_reports": 127,
+          "access_label": "Available only in electronic reading rooms",
+          "same_target_as1914_cutoff1913_274pages": false,
+          "original_pages_acquired": false
+        },
+        "archive_navigation_only": {
+          "url": "https://online.archives.ru/search/10000000001004/10000100213004/10000100241004/10001764114004/",
+          "web_access": "timeout",
+          "local_http_status": 502,
+          "unrelated_case_date": "1814-04-02",
+          "unrelated_case_date_basis": "Official catalogue search snippet only; catalogue page unavailable, not an original document.",
+          "specific_kots_case_acquired": false,
+          "not_used_as_kots_case_or_to_fill1967_footnote": true
+        }
+      },
+      "original_title_edition_year_independently_verified": false,
+      "collection1906_1907_discrepancy_resolved": false,
+      "personal_selection_rationale_original_acquired": false,
+      "supplementary_stanzas_completion_year_resolved": false,
+      "new_lyric_identity_or_full_text_admitted": false,
+      "progression_counting_resumed": false,
+      "japanese_research_started": false,
+      "next_steps": [
+        "Acquire individual original title/imprint/preface images to resolve index edition; do not assume reuploaded ZIP is available.",
+        "Keep poetry publication1906/1907 and titles separate pending originals.",
+        "Locate actual arrest order, seizure return and judicial approval using date/official/printer/series clues; no exact case identifier adopted.",
+        "Continue1931 Na literaturnom postu,1957,1937,1950 andApril1931 letter priorities."
+      ]
     }
   }
 }
