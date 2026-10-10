@@ -834,12 +834,13 @@
     "id": "eventov-bolshevik-poetry-1967",
     "name": "И. С. Эвентов编: Поэзия в большевистских изданиях1901–1917,1967",
     "url": "https://djvu.online/file/OV8jvErb4RzfI",
-    "role": "original-book-note-page-images",
-    "import_scope": "Printed426–429 visually inspected; note32 ends on429. Cites Kots1957 p109 and Bonch1931 p10; note31 cites June28,1930 letter via1957 p136. Book metadata from reader; original title/credits leaves unacquired. Referenced originals unacquired.",
+    "role": "original-book-facsimile-bounded-page-review",
+    "import_scope": "Prior corrected note images426–429 retained. Public full PDF now obtained; series/title/credits/verso, introduction11, production colophon and same notes426–429 visually reviewed. Title/responsibility and1967 imprint now directly verified. Introduction reports late1906 collection and cites Bonch publishing memoir1931 No4 p53 plus unnamed censorship case. Underlying poetry book/censorship record and1957/Na literaturnom postu targets unacquired; new carrier is not independent witness.",
     "reviewed_on": "2026-10-10",
     "rights_note": "Bibliographic facts, bounded observations and checksums only; no page images, book/article body or OCR redistributed.",
-    "research_report": "docs/research/ru-manual-access-original-pages.md",
-    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+    "research_report": "docs/research/ru-kots-publishing-censorship.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "public_download_url": "https://imwerden.de/pdf/poeziya_v_bolshevitskikh_izdaniyakh_1901-1917_1967__ocr.pdf"
   },
   {
     "id": "bonch-publishing-memoirs-1933",
@@ -850,6 +851,29 @@
     "reviewed_on": "2026-10-10",
     "rights_note": "Bibliographic facts, bounded observations and checksums only; no page images, book/article body or OCR redistributed.",
     "research_report": "docs/research/ru-manual-access-original-pages.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "bonch-publishing-memoir-krasnaya-letopis-1931-4",
+    "name": "В.Д.Бонч-Бруевич: Большевистские издательские дела в1905–07гг. (Из воспоминаний), Красная летопись1931№4(43), installment47–86",
+    "url": "https://commons.wikimedia.org/wiki/File:Красная_летопись._1931._№_4_(43).pdf",
+    "public_download_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D0%BB%D0%B5%D1%82%D0%BE%D0%BF%D0%B8%D1%81%D1%8C._1931._%E2%84%96_4_%2843%29.pdf?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+    "role": "original-periodical-facsimile-publishing-memoir-installment",
+    "reviewed_on": "2026-10-10",
+    "import_scope": "Issue title, installment opening/continuation reference and adjacent48, publishing/confiscation53–54, author-signed end86 and next article boundary only. Same-author lineage with1933 memoir, not independent witness. Not Na literaturnom postu1931No2; collection year and original banned-list entries unverified.",
+    "rights_note": "Bibliographic facts, bounded observations and checksums only; PDF, page images, full article, lyrics and OCR not redistributed.",
+    "research_report": "docs/research/ru-kots-publishing-censorship.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "shpl-banned-book-index-1914-catalogue",
+    "name": "ГПИБ: Алфавитный указатель книгам и брошюрам, по1-е января1913года,2-еизд.1914; catalogue only",
+    "url": "http://elib.shpl.ru/nodes/63448",
+    "role": "public-catalogue-and-unacquired-original-page-lead",
+    "reviewed_on": "2026-10-10",
+    "import_scope": "Public catalogue HTML acquired; metadata describes1914 second edition274pages. Page-read request returned429; title and printed40 not acquired.1931/1933 memoired citation is not original list verification; parent1907 series metadata is not1907 original list.",
+    "rights_note": "Bibliographic/access observations and checksum only; no catalogue HTML or images redistributed.",
+    "research_report": "docs/research/ru-kots-publishing-censorship.md",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]

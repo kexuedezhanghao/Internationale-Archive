@@ -3394,6 +3394,283 @@
             "image_distributed_in_repository": false
           }
         ]
+      },
+      {
+        "source_id": "eventov-bolshevik-poetry-1967",
+        "url": "https://imwerden.de/pdf/poeziya_v_bolshevitskikh_izdaniyakh_1901-1917_1967__ocr.pdf",
+        "bytes": 25918644,
+        "sha256": "cf90ae2e21259b792fd55c92d839368a7292496c80e9b229b4c3445ecf3ae3b4",
+        "sha1": "b60dc1d76d512e54c3e1a635044f7be2fadf4f49",
+        "pages": 525,
+        "classification": "scanned-historical-publication",
+        "visually_reviewed_pdf_pages": [
+          5,
+          6,
+          7,
+          14,
+          437,
+          438,
+          439,
+          440,
+          523
+        ],
+        "page_mapping": {
+          "14": 11,
+          "437": 426,
+          "438": 427,
+          "439": 428,
+          "440": 429
+        },
+        "review_scope": "Unnumbered series/title/verso and production colophon; directly numbered introduction11 and notes426–429 only. Not whole book. OCR location only; new carrier is not independent witness.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-10",
+        "embedded_images": [],
+        "rendered_images": [
+          {
+            "file": "eventov-front-005.png",
+            "pdf_page": 5,
+            "printed_page": null,
+            "page_number_basis": "unnumbered",
+            "role": "series-editorial-leaf",
+            "bytes": 137672,
+            "sha256": "d49a94784a774e13d8b343b88fcae5c0e7b09316ca9a4a67dcd973c9f27aca63",
+            "width": 686,
+            "height": 1063,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "eventov-front-006.png",
+            "pdf_page": 6,
+            "printed_page": null,
+            "page_number_basis": "unnumbered",
+            "role": "title-and-responsibility",
+            "bytes": 144652,
+            "sha256": "34a4f469ff23d2be33039e682f5b09957430aa287b9654de4ae9d48f8584db8b",
+            "width": 686,
+            "height": 1063,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "eventov-front-007.png",
+            "pdf_page": 7,
+            "printed_page": null,
+            "page_number_basis": "unnumbered",
+            "role": "title-verso-description",
+            "bytes": 55749,
+            "sha256": "429952da29217d043eb968a395c306649df986802fd7017c763db33017b5c479",
+            "width": 686,
+            "height": 1063,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "eventov-intro-014.png",
+            "pdf_page": 14,
+            "printed_page": 11,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "editor-introduction-and-footnotes",
+            "bytes": 146143,
+            "sha256": "08561ac18d731abb1f5f2edc6a8267a47c63f486cd5d96e1fc00d1793f6631c9",
+            "width": 686,
+            "height": 1063,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "eventov-note-437.png",
+            "pdf_page": 437,
+            "printed_page": 426,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "existing-notes-new-pdf-carrier",
+            "bytes": 298990,
+            "sha256": "7ada79a35fb98d2b95acc60d455d658d081f259a86e344b3ae33f68727cbe941",
+            "width": 593,
+            "height": 918,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "eventov-note-438.png",
+            "pdf_page": 438,
+            "printed_page": 427,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "existing-notes-new-pdf-carrier",
+            "bytes": 332605,
+            "sha256": "3310e25899572dcbbf5faa4a8ae3c3575fabff16428d898b9bdf540ddc803b66",
+            "width": 593,
+            "height": 918,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "eventov-note-439.png",
+            "pdf_page": 439,
+            "printed_page": 428,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "existing-notes-new-pdf-carrier",
+            "bytes": 320540,
+            "sha256": "1143518c17d0d8d6099d99125d467548794d890f21960999246123bc82074d1f",
+            "width": 593,
+            "height": 918,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "eventov-note-440.png",
+            "pdf_page": 440,
+            "printed_page": 429,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "existing-notes-new-pdf-carrier",
+            "bytes": 257709,
+            "sha256": "21fbbd677ddd970c1c46efdf80b25a8b32a9ade803f7beaa48e6f26b2d6d99a5",
+            "width": 593,
+            "height": 918,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "eventov-colophon-523.png",
+            "pdf_page": 523,
+            "printed_page": null,
+            "page_number_basis": "unnumbered-no512-numeral-visible",
+            "role": "contents-tail-and-production-colophon",
+            "bytes": 68303,
+            "sha256": "50c0ca7e499ed37b9d3efc3afacb282f59d3dc9d190c1a4a645aed2504e2f14a",
+            "width": 686,
+            "height": 1063,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          }
+        ]
+      },
+      {
+        "source_id": "bonch-publishing-memoir-krasnaya-letopis-1931-4",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D0%BB%D0%B5%D1%82%D0%BE%D0%BF%D0%B8%D1%81%D1%8C._1931._%E2%84%96_4_%2843%29.pdf?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+        "bytes": 83975538,
+        "sha256": "c524121c545795097416868aed67587716525b48cdd809cc35e65c4e1b79d9fc",
+        "sha1": "709084dc7ccb6fff43b9f484b2e9323417121deb",
+        "pages": 184,
+        "classification": "scanned-historical-publication",
+        "visually_reviewed_pdf_pages": [
+          7,
+          53,
+          54,
+          59,
+          60,
+          92,
+          93
+        ],
+        "page_mapping": {
+          "54": 48,
+          "59": 53,
+          "60": 54,
+          "92": 86
+        },
+        "review_scope": "Issue title, installment opening and adjacent48, Kots publishing/confiscation53–54, signed end86 and following article opening only. Intervening installment and rest of issue not visually read.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-10",
+        "embedded_images": [],
+        "rendered_images": [
+          {
+            "file": "letopis-title-007.png",
+            "pdf_page": 7,
+            "printed_page": null,
+            "page_number_basis": "unnumbered",
+            "role": "issue-title-and-imprint",
+            "bytes": 806425,
+            "sha256": "ddc66417449488e02ca8bb730c1711834d55570b198fa2ec7d5b20dcec171412",
+            "width": 668,
+            "height": 1027,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "letopis-boundary-053.png",
+            "pdf_page": 53,
+            "printed_page": null,
+            "page_number_basis": "unnumbered-start-logical47-from-adjacent48",
+            "role": "installment-start-title-and-continuation-footnote",
+            "bytes": 1219572,
+            "sha256": "2f103abb6c2b683df67938eff38a792bae3124bde72a147b60c8e3d0d70f9563",
+            "width": 666,
+            "height": 1024,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "letopis-target-054.png",
+            "pdf_page": 54,
+            "printed_page": 48,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "adjacent-page-number-anchor",
+            "bytes": 1650395,
+            "sha256": "84918d03ed397b7c50cc61611a72bf5a459e04009e028d91af2b23d843b01a98",
+            "width": 770,
+            "height": 1185,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "letopis-kots-059.png",
+            "pdf_page": 59,
+            "printed_page": 53,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "kots-publishing-paragraph",
+            "bytes": 1625448,
+            "sha256": "b6755c1dfb2537065c0a98709dd55f50563ab998c7a99766a530bedb6fb9440e",
+            "width": 770,
+            "height": 1185,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "letopis-kots-060.png",
+            "pdf_page": 60,
+            "printed_page": 54,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "confiscation-and-external-list-citations",
+            "bytes": 1616556,
+            "sha256": "cdf99eb512afd82f99b62ed796dc0780e8c84ad4319bb4ee57adbe0d0638e16d",
+            "width": 770,
+            "height": 1185,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "letopis-boundary-092.png",
+            "pdf_page": 92,
+            "printed_page": 86,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "installment-end-byline-and-to-be-continued",
+            "bytes": 1374410,
+            "sha256": "48a238e2c4095431a21fcbf191c2e1d997a8d3208b367d713e9e155a7e78e3e6",
+            "width": 666,
+            "height": 1024,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "letopis-boundary-093.png",
+            "pdf_page": 93,
+            "printed_page": null,
+            "page_number_basis": "unnumbered-next-logical87-from-preceding86",
+            "role": "following-article-start",
+            "bytes": 1267792,
+            "sha256": "66eb4844ba0d2e2864fb8d403bfdc6d0d54d6619166d26936e3542f0fa101811",
+            "width": 666,
+            "height": 1024,
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          }
+        ]
       }
     ],
     "observations": [
@@ -6250,8 +6527,8 @@
           "title": "Поэзия в большевистских изданиях 1901–1917",
           "year": 1967
         },
-        "bibliographic_basis": "Previously inspected reader metadata; title, responsibility and imprint leaves are absent from this package.",
-        "title_responsibility_or_imprint_pages_visually_reviewed": false,
+        "bibliographic_basis": "Title/responsibility, series and production colophon now visually reviewed from public full PDF; prior reader metadata retained as acquisition history.",
+        "title_responsibility_or_imprint_pages_visually_reviewed": true,
         "page426_group_heading": "СБ. «ПЕРЕД РАССВЕТОМ», 1905",
         "group_heading_year_is_not_this_book_publication_year": true,
         "archive": {
@@ -6384,7 +6661,9 @@
           }
         ],
         "kots_personal_selection_rationale_found_in_reviewed_pages": false,
-        "completion_date_for_supplementary_stanzas_found_in_reviewed_pages": false
+        "completion_date_for_supplementary_stanzas_found_in_reviewed_pages": false,
+        "bibliographic_basis_at_0_1_33": "Previously inspected reader metadata; title, responsibility and imprint leaves are absent from this package.",
+        "current_acquisition_followup": "publishing_memoir_and_censorship_followup_20261010.eventov1967"
       },
       "bonch1933": {
         "source_id": "bonch-publishing-memoirs-1933",
@@ -6757,12 +7036,205 @@
               "coordinate_space": "968 ×1500 native pixels of003.webp",
               "processing": "Native crop only; separate nearest-neighbor6x enlargement used for viewing; no sharpening or redrawing.",
               "distributed_in_repository": false
+            },
+            "human_review_followup": {
+              "reviewed_on": "2026-10-10",
+              "user_observation": "1933年印数确实读不出来；继续推进。",
+              "adopted_print_run": null,
+              "status": "pending-review",
+              "requires_user_reply_to_continue_project": false
             }
           }
         ],
         "historical_date_or_locator_discrepancies_resolved": false,
         "new_lyric_reading_adopted": false
       }
+    },
+    "publishing_memoir_and_censorship_followup_20261010": {
+      "checked_on": "2026-10-10",
+      "report_path": "docs/research/ru-kots-publishing-censorship.md",
+      "scope": "New public carriers and bounded original-page reading for publishing/censorship chain; no progression counting.",
+      "eventov1967": {
+        "source_id": "eventov-bolshevik-poetry-1967",
+        "pdf_evidence_key": "pdf_checks",
+        "title_responsibility_imprint_original_pages_acquired": true,
+        "title": "Поэзия в большевистских изданиях 1901–1917",
+        "responsibility": "Вступительная статья, составление, подготовка текста и примечания И. С. Эвентова",
+        "publisher": "Советский писатель, Ленинградское отделение",
+        "year": 1967,
+        "series_as_printed": [
+          "Библиотека поэта",
+          "Большая серия",
+          "Второе издание"
+        ],
+        "first_edition_history_verified": false,
+        "imprint_extent_pages": 512,
+        "production_dates": {
+          "typesetting": "1967-03-31",
+          "signed_for_print": "1967-06-16",
+          "print_run": 40000
+        },
+        "production_colophon_printed_page": null,
+        "ocr_title_year_correction": {
+          "ocr": 1907,
+          "original_image": 1967
+        },
+        "printed11_observations": {
+          "poetry_collection": "Песни пролетариев",
+          "author_alias": "Д–н",
+          "publication_imprint": "Наш голос",
+          "organizing_publisher_as_editor_reports": "Вперед",
+          "printer": "Лурье и Ко",
+          "printing_period_as_editor_reports": "конец1906года",
+          "original_poetry_collection_acquired": false,
+          "footnote1": {
+            "source_id": "bonch-publishing-memoir-krasnaya-letopis-1931-4",
+            "year": 1931,
+            "issue": 4,
+            "printed_page": 53,
+            "referenced_original_pages_acquired": true,
+            "year1906_explicit_in_reviewed_memoir_paragraph": false
+          },
+          "footnote2": {
+            "archive_name_as_printed": "Центральный государственный исторический архив СССР",
+            "fund_name_as_printed": "Фонд Петербургского комитета по делам печати",
+            "inventory_file_leaf_identifiers_supplied": false,
+            "original_censorship_record_acquired": false,
+            "editor_reports_poems": 11,
+            "editor_reports_judicial_approval_day_month": "21декабря",
+            "year_explicit_in_day_month_sentence": false,
+            "year1906_inferred_from_context_only": true
+          },
+          "footnote3": {
+            "historical_holding_as_reported": "Библиотека Института марксизма-ленинизма при ЦК КПСС",
+            "statement_publication_year": 1967,
+            "current_holding_or_access_verified": false
+          }
+        },
+        "new_pdf_notes426_429_match_prior_package_in_reviewed_passages": true,
+        "same_publication_different_digital_carrier": true,
+        "counts_as_independent_new_witness": false
+      },
+      "bonch1931_publishing_memoir": {
+        "source_id": "bonch-publishing-memoir-krasnaya-letopis-1931-4",
+        "pdf_evidence_key": "pdf_checks",
+        "public_file_page": "https://commons.wikimedia.org/wiki/File:Красная_летопись._1931._№_4_(43).pdf",
+        "neb_origin_declared_by_file_page": "https://rusneb.ru/catalog/000199_000009_013549382/",
+        "neb_origin_independently_acquired": false,
+        "issue_as_printed": "Красная летопись,№4(43),1931",
+        "institution_as_printed": "Ленинградский институт истории ВКП(б)",
+        "publisher_as_printed": "Ленинградское областное издательство",
+        "article_title_as_printed": "Большевистские издательские дела в1905–07гг. (Из воспоминаний)",
+        "author_byline_on86": "В.Д.Бонч-Бруевич",
+        "installment_range": [
+          47,
+          86
+        ],
+        "installment_start47_basis": "Unnumbered article opening PDF53 immediately precedes directly printed48 onPDF54.",
+        "previous_installment_citation": "Красная летопись1931№3(42)",
+        "starts_at_section": "XI",
+        "end_marker": "Окончание следует",
+        "full_article_or_memoir_acquired_as_complete_text": false,
+        "full_installment_visually_read": false,
+        "relevant_printed_pages": [
+          53,
+          54
+        ],
+        "observations": {
+          "alias": "Д–н",
+          "collection": "Песни пролетариев",
+          "publication_imprint": "Наш голос",
+          "printer_city": "Лурье,Спб.",
+          "translator_identification": "А.Я.Коц,русский переводчик Интернационала",
+          "explicit_collection_year_extent_or_series_number_found_in_reviewed_paragraph": false,
+          "explicit_collection_price_found_in_reviewed_paragraph": false,
+          "no1_32pages_8kopecks_belongs_to_other_book": "Н.Ростоцкая,Потемкинские дни",
+          "memoir_reports_1902_zhizn_city": "Париж",
+          "conflicts_with_original1902_title_london_preserved": true,
+          "external_lists": [
+            {
+              "cutoff_as_cited": "1907-01-01",
+              "page_as_cited": 4,
+              "original_list_page_acquired": false
+            },
+            {
+              "title_as_1931_quotes": "Алфавитный указатель книгам и брошюрам,а также нумерам повременных изданий,арест на которые утвержден судебными установлениями по1-е января1913года",
+              "year_as_cited": 1914,
+              "edition_as_cited": 2,
+              "price_kopecks_as_cited": 70,
+              "printer_as_cited": "Типография Министерства внутренних дел",
+              "page_as_cited": 40,
+              "original_list_page_acquired": false,
+              "footnote_replaces1912_index_as_reported": true
+            }
+          ],
+          "price70belongs_to_list_not_poetry_collection": true
+        },
+        "relationship_to1933_memoir": "Same author and visibly corresponding publishing/confiscation passage; earlier periodical carrier. Textual lineage retained, not independent recollection.",
+        "first_publication_of_memoir_verified": false,
+        "this_is_not_na_literaturnom_postu_1931_no2": true
+      },
+      "banned_list1914": {
+        "source_id": "shpl-banned-book-index-1914-catalogue",
+        "catalogue_snapshot": {
+          "url": "http://elib.shpl.ru/nodes/63448",
+          "bytes": 123974,
+          "sha256": "34e6d5eba8bf89e2b3855364d8a9bac131f979e34affbfd86ec85e30f7c59a41",
+          "http_status": 200,
+          "snapshot_distributed_in_repository": false
+        },
+        "aggregate_catalogue_url": "https://merge.dlibrary.org/ru/nodes/200063448-po-1-e-yanvarya-1913-goda-1914",
+        "edition_year_and_extent_as_catalogue_reports": {
+          "edition": 2,
+          "year": 1914,
+          "pages": 274,
+          "cutoff": "1913-01-01"
+        },
+        "original_title_or_printed40_acquired": false,
+        "public_page_read_attempt": {
+          "url": "http://elib.shpl.ru/ru/pages/4029918/read",
+          "http_status": 429,
+          "reason": "Too Many Requests",
+          "further_host_requests_stopped": true
+        },
+        "historical_https_redirect_failure_retained": true,
+        "human_followup": "Public catalogue viewer: title, printed40 and adjacent page; verify Kots collection entry and decision date. No authentication or protected URL asserted.",
+        "parent_series_1907_metadata_is_not_original1907_list": true
+      },
+      "other_bounded_access_checks": [
+        {
+          "url": "https://rusneb.ru/catalog/000199_000009_010507521/",
+          "target": "На литературном посту series catalogue, not exact issue",
+          "http_status": 403,
+          "target_original_acquired": false
+        },
+        {
+          "url": "https://archive.org/advancedsearch.php?q=%28creator%3A%22%D0%9A%D0%BE%D1%86%22+OR+creator%3A%22Kots%22+OR+creator%3A%22Kotz%22%29+AND+year%3A1957&output=json&rows=50&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=year",
+          "query": "(creator:\"Коц\" OR creator:\"Kots\" OR creator:\"Kotz\") AND year:1957",
+          "http_status": 200,
+          "response_bytes": 413,
+          "response_sha256": "326d59b74fd6a4393fb52d4deb91387f0bec0a31595dc63ba1079b9986932f21",
+          "numFound": 0,
+          "negative_scope": "Only this exact public query; not all holdings or other catalogues.",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "still_unacquired": [
+        "На литературном посту1931№2pp4–10",
+        "Коц1957Стихотворенияpp109–110,136",
+        "Коц1937self-accounts",
+        "1950anthology original note",
+        "1931April selection-rationale original letter",
+        "1907original poetry collection and confiscation list",
+        "1914banned-book index printed40"
+      ],
+      "collection1906_1907_discrepancy_resolved": false,
+      "supplementary_stanzas_completion_year_resolved": false,
+      "first_full_publication_verified": false,
+      "personal_selection_rationale_original_acquired": false,
+      "new_lyric_identity_or_full_text_admitted": false,
+      "progression_counting_resumed": false,
+      "japanese_research_started": false
     }
   }
 }
