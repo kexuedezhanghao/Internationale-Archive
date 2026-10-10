@@ -1,7 +1,7 @@
 {
   "id": "iskra-1900-1",
   "kind": "publication-claim-check",
-  "reviewed_on": "2026-10-10",
+  "reviewed_on": "2026-10-11",
   "source_id": "la-contemporaine-iskra-1900-original",
   "report_path": "docs/research/iskra-1900-1.md",
   "publication_title": "Искра",
@@ -3767,6 +3767,130 @@
           }
         ],
         "provenance_followup": "banned_index_frontmatter_and_neb_provenance_20261011"
+      },
+      {
+        "source_id": "mashkova-russian-bibliography-1969",
+        "url": "https://imwerden.de/pdf/mashkova_istoriya_russkoj_bibliografii_nachala_xx_veka_1969__ocr.pdf",
+        "bytes": 27840786,
+        "sha256": "6fb1627ec7ab64aeb605f106c0c05217eaf49d07004c69853feb5b7f01efe84d",
+        "sha1": "e68c1d83fac2197b929c0845083ebd8e5de6a723",
+        "pages": 495,
+        "classification": "scanned-historical-publication",
+        "visually_reviewed_pdf_pages": [
+          2,
+          3,
+          115,
+          116,
+          492,
+          493,
+          494
+        ],
+        "page_mapping": {
+          "115": 114,
+          "116": 115,
+          "492": 491,
+          "493": 492
+        },
+        "review_scope": "1969 scholarly bibliography: title/verso, printed114–115 including edition footnotes, last numbered contents491–492 and unnumbered colophon only. Not originals of the1906/1907/1913 indexes or the Kots poetry collection.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-11",
+        "embedded_images": [],
+        "rendered_images": [
+          {
+            "file": "mashkova-002.png",
+            "pdf_page": 2,
+            "printed_page": null,
+            "page_number_basis": "unnumbered",
+            "role": "title-author-publisher-year",
+            "bytes": 54360,
+            "sha256": "79d5a9f01ac850aa0107acd6c06cf931bb1c1f2defd6a1570785222fd689cdf6",
+            "width": 497,
+            "height": 810,
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "mashkova-003.png",
+            "pdf_page": 3,
+            "printed_page": null,
+            "page_number_basis": "unnumbered",
+            "role": "title-verso",
+            "bytes": 6023,
+            "sha256": "e95a7570a48e35a7900dee84492333bde31e0ca5b372d8978d281e4de31c457b",
+            "width": 497,
+            "height": 810,
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "mashkova-115.png",
+            "pdf_page": 115,
+            "printed_page": 114,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "1906-list-and1907-index-bibliographic-discussion",
+            "bytes": 271581,
+            "sha256": "db2cb7768f96a2bff5faac738b087e6468f8c20d4cf143ed8f261f1645786e8a",
+            "width": 564,
+            "height": 918,
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "mashkova-116.png",
+            "pdf_page": 116,
+            "printed_page": 115,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "footnotes-distinguishing-index-editions",
+            "bytes": 272611,
+            "sha256": "e7c16567ac279d69f045a26c028c35a30d49adfc6256b3adafa46522c6381843",
+            "width": 564,
+            "height": 918,
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "mashkova-492.png",
+            "pdf_page": 492,
+            "printed_page": 491,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "contents-near-end",
+            "bytes": 88185,
+            "sha256": "bcceeb24875a3388e22fa312d4a20d800a9a2da0bd68d940c45772b7df7cbfc2",
+            "width": 497,
+            "height": 810,
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "mashkova-493.png",
+            "pdf_page": 493,
+            "printed_page": 492,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "last-numbered-contents-page",
+            "bytes": 39921,
+            "sha256": "9672dc444581150448865fb5168f672047f58bf3e138961f715ccce5bab0f08e",
+            "width": 497,
+            "height": 810,
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "mashkova-494.png",
+            "pdf_page": 494,
+            "printed_page": null,
+            "page_number_basis": "unnumbered",
+            "role": "production-colophon",
+            "bytes": 63369,
+            "sha256": "e82d9c543256159797fac785fc0ee2359dd47de51dfb81e56ca9355de1a09aac",
+            "width": 497,
+            "height": 810,
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          }
+        ]
       }
     ],
     "observations": [
@@ -7254,7 +7378,9 @@
             {
               "cutoff_as_cited": "1907-01-01",
               "page_as_cited": 4,
-              "original_list_page_acquired": false
+              "original_list_page_acquired": false,
+              "title_as_1931_quotes_normalized_spacing": "Список книг и брошюр, подлежащих аресту",
+              "current_bibliographic_followup": "early_banned_index_bibliography_20261011"
             },
             {
               "title_as_1931_quotes": "Алфавитный указатель книгам и брошюрам,а также нумерам повременных изданий,арест на которые утвержден судебными установлениями по1-е января1913года",
@@ -7799,7 +7925,8 @@
       ],
       "original_title_edition_year_independently_verified_at_0_1_37": false,
       "current_followup": "complete_banned_index_and_user_neb_download_20261011",
-      "current_full_book_package_acquired": true
+      "current_full_book_package_acquired": true,
+      "current_early_index_bibliographic_followup": "early_banned_index_bibliography_20261011"
     },
     "banned_index_frontmatter_and_neb_provenance_20261011": {
       "checked_on": "2026-10-11",
@@ -8319,6 +8446,165 @@
         "1931 Na literaturnom postu No2pp4–10;1957pp109–110,136,142,143;1937/1950 originals;April1931 original letter.",
         "Japanese priority follows completion of Russian audit."
       ]
+    },
+    "early_banned_index_bibliography_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-early-banned-index-bibliography.md",
+      "scope": "Exact1931 cited title reread;1969 bibliography original printed114–115 supplies candidate edition fingerprints, not acquisition or identification of earlier index originals.",
+      "memoir1931_printed54": {
+        "source_id": "bonch-publishing-memoir-krasnaya-letopis-1931-4",
+        "pdf_page": 60,
+        "printed_page": 54,
+        "cited_phrase_as_printed_normalized_spacing": "Списке книг и брошюр, подлежащих аресту, составленном по1-е января1907года",
+        "search_title_normalized": "Список книг и брошюр, подлежащих аресту",
+        "cutoff_as_cited": "1907-01-01",
+        "page_as_cited": 4,
+        "original_cited_list_acquired": false,
+        "quotation_is_not_an_acquired1907_title_leaf": true
+      },
+      "mashkova1969": {
+        "source_id": "mashkova-russian-bibliography-1969",
+        "title": "История русской библиографии начала XX века (до октября1917года)",
+        "author": "М.В.Машкова",
+        "publisher": "Книга",
+        "place": "Москва",
+        "year": 1969,
+        "pdf_evidence_key": "pdf_checks",
+        "printed_pages_reviewed_for_claims": [
+          114,
+          115
+        ],
+        "colophon_pdf_page": 494,
+        "colophon_printed_page": null,
+        "production_dates": {
+          "typesetting": "1968-06-04",
+          "signed_for_print": "1969-02-13"
+        },
+        "print_run": 5000,
+        "last_numbered_page_visually_reviewed": 492,
+        "full_book_body_visually_read": false,
+        "is_original1907_index_or_censorship_file": false
+      },
+      "candidate_editions_as1969_bibliography_reports": [
+        {
+          "target_id": "seizure-list-cutoff1906-10-15",
+          "source_printed_page": 114,
+          "footnote": 1,
+          "title_family": "Список книг и брошюр, подлежащих аресту",
+          "cutoff": "1906-10-15",
+          "publication_year_as_reported": 1906,
+          "extent_pages_as_reported": 14,
+          "original_acquired": false,
+          "matches_memoir1907_cutoff": false
+        },
+        {
+          "target_id": "judicial-index-cutoff1906-12-31",
+          "source_printed_page": 115,
+          "footnote": 1,
+          "title_family": "Алфавитный указатель книгам и брошюрам, арест на которые утвержден судебными установлениями",
+          "cutoff": "1906-12-31",
+          "publication_year_as_reported": 1907,
+          "publication_year_bracketed_in_bibliography": true,
+          "extent_pages_as_reported": 20,
+          "original_acquired": false,
+          "identity_with_memoir1907_list_proved": false
+        },
+        {
+          "target_id": "judicial-index-cutoff1907-03-31",
+          "source_printed_page": 115,
+          "footnote": 1,
+          "title_family": "То же, judicial-index family",
+          "cutoff": "1907-03-31",
+          "publication_year_as_reported": 1907,
+          "publication_year_bracketed_in_bibliography": true,
+          "extent_pages_as_reported": 38,
+          "original_acquired": false,
+          "identity_with_memoir1907_list_proved": false
+        },
+        {
+          "target_id": "judicial-index-1913-candidate",
+          "source_printed_page": 115,
+          "footnote": 3,
+          "cutoff": "1913-01-01",
+          "publication_year_as_reported": 1913,
+          "extent_pages_as_reported": 274,
+          "edition_number_explicit_in_citation": null,
+          "original_acquired": false,
+          "identity_with_sovmusic1962_citation_proved": false
+        },
+        {
+          "target_id": "judicial-index-1914-second-edition",
+          "source_printed_page": 115,
+          "footnote": 3,
+          "cutoff": "1913-01-01",
+          "publication_year_as_reported": 1914,
+          "edition_number_as_reported": 2,
+          "extent_pages_as_reported": 274,
+          "original_acquired": true,
+          "original_acquisition_followup": "complete_banned_index_and_user_neb_download_20261011",
+          "citation_matches_acquired_original_title_year_edition_extent": true
+        }
+      ],
+      "interpretation_boundaries": {
+        "1906_list_and1907_index_are_distinguished_by_bibliographer": true,
+        "20page1907_index_is_prioritized_candidate_only": true,
+        "memoir_title_and_cutoff_vs1907_bibliography_difference_resolved": false,
+        "1913_publication_now_has_separate_bibliographic_lead": true,
+        "1913_original_title_or_entry_acquired": false,
+        "sovmusic1962_year_difference_resolved": false,
+        "earlier_index4_entry_verified": false,
+        "kots_book1906_1907_discrepancy_resolved": false,
+        "court_approval_date_or_destruction_numbers_newly_verified": false
+      },
+      "bounded_access_observations": [
+        {
+          "url": "https://merge.dlibrary.org/ru/nodes/200066233-alfavitnyy-ukazatel-knigam-i-broshyuram-arest-na-kotorye-utverzhden-sudebnymi-ustanovleniyami-spb-1907",
+          "result": "Public parent catalogue read through advertised link; displayed child only1914 cutoff1913-01-01. Parent1907 is series-level metadata, not digitized1907 original.",
+          "original1907_acquired": false
+        },
+        {
+          "url": "https://elib.shpl.ru/ru/nodes/66233",
+          "result": "Web retrieval redirect loop; no repeated image endpoint requests.",
+          "original1907_acquired": false
+        },
+        {
+          "url": "https://rusneb.ru/catalog/000199_000009_003736042/",
+          "target": "Companion seriesNo2 Рабочий съезд или Съезд рабочей партии",
+          "result": "Official catalogue search snippet reports Leyteizen, Nash golos1906,23pages; direct page read403. Original companion not obtained.",
+          "original_acquired": false,
+          "snippet_not_full_catalogue_read": true,
+          "no_new_year_assigned_to_kots_no4": true
+        },
+        {
+          "url": "https://search.rsl.ru/ru/record/01003736042",
+          "result": "No accessible record retrieved through web tool; no original companion acquired.",
+          "original_acquired": false
+        },
+        {
+          "url": "https://spbarchives.ru/infres/-/archive/cgia/706/1",
+          "target": "Inspector-office inventory; separate route from Eventov printing-committee fund citation",
+          "result": "Official inventory found in search, web read timed out and ordinary direct request502. No full inventory or Kots case identifier acquired.",
+          "official_inventory_full_read": false,
+          "kots_file_identified": false,
+          "original_case_acquired": false,
+          "identity_with_eventov_fund_proved": false
+        },
+        {
+          "url": "https://library.basnet.by/bitstream/csl/975/1/Denisenko_2020_1V481472.pdf",
+          "result": "Normal public PDF request502; no PDF saved or content used as original-page evidence.",
+          "original_acquired": false
+        }
+      ],
+      "next_original_targets": [
+        "1907 memoir-cited list title/imprint and printed4; search the20page cutoff1906-12-31 candidate first,38page cutoff1907-03-31 separately.",
+        "1913 cutoff1913-01-01 274page candidate title/imprint and Kots entry; do not assume entry remains on40.",
+        "Kots poetry collection Na raznye temyNo4 cover/title/imprint/contents; companionNo1/No2 metadata not transferable.",
+        "Locate original inspector order, seizure return and court decision without assigning706 as Eventov printing-committee fund.",
+        "Continue Na literaturnom postu1931No2pp4–10, Kots1957pp109–110/136/142/143,1937/1950 and April1931 letter."
+      ],
+      "new_lyric_identity_or_full_text_admitted": false,
+      "progression_counting_resumed": false,
+      "japanese_research_started": false
     }
   }
 }
