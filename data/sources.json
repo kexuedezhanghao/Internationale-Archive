@@ -401,7 +401,7 @@
     "public_viewer_url": "https://viewer.rsl.ru/ru/rsl01005198800",
     "role": "historical-book-public-page-images",
     "reviewed_on": "2026-10-10",
-    "import_scope": "Oct4 scans6,7,45,55,56,105; Oct10 round28 scans53,54,57–60; round29 scans8,36–43,51–52,106–108,110 visually inspected. French/Russian six-stanza text24–29 and three-stanza hymn30–31 now verified structurally; Russian разроем versus разрушим within same book. Colophon has typesetting1937-05-15, signed-for-print1938-03-21; title1939 retained. Full diplomatic transcription, exact completion/first-publication dates and remaining commentary not completed.",
+    "import_scope": "Oct4 scans6,7,45,55,56,105; Oct10 round28 scans53,54,57–60; round29 scans8,36–43,51–52,106–108,110 visually inspected. French/Russian six-stanza text24–29 and three-stanza hymn30–31 now verified structurally; Russian разроем versus разрушим within same book. Colophon has typesetting1937-05-15, signed-for-print1938-03-21; title1939 retained. Full diplomatic transcription, exact completion/first-publication dates and remaining commentary not completed. Further inspected scans46–50: unnumbered portrait and directly numbered commentary35–38. Traced1928 autobiography pp44–45 to original periodical; stanza-count and performance-interval variants retained.1894-08-15 newspaper remains pending.",
     "rights_note": "Bibliographic metadata, bounded observations and checksums only; no page images, complete commentary, lyrics or OCR redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
     "research_report": "docs/research/ru-kots-selection-source-trail.md"
@@ -784,5 +784,27 @@
     "retrieved_on": "2026-10-10",
     "import_scope": "Source declaration,1965/1950 headers and1931/1937 note compared with source webpage; one transcription chain, not independent chronology evidence.",
     "rights_note": "Page-wide public-domain template does not resolve separate editorial prose rights or replace assessment of the printed supplement."
+  },
+  {
+    "id": "opentext-degeyter-autobiography-1928",
+    "name": "Музыка и революция1928 №7–8 (31–32): Автор «Интернационала» в Москве, pp44–45",
+    "url": "https://opentextnn.ru/old/music/epoch%20/XX/mir/index.html@id=6144",
+    "public_download_url": "https://opentextnn.ru/old/data/files/mir1928-7-8.pdf",
+    "role": "original-periodical-facsimile-autobiographical-excerpt",
+    "reviewed_on": "2026-10-10",
+    "import_scope": "Printed issue masthead3, target44–45 and colophon62 visually inspected; adjacent pages only for mapping. First-person text attributed to Degeyter, original French manuscript not acquired.1928 reports8–9stanzas versus1939 seven; same-chain performance date not independent corroboration.",
+    "rights_note": "Bibliographic facts, bounded observations and checksums only; no PDF, page images, full article or lyrics redistributed.",
+    "research_report": "docs/research/ru-degeyter-1928.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "retronews-petite-republique-title",
+    "name": "RetroNews: La Petite République newspaper-title metadata",
+    "url": "https://www.retronews.fr/journaux/petite-republique",
+    "role": "newspaper-title-metadata-only",
+    "reviewed_on": "2026-10-10",
+    "import_scope": "Title metadata identifies publication cityParis; historical1939 footnote saysLille.1894-08-15 issue not obtained. No issue-content or subscription-access claim.",
+    "rights_note": "Bibliographic facts only; no article or page images redistributed.",
+    "research_report": "docs/research/ru-degeyter-1928.md"
   }
 ]

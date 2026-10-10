@@ -5719,6 +5719,199 @@
       "bounded_catalogue_search": "No target1950 original obtained; unrelated Russian poetry records discarded.",
       "restricted_access_bypassed": false,
       "all_holdings_excluded": false
+    },
+    "rsl_1939_commentary_and_1928_journal_20261010": {
+      "source_id": "rsl-pottier-internationale-1939",
+      "report_path": "docs/research/ru-kots-1939.md",
+      "visually_reviewed_scan_pages": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "page_images": [
+        {
+          "bytes": 145389,
+          "sha256": "3b51c3286ca92165e97c9d5c3d80d53267d6c5101c82ae508f8cd393a51c8abc",
+          "width": 962,
+          "height": 1422,
+          "scan_page": 46,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "role": "Degeyter-portrait-without-printed-page-number",
+          "printed_page": null,
+          "pencil34_is_printed_pagination": false
+        },
+        {
+          "bytes": 205818,
+          "sha256": "ca2dd72d8b99051d8edbaf46f50deb7ecc58d9276b371e00e02942fa9d766c0f",
+          "width": 962,
+          "height": 1422,
+          "scan_page": 47,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 35,
+          "page_number_basis": "directly visible",
+          "role": "Druskin-commentary"
+        },
+        {
+          "bytes": 233369,
+          "sha256": "f36118ffb3d9a3764471995f6f285f5c277e8794a9ee60c3cc1148032208f33b",
+          "width": 962,
+          "height": 1422,
+          "scan_page": 48,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 36,
+          "page_number_basis": "directly visible",
+          "role": "Druskin-commentary"
+        },
+        {
+          "bytes": 241088,
+          "sha256": "388b1157104b6c972309ef7dc0516cbfe0b4068d4840c8fee1d4b68207028477",
+          "width": 962,
+          "height": 1422,
+          "scan_page": 49,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 37,
+          "page_number_basis": "directly visible",
+          "role": "Druskin-commentary"
+        },
+        {
+          "bytes": 254236,
+          "sha256": "272ac4a496ab790966840c47f005540db4f1b3356bf25d14f8b11b3bb18fd86e",
+          "width": 962,
+          "height": 1422,
+          "scan_page": 50,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 38,
+          "page_number_basis": "directly visible",
+          "role": "Druskin-commentary"
+        }
+      ],
+      "Pravda_quote": {
+        "printed_page": 36,
+        "publication_year_as_book": 1913,
+        "anniversary_year_in_quote": 1912,
+        "comparison_source_id": "lenin-pottier-1913-text",
+        "original1913_newspaper_acquired": false,
+        "web_anthology1912_statement_not_used_to_override_publication_date": true
+      },
+      "autobiography_footnote": {
+        "printed_page": 37,
+        "periodical": "Музыка и революция",
+        "year": 1928,
+        "issue": "7–8",
+        "printed_pages": [
+          44,
+          45
+        ],
+        "target_original_pages_obtained": true
+      },
+      "newspaper_lead": {
+        "printed_page": 38,
+        "title_as_book": "La petite République",
+        "issue_date_as_book": "1894-08-15",
+        "reported_prosecution_stanza": 5,
+        "Russian_canonical_omission_from_editor_note": true,
+        "original_issue_obtained": false,
+        "place_as1939": "Lille",
+        "place_as_title_metadata": "Paris",
+        "metadata_source_id": "retronews-petite-republique-title",
+        "distinct_Lille_newspaper_established": false
+      },
+      "bounded1950_attempt": {
+        "catalogue_and_snippet_entry": "https://books.google.com/books?id=-FUNAQAAIAAJ",
+        "original_note_page_obtained": false,
+        "within_book_search_response": "HTTP429; route stopped and public1939 original commentary used instead",
+        "access_controls_bypassed": false
+      },
+      "lyric_or_score_admission": "none",
+      "completion_year_resolved": false,
+      "first_complete_publication_year_resolved": false,
+      "original_April1931_letter_acquired": false,
+      "global_first_adopter_verified": false,
+      "lenin_direct_editing_verified": false,
+      "journal_original_evidence": {
+        "id": "ru-degeyter-1928",
+        "kind": "original-periodical-autobiographical-excerpt-comparison",
+        "reviewed_on": "2026-10-10",
+        "source_id": "opentext-degeyter-autobiography-1928",
+        "report_path": "docs/research/ru-degeyter-1928.md",
+        "publication_citation": "Автор «Интернационала» в Москве. Музыка и революция, 1928, №7–8 (31–32), июль–август, с.44–45.",
+        "pdf_evidence": {
+          "url": "https://opentextnn.ru/old/data/files/mir1928-7-8.pdf",
+          "landing_url": "https://opentextnn.ru/old/music/epoch%20/XX/mir/index.html@id=6144",
+          "bytes": 50898859,
+          "sha256": "d2388d0f5911ad2bc9b8092f414c95ebd6bcaa98cde5188a6b84701d25376ae9",
+          "pages": 62,
+          "pdf_creation_date_is_publication_date": false,
+          "pdf_creation_year": 2016,
+          "text_layer_available": false,
+          "pdf_distributed_in_repository": false,
+          "visually_inspected_pdf_pages": [
+            1,
+            2,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            61,
+            62
+          ],
+          "primary_read_scope": "Issue masthead at printed3; autobiography printed44 and conclusion at top of printed45; separate August10 event letter; colophon printed62. Adjacent pages used for mapping only. Not whole-issue reading.",
+          "printed_page_mapping_directly_seen": {
+            "2": 3,
+            "43": 44,
+            "44": 45,
+            "45": 46,
+            "46": 47,
+            "47": 48,
+            "48": 49,
+            "61": 62,
+            "62": 63
+          },
+          "page1": "unnumbered advertisement; not issue masthead",
+          "landing_body_issue_label": "1928 №5–6",
+          "masthead_and_landing_heading_issue": "1928 №7–8 (31–32)",
+          "issue_identification_basis": "directly inspected printed masthead, not erroneous landing-body description",
+          "publisher_as_colophon": "Музсектор Госиздата",
+          "responsible_editor_as_colophon": "М.М.Гринберг",
+          "publication_place_and_year_as_colophon": "Москва,1928"
+        },
+        "attribution_scope": {
+          "first_person_autobiographical_text_attributed_to": "Пьер Дегейтер",
+          "separate_compiler_or_translator_signature_seen": false,
+          "French_manuscript_or_letter_acquired": false,
+          "autobiography_ends": "printed45 upper left before separate music-sector event subheading",
+          "August10_event_letter_is_same_text": false
+        },
+        "comparison": {
+          "later_source_id": "rsl-pottier-internationale-1939",
+          "later_printed_pages": [
+            37,
+            38
+          ],
+          "stanza_count_as1928": "8–9",
+          "stanza_count_as1939": "7",
+          "performance_interval_as1928": "following Tuesday",
+          "performance_interval_as1939": "a few days later",
+          "reported_first_public_performance_date_in_both": "1888-06-23",
+          "independent_confirmations_of_performance_date": false,
+          "variants_are_new_lyric_versions": false,
+          "verified1887_lyric_stanza_structure_overridden": false,
+          "cause_of_wording_difference_resolved": false,
+          "complete_diplomatic_collation": false
+        },
+        "lyric_or_score_admission": "none",
+        "kots_completion_year_resolved": false,
+        "earliest_126_adopter_verified": false
+      }
     }
   }
 }
