@@ -766,5 +766,23 @@
     "rights_note": "Bibliographic facts, bounded inventory observations and image checksums only; no scans, correspondence, complete inventory text or OCR redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
     "research_report": "docs/research/ru-kots-selection-source-trail.md"
+  },
+  {
+    "id": "azlib-kots-mixed-anthology-web",
+    "name": "Lib.ru/Классика:А.Я.Коц.Стихотворения; web compilation declaring1965 Gusev base and1950 Kurilenkov supplement",
+    "url": "http://az.lib.ru/k/koc_a_j/text_0020.shtml",
+    "role": "modern-web-transcription-and-source-declaration",
+    "retrieved_on": "2026-10-10",
+    "import_scope": "Source headers, supplement boundary, three-stanza structure and appended1931/1937 chronology note checked. Printed1950 original and exact note page not acquired; not1957 poems110 or1905 whole-edition witness.",
+    "rights_note": "Index and short identifying observations only. Modern editorial prose and lyric reuse not newly admitted."
+  },
+  {
+    "id": "wikisource-kots-mixed-anthology-web",
+    "name": "Wikisource:Стихотворения(Коц),fixedoldid5739865; explicit az.lib.ru import",
+    "url": "https://ru.wikisource.org/w/index.php?title=Стихотворения_(Коц)&oldid=5739865",
+    "role": "dependent-web-transcription",
+    "retrieved_on": "2026-10-10",
+    "import_scope": "Source declaration,1965/1950 headers and1931/1937 note compared with source webpage; one transcription chain, not independent chronology evidence.",
+    "rights_note": "Page-wide public-domain template does not resolve separate editorial prose rights or replace assessment of the printed supplement."
   }
 ]

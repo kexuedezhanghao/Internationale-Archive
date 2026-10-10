@@ -3609,7 +3609,7 @@
     "remaining_targets": [
       "1929 Monde47 French original",
       "1930 Xinwenyi2(1) original",
-      "1939 Pottier copyright/lyrics24–31 and unreviewed Druskin commentary pages; printed43–44 already acquired",
+      "1939 Pottier unreviewed commentary and full diplomatic lyric collation; title, contents, lyrics24–31 and production colophon already inspected",
       "1960 Druskin184–193",
       "1960 Sokhor booklet",
       "1937 Kots self-account",
@@ -3627,7 +3627,7 @@
       "Коц.Стихотворения1957:original autobiography3–4,Дымшиц5–12 and letter excerpts136,142,143, alongside priority110; check152 versus151 bibliographic extent",
       "1930 Kots-to-Bonch letter:June28 in1954 note554 versus July28 in1963 bibliography271–272; identity, date and selection passage need original comparison",
       "1931 Bonch article:1963 bibliography8–10 versus2018 reference4–10; acquire full4–10 and issue contents rather than overwrite either locator",
-      "1950 Куриленков small-series anthology455pages:find Kots annotation, compare with1954 large-series edition;1948 abridged intro158–174 is a separate route",
+      "1950 Куриленков small-series455page anthology: acquire actual Kots note/title/imprint; new composite web transcription declares this supplement and claims1931 completion/1937 publication, but printed note and exact page remain unverified; compare1954 note553–554.",
       "Друскин2012vol5:separate Интернационал article and Academia publication correspondence; locate contents pages/editorial sources without assuming1959p16 correspondence"
     ],
     "bibliography_followup_20261004": {
@@ -5636,6 +5636,89 @@
       "all_holdings_excluded": false,
       "restricted_access_bypassed": false,
       "unreviewed_download": "2017 Bezvremenje PDF downloaded as future lead; no page claims adopted in this release."
+    },
+    "web_anthology_followup_20261010_round30": {
+      "report_path": "docs/research/ru-kots-web-anthology-trail.md",
+      "source_id": "azlib-kots-mixed-anthology-web",
+      "mirror_source_id": "wikisource-kots-mixed-anthology-web",
+      "reviewed_scope": "Web source declarations, section boundary at Дополнение, Internationale stanza/refrain structure and appended Kots biographical note; no complete collation of all six poems or printed source pages.",
+      "snapshots": [
+        {
+          "source_url": "http://az.lib.ru/k/koc_a_j/text_0020.shtml",
+          "bytes": 25592,
+          "sha256": "a00bc937b290a4b8b5f83cba76b3c12b52f9c890f4ebe94f3ac2f23187eb090c",
+          "encoding": "windows-1251",
+          "classification": "modern-web-transcription-not-printed-facsimile",
+          "snapshot_distributed_in_repository": false
+        },
+        {
+          "source_url": "https://ru.wikisource.org/w/index.php?title=Стихотворения_(Коц)&oldid=5739865",
+          "bytes": 88568,
+          "sha256": "6ff5004d02d4ae180e9d3568760a82c4e8562e3388ca6c361359c5bb434b0ee3",
+          "encoding": "UTF-8",
+          "classification": "modern-web-transcription-not-printed-facsimile",
+          "snapshot_distributed_in_repository": false
+        }
+      ],
+      "declared_base": {
+        "title": "Песни и романсы русских поэтов",
+        "editor": "В.Е.Гусев",
+        "publisher": "Советский писатель",
+        "place": "М.-Л.",
+        "year": 1965,
+        "series": "Библиотека поэта.Большая серия",
+        "edition": "Second"
+      },
+      "declared_supplement": {
+        "title": "Революционная поэзия1890–1917",
+        "editor": "В.Куриленков",
+        "publisher": "Советский писатель",
+        "place": "Л.",
+        "year": 1950,
+        "series": "Библиотека поэта.Малая серия",
+        "edition": "Second",
+        "printed_book_acquired": false
+      },
+      "internationale_location": "Under supplement; three stanzas[1,2,6], three refrains, разроем and future Это будет; poem dateline1902. Not a newly acquired1902 facsimile.",
+      "note_chronology_as_transcribed": {
+        "completion_year_claim": 1931,
+        "publication_year_claim": 1937,
+        "publication_venues_claimed": [
+          "Звезда",
+          "Книжные новости"
+        ],
+        "source_for_selection_quote_as_given": "Наш гимн,Звезда1937No11",
+        "literal_web_string": "В1931т.",
+        "exact1950_note_page_verified": false,
+        "note_text_verified_against_printed1950": false,
+        "statement_is_Kots_first_person_completion_testimony": false
+      },
+      "dependency": {
+        "wikisource_explicit_source": "az.lib.ru",
+        "wikisource_oldid": 5739865,
+        "shared1931_typographic_form": "1931 т.",
+        "independent_chronology_witnesses": 1,
+        "two_independent_printed_sources_acquired": false
+      },
+      "website_year_label": 1905,
+      "year_label_applies_to_all_compiled_text_and_notes": false,
+      "1957_page110_acquired": false,
+      "1937_original_self_accounts_acquired": false,
+      "April1931_original_letter_acquired": false,
+      "completion_year_resolved": false,
+      "first_complete_publication_year_resolved": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_score": false,
+      "next_target": "Acquire1950 small-series title/imprint and actual Kots note page; compare with1954 large-series note553–554 and1937 original self-accounts."
+    },
+    "bounded_access_followup_20261010_round30": {
+      "azlib_https": "502 in local fetch; web extractor timeout/connect failure; same public HTTP route succeeded without authentication",
+      "wikisource_fixed_revision": "Retrieved public HTMLoldid5739865",
+      "academia_candidate": "Search title appeared to name2012 Druskin volume, but opened extracted document is Fakhretdinov2017 review229–240; do not count as acquisition of volume or Academia correspondence.",
+      "bounded_catalogue_search": "No target1950 original obtained; unrelated Russian poetry records discarded.",
+      "restricted_access_bypassed": false,
+      "all_holdings_excluded": false
     }
   }
 }
