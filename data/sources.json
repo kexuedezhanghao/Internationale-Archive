@@ -400,8 +400,8 @@
     "url": "https://search.rsl.ru/ru/record/01005198800",
     "public_viewer_url": "https://viewer.rsl.ru/ru/rsl01005198800",
     "role": "historical-book-public-page-images",
-    "reviewed_on": "2026-10-04",
-    "import_scope": "Viewer scan pages6,7,45,55,56,105 visually read: French/Russian title leaves, commentary start printed33, Druskin printed43–44 and contents. Printed43 distinguishes July28,1930 translation-origin letter from April1931 stanza-selection letter. Lyrics24–31 and remaining pages not visually reviewed.",
+    "reviewed_on": "2026-10-10",
+    "import_scope": "Prior scan6,7,45,55,56,105 review plus Oct10 scan53,54,57–60: limited leaflet and1907 lyric/1906 score reproductions, printed47 and commentary end. Scan54 reproduces page11 with three stanzas and разроемъ; dates, firstness and title attribution remain editorial claims. Main lyrics24–31 and remaining scans not reviewed; original1907 book and1906 score not separately acquired.",
     "rights_note": "Bibliographic metadata, bounded observations and checksums only; no page images, complete commentary, lyrics or OCR redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
     "research_report": "docs/research/ru-kots-selection-source-trail.md"
@@ -753,5 +753,18 @@
     "import_scope": "Title, colophon, abbreviation key and two repeated Bonch-Bruevich entries on PDF114/117; printed117 visible, PDF114 page number clipped. Registers НЛП2:4–10; the cited1931 article itself remains unacquired.",
     "rights_note": "Metadata, bounded observations and hashes only; no scans, bibliography text or bulk OCR redistributed.",
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "rsl-bonch-bruevich-fond369-inventory",
+    "name": "РГБ НИОР: фонд369 Бонч-Бруевич; public inventory record01004734500",
+    "url": "https://search.rsl.ru/ru/record/01004734500",
+    "public_viewer_url": "https://viewer.rsl.ru/ru/rsl01004734500",
+    "official_index_url": "https://www.rsl.ru/ukazatel-nior",
+    "role": "manuscript-inventory-public-page-images",
+    "reviewed_on": "2026-10-10",
+    "import_scope": "Inventory navigation samples and scan1531/typed399 visually checked. Carton290 unit10 lists Kots letters to Bonch-Bruevich1930–1931:12 leaves,5 envelopes,attached1928 photo. Exact dates and letter contents not listed or acquired.2652 public scans have no searchable text layer; zero search results do not prove absence.",
+    "rights_note": "Bibliographic facts, bounded inventory observations and image checksums only; no scans, correspondence, complete inventory text or OCR redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md"
   }
 ]

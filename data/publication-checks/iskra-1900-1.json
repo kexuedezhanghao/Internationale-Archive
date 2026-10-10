@@ -1,7 +1,7 @@
 {
   "id": "iskra-1900-1",
   "kind": "publication-claim-check",
-  "reviewed_on": "2026-10-04",
+  "reviewed_on": "2026-10-10",
   "source_id": "la-contemporaine-iskra-1900-original",
   "report_path": "docs/research/iskra-1900-1.md",
   "publication_title": "Искра",
@@ -2520,7 +2520,7 @@
   },
   "kots_selection_followup": {
     "report_path": "docs/research/ru-kots-selection-source-trail.md",
-    "reviewed_on": "2026-10-04",
+    "reviewed_on": "2026-10-10",
     "selection_vs_iskra_claim_distinguished": true,
     "global_first_adopter_verified": false,
     "claim_transmission_to_zhang_guangnian_established": false,
@@ -4823,6 +4823,521 @@
       "counts_as_new_lyric_identity": false,
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_score": false
+    },
+    "manuscript_inventory_followup_20261010_round28": {
+      "source_id": "rsl-bonch-bruevich-fond369-inventory",
+      "official_index_url": "https://www.rsl.ru/ukazatel-nior",
+      "record_url": "https://search.rsl.ru/ru/record/01004734500",
+      "viewer_url": "https://viewer.rsl.ru/ru/rsl01004734500",
+      "classification": "official-manuscript-inventory-page-images-not-original-correspondence",
+      "fond_number": 369,
+      "fond_owner": "Владимир Дмитриевич Бонч-Бруевич",
+      "inventory_volumes_as_catalogued": "1–7; Москва,1964–1987,2019",
+      "viewer_scan_count": 2652,
+      "viewer_is_searchable": false,
+      "viewer_has_text_layer": false,
+      "whole_pdf_download_obtained": false,
+      "visually_reviewed_scan_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        15,
+        1121,
+        1125,
+        1129,
+        1165,
+        1167,
+        1171,
+        1175,
+        1181,
+        1191,
+        1441,
+        1481,
+        1521,
+        1525,
+        1529,
+        1530,
+        1531,
+        1532,
+        1533,
+        1601,
+        1901,
+        2201,
+        2415,
+        2652
+      ],
+      "search_endpoint_zero_results_are_absence_evidence": false,
+      "inventory_locator": {
+        "scan_page": 1531,
+        "typed_page": 399,
+        "carton": 290,
+        "storage_unit": 10,
+        "author": "Коц,Аркадий Яковлевич",
+        "addressee": "В.Д.Бонч-Бруевич",
+        "years_as_inventory": [
+          1930,
+          1931
+        ],
+        "leaves": 12,
+        "envelopes": 5,
+        "includes_typescripts_with_autograph_signatures": true,
+        "attached_photo_year": 1928,
+        "attached_photo_count": 1,
+        "number_of_individual_letters_established": false,
+        "individual_letter_dates_listed": false,
+        "april1931_selection_letter_identified_within_unit": false,
+        "original_letters_acquired": false,
+        "citation_status": "locator as printed in inventory; current request identifier and original contents still to verify"
+      },
+      "adjacent_locator": {
+        "carton": 290,
+        "storage_unit": 11,
+        "author": "Коц,Аркадий Яковлевич",
+        "addressee": "Владимир Александрович Поссе",
+        "year": 1930,
+        "leaves": 3,
+        "description": "typewritten copies; distinct correspondence"
+      },
+      "page_images": [
+        {
+          "scan_page": 1,
+          "role": "inventory-navigation-sample",
+          "bytes": 347806,
+          "sha256": "03f0560ed64bbc2efa1afb69be054e438167bdc309094396cbbd87d61283e1b7",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 2,
+          "role": "inventory-navigation-sample",
+          "bytes": 110298,
+          "sha256": "07708fdc653aa2d7ad8888e808cdbb319a77bcd955b4eaba0f622ce893362b72",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 3,
+          "role": "inventory-navigation-sample",
+          "bytes": 118709,
+          "sha256": "8192e74b7dedcfa65d9f5eeb2d0dca34d97fbfffe6fc9cd2f8526fe1e64880d2",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 4,
+          "role": "inventory-navigation-sample",
+          "bytes": 107397,
+          "sha256": "5470da9046dcdebd1e04df54f40581c6bf7638a4c61b74767b58e7c1b1e589c6",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 5,
+          "role": "inventory-navigation-sample",
+          "bytes": 172957,
+          "sha256": "1fd881ca797b0265e3903c6a187cbd5e7fa41ae356ebd6a046230f8ad973f9b5",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 6,
+          "role": "inventory-navigation-sample",
+          "bytes": 157162,
+          "sha256": "3ff82edcb888eb0b12b72fc45b37530da16c7fc6445b598bf761d626c6aff643",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 7,
+          "role": "inventory-navigation-sample",
+          "bytes": 214394,
+          "sha256": "e68b4ff0900226cacf2ebdd9add2683f7f95d9d2e7325acc69ce25475eca2571",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 8,
+          "role": "inventory-navigation-sample",
+          "bytes": 158896,
+          "sha256": "36815181eddc9ce0465b8e3452a99556372c2350eea04d4d31cd3e7f7ece4986",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 9,
+          "role": "inventory-navigation-sample",
+          "bytes": 228744,
+          "sha256": "70c45ed628774cb8d1013c20afdba37eb17b1f889b4176b21af308b7fa84784c",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 11,
+          "role": "inventory-navigation-sample",
+          "bytes": 228990,
+          "sha256": "8c45d0918bc393054c4f095abfa71a5f530a97403ffa569cea83a65942d78c06",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 13,
+          "role": "inventory-navigation-sample",
+          "bytes": 203726,
+          "sha256": "c65fbe07da457f7bef25b6106389e29002f3e057d98951e8a30a27526cd0a532",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 15,
+          "role": "inventory-navigation-sample",
+          "bytes": 160797,
+          "sha256": "5edf866515efa9268b8b4e6bf6dba807fbd540cedbc058b421880cebcb74a08b",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1121,
+          "role": "inventory-navigation-sample",
+          "bytes": 130011,
+          "sha256": "e09e8a9ab5883a8434a0684f7b060781e67952b0701cfd8218aaddd802a82e19",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1125,
+          "role": "inventory-navigation-sample",
+          "bytes": 110751,
+          "sha256": "5b67f441afd9e31a968dcf3e70b8dadd03c3d7575bfc9ac29258a9b91a6fff37",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1129,
+          "role": "inventory-navigation-sample",
+          "bytes": 220705,
+          "sha256": "28347cb86fa0b788f95e5143c5c5e99fda78e157fd6e9ea0e39f2980409707c2",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1165,
+          "role": "inventory-navigation-sample",
+          "bytes": 213596,
+          "sha256": "43f942244eae365488773db812e0991ed0b2385fcf7c8cabb1a58d06a003da9e",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1167,
+          "role": "inventory-navigation-sample",
+          "bytes": 225657,
+          "sha256": "f198c5970263bb80573b977a395e10b083a551965064461b9de0a8d6d2af9751",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1171,
+          "role": "inventory-navigation-sample",
+          "bytes": 255173,
+          "sha256": "3cfe85922108dc8dcb1ad33ae98471ca40649fc087d32317cfbcc0d013fca379",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1175,
+          "role": "inventory-navigation-sample",
+          "bytes": 222879,
+          "sha256": "3dcad81ec4859badecf01222d06e49eeced3b05e7c40a525d9f621aba9487210",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1181,
+          "role": "inventory-navigation-sample",
+          "bytes": 223533,
+          "sha256": "e28a62f5b25e4c7919b4745bfdc0acc09b2842f43cf9ddb534d5ad6348843d73",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1191,
+          "role": "inventory-navigation-sample",
+          "bytes": 254273,
+          "sha256": "42cb496df3755a4eed12731839edfd9328a3094a1f862c324937a3393d07b218",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1441,
+          "role": "inventory-navigation-sample",
+          "bytes": 233559,
+          "sha256": "ca1dc2a78ebfdc155ef81fdeb27ff94cac89c10b9ca433e0f18e27a61b93399f",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1481,
+          "role": "inventory-navigation-sample",
+          "bytes": 228022,
+          "sha256": "ae5ade50dca3347a162d8cd0721fa46cfe77c5ab2a8f20eb198c13bedba63114",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1521,
+          "role": "inventory-navigation-sample",
+          "bytes": 250974,
+          "sha256": "77d22aec7b91be7bba9b8bdc28105292b859b772017f04b9c242fda9a0187e7c",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1525,
+          "role": "inventory-navigation-sample",
+          "bytes": 241350,
+          "sha256": "c1c128e18bfa63519e1164cc4c3c7fe6955534b2c0ae4feaffe931fbac6dbf8c",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1529,
+          "role": "inventory-navigation-sample",
+          "bytes": 247859,
+          "sha256": "1fa168d7a883aec3035704fe3d1eedd95c1f96c28238d6d3ef8306c20bec4c49",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1530,
+          "role": "inventory-navigation-sample",
+          "bytes": 235495,
+          "sha256": "560f59c3cf6bb5d5486a14469ebb58b812afea760fd9976a3c08667c97c3c68a",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1531,
+          "role": "inventory-letter-locator",
+          "bytes": 238254,
+          "sha256": "22ea2f3a8d280dc61ea7e3b9989431f83b59b79dc28090dfa588677577cca7b8",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false,
+          "printed_page": 399
+        },
+        {
+          "scan_page": 1532,
+          "role": "inventory-navigation-sample",
+          "bytes": 213403,
+          "sha256": "ddc8389207f5bac2dbbd42b88f41c693ceea8615275b15d6ba05d6eadc0a00d4",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1533,
+          "role": "inventory-navigation-sample",
+          "bytes": 239785,
+          "sha256": "56ceba620157dc921f75cc2f0e559d2958f7f5518f71e318d0da0bd79b7eb496",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1601,
+          "role": "inventory-navigation-sample",
+          "bytes": 245400,
+          "sha256": "b0b32a564ec928a048769e6bfa193f23672c784bbceea51e98c638d18b66e5ce",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 1901,
+          "role": "inventory-navigation-sample",
+          "bytes": 208851,
+          "sha256": "238685ba378075ac5fdcc90122fc1997902aa1e5f5c61542319b9f0c7f5be53a",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 2201,
+          "role": "inventory-navigation-sample",
+          "bytes": 229489,
+          "sha256": "367cbb73e25b167e703c8492298bb941a8639f4c350a28fbfca63a55be4fc909",
+          "width": 1225,
+          "height": 1770,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 2415,
+          "role": "inventory-navigation-sample",
+          "bytes": 153603,
+          "sha256": "670975ecf15af2071eccccd19d7079e4c063d41b7d8d7ca9a14c0464b57d0b7d",
+          "width": 1157,
+          "height": 1748,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 2652,
+          "role": "inventory-navigation-sample",
+          "bytes": 284056,
+          "sha256": "a25e2fa5ce3947c49727b58ec34fd3ed0314502a7134f75d8a484e5883dd17de",
+          "width": 1116,
+          "height": 1698,
+          "image_distributed_in_repository": false
+        }
+      ],
+      "interpretation": "New concrete original-letter retrieval route. Years match the two letters cited by Druskin1939, but inventory alone does not establish either exact date, subject or wording.",
+      "no_contact_or_scan_order_submitted": true
+    },
+    "rsl_1939_supplement_followup_20261010_round28": {
+      "source_id": "rsl-pottier-internationale-1939",
+      "record_url": "https://search.rsl.ru/ru/record/01005198800",
+      "viewer_url": "https://viewer.rsl.ru/ru/rsl01005198800",
+      "visually_reviewed_scan_pages": [
+        53,
+        54,
+        57,
+        58,
+        59,
+        60
+      ],
+      "page_images": [
+        {
+          "scan_page": 53,
+          "role": "undated-illegal-leaflet-reproduction",
+          "bytes": 188830,
+          "sha256": "932e8392a736c61ffad4607a44233ba763ecd54e09b0aafcdbd8490e7ec242f2",
+          "width": 962,
+          "height": 1422,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 54,
+          "role": "1907-lyric-page-reproduction-with-caption",
+          "bytes": 181509,
+          "sha256": "c9210f6f3fe4a02221d2793be24a650f3edba787a7b98a5ab0bac0e3e6fc0e07",
+          "width": 962,
+          "height": 1422,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 57,
+          "role": "1906-score-first-page-reproduction",
+          "bytes": 204822,
+          "sha256": "860e8288241639d7ca3629463b726263dd4b4558f60cc562f8423d4cd648be2d",
+          "width": 962,
+          "height": 1422,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 58,
+          "role": "1906-score-second-page-reproduction",
+          "bytes": 201781,
+          "sha256": "4d7a58f6c149a42e71b8fa6ecd2c5d2d5cc4ee6db77ed1a90c98b984447eb37d",
+          "width": 962,
+          "height": 1422,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 59,
+          "role": "commentary-printed47",
+          "bytes": 242847,
+          "sha256": "2c0d6c0947612a89f82ae08c745fcf24cfbcf4b1e7c680691b36c16a4392c524",
+          "width": 962,
+          "height": 1422,
+          "image_distributed_in_repository": false,
+          "printed_page": 47
+        },
+        {
+          "scan_page": 60,
+          "role": "commentary-end-with-author-name",
+          "bytes": 175350,
+          "sha256": "847a89fefe770ac2d594be802c8cfa1bd874de663cb7d5b9e487d415393f56b9",
+          "width": 962,
+          "height": 1422,
+          "image_distributed_in_repository": false
+        }
+      ],
+      "reproduced_1907_page": {
+        "scan_page": 54,
+        "page_number_inside_reproduction": 11,
+        "caption_attribution": "Д-н; Пролетарские песни; СПб.;1907",
+        "three_stanzas_and_three_refrains_visible": true,
+        "stanza_correspondence": [
+          1,
+          2,
+          6
+        ],
+        "visible_word": "разроемъ",
+        "separately_acquired_original1907_book": false,
+        "caption_title_differs_from_existing_bibliography": "Песни пролетариев",
+        "distinct_edition_established": false
+      },
+      "reproduced_1906_score": {
+        "scan_pages": [
+          57,
+          58
+        ],
+        "date_and_firstness_from1939_caption_only": true,
+        "printed47_bibliographic_lead": "Первый сборник революционных песен; Вещего Баяна; Д.А.Черномордиков",
+        "same_object_as1952_title_10_revolutionary_songs_established": false,
+        "separately_acquired_original1906_score": false
+      },
+      "scan53_leaflet_date_and_attribution_established": false,
+      "original_april1931_letter_acquired": false,
+      "main_book_lyrics_printed24_to31_visually_reviewed": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_score": false,
+      "lenin_direct_editing_verified": false,
+      "global_first_adopter_verified": false,
+      "claim_transmission_to_zhang_guangnian_established": false,
+      "completion_year_resolved": false
+    },
+    "bounded_retry_20261010_round28": {
+      "url": "https://electro.nekrasovka.ru/books/6191354",
+      "result": "HTTP502 in web retrieval",
+      "target": "Дымшиц1936,291",
+      "target_page_acquired": false,
+      "interpretation": "Temporary retrieval failure, not proof of missing holdings."
     }
   }
 }
