@@ -283,7 +283,20 @@
         "processing": "Native source pixels cropped only; no sharpening, enhancement or redrawing.",
         "distributed_in_repository": false,
         "coordinate_space": "2470 × 3560 native raster of PDF page 14, printed page 9; not PDF points."
-      }
+      },
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-10",
+          "status": "still-unresolved",
+          "input_crop_identical_to_prior_review": true,
+          "input_pdf_sha256_reverified": "4a03629b0976123c25ed13a76f62083a82c624f2d0600c28f535ed463b84d040",
+          "scope": "Native crop and nearest-neighbor close-up inspected against neighboring semicolon and period.",
+          "observation": "A compact elevated ink spot is visible after restitution; it lacks a visible comma tail or horizontal dash. Its position supports provisional stray-ink reading but does not prove authorial/typesetting intention.",
+          "adopted_punctuation": null,
+          "marker_and_provisional_line_unchanged": true,
+          "previous_user_judgment_retained": true
+        }
+      ]
     }
   ],
   "resolved_readings": [

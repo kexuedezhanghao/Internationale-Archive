@@ -6689,7 +6689,80 @@
         "1937 self-accounts and1950 original note; do not replace originals by later quotations.",
         "Original D–n collection title, imprint and lyric pages; external banned-book lists4 and40 are leads only.",
         "Japanese originals after Russian examination is completed."
-      ]
+      ],
+      "doubt_reading_review_20261010": {
+        "reviewed_on": "2026-10-10",
+        "scope": "Reinspect actual1933 colophon and1936 p291 /1967 pp426,428; no OCR or grammar adopted over uncertain pixels.",
+        "confirmed_readings": [
+          {
+            "source": "bonch1933",
+            "image": "003.webp",
+            "locator": "typesetting-date",
+            "reading": "10/VII1932"
+          },
+          {
+            "source": "bonch1933",
+            "image": "003.webp",
+            "locator": "approved-for-printing-date",
+            "reading": "21/XI1932"
+          },
+          {
+            "source": "dymshits1936",
+            "printed_page": 291,
+            "locator": "footnote1-cited-page",
+            "reading": "стр.4"
+          },
+          {
+            "source": "eventov1967",
+            "printed_page": 426,
+            "locator": "note31-letter-date-and-cited-page",
+            "reading": "28 июня1930;1957,с.136"
+          },
+          {
+            "source": "eventov1967",
+            "printed_page": 428,
+            "locator": "top-Kots-citation",
+            "reading": "1957,с.109"
+          },
+          {
+            "source": "eventov1967",
+            "printed_page": 428,
+            "locator": "Bonch-citation",
+            "reading": "1931,№2,с.10"
+          }
+        ],
+        "unresolved_readings": [
+          {
+            "id": "RU1933-PRINT-RUN",
+            "source_id": "bonch-publishing-memoirs-1933",
+            "image": "003.webp",
+            "printed_page": null,
+            "locator": "unnumbered-title-verso; lower-right; Тираж line",
+            "status": "pending-review",
+            "reading_fragment": "〔first-digit-uncertain〕000 экз.",
+            "tentative_candidate": 3000,
+            "adopted_print_run": null,
+            "reading_basis": "Three final zeros legible; initial digit has separated dark fragments and missing strokes. Shape suggests3 but source resolution does not support an unqualified numeral.",
+            "review_crop": {
+              "bytes": 8742,
+              "sha256": "f8d4ca381aa171ca715ec6ea90e90c4a831d223fc5cb964e3418e993b4378ee6",
+              "width": 181,
+              "height": 42,
+              "region_xyxy": [
+                746,
+                1388,
+                927,
+                1430
+              ],
+              "coordinate_space": "968 ×1500 native pixels of003.webp",
+              "processing": "Native crop only; separate nearest-neighbor6x enlargement used for viewing; no sharpening or redrawing.",
+              "distributed_in_repository": false
+            }
+          }
+        ],
+        "historical_date_or_locator_discrepancies_resolved": false,
+        "new_lyric_reading_adopted": false
+      }
     }
   }
 }
