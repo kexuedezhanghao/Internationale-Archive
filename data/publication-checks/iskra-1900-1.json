@@ -3765,7 +3765,8 @@
             "visually_reviewed_on": "2026-10-10",
             "image_distributed_in_repository": false
           }
-        ]
+        ],
+        "provenance_followup": "banned_index_frontmatter_and_neb_provenance_20261011"
       }
     ],
     "observations": [
@@ -7265,15 +7266,18 @@
               "original_list_page_acquired": true,
               "footnote_replaces1912_index_as_reported": true,
               "original_list_page_acquired_at_0_1_35": false,
-              "current_acquisition_followup": "manual_banned_index_pages_20261011",
-              "original_title_edition_year_verified": false
+              "current_acquisition_followup": "banned_index_frontmatter_and_neb_provenance_20261011",
+              "original_title_edition_year_verified": true,
+              "original_title_edition_year_verified_at_0_1_36": false
             }
           ],
           "price70belongs_to_list_not_poetry_collection": true
         },
         "relationship_to1933_memoir": "Same author and visibly corresponding publishing/confiscation passage; earlier periodical carrier. Textual lineage retained, not independent recollection.",
         "first_publication_of_memoir_verified": false,
-        "this_is_not_na_literaturnom_postu_1931_no2": true
+        "this_is_not_na_literaturnom_postu_1931_no2": true,
+        "neb_origin_user_confirmed": true,
+        "current_provenance_followup": "banned_index_frontmatter_and_neb_provenance_20261011"
       },
       "banned_list1914": {
         "source_id": "shpl-banned-book-index-1914-catalogue",
@@ -7299,13 +7303,16 @@
           "further_host_requests_stopped": true
         },
         "historical_https_redirect_failure_retained": true,
-        "human_followup": "Printed39–41 reviewed. Full-book reuploads still unavailable. Read-text endpoint200 is empty, image endpoint429; original title/imprint/edition still pending. Please supply individual title/imprint/preface images.",
+        "human_followup": "Successful Download.zip title/price/advertisement views verify1914 second edition and cutoff1913-01-01; full315400181-byte Drive ZIP remains unread. See banned_index_frontmatter_and_neb_provenance_20261011.",
         "parent_series_1907_metadata_is_not_original1907_list": true,
         "original_title_or_printed40_acquired_at_0_1_35": false,
-        "original_title_acquired": false,
+        "original_title_acquired": true,
         "printed40_original_image_acquired": true,
-        "current_acquisition_followup": "manual_banned_index_pages_20261011",
-        "access_followup_0_1_37": "censorship_citation_audit_20261011"
+        "current_acquisition_followup": "banned_index_frontmatter_and_neb_provenance_20261011",
+        "access_followup_0_1_37": "censorship_citation_audit_20261011",
+        "original_title_acquired_at_0_1_37": false,
+        "original_title_edition_year_verified": true,
+        "human_followup_at_0_1_37": "Printed39–41 reviewed. Full-book reuploads still unavailable. Read-text endpoint200 is empty, image endpoint429; original title/imprint/edition still pending. Please supply individual title/imprint/preface images."
       },
       "other_bounded_access_checks": [
         {
@@ -7332,7 +7339,7 @@
         "1950anthology original note",
         "1931April selection-rationale original letter",
         "1907original poetry collection and confiscation list",
-        "1914banned-book index original title/imprint and judicial-decision apparatus; printed40 now reviewed"
+        "1914index complete file and any judicial-decision apparatus; title/edition and printed40 now reviewed"
       ],
       "collection1906_1907_discrepancy_resolved": false,
       "supplementary_stanzas_completion_year_resolved": false,
@@ -7340,7 +7347,16 @@
       "personal_selection_rationale_original_acquired": false,
       "new_lyric_identity_or_full_text_admitted": false,
       "progression_counting_resumed": false,
-      "japanese_research_started": false
+      "japanese_research_started": false,
+      "still_unacquired_at_0_1_37": [
+        "На литературном посту1931№2pp4–10",
+        "Коц1957Стихотворенияpp109–110,136",
+        "Коц1937self-accounts",
+        "1950anthology original note",
+        "1931April selection-rationale original letter",
+        "1907original poetry collection and confiscation list",
+        "1914banned-book index original title/imprint and judicial-decision apparatus; printed40 now reviewed"
+      ]
     },
     "manual_banned_index_pages_20261011": {
       "checked_on": "2026-10-11",
@@ -7410,9 +7426,11 @@
       "edition_identification": {
         "candidate_year": 1914,
         "candidate_edition": 2,
-        "basis": "User describes these as target banned-book-index pages; matches cited printed40 entry and public catalogue lead. Title/imprint leaves unavailable.",
-        "original_title_edition_year_independently_verified": false,
-        "catalogue_metadata_is_not_original_title_verification": true
+        "basis": "Additional user-provided Download.zip contains original title and priced title agreeing on1914, second edition, cutoff1913-01-01; matches1931 cited edition and previous40 entry. See banned_index_frontmatter_and_neb_provenance_20261011.",
+        "original_title_edition_year_independently_verified": true,
+        "catalogue_metadata_is_not_original_title_verification": true,
+        "original_title_edition_year_independently_verified_at_0_1_36": false,
+        "basis_at_0_1_36": "User describes these as target banned-book-index pages; matches cited printed40 entry and public catalogue lead. Title/imprint leaves unavailable."
       },
       "entry": {
         "printed_page": 40,
@@ -7465,10 +7483,9 @@
       },
       "negative_scope": "Only supplied printed39–41 and target entry inspected; no whole-book content absence claimed.",
       "next_steps": [
-        "Obtain original title/imprint/edition leaves from the failed full-book upload when reattached.",
-        "Locate any list preface or decision-date apparatus without assuming one exists.",
-        "Continue original poetry collection and1907 list p4.",
-        "Keep1931 Na literaturnom postu,1957 target pages,1937/1950 originals andApril1931 letter pending."
+        "Locate original1907 list p4 and poetry-seriesNo4 original.",
+        "Locate original censorship order/seizure return/judgment, not just retrospective counts.",
+        "Continue1931 Na literaturnom postu No2,1957 targets,1937/1950 originals andApril1931 original letter."
       ],
       "collection1906_1907_discrepancy_resolved": false,
       "personal_selection_rationale_original_acquired": false,
@@ -7552,7 +7569,13 @@
         "counts_as_new_lyric_identity": false,
         "counts_as_new_lyric_full_text": false
       },
-      "current_followup": "censorship_citation_audit_20261011"
+      "current_followup": "banned_index_frontmatter_and_neb_provenance_20261011",
+      "next_steps_at_0_1_36": [
+        "Obtain original title/imprint/edition leaves from the failed full-book upload when reattached.",
+        "Locate any list preface or decision-date apparatus without assuming one exists.",
+        "Continue original poetry collection and1907 list p4.",
+        "Keep1931 Na literaturnom postu,1957 target pages,1937/1950 originals andApril1931 letter pending."
+      ]
     },
     "censorship_citation_audit_20261011": {
       "checked_on": "2026-10-11",
@@ -7750,7 +7773,7 @@
           "not_used_as_kots_case_or_to_fill1967_footnote": true
         }
       },
-      "original_title_edition_year_independently_verified": false,
+      "original_title_edition_year_independently_verified": true,
       "collection1906_1907_discrepancy_resolved": false,
       "personal_selection_rationale_original_acquired": false,
       "supplementary_stanzas_completion_year_resolved": false,
@@ -7762,6 +7785,297 @@
         "Keep poetry publication1906/1907 and titles separate pending originals.",
         "Locate actual arrest order, seizure return and judicial approval using date/official/printer/series clues; no exact case identifier adopted.",
         "Continue1931 Na literaturnom postu,1957,1937,1950 andApril1931 letter priorities."
+      ],
+      "original_title_edition_year_independently_verified_at_0_1_37": false,
+      "current_followup": "banned_index_frontmatter_and_neb_provenance_20261011"
+    },
+    "banned_index_frontmatter_and_neb_provenance_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-kots-publishing-censorship.md",
+      "scope": "Read all supplied14 unnumbered views; title, priced title and two advertisements provide publication observations. Previously reviewed39–41 retained. No full index or decision archive acquired.",
+      "index_source_id": "shpl-banned-book-index-1914-catalogue",
+      "acquisition_route": "User-supplied Download.zip successfully available locally; attachment read only, not modified or read through Library tools.",
+      "archive": {
+        "file_name": "Download.zip",
+        "bytes": 14396237,
+        "sha256": "2a54535f8e582061fa5f8ef1378995cc63566fedfe1c60e9eaced5917312bb9a",
+        "image_members": 14,
+        "archive_distributed_in_repository": false
+      },
+      "images": [
+        {
+          "file": "28721eb7ca3159da8ad25a3404a8462ed98527ae (1).jpg",
+          "supplied_image_index": 1,
+          "bytes": 1017898,
+          "sha256": "18b79c253454bf3adce95876843a6b546b8496a85887571b2119076cb45ef290",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-monochrome-title-leaf",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "59fbce4a0ec024a3aaf8ea61c1654236f5c469ad.jpg",
+          "supplied_image_index": 2,
+          "bytes": 975028,
+          "sha256": "08bc734b520f05ee1ab35e6625a47b649f86b2bd5bc031cfc98c27807d839357",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-blank-or-endpaper-view",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "62a122fa06536b7ff2b6c65ad4d3550338c9d5ee.jpg",
+          "supplied_image_index": 3,
+          "bytes": 923129,
+          "sha256": "d988bb99c058f765968919d195d095d6d1a2e12e52ae39004dad1db65d4259ef",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-blank-or-endpaper-view",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "72b319e05cf31922fd59a30d6f6e153a10cbe7dc.jpg",
+          "supplied_image_index": 4,
+          "bytes": 1007311,
+          "sha256": "2faa2dfb9d454366748bf2ea44adbf4a43ede48601eb6aa1af6f02ba3fd822ee",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-blank-or-endpaper-view",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "76cbb254a00bd7b29610ba783636cc40aa542923.jpg",
+          "supplied_image_index": 5,
+          "bytes": 968271,
+          "sha256": "151ced4715949d8e6b2dc94d7cefaba1b9aed660128c703c9ce7b620f5e8dced",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-blank-or-endpaper-view",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "7b2945d51a36d90709d3f144e6fa27551eab07b1.jpg",
+          "supplied_image_index": 6,
+          "bytes": 1161070,
+          "sha256": "0c979641dd8b03204e291c4458938717b91e2055d20c42f269afd5d778d06d82",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-knizhnaya-letopis-advertisement",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "909ba2144a19d377cb36b1a28451c7014595dc61.jpg",
+          "supplied_image_index": 7,
+          "bytes": 964279,
+          "sha256": "5e9cf8a9de11297a0fa457fc22f2bb817667472e5caa4c244e2c704eefa7a89c",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-blank-or-endpaper-view",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "917cff4766440f00c488af8ccce67f40875242f1 (1).jpg",
+          "supplied_image_index": 8,
+          "bytes": 1096059,
+          "sha256": "7a405570639b3266d6949828f5ad45abb63d8c5a96734fee07ed4f8a1e639b59",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-colour-priced-title-display",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "95823c70785372a7690107a2dfb2c0ad6d28c6f0.jpg",
+          "supplied_image_index": 9,
+          "bytes": 882205,
+          "sha256": "b63bef509960fb21b5c2847f8659aea4ccd9b52a1ecff8fbe37852d698767d94",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-leaf-with-historical-library-stamp",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "c60c0c51337739550788e4ffe47b1f09d13466d2.jpg",
+          "supplied_image_index": 10,
+          "bytes": 924429,
+          "sha256": "11f09f87509e5d8fc3a1734a2b7befc1502ba1246e4449a1b2bb71c59540bb15",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-blank-or-endpaper-view",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "d6f79e94dfc353df7ddc8642227b807af288822f.jpg",
+          "supplied_image_index": 11,
+          "bytes": 1226351,
+          "sha256": "98216fb1b015be9dba5dafbf59adb13cc603ee189b8346d8050f2881854bde1a",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-pravitelstvennyi-vestnik-sales-advertisement",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "f1dc42ee35c84cf879274795a0245832162f42f6.jpg",
+          "supplied_image_index": 12,
+          "bytes": 1177708,
+          "sha256": "ecb42fb46eb07531ae544f4bac76b2992e2d3f19d6046dbc8f26d8c8b26c3cdf",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "bound-board-with-shelf-label",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "f3b7efcbe3abfe3a25e18a16c020402f94bcaa40.jpg",
+          "supplied_image_index": 13,
+          "bytes": 1137848,
+          "sha256": "43d10451b34f3bfc35c7161bf8302665bbecd911bac12d740bb53b6d5823fe00",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "bound-board",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "fd31c6afe9994f6a7300107c6a3d0a14801cb715.jpg",
+          "supplied_image_index": 14,
+          "bytes": 942271,
+          "sha256": "3e0f330e138942ddeb5abe0b98053b9e8dd0cdbb527eb0a90714712f82fb3e3f",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": null,
+          "page_number_basis": "no-printed-page-number-visible",
+          "role": "unnumbered-blank-or-endpaper-view",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        }
+      ],
+      "all_supplied_images_visually_reviewed": true,
+      "title_image_indexes": [
+        1,
+        8
+      ],
+      "advertisement_image_indexes": [
+        6,
+        11
+      ],
+      "printed_identification": {
+        "title_as_printed_with_line_breaks_joined": "Алфавитный указатель книгамъ и брошюрамъ, а также нумерамъ повременныхъ изданій, арестъ на которые утвержденъ судебными установленіями по 1-е Января 1913 года",
+        "cutoff_date": "1913-01-01",
+        "year": 1914,
+        "edition": 2,
+        "edition_label_as_printed": "Изданіе 2-е.",
+        "printer_as_printed": "Типографія Министерства Внутреннихъ Дѣлъ.",
+        "price_kopecks": 70,
+        "price_basis_image_indexes": [
+          8,
+          11
+        ],
+        "price_printed_on_monochrome_title_image1": false,
+        "statement_replaces1912_index_and_mentions_its_supplements": true,
+        "1912_original_index_or_supplements_acquired": false,
+        "title_displays_agree_on_title_cutoff_edition_printer_and_year": true,
+        "two_title_displays_not_counted_as_two_editions_or_independent_witnesses": true,
+        "original_title_edition_year_independently_verified": true,
+        "physical_same_copy_with_previous39_41_proved_by_complete_archive_sequence": false,
+        "association_with_previous39_41_basis": "User-provided target-index front/back matter; printed1914 second-edition identity agrees with Bonch1931 external citation and prior exact40 entry match. Complete source archive sequence not obtained.",
+        "extent_pages_originally_verified": false,
+        "catalogue_reported_extent_pages": 274,
+        "full_book_acquired": false,
+        "full_book_visually_read": false
+      },
+      "advertisement11": {
+        "item_for_target_index": 3,
+        "repeats_second_edition_cutoff1913_01_01_and_price70": true,
+        "supplements_advertised_with_cutoff_dates": [
+          "1913-04-01",
+          "1913-12-31"
+        ],
+        "supplement_originals_acquired": false,
+        "advertisement_not_judicial_decision_or_poetry_book_colophon": true
+      },
+      "interpretation": {
+        "directory_scope_as_printed": "Books, brochures and numbers of periodical publications whose arrest was approved by judicial establishments up to1 January1913.",
+        "entry40_read_under_this_scope": "Catalogue-level inference: directory compilers include the D–n poetry entry within that declared judicial-arrest scope. This is not a newly acquired original judgment or a precise arrest/publication date.",
+        "publication_year1914_distinguished_from_cutoff1913": true,
+        "sovmusic1962_1913_publication_statement_preserved_as_unresolved_citation_difference": true,
+        "separate_1913_edition_proved": false,
+        "directory_price70_not_transferred_to_poetry_book": true,
+        "exact_arrest_date_or_disposal_quantity_established": false,
+        "preface_or_full_judicial_apparatus_absence_claimed_for_entire_book": false
+      },
+      "neb_provenance": {
+        "source_id": "bonch-publishing-memoir-krasnaya-letopis-1931-4",
+        "neb_catalogue_url": "https://rusneb.ru/catalog/000199_000009_013549382/",
+        "origin_user_confirmed_on": "2026-10-11",
+        "origin_confirmation": "User states the1931 PDF in the designated Drive folder comes from the cited НЭБ catalogue.",
+        "acquisition_in_this_environment": "Authenticated Drive raw-file fetch and local byte comparison; no claim of an independently successful direct НЭБ download.",
+        "neb_direct_download_in_this_environment_verified": false,
+        "file_name": "1931_№_4(43)_Красная_летопись__сборник.pdf",
+        "bytes": 83975538,
+        "sha256": "c524121c545795097416868aed67587716525b48cdd809cc35e65c4e1b79d9fc",
+        "sha1": "709084dc7ccb6fff43b9f484b2e9323417121deb",
+        "pdf_pages": 184,
+        "byte_identical_to_previous_public_pdf": true,
+        "counts_as_new_publication_or_independent_witness": false,
+        "visual_review_scope_expanded": false,
+        "pdf_distributed_in_repository": false
+      },
+      "full_zip_access_history": {
+        "file_name": "禁书目录.zip",
+        "drive_reported_bytes": 315400181,
+        "observed_raw_download_limit_bytes": 268435456,
+        "raw_fetch_http_status": 413,
+        "bounded_readable_fetch_result": "transport-closed",
+        "contents_acquired": false,
+        "successful_small_attachment_distinguished_from_failed_full_archive": true
+      },
+      "collection1906_1907_discrepancy_resolved": false,
+      "personal_selection_rationale_original_acquired": false,
+      "supplementary_stanzas_completion_year_resolved": false,
+      "new_lyric_identity_or_full_text_admitted": false,
+      "progression_counting_resumed": false,
+      "japanese_research_started": false,
+      "next_steps": [
+        "Locate original1907 list p4 and poetry-seriesNo4 original.",
+        "Locate original censorship order/seizure return/judgment, not just retrospective counts.",
+        "Continue1931 Na literaturnom postu No2,1957 targets,1937/1950 originals andApril1931 original letter."
       ]
     }
   }

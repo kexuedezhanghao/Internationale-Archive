@@ -861,22 +861,27 @@
     "url": "https://commons.wikimedia.org/wiki/File:Красная_летопись._1931._№_4_(43).pdf",
     "public_download_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D0%BB%D0%B5%D1%82%D0%BE%D0%BF%D0%B8%D1%81%D1%8C._1931._%E2%84%96_4_%2843%29.pdf?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
     "role": "original-periodical-facsimile-publishing-memoir-installment",
-    "reviewed_on": "2026-10-10",
-    "import_scope": "Issue title, installment opening/continuation reference and adjacent48, publishing/confiscation53–54, author-signed end86 and next article boundary only. Same-author lineage with1933 memoir, not independent witness. Not Na literaturnom postu1931No2; collection year unverified. Supplied cited index40 entry now visually checked separately;1907 list and original1914 index title/edition still pending.",
+    "reviewed_on": "2026-10-11",
+    "import_scope": "Issue title, installment boundaries and relevant53–54 as previously checked; scope not expanded by identical Drive copy. Same-author lineage with1933, not independent witness or Na literaturnom postu1931No2. Cited1914 second-edition index title and printed40 now checked separately;1907 list and original judicial file still pending.",
     "rights_note": "Bibliographic facts, bounded observations and checksums only; PDF, page images, full article, lyrics and OCR not redistributed.",
     "research_report": "docs/research/ru-kots-publishing-censorship.md",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
-    "current_banned_index_followup": "Supplied cited-page40 image now reviewed; title/edition attribution still pending. See manual_banned_index_pages_20261011."
+    "current_banned_index_followup": "Original title/edition now verified; see banned_index_frontmatter_and_neb_provenance_20261011.",
+    "neb_catalogue_url": "https://rusneb.ru/catalog/000199_000009_013549382/",
+    "acquisition_provenance": "User confirms designated Drive1931 PDF originates in this НЭБ catalogue. Drive copy byte-identical to prior public PDF; local direct НЭБ download not independently verified, not a new witness.",
+    "import_scope_at_0_1_37": "Issue title, installment opening/continuation reference and adjacent48, publishing/confiscation53–54, author-signed end86 and next article boundary only. Same-author lineage with1933 memoir, not independent witness. Not Na literaturnom postu1931No2; collection year unverified. Supplied cited index40 entry now visually checked separately;1907 list and original1914 index title/edition still pending."
   },
   {
     "id": "shpl-banned-book-index-1914-catalogue",
-    "name": "ГПИБ banned-book-index1914 second-edition candidate: catalogue and supplied printed39–41; title/edition leaves pending",
+    "name": "Алфавитный указатель книгам и брошюрам…:1914 second edition, cutoff1 January1913; supplied title/front-back matter and printed39–41",
     "url": "http://elib.shpl.ru/nodes/63448",
-    "role": "public-catalogue-and-original-index-page-images-with-provisional-edition-identification",
+    "role": "original-index-title-and-entry-images-plus-public-catalogue",
     "reviewed_on": "2026-10-11",
-    "import_scope": "Prior public catalogue HTML metadata:1914 second edition274pages; machine page-read429 retained as history. User supplied printed39–41 original images now directly reviewed;40 first entry registers D–n, Pesni proletariev, Nash golos, Na raznye temy No4, St Petersburg, Lurie &Co. Entry gives no year/extent/price/decision date. Original title/imprint and exact edition not independently verified; full-book upload unavailable locally and unread. Poetry book and judicial decision not acquired. New full-book reuploads remain unavailable. Public read-text200 contains empty text; advertised image route429 then requests stopped. No title/edition image acquired; later1915/cover1916 index excluded as a different catalogue target.",
+    "import_scope": "Original monochrome title and colour priced title directly verify1914, second edition, cutoff1913-01-01, Ministry of Interior printer and replacement-of1912 statement. Price70 is on priced title and sales ad only; target-index ad lists supplements cutoff1913-04-01/1913-12-31, originals not acquired. All14 supplied unnumbered views checked, plus prior printed39–41/No4 entry; no whole-book/poetry-book/judgment acquisition. Prior catalogue274pages remains metadata. Failed full ZIP and429/empty-text histories retained, not current title failure.1913 periodical publication wording remains unresolved citation difference.",
     "rights_note": "Bibliographic/access observations and checksum only; no catalogue HTML or images redistributed.",
     "research_report": "docs/research/ru-kots-publishing-censorship.md",
-    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "import_scope_at_0_1_37": "Prior public catalogue HTML metadata:1914 second edition274pages; machine page-read429 retained as history. User supplied printed39–41 original images now directly reviewed;40 first entry registers D–n, Pesni proletariev, Nash golos, Na raznye temy No4, St Petersburg, Lurie &Co. Entry gives no year/extent/price/decision date. Original title/imprint and exact edition not independently verified; full-book upload unavailable locally and unread. Poetry book and judicial decision not acquired. New full-book reuploads remain unavailable. Public read-text200 contains empty text; advertised image route429 then requests stopped. No title/edition image acquired; later1915/cover1916 index excluded as a different catalogue target.",
+    "current_original_title_followup": "banned_index_frontmatter_and_neb_provenance_20261011"
   }
 ]
