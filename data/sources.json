@@ -401,7 +401,7 @@
     "public_viewer_url": "https://viewer.rsl.ru/ru/rsl01005198800",
     "role": "historical-book-public-page-images",
     "reviewed_on": "2026-10-10",
-    "import_scope": "Prior scan6,7,45,55,56,105 review plus Oct10 scan53,54,57–60: limited leaflet and1907 lyric/1906 score reproductions, printed47 and commentary end. Scan54 reproduces page11 with three stanzas and разроемъ; dates, firstness and title attribution remain editorial claims. Main lyrics24–31 and remaining scans not reviewed; original1907 book and1906 score not separately acquired.",
+    "import_scope": "Oct4 scans6,7,45,55,56,105; Oct10 round28 scans53,54,57–60; round29 scans8,36–43,51–52,106–108,110 visually inspected. French/Russian six-stanza text24–29 and three-stanza hymn30–31 now verified structurally; Russian разроем versus разрушим within same book. Colophon has typesetting1937-05-15, signed-for-print1938-03-21; title1939 retained. Full diplomatic transcription, exact completion/first-publication dates and remaining commentary not completed.",
     "rights_note": "Bibliographic metadata, bounded observations and checksums only; no page images, complete commentary, lyrics or OCR redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
     "research_report": "docs/research/ru-kots-selection-source-trail.md"

@@ -5338,6 +5338,304 @@
       "target": "Дымшиц1936,291",
       "target_page_acquired": false,
       "interpretation": "Temporary retrieval failure, not proof of missing holdings."
+    },
+    "rsl_1939_lyrics_followup_20261010_round29": {
+      "source_id": "rsl-pottier-internationale-1939",
+      "report_path": "docs/research/ru-kots-1939.md",
+      "record_url": "https://search.rsl.ru/ru/record/01005198800",
+      "viewer_url": "https://viewer.rsl.ru/ru/rsl01005198800",
+      "classification": "original1939-book-page-images-structure-and-selected-variants-reviewed",
+      "version_id": "ru-kots-complete-publication-disputed",
+      "visually_reviewed_scan_pages": [
+        8,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        51,
+        52,
+        106,
+        107,
+        108,
+        110
+      ],
+      "page_images": [
+        {
+          "scan_page": 8,
+          "role": "title-verso-holding-marks",
+          "bytes": 124477,
+          "sha256": "0681998da50f62b56acc919c732c4533368d10c850440ef59cd6c38a133104fd",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 36,
+          "role": "French-full-text-start",
+          "bytes": 152788,
+          "sha256": "e9e52140947b6f53e6fdb31a47cfc85829e0c7e72180915e15204b52274a5f53",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 24,
+          "page_number_basis": "directly visible"
+        },
+        {
+          "scan_page": 37,
+          "role": "Russian-full-text-start",
+          "bytes": 148378,
+          "sha256": "e7e1fe2f5b4bd11eeffeb73635e5fa337c93049d291a0e5a44731db1489302a5",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 25,
+          "page_number_basis": "directly visible"
+        },
+        {
+          "scan_page": 38,
+          "role": "French-full-text-continuation",
+          "bytes": 166784,
+          "sha256": "05f1cea933cde325a3fd45b69dd98e3fbd717c9b017c4008da1b4dd533d71e47",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 26,
+          "page_number_basis": "directly visible"
+        },
+        {
+          "scan_page": 39,
+          "role": "Russian-full-text-continuation",
+          "bytes": 157513,
+          "sha256": "aa29c5ab5996cee06c20c8f2dcf01730cfc97bb32ee9ebe432e59e2ebde359db",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 27,
+          "page_number_basis": "directly visible"
+        },
+        {
+          "scan_page": 40,
+          "role": "French-full-text-end",
+          "bytes": 128466,
+          "sha256": "94113fabfc0c133378236a0340170f6337adbe5170c2de70eeaf870950677257",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 28,
+          "page_number_basis": "sequence plus original contents; numeral not printed visibly"
+        },
+        {
+          "scan_page": 41,
+          "role": "Russian-full-text-end-translator-credit",
+          "bytes": 126635,
+          "sha256": "750aa66b7eadbdc80b14ef9c93084b520f1103b7c429190914cb92e4011b702d",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 29,
+          "page_number_basis": "sequence plus original contents; numeral not printed visibly"
+        },
+        {
+          "scan_page": 42,
+          "role": "French-three-stanza-hymn",
+          "bytes": 210267,
+          "sha256": "fc87d04b954a8dbde8e708573b1844b6c720a9b229207bd037ff2c657979a343",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 30,
+          "page_number_basis": "sequence plus original contents; numeral not printed visibly"
+        },
+        {
+          "scan_page": 43,
+          "role": "Russian-three-stanza-hymn",
+          "bytes": 201029,
+          "sha256": "4ffbdd7081dc8a649c2e1bf94cb950b1ac0765b44950a61e4b8c5595b384f33b",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 31,
+          "page_number_basis": "sequence plus original contents; numeral not printed visibly"
+        },
+        {
+          "scan_page": 51,
+          "role": "commentary39",
+          "bytes": 254865,
+          "sha256": "af5fa9d2fed336066e4f73bbf3a6bd467d9eeedea798b94d88b8b35bd46bf14a",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 39,
+          "page_number_basis": "directly visible"
+        },
+        {
+          "scan_page": 52,
+          "role": "commentary40",
+          "bytes": 229077,
+          "sha256": "5826aa48cb5a591579425c89cf0060578157e0e55e9c6dbfb9c084f08c964cc7",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false,
+          "printed_page": 40,
+          "page_number_basis": "directly visible"
+        },
+        {
+          "scan_page": 106,
+          "role": "blank",
+          "bytes": 105596,
+          "sha256": "fd4f69848910f3205ebee4014a035a9ba29bdea8ddd94678b7a6a944357eaf1f",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 107,
+          "role": "book-design-credit",
+          "bytes": 118379,
+          "sha256": "c9b5734d1abec1781ecc0841bbaed64439206c4b05efa4d19e5fe475741d9270",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 108,
+          "role": "production-colophon",
+          "bytes": 130812,
+          "sha256": "c47601ab25995074ab6c18e09cb95a304d2e634131124681b0cd1c6c922e382e",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        },
+        {
+          "scan_page": 110,
+          "role": "binding-verso",
+          "bytes": 151393,
+          "sha256": "a78d6e13962db28265efda3bb5b7857d6c37e3daf0871bc15fc4327c01009f90",
+          "width": 962,
+          "height": 1422,
+          "dpi": 150,
+          "image_distributed_in_repository": false
+        }
+      ],
+      "six_stanza_text": {
+        "French_scan_pages": [
+          36,
+          38,
+          40
+        ],
+        "Russian_scan_pages": [
+          37,
+          39,
+          41
+        ],
+        "French_printed_pages": [
+          24,
+          26,
+          28
+        ],
+        "Russian_printed_pages": [
+          25,
+          27,
+          29
+        ],
+        "stanza_mapping": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "main_stanzas": 6,
+        "refrains": 2,
+        "translator_credit_at_end": "Пер.А.Коца",
+        "modern_spelling": true,
+        "word_first_stanza": "разроем",
+        "refrain_tense": "present",
+        "full_diplomatic_transcription_completed": false
+      },
+      "three_stanza_hymn": {
+        "French_scan_page": 42,
+        "Russian_scan_page": 43,
+        "printed_pages_by_contents_and_sequence": [
+          30,
+          31
+        ],
+        "stanza_mapping": [
+          1,
+          2,
+          6
+        ],
+        "main_stanzas": 3,
+        "refrains": 3,
+        "word_first_stanza": "разрушим",
+        "refrain_tense": "present",
+        "is_musical_score": false
+      },
+      "internal_text_variant": {
+        "six_stanza_scan37": "разроем",
+        "three_stanza_scan43": "разрушим",
+        "same_book": true,
+        "variant_editor_identified": false,
+        "first_occurrence_of_revision_verified": false
+      },
+      "colophon": {
+        "scan_page": 108,
+        "prepared_for_publication_by": "Academia",
+        "editor": "Г.Шенгели",
+        "typesetting_date": "1937-05-15",
+        "signed_for_print_date": "1938-03-21",
+        "print_run": 10000,
+        "title_leaf_publication_year": 1939,
+        "all_dates_same_semantic_event": false,
+        "different1938_edition_established": false,
+        "date_of_Kots_translation_completion_established": false
+      },
+      "design_credit": {
+        "scan_page": 107,
+        "designer": "Б.В.Шварц",
+        "interpretation": "book design and lettering credit; not replacement of Kots translator credit"
+      },
+      "selection_letter_original_acquired": false,
+      "1937_original_self_accounts_acquired": false,
+      "1957_page110_acquired": false,
+      "first_complete_publication_year_resolved": false,
+      "completion_year_resolved": false,
+      "lenin_direct_editing_verified": false,
+      "global_first_adopter_verified": false,
+      "claim_transmission_to_zhang_guangnian_established": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_score": false
+    },
+    "bounded_alternative_search_20261010_round29": {
+      "objectives": [
+        "fond369 carton290 unit10 original letters",
+        "April1931 Kots selection letter",
+        "Kots1937 Nash gimn319–322 and1957 page110"
+      ],
+      "outcome": "No target original page or independently dated original letter retrieved in this bounded search. Switched to public1939 original-book pages.",
+      "all_holdings_excluded": false,
+      "restricted_access_bypassed": false,
+      "unreviewed_download": "2017 Bezvremenje PDF downloaded as future lead; no page claims adopted in this release."
     }
   }
 }
