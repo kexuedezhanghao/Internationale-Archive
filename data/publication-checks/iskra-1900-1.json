@@ -2536,17 +2536,21 @@
         "visually_reviewed_pdf_pages": [
           4,
           5,
-          33
+          33,
+          288,
+          289
         ],
         "page_mapping": {
-          "33": 32
+          "33": 32,
+          "288": 277,
+          "289": 278
         },
-        "review_scope": "Title leaf, unnumbered editorial description and printed32 of introductory essay only; rest not visually read.",
+        "review_scope": "Prior title/description and introductory32 retained. Newly reviewed directly numbered notes277–278 only, via existing complete PDF whose digest matches original record; not all notes/book or additional lyric pages.",
         "full_publication_visually_read": false,
         "pdf_distributed_in_repository": false,
         "counts_as_new_lyric_identity": false,
         "counts_as_new_lyric_full_text": false,
-        "reviewed_on": "2026-10-04",
+        "reviewed_on": "2026-10-11",
         "embedded_images": [
           {
             "pdf_page": 4,
@@ -2582,6 +2586,35 @@
             "sha256": "b2234e3554fea315dac70aeae441344a2e43ee2c3c4da8d296faef0e1236f863",
             "width": 2700,
             "height": 4158,
+            "image_distributed_in_repository": false
+          }
+        ],
+        "review_scope_before_0_1_36": "Title leaf, unnumbered editorial description and printed32 of introductory essay only; rest not visually read.",
+        "rendered_images": [
+          {
+            "file": "worker-songs1962-288.png",
+            "pdf_page": 288,
+            "printed_page": 277,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 316590,
+            "sha256": "8ff77f5c33bee2f7677589219176064633c66737658af06e8c84ef421ae58a61",
+            "width": 648,
+            "height": 998,
+            "role": "publishing-confiscation-note-and-next-entry",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "worker-songs1962-289.png",
+            "pdf_page": 289,
+            "printed_page": 278,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 311139,
+            "sha256": "52acfc911029e8da62f356bc918a75c10d28e14979ca117858b05dbd230443f7",
+            "width": 648,
+            "height": 998,
+            "role": "publishing-confiscation-note-and-next-entry",
+            "visually_reviewed_on": "2026-10-11",
             "image_distributed_in_repository": false
           }
         ]
@@ -6934,7 +6967,10 @@
             "reading": "Reports inclusion in the banned-book list compiled as of January1,1907, p4, and a later1914 second-edition alphabetical catalogue as of January1,1913, p40.",
             "cited4_and40_are_external_list_pages": true,
             "external_banned_book_lists_acquired": false,
-            "independently_verified_publication_terminus_from_lists": false
+            "independently_verified_publication_terminus_from_lists": false,
+            "cited1914_page40_original_image_now_acquired": true,
+            "current_acquisition_followup": "manual_banned_index_pages_20261011",
+            "all_cited_lists_or_original_title_leaves_acquired": false
           },
           {
             "printed_pages": [
@@ -7164,8 +7200,11 @@
               "price_kopecks_as_cited": 70,
               "printer_as_cited": "Типография Министерства внутренних дел",
               "page_as_cited": 40,
-              "original_list_page_acquired": false,
-              "footnote_replaces1912_index_as_reported": true
+              "original_list_page_acquired": true,
+              "footnote_replaces1912_index_as_reported": true,
+              "original_list_page_acquired_at_0_1_35": false,
+              "current_acquisition_followup": "manual_banned_index_pages_20261011",
+              "original_title_edition_year_verified": false
             }
           ],
           "price70belongs_to_list_not_poetry_collection": true
@@ -7190,7 +7229,7 @@
           "pages": 274,
           "cutoff": "1913-01-01"
         },
-        "original_title_or_printed40_acquired": false,
+        "original_title_or_printed40_acquired": true,
         "public_page_read_attempt": {
           "url": "http://elib.shpl.ru/ru/pages/4029918/read",
           "http_status": 429,
@@ -7198,8 +7237,12 @@
           "further_host_requests_stopped": true
         },
         "historical_https_redirect_failure_retained": true,
-        "human_followup": "Public catalogue viewer: title, printed40 and adjacent page; verify Kots collection entry and decision date. No authentication or protected URL asserted.",
-        "parent_series_1907_metadata_is_not_original1907_list": true
+        "human_followup": "Printed39–41 now acquired and reviewed through supplied archive. Original title/imprint and decision-date apparatus still pending; full-book attachment failed to become available locally.",
+        "parent_series_1907_metadata_is_not_original1907_list": true,
+        "original_title_or_printed40_acquired_at_0_1_35": false,
+        "original_title_acquired": false,
+        "printed40_original_image_acquired": true,
+        "current_acquisition_followup": "manual_banned_index_pages_20261011"
       },
       "other_bounded_access_checks": [
         {
@@ -7226,7 +7269,7 @@
         "1950anthology original note",
         "1931April selection-rationale original letter",
         "1907original poetry collection and confiscation list",
-        "1914banned-book index printed40"
+        "1914banned-book index original title/imprint and judicial-decision apparatus; printed40 now reviewed"
       ],
       "collection1906_1907_discrepancy_resolved": false,
       "supplementary_stanzas_completion_year_resolved": false,
@@ -7235,6 +7278,217 @@
       "new_lyric_identity_or_full_text_admitted": false,
       "progression_counting_resumed": false,
       "japanese_research_started": false
+    },
+    "manual_banned_index_pages_20261011": {
+      "checked_on": "2026-10-11",
+      "source_id": "shpl-banned-book-index-1914-catalogue",
+      "report_path": "docs/research/ru-kots-publishing-censorship.md",
+      "acquisition_route": "User-supplied page-image archive available locally; attachment read only, not modified or read via Library tools.",
+      "archive": {
+        "file_name": "39~41.zip",
+        "bytes": 3429060,
+        "sha256": "b4e2f5004b91bb729c3ff9143a082b1ff91b920f05602012e54eff1a2e56d422",
+        "image_members": 3,
+        "archive_distributed_in_repository": false
+      },
+      "images": [
+        {
+          "file": "5c58aa0a828f5154de319d7ce94e55a9551fb70b (1).jpg",
+          "bytes": 1138316,
+          "sha256": "95b8ae58d751455aceed3331c1555a203a1c8b0a41d4dc110e612f22e395f3ba",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": 41,
+          "page_number_basis": "printed-numeral-visually-read",
+          "role": "adjacent-alphabetical-context",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "d9b1a0d4a5a86a562178a0d95b1caac32f0d3c3b (2).jpg",
+          "bytes": 1148762,
+          "sha256": "6690bcc379c5669103ba031f1e72bac1c80a2999fb77fe4edfac35837e330253",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": 39,
+          "page_number_basis": "printed-numeral-visually-read",
+          "role": "adjacent-alphabetical-context",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "ec391e4a3ee729bda88141900241874450999f9f (3).jpg",
+          "bytes": 1141164,
+          "sha256": "444f42a175377227f220cacb4f5db72fb78c4d9428740a48d683072edc41b13e",
+          "width": 1966,
+          "height": 2499,
+          "printed_page": 40,
+          "page_number_basis": "printed-numeral-visually-read",
+          "role": "target-entry-page",
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        }
+      ],
+      "reviewed_printed_pages": [
+        39,
+        40,
+        41
+      ],
+      "all_supplied_images_visually_read": true,
+      "full_book_acquired": false,
+      "full_book_visually_read": false,
+      "failed_full_book_attachment": {
+        "file_name": "禁书目录.zip",
+        "local_copy_available": false,
+        "contents_read_or_used": false,
+        "retry_requested": true,
+        "not_a_website_permission_failure": true
+      },
+      "edition_identification": {
+        "candidate_year": 1914,
+        "candidate_edition": 2,
+        "basis": "User describes these as target banned-book-index pages; matches cited printed40 entry and public catalogue lead. Title/imprint leaves unavailable.",
+        "original_title_edition_year_independently_verified": false,
+        "catalogue_metadata_is_not_original_title_verification": true
+      },
+      "entry": {
+        "printed_page": 40,
+        "location": "First entry, two lines at top; next entry begins Даміаналъ.",
+        "author_alias_as_printed": "Д—нъ",
+        "title_as_printed": "Пѣсни пролетаріевъ",
+        "publisher_as_printed": "Нашъ Голосъ",
+        "series_title_as_printed": "На разныя темы",
+        "series_number_as_printed": 4,
+        "city_abbreviation_as_printed": "Спб.",
+        "printer_as_printed": "Лурье и К°",
+        "normalized_title": "Песни пролетариев",
+        "normalized_alias": "Д–н",
+        "normalized_publisher": "Наш голос",
+        "normalized_series_title": "На разные темы",
+        "city_normalized": "Санкт-Петербург",
+        "full_author_name_printed_in_entry": false,
+        "kots_attribution_basis": "Same alias/title/publisher/printer and cited40 as Bonch1931 pp53–54 and1933 pp77–78; Kots full name directly supplied by those memoirs, not this entry.",
+        "year_as_printed": null,
+        "extent_pages_as_printed": null,
+        "price_as_printed": null,
+        "judicial_decision_date_as_printed": null,
+        "lyrics_or_stanza_count_as_printed": null
+      },
+      "native_review_crop": {
+        "file": "p40-entry-native.png",
+        "bytes": 234911,
+        "sha256": "735c86978d4fc025e795d8d3f5c6ffad7e202e739149039d7ed3d3551d1991a5",
+        "width": 1310,
+        "height": 270,
+        "region_xyxy": [
+          550,
+          245,
+          1860,
+          515
+        ],
+        "coordinate_space": "1966×2499 native pixels of page40 supplied JPEG",
+        "processing": "Native crop for visual reading only; no retouching, sharpening or generated reconstruction.",
+        "distributed_in_repository": false
+      },
+      "comparison": {
+        "matches_bonch1931_1933_cited_page40_entry": true,
+        "number4_newly_directly_read_from_index": true,
+        "number1_or32pages_from_other_memoir_book_not_transferred": true,
+        "underlying_poetry_book_acquired": false,
+        "exact_same_edition_as_other1906_1907_narod_candidates_established": false,
+        "bibliographical_witness_distinguished_from_author_recollection": true,
+        "independent_original_judicial_decision_acquired": false,
+        "entry_is_not_selection_or_supplementary_stanza_evidence": true
+      },
+      "negative_scope": "Only supplied printed39–41 and target entry inspected; no whole-book content absence claimed.",
+      "next_steps": [
+        "Obtain original title/imprint/edition leaves from the failed full-book upload when reattached.",
+        "Locate any list preface or decision-date apparatus without assuming one exists.",
+        "Continue original poetry collection and1907 list p4.",
+        "Keep1931 Na literaturnom postu,1957 target pages,1937/1950 originals andApril1931 letter pending."
+      ],
+      "collection1906_1907_discrepancy_resolved": false,
+      "personal_selection_rationale_original_acquired": false,
+      "supplementary_stanzas_completion_year_resolved": false,
+      "new_lyric_identity_or_full_text_admitted": false,
+      "progression_counting_resumed": false,
+      "japanese_research_started": false,
+      "worker_songs1962_followup": {
+        "source_id": "worker-songs-nutrikhin-1962",
+        "acquisition_route": "Reuse previously obtained full public PDF; no new scan/edition identity.",
+        "pdf_evidence_key": "pdf_checks",
+        "newly_visually_reviewed_pdf_pages": [
+          288,
+          289
+        ],
+        "printed_pages": [
+          277,
+          278
+        ],
+        "rendered_images": [
+          {
+            "file": "worker-songs1962-288.png",
+            "pdf_page": 288,
+            "printed_page": 277,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 316590,
+            "sha256": "8ff77f5c33bee2f7677589219176064633c66737658af06e8c84ef421ae58a61",
+            "width": 648,
+            "height": 998,
+            "role": "publishing-confiscation-note-and-next-entry",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "worker-songs1962-289.png",
+            "pdf_page": 289,
+            "printed_page": 278,
+            "page_number_basis": "printed-numeral-visually-read",
+            "bytes": 311139,
+            "sha256": "52acfc911029e8da62f356bc918a75c10d28e14979ca117858b05dbd230443f7",
+            "width": 648,
+            "height": 998,
+            "role": "publishing-confiscation-note-and-next-entry",
+            "visually_reviewed_on": "2026-10-11",
+            "image_distributed_in_repository": false
+          }
+        ],
+        "context": "Note Пролетарская starts on277, crosses278; Internationale note follows on278 and is distinct. Related publishing/confiscation note, not selection-rationale evidence.",
+        "editorial_claims_as_printed": {
+          "poetry_collection_title": "Песни пролетариев",
+          "poetry_collection_year": 1907,
+          "arrest_order_date": "1906-12-15",
+          "date_calendar_system_verified": false,
+          "official_as_reported": "Инспектор типографий2-го участка",
+          "brochure_alias": "Д–н",
+          "brochure_title_as_printed": "Песнь пролетариев",
+          "printer_as_printed": "И.Я.Лурье",
+          "publisher_as_printed": "Наш голос",
+          "grouping_named_as_printed": "сб.На разные темы",
+          "grouping_publication_month_as_reported": "1906-10",
+          "reported_print_run": 12000,
+          "reported_copies_seized": 1698,
+          "original_archive_inventory_file_leaf_identifiers_in_reviewed_note": false,
+          "original_arrest_order_or_seizure_return_acquired": false
+        },
+        "comparison_with1967": {
+          "1967_reports_end1906_collection_and_all_copies_destroyed": true,
+          "1967_day_month_for_judicial_approval": "21декабря",
+          "1967_year_for_that_sentence_inferred_from_context_only": true,
+          "inspector_order_and_judicial_approval_are_different_actions": true,
+          "two_day_months_not_treated_as_same_event_discrepancy": true,
+          "full_destroyed_versus_partial_seizure_relation_unresolved": true,
+          "same_publication_and_same_disposal_stage_established": false,
+          "different_singular_plural_titles_preserved": true,
+          "1962_1907_collection_and1906_brochure_relation_unresolved": true
+        },
+        "no_bibliographic_number4_printed_in_this_reviewed_note": true,
+        "number4_basis_remains_supplied_original_index40": true,
+        "personal_selection_rationale_original_acquired": false,
+        "completion_year_for_supplementary_stanzas_established": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false
+      }
     }
   }
 }

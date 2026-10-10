@@ -521,11 +521,12 @@
     "name": "А. И. Нутрихин: Песни русских рабочих,1962, introductory essay",
     "url": "https://imwerden.de/pdf/pesni_russkikh_rabochikh_1962__ocr.pdf",
     "role": "scanned-historical-publication",
-    "reviewed_on": "2026-10-04",
-    "import_scope": "Title/editorial leaves and printed32 only; Kots quote and footnote2 citing1937 Наш гимн with locator21 as printed, unresolved. No full book read.",
+    "reviewed_on": "2026-10-11",
+    "import_scope": "Prior title/description and introduction32 only; now expanded to original printed notes277–278. Publishing note reports1907 collection plus1906-12-15 inspector arrest order for singular-title brochure, grouping publicationOct1906 and12000/1698 partial seizure; exact archive case and relation to1967 total-destruction claim unresolved. Full book acquired but not visually read; no new lyric admission or selection/completion conclusion.",
     "rights_note": "Bibliographic facts, scoped observations and checksums only; no source scans, modern full article or bulk OCR redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json",
-    "research_report": "docs/research/ru-kots-selection-source-trail.md"
+    "research_report": "docs/research/ru-kots-selection-source-trail.md",
+    "publishing_followup_report": "docs/research/ru-kots-publishing-censorship.md"
   },
   {
     "id": "dmitriev-translations-1967",
@@ -847,11 +848,12 @@
     "name": "Влад. Бонч-Бруевич: Большевистские издательские дела в1905–1907гг. Мои воспоминания, ЛОИЗ1933",
     "url": "https://djvu.online/file/XGs1vNP1t6eJt",
     "role": "original-historical-publishing-memoir-images",
-    "import_scope": "198-image package received; OCR for location only. Cover/title/production colophon, preface3, context76, target77–78 and indexes187–189,191–196 plus back cover inspected. Not full-book visual reading. Memoir supplies Kots/translator and Nash golos recollection; original poetry book and banned-book lists unacquired.",
+    "import_scope": "198-image package received; OCR for location only. Cover/title/production colophon, preface3, context76, target77–78 and indexes187–189,191–196 plus back cover inspected. Not full-book visual reading. Memoir supplies Kots/translator and Nash golos recollection; original poetry book and complete banned-book lists unacquired. Supplied cited index40 image now reviewed separately; original index title/edition still pending.",
     "reviewed_on": "2026-10-10",
     "rights_note": "Bibliographic facts, bounded observations and checksums only; no page images, book/article body or OCR redistributed.",
     "research_report": "docs/research/ru-manual-access-original-pages.md",
-    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "current_banned_index_followup": "Supplied cited-page40 image now reviewed; title/edition attribution still pending. See manual_banned_index_pages_20261011."
   },
   {
     "id": "bonch-publishing-memoir-krasnaya-letopis-1931-4",
@@ -860,18 +862,19 @@
     "public_download_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D0%BB%D0%B5%D1%82%D0%BE%D0%BF%D0%B8%D1%81%D1%8C._1931._%E2%84%96_4_%2843%29.pdf?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
     "role": "original-periodical-facsimile-publishing-memoir-installment",
     "reviewed_on": "2026-10-10",
-    "import_scope": "Issue title, installment opening/continuation reference and adjacent48, publishing/confiscation53–54, author-signed end86 and next article boundary only. Same-author lineage with1933 memoir, not independent witness. Not Na literaturnom postu1931No2; collection year and original banned-list entries unverified.",
+    "import_scope": "Issue title, installment opening/continuation reference and adjacent48, publishing/confiscation53–54, author-signed end86 and next article boundary only. Same-author lineage with1933 memoir, not independent witness. Not Na literaturnom postu1931No2; collection year unverified. Supplied cited index40 entry now visually checked separately;1907 list and original1914 index title/edition still pending.",
     "rights_note": "Bibliographic facts, bounded observations and checksums only; PDF, page images, full article, lyrics and OCR not redistributed.",
     "research_report": "docs/research/ru-kots-publishing-censorship.md",
-    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "current_banned_index_followup": "Supplied cited-page40 image now reviewed; title/edition attribution still pending. See manual_banned_index_pages_20261011."
   },
   {
     "id": "shpl-banned-book-index-1914-catalogue",
-    "name": "ГПИБ: Алфавитный указатель книгам и брошюрам, по1-е января1913года,2-еизд.1914; catalogue only",
+    "name": "ГПИБ banned-book-index1914 second-edition candidate: catalogue and supplied printed39–41; title/edition leaves pending",
     "url": "http://elib.shpl.ru/nodes/63448",
-    "role": "public-catalogue-and-unacquired-original-page-lead",
-    "reviewed_on": "2026-10-10",
-    "import_scope": "Public catalogue HTML acquired; metadata describes1914 second edition274pages. Page-read request returned429; title and printed40 not acquired.1931/1933 memoired citation is not original list verification; parent1907 series metadata is not1907 original list.",
+    "role": "public-catalogue-and-original-index-page-images-with-provisional-edition-identification",
+    "reviewed_on": "2026-10-11",
+    "import_scope": "Prior public catalogue HTML metadata:1914 second edition274pages; machine page-read429 retained as history. User supplied printed39–41 original images now directly reviewed;40 first entry registers D–n, Pesni proletariev, Nash golos, Na raznye temy No4, St Petersburg, Lurie &Co. Entry gives no year/extent/price/decision date. Original title/imprint and exact edition not independently verified; full-book upload unavailable locally and unread. Poetry book and judicial decision not acquired.",
     "rights_note": "Bibliographic/access observations and checksum only; no catalogue HTML or images redistributed.",
     "research_report": "docs/research/ru-kots-publishing-censorship.md",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
