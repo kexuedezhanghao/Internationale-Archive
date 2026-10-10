@@ -2521,7 +2521,7 @@
   },
   "kots_selection_followup": {
     "report_path": "docs/research/ru-kots-selection-source-trail.md",
-    "reviewed_on": "2026-10-10",
+    "reviewed_on": "2026-10-11",
     "selection_vs_iskra_claim_distinguished": true,
     "global_first_adopter_verified": false,
     "claim_transmission_to_zhang_guangnian_established": false,
@@ -7339,7 +7339,7 @@
         "1950anthology original note",
         "1931April selection-rationale original letter",
         "1907original poetry collection and confiscation list",
-        "1914index complete file and any judicial-decision apparatus; title/edition and printed40 now reviewed"
+        "Original censorship order, seizure return and judicial decision; complete1914 directory package acquired separately, not judicial file."
       ],
       "collection1906_1907_discrepancy_resolved": false,
       "supplementary_stanzas_completion_year_resolved": false,
@@ -7356,7 +7356,17 @@
         "1931April selection-rationale original letter",
         "1907original poetry collection and confiscation list",
         "1914banned-book index original title/imprint and judicial-decision apparatus; printed40 now reviewed"
-      ]
+      ],
+      "still_unacquired_at_0_1_38": [
+        "На литературном посту1931№2pp4–10",
+        "Коц1957Стихотворенияpp109–110,136",
+        "Коц1937self-accounts",
+        "1950anthology original note",
+        "1931April selection-rationale original letter",
+        "1907original poetry collection and confiscation list",
+        "1914index complete file and any judicial-decision apparatus; title/edition and printed40 now reviewed"
+      ],
+      "current_banned_index_followup": "complete_banned_index_and_user_neb_download_20261011"
     },
     "manual_banned_index_pages_20261011": {
       "checked_on": "2026-10-11",
@@ -7569,13 +7579,14 @@
         "counts_as_new_lyric_identity": false,
         "counts_as_new_lyric_full_text": false
       },
-      "current_followup": "banned_index_frontmatter_and_neb_provenance_20261011",
+      "current_followup": "complete_banned_index_and_user_neb_download_20261011",
       "next_steps_at_0_1_36": [
         "Obtain original title/imprint/edition leaves from the failed full-book upload when reattached.",
         "Locate any list preface or decision-date apparatus without assuming one exists.",
         "Continue original poetry collection and1907 list p4.",
         "Keep1931 Na literaturnom postu,1957 target pages,1937/1950 originals andApril1931 letter pending."
-      ]
+      ],
+      "current_full_book_package_acquired": true
     },
     "censorship_citation_audit_20261011": {
       "checked_on": "2026-10-11",
@@ -7787,7 +7798,8 @@
         "Continue1931 Na literaturnom postu,1957,1937,1950 andApril1931 letter priorities."
       ],
       "original_title_edition_year_independently_verified_at_0_1_37": false,
-      "current_followup": "banned_index_frontmatter_and_neb_provenance_20261011"
+      "current_followup": "complete_banned_index_and_user_neb_download_20261011",
+      "current_full_book_package_acquired": true
     },
     "banned_index_frontmatter_and_neb_provenance_20261011": {
       "checked_on": "2026-10-11",
@@ -8076,6 +8088,236 @@
         "Locate original1907 list p4 and poetry-seriesNo4 original.",
         "Locate original censorship order/seizure return/judgment, not just retrospective counts.",
         "Continue1931 Na literaturnom postu No2,1957 targets,1937/1950 originals andApril1931 original letter."
+      ],
+      "current_followup": "complete_banned_index_and_user_neb_download_20261011",
+      "current_full_book_package_acquired": true
+    },
+    "complete_banned_index_and_user_neb_download_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-kots-publishing-censorship.md",
+      "source_id": "shpl-banned-book-index-1914-catalogue",
+      "page_map_path": "data/publication-checks/image-maps/banned-index-1914.json",
+      "scope": "Two user-supplied independent ZIPs locally acquired, CRC verified and all visible page headers reviewed. Targeted body pages and three unnumbered structural views read; not a full-book body reading.",
+      "archives": [
+        {
+          "file_name": "禁书目录.zip",
+          "bytes": 215916703,
+          "sha256": "ff6a0469f16f0d16a828671fdbc14b7a3ab746802c5327f93a34b93ced85385a",
+          "image_members": 194,
+          "crc_test_passed": true
+        },
+        {
+          "file_name": "禁书目录1.zip",
+          "bytes": 99490052,
+          "sha256": "92f96b3fae0b6df40cc273135b3664647213091a66778d9112bfbfcb17e2da17",
+          "image_members": 92,
+          "crc_test_passed": true
+        }
+      ],
+      "images_unique": 286,
+      "all_image_dimensions": [
+        1966,
+        2499
+      ],
+      "crc_checks_passed": true,
+      "archives_independent_not_spanned": true,
+      "original_uploads_modified": false,
+      "coverage": {
+        "unique_images": 286,
+        "directly_visible_numbered_pages": 269,
+        "directly_visible_numbered_ranges": [
+          [
+            4,
+            226
+          ],
+          [
+            229,
+            274
+          ]
+        ],
+        "missing_numbers_within_these_ranges": [],
+        "unnumbered_views_inferred_as_logical_pages": [
+          3,
+          227,
+          228
+        ],
+        "other_unnumbered_front_back_views": 14,
+        "inferred_pages_not_treated_as_printed_numerals": true,
+        "terminal_printed_page_directly_verified": 274,
+        "catalogue_extent_pages": 274,
+        "extent_consistent_with_package": true,
+        "physical_leaf_by_leaf_collation_verified": false
+      },
+      "full_user_supplied_book_package_acquired": true,
+      "full_book_body_visually_read": false,
+      "body_numbered_pages_visually_reviewed_this_followup": [
+        40,
+        59,
+        67,
+        99,
+        126,
+        127,
+        128,
+        132,
+        226,
+        229,
+        274
+      ],
+      "unnumbered_structural_views_read": [
+        "first-book-section-page",
+        "periodical-section-title",
+        "blank-verso-of-periodical-section-title"
+      ],
+      "previous_images_byte_matches": {
+        "front_back_views": 14,
+        "printed_pages": [
+          39,
+          40,
+          41
+        ],
+        "all_byte_identical": true,
+        "not_new_editions_or_witnesses": true
+      },
+      "original_scan_order_or_same_physical_copy_proved": false,
+      "logical_page_map_supported_by_numbers_and_section_layout": true,
+      "locating_ocr_used": true,
+      "locating_ocr_not_evidence_for_absence_or_exact_reading": true,
+      "locating_ocr_distributed_in_repository": false,
+      "original_images_or_archives_distributed_in_repository": false,
+      "observations": [
+        {
+          "printed_page": 99,
+          "title_as_printed": "На разныя темы",
+          "publisher_as_printed": "Книжныя Новости",
+          "place_as_printed": "Спб.",
+          "printer_as_printed": "Лурье и К°",
+          "format_as_printed": "8 д.",
+          "extent_as_printed": "13 л.",
+          "extent_leaves": 13,
+          "year": null,
+          "series_number": null,
+          "same_series_as_nash_golos_no4_established": false,
+          "scope": "Same title with different publishing name; do not assign its13 leaves to Kots."
+        },
+        {
+          "printed_page": 128,
+          "title_as_printed": "Рабочій съѣздъ или Съѣздъ рабочей партіи",
+          "responsibility_as_printed": "Г. Л.",
+          "publisher_as_printed": "Нашъ Голосъ",
+          "series_as_printed": "На разныя темы",
+          "series_number": 2,
+          "place_as_printed": "Спб.",
+          "year": 1906,
+          "printer_as_printed": "І. Лурье и К°",
+          "format_as_printed": "8 д.",
+          "extent_pages": 23,
+          "price_kopecks": 5,
+          "applies_to_kots_no4": false
+        },
+        {
+          "printed_page": 132,
+          "responsibility_as_printed": "Ростоцкая, Н.",
+          "title_as_printed": "Потемкинскіе дни въ Одессѣ",
+          "publisher_as_printed": "Нашъ Голосъ",
+          "series_as_printed": "На разныя темы",
+          "series_number": 1,
+          "place_as_printed": "Спб.",
+          "printer_as_printed": "Лурье и К°",
+          "format_as_printed": "8 д.",
+          "extent_pages": 32,
+          "year": null,
+          "price_kopecks": null,
+          "applies_to_kots_no4": false
+        },
+        {
+          "printed_page": 229,
+          "role": "periodical-section-legend",
+          "star_means_permanently_prohibited": true,
+          "legend_scope": "Periodical section; not an inferred annotation on Kots book entry40."
+        },
+        {
+          "printed_page": 274,
+          "role": "terminal-page-and-printing-authority",
+          "authority_statement_as_printed": "ПЕЧАТАНО ПО РАСПОРЯЖЕНІЮ ГЛАВНАГО УПРАВЛЕНІЯ ПО ДѢЛАМЪ ПЕЧАТИ.",
+          "catalogue_terminal_pagination_directly_verified": true,
+          "not_a_kots_judicial_decision": true
+        },
+        {
+          "printed_page": 226,
+          "role": "end-of-book-section",
+          "explicit_destruction_instructions_for_other_titles": true,
+          "not_transferred_to_kots_entry40": true
+        },
+        {
+          "printed_pages": [
+            126,
+            127
+          ],
+          "role": "song-title-alphabetic-neighborhood",
+          "song_titles_listed_but_no_kots_series_no4_repeat_in_these_two_pages": true,
+          "whole_book_absence_claimed": false
+        },
+        {
+          "printed_page": 67,
+          "role": "kots-name-alphabetic-neighborhood",
+          "no_kots_full_name_entry_on_this_page": true,
+          "whole_book_absence_claimed": false
+        },
+        {
+          "printed_page": 59,
+          "role": "ancillary-bibliographic-navigation",
+          "carrier_as_printed": "Карточки съ портретами и текстомъ",
+          "listed_item_number": 2,
+          "name_as_printed": "Н. Жорданія",
+          "song_title_as_printed": "Международный гимнъ [Интернаціоналъ]",
+          "publisher_as_printed": "К. Цава",
+          "place_as_printed": "Тифлисъ",
+          "printer_as_printed": "Идеалъ Кикнадзе",
+          "year": null,
+          "lyric_language": null,
+          "stanza_count": null,
+          "original_cards_acquired": false,
+          "new_lyric_identity_admitted": false
+        }
+      ],
+      "kots_entry40_unchanged_missing_fields": {
+        "year": null,
+        "extent_pages": null,
+        "price_kopecks": null,
+        "judicial_decision_date": null,
+        "print_run": null,
+        "disposal_quantity": null
+      },
+      "neb_download_provenance": {
+        "source_id": "bonch-publishing-memoir-krasnaya-letopis-1931-4",
+        "neb_catalogue_url": "https://rusneb.ru/catalog/000199_000009_013549382/",
+        "confirmed_on": "2026-10-11",
+        "confirmation_basis": "User explicitly states direct download from НЭБ followed by their upload to Drive.",
+        "direct_neb_download_by_user_confirmed": true,
+        "uploaded_to_drive_by_user_confirmed": true,
+        "access_denial_reason_user_reported": "Site accepts Russian IPs only.",
+        "site_wide_ip_policy_independently_verified": false,
+        "direct_neb_download_in_this_environment_verified": false,
+        "byte_identical_to_previously_acquired_public_pdf": true,
+        "sha256": "c524121c545795097416868aed67587716525b48cdd809cc35e65c4e1b79d9fc",
+        "bytes": 83975538,
+        "pdf_pages": 184,
+        "new_publication_or_independent_witness": false,
+        "review_scope_expanded": false
+      },
+      "historical_failed_full_archive_distinguished_by_bytes_and_sha": true,
+      "collection1906_1907_discrepancy_resolved": false,
+      "original_censorship_order_or_judgment_acquired": false,
+      "personal_selection_rationale_original_acquired": false,
+      "supplementary_stanza_completion_year_resolved": false,
+      "new_lyric_identity_or_full_text_admitted": false,
+      "progression_counting_resumed": false,
+      "japanese_research_started": false,
+      "next_steps": [
+        "Original1907 list p4 and poetry-seriesNo4 original.",
+        "Original inspector order, seizure return and judicial decision.",
+        "1931 Na literaturnom postu No2pp4–10;1957pp109–110,136,142,143;1937/1950 originals;April1931 original letter.",
+        "Japanese priority follows completion of Russian audit."
       ]
     }
   }
