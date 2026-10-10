@@ -3621,7 +3621,7 @@
       "1960 Druskin184–193",
       "1960 Sokhor booklet",
       "1937 Kots self-account",
-      "1957 Kots poems110",
+      "1957 Kots poems109–110; newly located translation-origin quotation109, selection rationale110",
       "1931 Bonch-Bruevich original",
       "April1931 Kots-to-Bonch selection-rationale original letter; distinct from July28,1930 letter",
       "М.С.Друскин. Русская революционная песня. Л.,1959, p16 original; locator Boulogne2025 p43",
@@ -3636,7 +3636,8 @@
       "1930 Kots-to-Bonch letter:June28 in1954 note554 versus July28 in1963 bibliography271–272; identity, date and selection passage need original comparison",
       "1931 Bonch article:1963 bibliography8–10 versus2018 reference4–10; acquire full4–10 and issue contents rather than overwrite either locator",
       "1950 Куриленков small-series455page anthology: acquire actual Kots note/title/imprint; new composite web transcription declares this supplement and claims1931 completion/1937 publication, but printed note and exact page remain unverified; compare1954 note553–554.",
-      "Друскин2012vol5:separate Интернационал article and Academia publication correspondence; locate contents pages/editorial sources without assuming1959p16 correspondence"
+      "Друскин2012vol5:separate Интернационал article and Academia publication correspondence; locate contents pages/editorial sources without assuming1959p16 correspondence",
+      "Banned-book lists: compilation as of1907-01-01 p4 and1914 second-edition alphabetical catalogue as of1913-01-01 p40, cited in Bonch1933 pp77–78; originals unacquired, no publication cutoff independently verified."
     ],
     "bibliography_followup_20261004": {
       "reviewed_on": "2026-10-04",
@@ -4641,8 +4642,16 @@
         "linked_item_url": "https://electro.nekrasovka.ru/books/6191354",
         "linked_item_fetch_result": "HTTP502 via web and direct urllib; transient candidate for one bounded retry next round",
         "catalogue_range_discrepancy": "Omsk university contents list281–298, versus2018 bibliography281–297; originals needed",
-        "target_original_acquired": false,
-        "selection_claim_present_in_target_verified": false
+        "target_original_acquired": true,
+        "selection_claim_present_in_target_verified": false,
+        "current_acquisition_followup": "manual_access_original_pages_20261010.dymshits1936",
+        "target_original_visually_reviewed_on": "2026-10-10",
+        "acquired_printed_pages": [
+          290,
+          291,
+          292
+        ],
+        "prior_fetch_result_is_historical": true
       },
       "search_scope": [
         "Bounded public web queries for Kots1957, Zvezda1937No10/11, Knizhnye novosti1937No19 and Bonch1931No2; no target original obtained in these searches.",
@@ -6092,6 +6101,594 @@
         "1931 versus1937 completion chronology and first publication of all added stanzas remain unresolved.",
         "1962 footnote prints21; no silent change to321.",
         "No new evidence for Lenin choosing stanzas, global first use of[1,2,6], or claim transmission to Zhang Guangnian."
+      ]
+    },
+    "manual_access_original_pages_20261010": {
+      "report_path": "docs/research/ru-manual-access-original-pages.md",
+      "reviewed_on": "2026-10-10",
+      "classification": "manually-acquired-original-page-images",
+      "reading_basis": "Actual page images visually inspected; Russian OCR used only to locate memoir passages.",
+      "filename_numbers_distinguished_from_printed_pages": true,
+      "raw_images_or_ocr_distributed_in_repository": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "superseded_target_page_packages": [
+        {
+          "file_name": "苏维埃民俗.zip",
+          "bytes": 2048329,
+          "sha256": "7041f2b1db9307454e49f14fe1b2455fdc6b49f6185b9faa9c66ee23bfffeb25",
+          "image_members": 4,
+          "status": "superseded-for-target-page-check",
+          "archive_distributed_in_repository": false,
+          "actually_viewed": {
+            "original.jpeg": 285,
+            "original (1).jpeg": 286
+          },
+          "remaining_images_visually_reviewed": false,
+          "not_used_as_printed290_to292_evidence": true
+        },
+        {
+          "file_name": "djvu.zip",
+          "bytes": 643739,
+          "sha256": "e248fd24e51b2da018b8863d94c35df8af67728ca4924db59af3832dd6c27181",
+          "image_members": 3,
+          "status": "superseded-for-target-page-check",
+          "archive_distributed_in_repository": false,
+          "files": [
+            "426.webp",
+            "427.webp",
+            "428.webp"
+          ],
+          "any_image_visually_reviewed": false,
+          "printed_page_mapping_unverified": true
+        }
+      ],
+      "dymshits1936": {
+        "source_id": "dymshits-working-marseillaises-1936",
+        "public_item_url": "https://electro.nekrasovka.ru/books/6191354",
+        "publication_information_as_registered": {
+          "author": "А. Л. Дымшиц",
+          "title": "О «рабочих марсельезах»",
+          "publication": "Советский фольклор: Статьи и материалы",
+          "year": 1936,
+          "issue": "4–5"
+        },
+        "bibliographic_basis": "Earlier2018 reference and public item; title in page291 running head and author in290/292 running heads.",
+        "issue_title_or_masthead_visually_reviewed": false,
+        "article_start_or_end_visually_reviewed": false,
+        "article_extent_discrepancy_unresolved": [
+          [
+            281,
+            297
+          ],
+          [
+            281,
+            298
+          ]
+        ],
+        "archive": {
+          "file_name": "苏维埃民俗(印刷页).zip",
+          "bytes": 1692563,
+          "sha256": "6b5d72c80359574869f6c78265e8acca77637c28d54b474986bbcf1e90a45e06",
+          "image_members": 3,
+          "status": "adopted-corrected-printed-pages",
+          "archive_distributed_in_repository": false
+        },
+        "images": [
+          {
+            "file": "original (4).jpeg",
+            "bytes": 656153,
+            "sha256": "2a9bf42b73a41153bc3517d6ec7f0627113a81dc081de1c36980a8cc70687903",
+            "width": 1766,
+            "height": 2811,
+            "printed_page": 291,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "target-original-page",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "original (5).jpeg",
+            "bytes": 508244,
+            "sha256": "653317ba5b38eb44fe3d4129056204d892e22cd711250825856b2eed8ff2dd59",
+            "width": 1766,
+            "height": 2811,
+            "printed_page": 290,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "target-original-page",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "original (6).jpeg",
+            "bytes": 532916,
+            "sha256": "1b06390f4a57b2b82cac5602ccae54bc21f97cbaa2628c29707339f0b5d34ccd",
+            "width": 1766,
+            "height": 2811,
+            "printed_page": 292,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "target-original-page",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          }
+        ],
+        "visually_reviewed_printed_pages": [
+          290,
+          291,
+          292
+        ],
+        "observations": [
+          {
+            "printed_page": 290,
+            "scope": "Proletarian-song quotation and subsequent prose",
+            "reading": "Footnote1 cites Zhizn, London1902 No5, August,199–200 for the preceding Proletarian-song quotation; prose then mentions Internationale in the same issue.",
+            "not_internationale_page_locator": true
+          },
+          {
+            "printed_page": 291,
+            "scope": "Bonch-Bruevich propagation recollection, footnote1",
+            "original_citation": "В. Бонч-Бруевич. Автор «Интернационала». На литературном посту, 1931, №2, стр.4.",
+            "reading": "Zurich May Day recollection without Russian words and different emigre groups singing Internationale versus the old Marseillaise.",
+            "referenced1931_original_acquired": false,
+            "year_of_parade_assigned": false,
+            "april1931_selection_letter_same_document_established": false
+          },
+          {
+            "printed_page": 292,
+            "scope": "following context",
+            "reading": "Turns to Loginov Marseillaise satire; not a second Internationale lyric version."
+          }
+        ],
+        "kots_personal_selection_rationale_found_in_reviewed_pages": false,
+        "completion_date_for_supplementary_stanzas_found_in_reviewed_pages": false
+      },
+      "eventov1967": {
+        "source_id": "eventov-bolshevik-poetry-1967",
+        "public_item_url": "https://djvu.online/file/OV8jvErb4RzfI",
+        "publication_information_as_registered": {
+          "editor": "И. С. Эвентов",
+          "title": "Поэзия в большевистских изданиях 1901–1917",
+          "year": 1967
+        },
+        "bibliographic_basis": "Previously inspected reader metadata; title, responsibility and imprint leaves are absent from this package.",
+        "title_responsibility_or_imprint_pages_visually_reviewed": false,
+        "page426_group_heading": "СБ. «ПЕРЕД РАССВЕТОМ», 1905",
+        "group_heading_year_is_not_this_book_publication_year": true,
+        "archive": {
+          "file_name": "djvu(印刷页).zip",
+          "bytes": 902010,
+          "sha256": "c2fe007987f696211949cdffe008e361aebe7ed22ed50006acc2968d0bb89101",
+          "image_members": 4,
+          "status": "adopted-corrected-printed-pages",
+          "archive_distributed_in_repository": false
+        },
+        "images": [
+          {
+            "file": "437.webp",
+            "bytes": 221492,
+            "sha256": "780a70a0b2080f447809f564efc4bd8be4d563abbbe5e5bebac5f1bf1a825994",
+            "width": 967,
+            "height": 1500,
+            "printed_page": 426,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "target-original-page",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "438.webp",
+            "bytes": 253168,
+            "sha256": "5f90ad2d7dbc6c632a3b922e0f322b832f455d1403caf01c0f72a8971f5399f8",
+            "width": 967,
+            "height": 1500,
+            "printed_page": 427,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "target-original-page",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "439.webp",
+            "bytes": 243084,
+            "sha256": "5183a703de9e108da8a63bf014218a0a63716edd86010f232dcb459c731473b5",
+            "width": 967,
+            "height": 1500,
+            "printed_page": 428,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "target-original-page",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "440.webp",
+            "bytes": 185268,
+            "sha256": "c5f0e2de0862e8745a6022e286780cf88d24df6a4f778fcd934eaa321b4aeeb5",
+            "width": 967,
+            "height": 1500,
+            "printed_page": 429,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "target-original-page",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          }
+        ],
+        "visually_reviewed_printed_pages": [
+          426,
+          427,
+          428,
+          429
+        ],
+        "note32_printed_page_extent": [
+          426,
+          429
+        ],
+        "note32_end_directly_seen_on_page429": true,
+        "observations": [
+          {
+            "printed_page": 426,
+            "note": 31,
+            "reading": "Proletarian-song explanation cites Kots-to-Bonch letter of June28,1930 and Kots1957 poems136.",
+            "referenced1957_page": 136,
+            "original_letter_acquired": false,
+            "june_versus_july_discrepancy_resolved": false,
+            "internationale_selection_letter_identity_established": false
+          },
+          {
+            "printed_page": 427,
+            "note": 32,
+            "reading": "Calls Internationale a free translation of French stanzas1,2,6, reports early printing variants and folk alterations known in1918–1919 with1920 songbook examples.",
+            "stanza_mapping_as_compiler_reports": [
+              1,
+              2,
+              6
+            ],
+            "early_original_witnesses_acquired": false,
+            "earliest_variant_date_verified": false
+          },
+          {
+            "printed_pages": [
+              427,
+              428
+            ],
+            "note": 32,
+            "reading": "Kots first-person recollection of hearing the song in1899 and making Russian words in1902.",
+            "citation": "А. Коц. Наш гимн. Стихотворения,1957, стр.109.",
+            "referenced1957_page": 109,
+            "referenced1957_original_page_acquired": false,
+            "selection_rationale_page110_substituted": false
+          },
+          {
+            "printed_page": 428,
+            "note": 32,
+            "reading": "Bonch-Bruevich recollection of Russian lyric propagation.",
+            "citation": "На литературном посту,1931,№2,стр.10.",
+            "referenced1931_page": 10,
+            "referenced1931_original_acquired": false,
+            "page4_in1936_and_page10_in1967_separately_retained": true
+          },
+          {
+            "printed_page": 429,
+            "reading": "Note32 ends at the top, followed by note33."
+          }
+        ],
+        "early_newspaper_leads_reported_by_compiler": [
+          {
+            "title": "Северо-западный край",
+            "date_as_printed": "1905-11-02",
+            "original_acquired": false
+          },
+          {
+            "title": "Известия Московского Совета рабочих депутатов",
+            "date_as_printed": "1905-12-09",
+            "original_acquired": false
+          }
+        ],
+        "kots_personal_selection_rationale_found_in_reviewed_pages": false,
+        "completion_date_for_supplementary_stanzas_found_in_reviewed_pages": false
+      },
+      "bonch1933": {
+        "source_id": "bonch-publishing-memoirs-1933",
+        "public_item_url": "https://djvu.online/file/XGs1vNP1t6eJt",
+        "publication_information_visually_read": {
+          "author_as_titlepage": "Влад. Бонч-Бруевич",
+          "title": "Большевистские издательские дела в 1905–1907 гг. Мои воспоминания",
+          "publisher": "Ленинградское областное издательство",
+          "publisher_abbreviation": "ЛОИЗ",
+          "year": 1933
+        },
+        "publication_year_basis": "Directly read cover001 and title002.",
+        "production_colophon": {
+          "image": "003.webp",
+          "typesetting_date_as_printed": "10/VII1932",
+          "approved_for_printing_date_as_printed": "21/XI1932",
+          "independent1932_edition_established": false
+        },
+        "archive": {
+          "file_name": "djvu(2).zip",
+          "bytes": 40697593,
+          "sha256": "32b9365f94d09e4e8e3791b1386e0bbf81d431ba30df247eb00320825c7210d6",
+          "image_members": 198,
+          "status": "adopted-full-image-package",
+          "archive_distributed_in_repository": false
+        },
+        "image_filename_sequence_received": [
+          "001.webp",
+          "198.webp"
+        ],
+        "image_files_received": 198,
+        "all_images_processed_for_ocr_location": true,
+        "ocr_location_scope": "All198 image files; successful per-file outputs; zero-return-code manifest retained privately. OCR is not diplomatic text.",
+        "ocr_model_public_source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/rus.traineddata",
+        "full_book_visually_read": false,
+        "images": [
+          {
+            "file": "001.webp",
+            "bytes": 130250,
+            "sha256": "8c286838b9d57afd0a9cc0d7585996259d97dce2809797d4308f1cc0405b9f5e",
+            "width": 960,
+            "height": 1500,
+            "printed_page": null,
+            "page_number_basis": "unnumbered-cover-or-title-or-colophon",
+            "role": "front-cover",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "002.webp",
+            "bytes": 32762,
+            "sha256": "9a3c87aa1cd1fcd7b3d34139e16fe32d9a19f8126f2a28f921cd97ae72749714",
+            "width": 968,
+            "height": 1500,
+            "printed_page": null,
+            "page_number_basis": "unnumbered-cover-or-title-or-colophon",
+            "role": "title-page",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "003.webp",
+            "bytes": 22954,
+            "sha256": "25530d38a249c5b2a55efaee7a854f64621da39c93afeb62f5d977c3f279bebd",
+            "width": 968,
+            "height": 1500,
+            "printed_page": null,
+            "page_number_basis": "unnumbered-cover-or-title-or-colophon",
+            "role": "title-verso-production-colophon",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "004.webp",
+            "bytes": 195470,
+            "sha256": "c573f967d21d0b5549bdfb71799cd22c0ffbbd9764cf586455aa8325e32ea127",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 3,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "preface",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "077.webp",
+            "bytes": 158870,
+            "sha256": "00decc54176b8d85e0d45eae20c66e11d88d5b2c2cdafdf00eaef6ee7ac668b1",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 76,
+            "page_number_basis": "inferred-from-adjacent-direct-number-77; no printed numeral visible",
+            "role": "preceding-context",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "078.webp",
+            "bytes": 198864,
+            "sha256": "c6f009caa4d5d41167a6eb59620faf3af490bb1e6865dbafe3f8cacc2e4947c0",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 77,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "kots-publishing-memoir",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "079.webp",
+            "bytes": 260074,
+            "sha256": "f6b907da316f6cd1439434eb17f6a33c605f495a73e872c1e80fba8d3c197c15",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 78,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "confiscation-recollection-continuation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "188.webp",
+            "bytes": 160726,
+            "sha256": "ee07cb0c7cd96cc2fcf7cd8f15b6013f133cfb6f1a7d290089576a63be84543b",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 187,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "same-book-index-navigation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "189.webp",
+            "bytes": 179130,
+            "sha256": "227be5adbcdd5a928ffde0fb48ba442ab777ff5636b00f2ba6c26e2dffb293ed",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 188,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "same-book-index-navigation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "190.webp",
+            "bytes": 167346,
+            "sha256": "56792ef1e041fc651999ffc3c181a7a6a1f052a05f23cad17f58dcce1d342e1e",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 189,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "same-book-index-navigation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "192.webp",
+            "bytes": 148008,
+            "sha256": "2986be747fe015734c546cb19c331165f56e510970245e3f33e0a9cec5d4694e",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 191,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "same-book-index-navigation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "193.webp",
+            "bytes": 202746,
+            "sha256": "51cf43b770ae3e404ec95c114c0ca81f971831063e39361b245d3b4ba0168018",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 192,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "same-book-index-navigation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "194.webp",
+            "bytes": 205004,
+            "sha256": "94c19e8dfdd882edd1660ecdec3972158455edc462e0d3f8fb16abb8f551f4ae",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 193,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "same-book-index-navigation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "195.webp",
+            "bytes": 73988,
+            "sha256": "2c94373c3a5852bbb992a36366782fc291be664725b0c2bde196bae0ab2bedae",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 194,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "same-book-index-navigation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "196.webp",
+            "bytes": 155372,
+            "sha256": "0f4c7fac9e19b36d513e734198bd934872b68d295ed968191f8d0f619c2f01c4",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 195,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "same-book-index-navigation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "197.webp",
+            "bytes": 186242,
+            "sha256": "79e3b0d0d6f88b3bd192eb5560251cb0e7d596725b98b42c060ef35af697884a",
+            "width": 968,
+            "height": 1500,
+            "printed_page": 196,
+            "page_number_basis": "printed-numeral-visually-read",
+            "role": "same-book-index-navigation",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "198.webp",
+            "bytes": 195012,
+            "sha256": "be59615092fa6702592ba7d9744a0834f105e6480d82262907c78defdaf082e4",
+            "width": 1009,
+            "height": 1500,
+            "printed_page": null,
+            "page_number_basis": "unnumbered-cover-or-title-or-colophon",
+            "role": "back-cover",
+            "visually_reviewed_on": "2026-10-10",
+            "image_distributed_in_repository": false
+          }
+        ],
+        "observations": [
+          {
+            "printed_page": 77,
+            "scope": "ChapterXV, Kots paragraph",
+            "reading": "Memoir places D–n, Pesni proletariev under Nash golos, price8kopeks, Lurie printshop in St Petersburg; attributes poems to A.Ya.Kots and calls him the Russian Internationale translator.",
+            "publisher_as_recalled": "Наш голос",
+            "author_name_as_printed": "А. Я. Коц",
+            "pseudonym_as_printed": "Д–н",
+            "target_collection_original_title_or_lyric_page_acquired": false,
+            "target_collection_year_or_extent_or_series_number_explicit_in_paragraph": false,
+            "preceding_other_book_number1_and32_pages_not_transferred": true,
+            "1906_versus1907_edition_relation_resolved": false
+          },
+          {
+            "printed_page": 77,
+            "scope": "Early publication recollection",
+            "reading": "Places Zhizn publication in Paris1902, whereas already inspected No5 title leaf is London1902.",
+            "paris_versus_london_difference_preserved": true,
+            "separate_paris_issue_established": false
+          },
+          {
+            "printed_pages": [
+              77,
+              78
+            ],
+            "scope": "Confiscation recollection",
+            "reading": "Reports inclusion in the banned-book list compiled as of January1,1907, p4, and a later1914 second-edition alphabetical catalogue as of January1,1913, p40.",
+            "cited4_and40_are_external_list_pages": true,
+            "external_banned_book_lists_acquired": false,
+            "independently_verified_publication_terminus_from_lists": false
+          },
+          {
+            "printed_pages": [
+              187,
+              188,
+              192,
+              196
+            ],
+            "scope": "Same-book indexes",
+            "reading": "Names relate D–n/Danin and Kots to77; work index lists Pesni proletariev and Internationale at77; publisher index lists Nash golos.",
+            "independent_evidentiary_witness": false
+          }
+        ],
+        "full_internationale_lyrics_found_in_reviewed_passages": false,
+        "kots_personal_selection_rationale_found_in_reviewed_passages": false,
+        "completion_date_for_supplementary_stanzas_found_in_reviewed_passages": false
+      },
+      "remaining_failed_manual_routes": [
+        {
+          "route": "Google Books1950 anthology",
+          "readable_target_obtained": false
+        },
+        {
+          "route": "Libmonster transcription",
+          "readable_target_obtained": false
+        }
+      ],
+      "priorities_after_this_check": [
+        "1931 original issue4–10 and contents; compare1936 p4 and1967 p10 citations without conflating April1931 selection letter.",
+        "1957 poems109–110,136 and other letter excerpt pages; translation origin, selection rationale and June/July date remain separate.",
+        "1937 self-accounts and1950 original note; do not replace originals by later quotations.",
+        "Original D–n collection title, imprint and lyric pages; external banned-book lists4 and40 are leads only.",
+        "Japanese originals after Russian examination is completed."
       ]
     }
   }

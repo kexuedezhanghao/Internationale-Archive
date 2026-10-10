@@ -818,5 +818,38 @@
     "rights_note": "Bibliographic facts, bounded observations and checksums only; no PDF, images, article body or OCR redistributed.",
     "research_report": "docs/research/ru-kots-1937-registration.md",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "dymshits-working-marseillaises-1936",
+    "name": "А. Л. Дымшиц: О «рабочих марсельезах», Советский фольклор1936 №4–5",
+    "url": "https://electro.nekrasovka.ru/books/6191354",
+    "role": "original-journal-page-images",
+    "import_scope": "Printed290–292 visually inspected from corrected page package. Page291 footnote1 cites Bonch1931 No2 p4. Issue masthead and article boundaries not inspected; referenced1931 original unacquired.",
+    "reviewed_on": "2026-10-10",
+    "rights_note": "Bibliographic facts, bounded observations and checksums only; no page images, book/article body or OCR redistributed.",
+    "research_report": "docs/research/ru-manual-access-original-pages.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "eventov-bolshevik-poetry-1967",
+    "name": "И. С. Эвентов编: Поэзия в большевистских изданиях1901–1917,1967",
+    "url": "https://djvu.online/file/OV8jvErb4RzfI",
+    "role": "original-book-note-page-images",
+    "import_scope": "Printed426–429 visually inspected; note32 ends on429. Cites Kots1957 p109 and Bonch1931 p10; note31 cites June28,1930 letter via1957 p136. Book metadata from reader; original title/credits leaves unacquired. Referenced originals unacquired.",
+    "reviewed_on": "2026-10-10",
+    "rights_note": "Bibliographic facts, bounded observations and checksums only; no page images, book/article body or OCR redistributed.",
+    "research_report": "docs/research/ru-manual-access-original-pages.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "bonch-publishing-memoirs-1933",
+    "name": "Влад. Бонч-Бруевич: Большевистские издательские дела в1905–1907гг. Мои воспоминания, ЛОИЗ1933",
+    "url": "https://djvu.online/file/XGs1vNP1t6eJt",
+    "role": "original-historical-publishing-memoir-images",
+    "import_scope": "198-image package received; OCR for location only. Cover/title/production colophon, preface3, context76, target77–78 and indexes187–189,191–196 plus back cover inspected. Not full-book visual reading. Memoir supplies Kots/translator and Nash golos recollection; original poetry book and banned-book lists unacquired.",
+    "reviewed_on": "2026-10-10",
+    "rights_note": "Bibliographic facts, bounded observations and checksums only; no page images, book/article body or OCR redistributed.",
+    "research_report": "docs/research/ru-manual-access-original-pages.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]
