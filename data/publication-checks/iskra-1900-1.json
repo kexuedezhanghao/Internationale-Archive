@@ -3891,6 +3891,145 @@
             "image_distributed_in_repository": false
           }
         ]
+      },
+      {
+        "source_id": "bodnarsky-bernov-banned-reference-index-1909",
+        "url": "https://elib.uraic.ru/bitstream/123456789/16210/1/0019746.pdf",
+        "bytes": 12828344,
+        "sha256": "387345b1faad274191fbfc0a8b2170e37bdba3ef1d61743d8afc51a787bdd1e0",
+        "sha1": "8e1df7f402ca5eecc752c7793259d26c6f83a401",
+        "pages": 162,
+        "classification": "scanned-historical-publication",
+        "visually_reviewed_pdf_pages": [
+          1,
+          2,
+          28,
+          35,
+          118,
+          121,
+          160,
+          162
+        ],
+        "page_mapping": {
+          "28": 28,
+          "35": 35,
+          "118": 118,
+          "121": 121,
+          "160": 160
+        },
+        "review_scope": "Title, star legend/imprint, Kots printed35, companion printed28/118/121, score lead160 and back-cover price/advertisement only. No full-book visual reading.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-11",
+        "embedded_images": [],
+        "rendered_images": [
+          {
+            "pdf_page": 1,
+            "printed_page": null,
+            "role": "title",
+            "bytes": 1698084,
+            "sha256": "9327b488f5d7d144649a031e2f8a5d2d5c8c14e17f22b61af2f227237a572812",
+            "width": 908,
+            "height": 1384,
+            "image_distributed_in_repository": false,
+            "file": "bodnarsky-pdf001.png",
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "unnumbered"
+          },
+          {
+            "pdf_page": 2,
+            "printed_page": null,
+            "role": "star-legend-and-imprint",
+            "bytes": 379137,
+            "sha256": "83a7eb09d28dbb295199ea995f501d2f6d42f209cd96441cb7b80f6b0a07c419",
+            "width": 908,
+            "height": 1384,
+            "image_distributed_in_repository": false,
+            "file": "bodnarsky-pdf002.png",
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "unnumbered"
+          },
+          {
+            "pdf_page": 28,
+            "printed_page": 28,
+            "role": "companion-series2",
+            "bytes": 676473,
+            "sha256": "21c689c29749c5570d68d68a4d2dafecc789bc8037ffe3f6bfdbb77057a56c2a",
+            "width": 908,
+            "height": 1384,
+            "image_distributed_in_repository": false,
+            "file": "bodnarsky-pdf028.png",
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read"
+          },
+          {
+            "pdf_page": 35,
+            "printed_page": 35,
+            "role": "kots-series4",
+            "bytes": 817218,
+            "sha256": "cf354a015e56fb016d85ae95404d06af9e2e3318d6740abe810ece56b477fe44",
+            "width": 908,
+            "height": 1384,
+            "image_distributed_in_repository": false,
+            "file": "bodnarsky-pdf035.png",
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read"
+          },
+          {
+            "pdf_page": 118,
+            "printed_page": 118,
+            "role": "companion2-cross-reference",
+            "bytes": 685660,
+            "sha256": "cdef3b4364dcf8c076079760ccd16f301944efe56480f0c204ed32f34c1fbca5",
+            "width": 908,
+            "height": 1384,
+            "image_distributed_in_repository": false,
+            "file": "bodnarsky-pdf118.png",
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read"
+          },
+          {
+            "pdf_page": 121,
+            "printed_page": 121,
+            "role": "companion-series1",
+            "bytes": 838276,
+            "sha256": "a85b18416b3d0fc2afa526501a5f145500b5b016cee0cf5dd0ebed56279bc4c7",
+            "width": 908,
+            "height": 1384,
+            "image_distributed_in_repository": false,
+            "file": "bodnarsky-pdf121.png",
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read"
+          },
+          {
+            "pdf_page": 160,
+            "printed_page": 160,
+            "role": "score-lead",
+            "bytes": 787368,
+            "sha256": "c2b7c3fb439072a51acddb6cd196ac0b65b4ddc737f6d8283017844dbca6e389",
+            "width": 908,
+            "height": 1384,
+            "image_distributed_in_repository": false,
+            "file": "bodnarsky-pdf160.png",
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read"
+          },
+          {
+            "pdf_page": 162,
+            "printed_page": null,
+            "role": "back-cover-advertisement",
+            "bytes": 1859685,
+            "sha256": "03112a040e77bdbc5f184d18b1e08aa2b530c9fc111854179d58c2b839b7684e",
+            "width": 908,
+            "height": 1384,
+            "image_distributed_in_repository": false,
+            "file": "bodnarsky-pdf162.png",
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "unnumbered"
+          }
+        ]
       }
     ],
     "observations": [
@@ -8605,6 +8744,225 @@
       "new_lyric_identity_or_full_text_admitted": false,
       "progression_counting_resumed": false,
       "japanese_research_started": false
+    },
+    "bodnarsky1909_original_index_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-bodnarsky-banned-index-1909.md",
+      "source_id": "bodnarsky-bernov-banned-reference-index-1909",
+      "scope": "Original1909 nonofficial bibliographic index, not original Kots poetry collection,1907 memoir-cited list or judicial case.",
+      "catalogue_url": "https://elib.uraic.ru/handle/123456789/16210",
+      "title_as_seen": "Справочный указатель книгъ и журналовъ, арестованныхъ съ17октября1905г. по1января1909г.",
+      "publication_type_as_seen": "Изданіе неофиціальное",
+      "editor_as_seen": "П.И.Бернов",
+      "compiler_as_catalogued": "Б.С.Боднарский",
+      "compiler_name_printed_on_reviewed_title": false,
+      "imprint": {
+        "place_as_seen": "Москва",
+        "year_as_seen": 1909,
+        "printer_as_seen": "Типографія Т-ва И.Д.Сытина",
+        "imprint_pdf_page": 2
+      },
+      "coverage_as_title_reports": {
+        "start": "1905-10-17",
+        "end": "1909-01-01",
+        "not_kots_exact_event_dates": true
+      },
+      "kots_entry": {
+        "pdf_page": 35,
+        "printed_page": 35,
+        "pseudonym_as_seen": "Д-нъ",
+        "title_as_seen": "Пѣсни пролетаріевъ",
+        "publishing_name_as_seen": "Нашъ Голосъ",
+        "series_as_seen": "На разныя темы",
+        "series_number_as_seen": 4,
+        "place_as_seen": "Спб.",
+        "printer_as_seen": "Лурье",
+        "publication_year": null,
+        "extent_pages": null,
+        "price": null,
+        "judicial_approval_date": null,
+        "seizure_or_destruction_count": null,
+        "star_present": false,
+        "star_absence_proves_not_judicially_approved": false,
+        "original_collection_acquired": false,
+        "corresponding1914_entry_printed_page": 40,
+        "same_fields_are_not_proof_of_compilation_independence": true
+      },
+      "companion_entries": [
+        {
+          "printed_page": 28,
+          "series_number": 2,
+          "byline_as_seen": "Г.Л.",
+          "title_as_seen": "Рабочій съѣздъ или съѣздъ рабочей партіи",
+          "year_as_seen": 1906,
+          "price_kopecks_as_seen": 5,
+          "extent_pages": null,
+          "star_present": false,
+          "year_not_transferred_to_no4": true
+        },
+        {
+          "printed_page": 118,
+          "role": "same-book-cross-reference-to-Г.Л.",
+          "star_present": true,
+          "independent_witness": false
+        },
+        {
+          "printed_page": 121,
+          "series_number": 1,
+          "byline_as_seen": "Ростоцкая,Н.",
+          "title_as_seen": "Потемкинскіе дни въ Одессѣ",
+          "year": null,
+          "price_kopecks_as_seen": 8,
+          "extent_pages": null,
+          "star_present": true,
+          "price_not_transferred_to_no4": true
+        }
+      ],
+      "star_legend": {
+        "pdf_page": 2,
+        "printed_page": null,
+        "meaning_summary": "Books and brochures present in the alphabetic index compiled in the Main Administration for Printing Affairs.",
+        "official_index_specific_edition_identified": false,
+        "same_legend_as1914_periodical_legend": false,
+        "absence_is_not_a_negative_membership_proof": true
+      },
+      "score_original_target": {
+        "printed_page": 160,
+        "section_as_seen": "Ноты",
+        "entry_number": 11,
+        "title_as_seen": "Интернаціоналъ, Международный гимнъ",
+        "carrier_as_seen": "Ноты съ текстомъ",
+        "publishing_name_as_seen": "Детлаева",
+        "following_phrase_as_seen": "2-я Позняк.",
+        "following_phrase_interpretation_verified": false,
+        "price_kopecks_as_seen": 30,
+        "publication_year": null,
+        "composer_or_translator": null,
+        "stanza_count": null,
+        "original_score_acquired": false,
+        "is_kots_text_proved": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_original_score": false
+      },
+      "cover_price": {
+        "pdf_page": 162,
+        "printed_page": null,
+        "price_kopecks": 75,
+        "price_is_of_this_index_not_kots_poetry": true
+      },
+      "reviewed_images": [
+        {
+          "pdf_page": 1,
+          "printed_page": null,
+          "role": "title",
+          "bytes": 1698084,
+          "sha256": "9327b488f5d7d144649a031e2f8a5d2d5c8c14e17f22b61af2f227237a572812",
+          "width": 908,
+          "height": 1384,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 2,
+          "printed_page": null,
+          "role": "star-legend-and-imprint",
+          "bytes": 379137,
+          "sha256": "83a7eb09d28dbb295199ea995f501d2f6d42f209cd96441cb7b80f6b0a07c419",
+          "width": 908,
+          "height": 1384,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": 28,
+          "role": "companion-series2",
+          "bytes": 676473,
+          "sha256": "21c689c29749c5570d68d68a4d2dafecc789bc8037ffe3f6bfdbb77057a56c2a",
+          "width": 908,
+          "height": 1384,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 35,
+          "printed_page": 35,
+          "role": "kots-series4",
+          "bytes": 817218,
+          "sha256": "cf354a015e56fb016d85ae95404d06af9e2e3318d6740abe810ece56b477fe44",
+          "width": 908,
+          "height": 1384,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 118,
+          "printed_page": 118,
+          "role": "companion2-cross-reference",
+          "bytes": 685660,
+          "sha256": "cdef3b4364dcf8c076079760ccd16f301944efe56480f0c204ed32f34c1fbca5",
+          "width": 908,
+          "height": 1384,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 121,
+          "printed_page": 121,
+          "role": "companion-series1",
+          "bytes": 838276,
+          "sha256": "a85b18416b3d0fc2afa526501a5f145500b5b016cee0cf5dd0ebed56279bc4c7",
+          "width": 908,
+          "height": 1384,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 160,
+          "printed_page": 160,
+          "role": "score-lead",
+          "bytes": 787368,
+          "sha256": "c2b7c3fb439072a51acddb6cd196ac0b65b4ddc737f6d8283017844dbca6e389",
+          "width": 908,
+          "height": 1384,
+          "image_distributed_in_repository": false
+        },
+        {
+          "pdf_page": 162,
+          "printed_page": null,
+          "role": "back-cover-advertisement",
+          "bytes": 1859685,
+          "sha256": "03112a040e77bdbc5f184d18b1e08aa2b530c9fc111854179d58c2b839b7684e",
+          "width": 908,
+          "height": 1384,
+          "image_distributed_in_repository": false
+        }
+      ],
+      "full_book_body_visually_read": false,
+      "1907_memoir_target4_acquired": false,
+      "kots1906_1907_discrepancy_resolved": false,
+      "bounded_access_observations": [
+        {
+          "url": "https://archive.org/advancedsearch.php",
+          "query": "title:(\"На литературном посту\" OR \"Na literaturnom postu\" OR \"Звезда\" OR \"Zvezda\") AND year:(1931 OR 1937)",
+          "num_found": 0,
+          "scope": "This exact query only; no claim of institution-wide absence."
+        },
+        {
+          "url": "https://www.gornitsa.ru/item.php?id=15401611",
+          "observed_issue": 16,
+          "year": 1931,
+          "excluded_as_issue2": true
+        },
+        {
+          "url": "https://pushkinskijdom.ru/wp-content/uploads/2021/11/Kartoteka_XIX-vek.pdf",
+          "result": "Search snippet includes Knizhnye novosti1937 range containing No19; ordinary PDF request502 and web timeout. Holding table original not acquired; article body not acquired."
+        },
+        {
+          "url": "https://dspace.nplg.gov.ge/simple-search?query=%D0%9A%D0%BD%D0%B8%D0%B6%D0%BD%D1%8B%D0%B5+%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8",
+          "result": "Ordinary title search410. Not an exhaustive collection enumeration."
+        }
+      ],
+      "next_targets": [
+        "1907 memoir-cited list original title/imprint/printed4;20page and38page candidates remain distinct.",
+        "Kots Na raznye temyNo4 original cover/title/imprint/contents and censorship case.",
+        "Internationale score with text under Детлаева and Позняк: title/verso/music/lyrics, without assumed authorship or edition.",
+        "Continue1931/1937/1957/1950 and April1931 original-letter targets."
+      ]
     }
   }
 }
