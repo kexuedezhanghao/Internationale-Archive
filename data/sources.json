@@ -923,14 +923,16 @@
   },
   {
     "id": "orenburg-detlaf-internationale-score-catalogue",
-    "name": "Оренбургская областная библиотека:Интернационал,Детлаф и К.,[1914?],5pages; public original cover thumbnail",
+    "name": "Оренбургская областная библиотека:Интернационал,Детлаф и К.,[1914?],5pages; original ten-image reader",
     "url": "https://elibrary.orenlib.ru/index.php?catid=260&dn=down&id=6210&to=open",
-    "role": "institutional-score-catalogue-with-public-cover-thumbnail",
-    "import_scope": "Public250x380 cover directly verifies title, Detlaf publishing name and30kopecks only; [1914?],5pages and arranger are catalogue assertions. Full reader requires authorization; no score body/lyric insert. Same edition as1908 quoted case or RSL candidate unverified.",
+    "role": "institutional-score-catalogue-and-original-reader-images",
+    "import_scope": "All10 reader images acquired through ordinary anonymous requests after authorized entry; printed cover, score3-5 and advertising verified. No separate lyric leaf, translator, exact year or second-thousand phrase seen. Same edition as1908 case or RSL candidate unverified.",
     "reviewed_on": "2026-10-11",
     "rights_note": "Bibliographic facts, bounded findings and checksum only; no source PDF, cover, rendered pages or OCR redistributed.",
     "research_report": "docs/research/ru-detlaf-score-censorship.md",
-    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "import_scope_at_0_1_42": "Public250x380 cover directly verifies title, Detlaf publishing name and30kopecks only; [1914?],5pages and arranger are catalogue assertions. Full reader requires authorization; no score body/lyric insert. Same edition as1908 quoted case or RSL candidate unverified.",
+    "score_edition_record": "data/score-editions/ru-detlaf-undated-orenburg-6210.json"
   },
   {
     "id": "rsl-detlaf-internationale-score-undated-catalogue",

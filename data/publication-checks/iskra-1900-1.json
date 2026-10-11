@@ -9298,6 +9298,74 @@
         "RSL MZ МЗ197/26 original score/verso/lyric insert; compare independently with Orenburg without assuming same edition.",
         "Main Administration for Printing Affairs, II department, old case270: establish current fond/inventory/year/leaves and obtain original communication, prosecutor decision, judgment and execution.",
         "Keep Kots poetryNo4 case and1907 list4,1931/1937/1957/1950 and April1931 letter distinct."
+      ],
+      "current_followup": "orenburg_score_original_followup_20261011"
+    },
+    "orenburg_score_original_followup_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-detlaf-score-censorship.md",
+      "score_edition_record": "data/score-editions/ru-detlaf-undated-orenburg-6210.json",
+      "prior_scope_record": "detlaf_score_censorship_followup_20261011",
+      "access": {
+        "catalogue_reader_entry": "opened after normal authorized sign-in",
+        "resource_retrieval": "ordinary anonymous GET, no account credentials, Cookie or Authorization header; all10 returned200 image/jpeg",
+        "reverse_proxy_used": false,
+        "image_mapping_basis": "reader configuration explicitly declares10 pages and normal/large ../files/mobile/; advertised main.js maps each page index to path plus .jpg",
+        "print_enabled_in_reader": false,
+        "highest_resolution_master_verified": false,
+        "credentials_or_session_tokens_published": false
+      },
+      "image_count": 10,
+      "printed_score_pages": [
+        3,
+        4,
+        5
+      ],
+      "all_supplied_reader_images_acquired": true,
+      "original_physical_completeness_verified": false,
+      "source_image_hashes": {
+        "1": "7be24711ee7b8be5ca295665194d8110f6761f4adc3b9f6cd518f38676f669e3",
+        "2": "dd0a957a9027e3a6dfbc11ef1825f9998fc16cd2142636a90b6b0398fb635994",
+        "3": "0a617bd954d1616e59dbfa9e052da5283f56ae5cb0e41348172769ab197da80f",
+        "4": "37c781bdc63c5917b95f0c43ccd098d001a1495f5b2002ccbc68c900dbd9e471",
+        "5": "b8013ed8366a05b9240115504afa5c7f5fa082ac270612709c993a00580ab33c",
+        "6": "64eec29ff0f43285c43d375cb7a1e4cbe0952fb04cad92ed69ae55778534a530",
+        "7": "19a2b24b380b7cc23d40ddcb35af9d6ff922552c1b9192bd3a84163c04df8c90",
+        "8": "481b3749c44aa4243be1595b3a84b73fe931c06150199244de2a510e204e6531",
+        "9": "fe7013a290d80a230631984de477c3ba2746cd35437f8e26d71eabcfaba3f435",
+        "10": "c20d6da082a276ef8f95cfa73a89f8552ab21640b66bded4dbbbc61c7d15b4cc"
+      },
+      "separate_lyric_leaf_seen": false,
+      "translator_credit_seen": false,
+      "exact_year_verified": false,
+      "second_thousand_phrase_seen": false,
+      "plate_imprint_as_seen_on_printed_page5": "Ф.45 Д.",
+      "derived_files": [
+        {
+          "file": "orenburg-6210-original-jpgs.zip",
+          "bytes": 2119925,
+          "sha256": "494fa1afb9f34f5a718d6ff5199472917e02ecaedbb85a876bea8df9fafdf944",
+          "kind": "unchanged10JPGs plus README and checksum manifest;12 ZIP entries; CRC passed",
+          "distributed_in_repository": false
+        },
+        {
+          "file": "orenburg-6210-reader-images.pdf",
+          "bytes": 2694108,
+          "sha256": "417cebaefda6ac72c53a7fa9305ccf80e88a4407e31999097e753dabe96ca07d",
+          "kind": "derived10-page compilation, not a native library PDF; JPEG payloads byte-identical to original10images",
+          "distributed_in_repository": false
+        }
+      ],
+      "same_edition_as1908_case_verified": false,
+      "same_edition_as_rsl_candidate_verified": false,
+      "counts_as_new_original_score_record": true,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "next_targets": [
+        "Check physical or other copies for lyric attachments; no absence or destruction cause inferred from supplied scans.",
+        "RSL MZ МЗ197/26 original score and any separate lyric leaf; edition comparison pending.",
+        "Original1908 case270 modern archive identification, communication, decision and execution.",
+        "Preserve KotsNo4,1907 list4,1931/1937/1957/1950 originals and April1931 letter priorities; Japanese after Russian; no progression counting."
       ]
     }
   }
