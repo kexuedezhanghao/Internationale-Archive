@@ -1035,5 +1035,16 @@
     "reviewed_on": "2026-10-11",
     "rights_note": "Bounded public bibliographic and holdings facts only; no scan or modern full text redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "nlb-belarus-judicial-index-replacement-1908",
+    "name": "Беларусь国家图书馆：截至1908-01-01的司法核准查封目录替代本",
+    "url": "https://e-catalog.nlb.by/catalog/Record/BY-NLB-rr20116150000",
+    "role": "institutional-library-catalogue-holdings-and-edition-relation-record",
+    "import_scope": "Catalogue record directly read: title says the66-page cutoff1January1908 issue replaces the same index published by the Main Administration for Press Affairs in1907 with supplements;[Saint Petersburg,1908],17cm,shelfmarksВ82486 and09/2136. This proves an index/supplement sequence, not the20/38-page mapping. No title leaf,scan or printed page4 acquired.",
+    "research_report": "docs/research/ru-early-banned-index-sequence-1907-1908.md",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bounded public bibliographic, edition-relation and holdings facts only; no scan or modern full text redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]
