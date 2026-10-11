@@ -10397,6 +10397,45 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Continue first and second1907 supplements and base-index printed4; use case777/7/317 disposition papers to explain the1908 omission rather than inferring disposition from the index."
+    },
+    "lnb_segmented_books_collection_access_audit_20261012_0030": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-early-banned-index-supplements-1907.md",
+      "scope": "public LNB segmented-books collection access surface and external institutional-domain search for the first and second1907 supplements; no supplement original acquired",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "tested_url": "https://dom.lndb.lv/data/obj/97880.html",
+        "page_state": "publicly readable; no login wall, CAPTCHA or network error",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "collection_page": {
+        "displayed_range": "0-500",
+        "declared_total_items": 20026,
+        "rendered_child_items": 500,
+        "visible_form_present": false,
+        "visible_pagination_link_present": false,
+        "visible_filter_control_present": false,
+        "rdf_link_visible": true,
+        "xml_link_visible": true,
+        "rdf_load_result": "ERR_BLOCKED_BY_CLIENT in the current cloud browser; RDF content not read",
+        "absence_on_rendered_page_is_exhaustive_collection_evidence": false
+      },
+      "institutional_domain_search": {
+        "targets": [
+          "Russian National Library public catalogue domain",
+          "Russian State Library public catalogue domain"
+        ],
+        "query_basis": "first/second supplement month statements and1907",
+        "target_record_found": false,
+        "unrelated_results_promoted_to_evidence": false,
+        "scope_limit": "search non-hit does not prove either institution lacks a copy"
+      },
+      "first_or_second_supplement_acquired": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Use a separately queryable institutional catalogue or public data endpoint; do not treat the truncated LNB collection page as a search over all20026 items."
     }
   }
 }
