@@ -1024,5 +1024,16 @@
     "reviewed_on": "2026-10-11",
     "rights_note": "Bounded bibliography,observations and hashes only; raw JSON,images,PDF and bulk text not redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "nlb-belarus-judicial-index-cutoff-1907-03-31",
+    "name": "Беларусь国家图书馆：截至1907-03-31的司法核准查封目录馆藏记录",
+    "url": "https://e-catalog.nlb.by/catalog/Record/BY-NLB-rr20116140000",
+    "role": "institutional-library-catalogue-and-holdings-record",
+    "import_scope": "Catalogue record directly read: title,responsibility cutoff31March1907,[Saint Petersburg,1907?],38pages,17cm,shelfmarkВ78671,one available rare-book reading-room copy. No title leaf,imprint,printed page4 or scan acquired; identity with1931 memoir citation not proved.",
+    "research_report": "docs/research/ru-early-banned-index-catalogue-1907.md",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bounded public bibliographic and holdings facts only; no scan or modern full text redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]

@@ -8770,6 +8770,8 @@
           "publication_year_as_reported": 1907,
           "publication_year_bracketed_in_bibliography": true,
           "extent_pages_as_reported": 38,
+          "institutional_holding_record_located": true,
+          "institutional_holding_record_followup": "judicial_index38_holding_followup_20261011_1530",
           "original_acquired": false,
           "identity_with_memoir1907_list_proved": false
         },
@@ -10282,6 +10284,61 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Continue independent public originals: 1907 banned lists (20-page cutoff1906-12-31 and38-page cutoff1907-03-31), inspect printed page4; keep actual317/1808 leaves and1931/1937/1957/1950 targets open; do not loop on portal502."
+    },
+    "judicial_index38_holding_followup_20261011_1530": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-early-banned-index-catalogue-1907.md",
+      "scope": "institutional catalogue and holdings metadata for the38-page cutoff1907-03-31 candidate; no original pages acquired",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "tested_url": "https://fgurgia.ru/object/2442924006",
+        "final_page_state": "readable formal case317 catalogue; no login wall, CAPTCHA or network error",
+        "case317_four_leaves_acquired": false,
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "national_library_of_belarus_record": {
+        "url": "https://e-catalog.nlb.by/catalog/Record/BY-NLB-rr20116140000",
+        "record_id": "BY-NLB-rr20116140000",
+        "title": "Алфавитный указатель книгам и брошюрам, арест на которые утвержден судебными установлениями",
+        "responsibility": "составлено Главным управлением по делам печати по31-е марта1907года",
+        "main_author": "Россия. Главное управление по делам печати",
+        "publication": "[С.Петербург,1907?]",
+        "physical_description": "38с.;17см",
+        "shelfmark": "В78671",
+        "holding_area": "ЧЗ рукописей, старопечатных и редких изданий",
+        "copy_count_as_catalogued": 1,
+        "catalogue_availability_as_seen": "AVAILABLE NO PRE-ORDER",
+        "binding_note": "Печатная издательская обложка наклеена на переплет BY-HM0000:В78671",
+        "original_title_leaf_or_imprint_visually_read": false,
+        "printed_page4_visually_read": false,
+        "digital_scan_acquired": false,
+        "catalogue_record_is_original_page_evidence": false
+      },
+      "shpl_series_node": {
+        "url": "https://elib.shpl.ru/ru/nodes/66233",
+        "institutional_search_result_confirmed": true,
+        "direct_open_result": "ERR_TOO_MANY_REDIRECTS",
+        "scan_or_subissue_hierarchy_acquired": false,
+        "access_barrier_classification": "redirect loop; not classified as permission refusal, CAPTCHA or absence of digitization"
+      },
+      "twenty_page_candidate": {
+        "cutoff": "1906-12-31",
+        "extent_pages_as1969_bibliography_reports": 20,
+        "equivalent_institutional_holding_record_located_this_round": false,
+        "original_acquired": false,
+        "identity_with_memoir1907_list_proved": false
+      },
+      "interpretation_boundaries": {
+        "holding_record_proves_extant_catalogued_copy": true,
+        "holding_record_proves_original_page4_content": false,
+        "holding_record_proves_identity_with1931_memoir_citation": false,
+        "twenty_and38_page_candidates_merged": false
+      },
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Use shelfmarkВ78671 and full responsibility statement to seek a public digital surrogate, title leaf, imprint and printed4; separately locate the20-page cutoff1906-12-31 issue."
     }
   }
 }
