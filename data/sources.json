@@ -1046,5 +1046,16 @@
     "reviewed_on": "2026-10-11",
     "rights_note": "Bounded public bibliographic, edition-relation and holdings facts only; no scan or modern full text redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "timofeev-kuzmin-censorship-2005-supplements",
+    "name": "А.Г.Тимофеев: М.Кузмин и царская цензура,Русская литература,2005,No4,130-140",
+    "url": "https://lib2.pushkinskijdom.ru/Media/Default/PDF/RusLiteratura/%D0%A0%D0%9B%202005%20n4.pdf",
+    "role": "scholarly-secondary-bibliographic-witness",
+    "import_scope": "Footnote14 in a later web transcription lists three1907 supplements to the index compiled through31March: April-May,June-July,August-September. Article identity and journal citation cross-checked; official issue PDF locator found but direct load returned502, so original journal pages and all three historical supplements remain unacquired. Does not prove page counts,holdings,absence of an October-December supplement or original page4.",
+    "research_report": "docs/research/ru-early-banned-index-supplements-1907.md",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bounded bibliographic facts and short title elements only; no modern article full text or historical scans redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]
