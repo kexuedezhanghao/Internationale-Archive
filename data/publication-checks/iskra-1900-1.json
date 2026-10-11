@@ -10227,6 +10227,61 @@
         "resized": false,
         "visually_reviewed_on": "2026-10-11"
       }
+    },
+    "public_access_and_inventory_followup_20261011_1400": {
+      "checked_on": "2026-10-11",
+      "scope": "bounded public-access test, one previously acquired inventory image, and targeted original-source searches",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "case1808_url": "https://fgurgia.ru/object/6836937",
+        "initial_navigation": "timeout",
+        "final_page_state": "readable formal case catalogue; no login wall or CAPTCHA on this page",
+        "six_case_leaves_acquired": false,
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "remote_portal": {
+        "url": "https://online.archives.ru/",
+        "search_open_result": "timeout",
+        "browser_result": "502 Bad Gateway; [Errno 111] Connection refused",
+        "cause_classification": "network/server error, not evidence of bot detection or permission refusal",
+        "case317_or1808_availability_verified": false
+      },
+      "newly_reviewed_inventory_image": {
+        "file": "committee777-inventory7-scan029.jpg",
+        "bytes": 362429,
+        "sha256": "95d4a34492f01c8d33f88c4abe9d1c19ec2f7b98673ca61b12830fff1e421553",
+        "width": 1855,
+        "height": 1500,
+        "reader_image": 29,
+        "printed_inventory_folio_directly_visible": 28,
+        "reviewed_scope": "left table blank; right cases342–346 concern other periodicals, including Анчаръ, Литературные Арабески/Арабески, Армія, Балагуръ; no case317 continuation identified on this image",
+        "entire_inventory_read": false,
+        "raw_source_distributed_in_repository": false
+      },
+      "bounded_queries": [
+        {
+          "query": "Коц Стихотворения 1957 pdf; Коц Наш гимн 1937 Звезда; 777 317 Песни пролетариев",
+          "result": "No target original acquired; existing anthology transcript, catalogues, later studies and unrelated items only"
+        },
+        {
+          "query": "Революционная поэзия 1950 Куриленков pdf; Звезда 1937 11 Коц скан",
+          "result": "No target original acquired; publisher1937 bibliography already registered, not a new independent witness"
+        },
+        {
+          "query": "site:online.archives.ru РГИА 777 7; Книжные новости 1937 19 Коц скан",
+          "result": "No target original acquired; unrelated archival guide results and known Pushkin House holdings-list lead"
+        },
+        {
+          "url": "https://pushkinskijdom.ru/wp-content/uploads/2021/11/Kartoteka_XIX-vek.pdf",
+          "result": "web open timeout; holdings-list PDF not acquired; search snippet not promoted to verified scan"
+        }
+      ],
+      "absence_of_holdings_inferred": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Continue independent public originals: 1907 banned lists (20-page cutoff1906-12-31 and38-page cutoff1907-03-31), inspect printed page4; keep actual317/1808 leaves and1931/1937/1957/1950 targets open; do not loop on portal502."
     }
   }
 }
