@@ -236,5 +236,15 @@
     "scope": "Public repository carries metadata and bounded findings only, not source images/PDF or a new lyric transcription."
   },
   "counts_as_new_lyric_identity": false,
-  "counts_as_new_lyric_full_text": false
+  "counts_as_new_lyric_full_text": false,
+  "series_attachment_comparison_20261011": {
+    "evidence_record": "data/publication-checks/iskra-1900-1.json",
+    "followup_key": "detlaf_attachment_archive_route_followup_20261011",
+    "original_advertisement_image": 8,
+    "series_item_number_as_seen": 11,
+    "author_study_source_id": "fakhretdinov-marseillaise-2018",
+    "same_series_supported": true,
+    "exact_date_or_missing_leaf_cause_verified": false,
+    "separate_lyric_leaf_original_acquired": false
+  }
 }

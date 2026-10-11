@@ -627,10 +627,12 @@
     "url": "https://www.kunstkamera.ru/files/pdf/036/fakhretdinov.pdf",
     "doi": "10.31250/1815-8870-2018-14-36-117-153",
     "role": "scholarly-bibliographic-locator",
-    "reviewed_on": "2026-10-04",
-    "import_scope": "Title/abstract, printed146 bibliography, and additionally printed123–124 quotation context/printed150 references; identifies July28,1930 letter citation as Bonch1931:9 about Proletarian Marseillaise, not proof of Internationale selection. Full modern article and cited originals not reviewed.",
+    "reviewed_on": "2026-10-11",
+    "import_scope": "Title/abstract, printed146 bibliography, and additionally printed123–124 quotation context/printed150 references; identifies July28,1930 letter citation as Bonch1931:9 about Proletarian Marseillaise, not proof of Internationale selection. Full modern article and cited originals not reviewed. Additionally author-uploaded web text corresponding to printed121–122: seriesNo2 separate lyric leaf, No11 Internationale list and post-February1917 reissue; not newly visually reviewed PDF pages or proof of Orenburg date/missing leaf.",
     "rights_note": "Bibliographic metadata and limited observations only; modern article and PDF not redistributed.",
-    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+    "evidence_file": "data/publication-checks/iskra-1900-1.json",
+    "import_scope_before_0_1_44": "Title/abstract, printed146 bibliography, and additionally printed123–124 quotation context/printed150 references; identifies July28,1930 letter citation as Bonch1931:9 about Proletarian Marseillaise, not proof of Internationale selection. Full modern article and cited originals not reviewed.",
+    "author_uploaded_access_url": "https://www.researchgate.net/publication/329161098_Russkaya_marseleza_zhestokiy_romans_Petra_Lavrova_The_Russian_Marseillaise_A_Cruel_Romance_of_Pyotr_Lavrov"
   },
   {
     "id": "kots-poems-1957-north-auction-photos",
@@ -915,11 +917,12 @@
     "name": "И. Айзеншток; публикация материалов Л. Полянской и И. Айзенштока:Французские писатели в оценках царской цензуры,Литературное наследство33–34,1939 as institutionally catalogued",
     "url": "https://old-imli.imli.ru/old.old.imli.ru/litnasledstvo/Tom%2033-34/16_vol%2033-34_%D0%90%D0%B9%D0%B7%D0%B5%D0%BD%D1%88%D1%82%D0%BE%D0%BA.pdf",
     "role": "scholarly-article-facsimile-with-archival-transcription-bounded-review",
-    "import_scope": "Article title/general provenance, original printed851–853 and terminal858.852 quotes16June1908 Detlaf score case; author distinguishes lifted score seizure from destroyed separate lyric insert.853 note23 gives II department file270 without modern fond/inventory/year/leaves. Archive originals, score body and lyrics not acquired.",
+    "import_scope": "Article title/general provenance, original printed851–853 and terminal858.852 quotes16June1908 Detlaf score case; author distinguishes lifted score seizure from destroyed separate lyric insert.853 note23 gives II department file270 without modern fond/inventory/year/leaves. Archive originals and lyrics not acquired; Orenburg score body obtained separately at0.1.43, same edition as quoted1908 object unverified.",
     "reviewed_on": "2026-10-11",
     "rights_note": "Bibliographic facts, bounded findings and checksum only; no source PDF, cover, rendered pages or OCR redistributed.",
     "research_report": "docs/research/ru-detlaf-score-censorship.md",
-    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json",
+    "import_scope_at_0_1_42": "Article title/general provenance, original printed851–853 and terminal858.852 quotes16June1908 Detlaf score case; author distinguishes lifted score seizure from destroyed separate lyric insert.853 note23 gives II department file270 without modern fond/inventory/year/leaves. Archive originals, score body and lyrics not acquired."
   },
   {
     "id": "orenburg-detlaf-internationale-score-catalogue",
@@ -942,6 +945,39 @@
     "import_scope": "Public title/MARC gives P.Degeyter, solo/chorus/piano, Moscow Detlaf undated5pages and holding MZ МЗ197/26. Generic reading modal not a resolved scan; original score, insert, translator and same-edition identity not verified.",
     "reviewed_on": "2026-10-11",
     "rights_note": "Bibliographic facts, bounded findings and checksum only; no source PDF, cover, rendered pages or OCR redistributed.",
+    "research_report": "docs/research/ru-detlaf-score-censorship.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "polyanskaya-printing-administration-archive-overview-1935",
+    "name": "Л. Полянская. Архивный фонд Главного управления по делам печати. Литературное наследство,1935,22–24,603–634",
+    "url": "https://old-imli.imli.ru/old.old.imli.ru/litnasledstvo/Tom%2022-24/7_vol22-24_%D0%9F%D0%BE%D0%BB%D0%BD%D1%81%D0%BA%D0%B0.pdf",
+    "role": "archival-structure-research-and-locator",
+    "reviewed_on": "2026-10-11",
+    "import_scope": "Article first leaf, printed604–605,630,634 visually reviewed;1906 II department Moscow/four other judicial regions.630 file270 is I department1907 January-Day picture album, excluded. No Detlaf original case identification or entire article read.",
+    "rights_note": "Bibliographic facts, bounded observations and hashes only; source PDFs, rendered pages and bulk text not redistributed.",
+    "research_report": "docs/research/ru-detlaf-score-censorship.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "patrusheva-banned-publications-survey-2013",
+    "name": "Н. Г. Патрушева. Репертуар российских запрещенных изданий XIX—началаXXвека: итоги и перспективы изучения. Biblioteca Nostra,2013,2(32),30–37",
+    "url": "https://sbc.org.pl/Content/164777",
+    "role": "archival-structure-research-and-locator",
+    "reviewed_on": "2026-10-11",
+    "import_scope": "Original title30, archive mapping32 and terminal references37 visually reviewed; RGIA776 inventories16/17 are regional search lead only. Bibliographic year/issue additionally checked in NLR bibliography12 entry148. Original case/year/file/leaves not acquired.",
+    "rights_note": "Bibliographic facts, bounded observations and hashes only; source PDFs, rendered pages and bulk text not redistributed.",
+    "research_report": "docs/research/ru-detlaf-score-censorship.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "nlr-patrusheva-works-bibliography",
+    "name": "РНБ: Список работ Н. Г. Патрушевой, page12 entry148",
+    "url": "https://nlr.ru/bibliology/dep/artupload/bibliology/article/RA193/NA1668.pdf",
+    "role": "institutional-author-bibliography",
+    "reviewed_on": "2026-10-11",
+    "import_scope": "Only original PDF12 visually reviewed, entry148 gives2013 Biblioteca Nostra2(32),30–37. Does not supply Detlaf case or an independent historical disposition witness.",
+    "rights_note": "Bibliographic facts, bounded observations and hashes only; source PDFs, rendered pages and bulk text not redistributed.",
     "research_report": "docs/research/ru-detlaf-score-censorship.md",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }

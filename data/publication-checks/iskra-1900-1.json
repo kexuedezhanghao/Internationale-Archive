@@ -9367,6 +9367,275 @@
         "Original1908 case270 modern archive identification, communication, decision and execution.",
         "Preserve KotsNo4,1907 list4,1931/1937/1957/1950 originals and April1931 letter priorities; Japanese after Russian; no progression counting."
       ]
+    },
+    "detlaf_attachment_archive_route_followup_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-detlaf-score-censorship.md",
+      "source_ids": [
+        "fakhretdinov-marseillaise-2018",
+        "polyanskaya-printing-administration-archive-overview-1935",
+        "patrusheva-banned-publications-survey-2013",
+        "nlr-patrusheva-works-bibliography"
+      ],
+      "pdf_checks": [
+        {
+          "file": "polyanskaya-1935-archive-overview.pdf",
+          "bytes": 2642816,
+          "sha256": "624b09cf81b7d708649f109a0fdfd9d585f6b8186bb2fe9f4b12b808bf82d8f3",
+          "sha1": "7352110077183324bd06d1a6f771e250a833279b",
+          "page_count": 32,
+          "reviewed_images": [
+            {
+              "file": "polyanskaya-1935-archive-overview-pdf1.png",
+              "pdf_page": 1,
+              "printed_page": 603,
+              "page_number_basis": "inferred-from-institutional-start-and-next-printed604",
+              "bytes": 283745,
+              "sha256": "39bd4913913dabe0bb95b21197fe14f1778df7c6cff91e270c71674582387b78",
+              "width": 661,
+              "height": 1042,
+              "visually_reviewed_on": "2026-10-11",
+              "image_distributed_in_repository": false
+            },
+            {
+              "file": "polyanskaya-1935-archive-overview-pdf2.png",
+              "pdf_page": 2,
+              "printed_page": 604,
+              "page_number_basis": "printed-numeral-visually-read",
+              "bytes": 382102,
+              "sha256": "15b4d30eabf3baf24784de7218035ce4dc37286987e7d7553d8fb2a1a1e5771b",
+              "width": 655,
+              "height": 1039,
+              "visually_reviewed_on": "2026-10-11",
+              "image_distributed_in_repository": false
+            },
+            {
+              "file": "polyanskaya-1935-archive-overview-pdf3.png",
+              "pdf_page": 3,
+              "printed_page": 605,
+              "page_number_basis": "printed-numeral-visually-read",
+              "bytes": 360569,
+              "sha256": "328f76ee223c6a69a635d2eae98027632e58b1d13ece98823ce953737f587278",
+              "width": 653,
+              "height": 1037,
+              "visually_reviewed_on": "2026-10-11",
+              "image_distributed_in_repository": false
+            },
+            {
+              "file": "polyanskaya-1935-archive-overview-pdf28.png",
+              "pdf_page": 28,
+              "printed_page": 630,
+              "page_number_basis": "printed-numeral-visually-read",
+              "bytes": 338231,
+              "sha256": "750b80f08f05a2560b67fa02bb5e29201a4b6968d0b68760402d1f9247b1a741",
+              "width": 653,
+              "height": 1037,
+              "visually_reviewed_on": "2026-10-11",
+              "image_distributed_in_repository": false
+            },
+            {
+              "file": "polyanskaya-1935-archive-overview-pdf32.png",
+              "pdf_page": 32,
+              "printed_page": 634,
+              "page_number_basis": "printed-numeral-visually-read",
+              "bytes": 317663,
+              "sha256": "63afead0beb40459ad6b7d5a86a25c2c09f5f3deb6da5bb113630d0fa78fdaa1",
+              "width": 658,
+              "height": 1040,
+              "visually_reviewed_on": "2026-10-11",
+              "image_distributed_in_repository": false
+            }
+          ],
+          "source_pdf_distributed_in_repository": false,
+          "source_id": "polyanskaya-printing-administration-archive-overview-1935",
+          "download_url": "https://old-imli.imli.ru/old.old.imli.ru/litnasledstvo/Tom%2022-24/7_vol22-24_%D0%9F%D0%BE%D0%BB%D0%BD%D1%81%D0%BA%D0%B0.pdf"
+        },
+        {
+          "file": "patrusheva-banned-publications-survey.pdf",
+          "bytes": 251736,
+          "sha256": "270631990fe4fcc6d7dc8297cc1cf27ed2e5a5eeeeaf61002a93483a72a3a404",
+          "sha1": "639e376132cadf3f8c5fac4708f941d507721abc",
+          "page_count": 8,
+          "reviewed_images": [
+            {
+              "file": "patrusheva-banned-publications-survey-pdf1.png",
+              "pdf_page": 1,
+              "printed_page": 30,
+              "page_number_basis": "printed-numeral-visually-read",
+              "bytes": 171655,
+              "sha256": "daf07af34960b2b769ee7a983bb6cc889177459f0bd7bc37e401e9bb0f6692a6",
+              "width": 799,
+              "height": 1135,
+              "visually_reviewed_on": "2026-10-11",
+              "image_distributed_in_repository": false
+            },
+            {
+              "file": "patrusheva-banned-publications-survey-pdf3.png",
+              "pdf_page": 3,
+              "printed_page": 32,
+              "page_number_basis": "printed-numeral-visually-read",
+              "bytes": 227794,
+              "sha256": "d17e3555817ea1e0e3786efd0bbc06b4286dff7ed618b24b2437676720ec191f",
+              "width": 799,
+              "height": 1135,
+              "visually_reviewed_on": "2026-10-11",
+              "image_distributed_in_repository": false
+            },
+            {
+              "file": "patrusheva-banned-publications-survey-pdf8.png",
+              "pdf_page": 8,
+              "printed_page": 37,
+              "page_number_basis": "printed-numeral-visually-read",
+              "bytes": 160878,
+              "sha256": "b2ebf1497d770c35e86f820153fbe0eab95b505814809e74b63241c15ec0a76e",
+              "width": 799,
+              "height": 1135,
+              "visually_reviewed_on": "2026-10-11",
+              "image_distributed_in_repository": false
+            }
+          ],
+          "source_pdf_distributed_in_repository": false,
+          "source_id": "patrusheva-banned-publications-survey-2013",
+          "download_url": "https://sbc.org.pl/Content/164777"
+        },
+        {
+          "file": "patrusheva-nlr-works-bibliography.pdf",
+          "bytes": 494055,
+          "sha256": "70af7ad640ef437a36d7d1c2ecbe0d4526b6271b0251154f6f3b11da7805b8dd",
+          "sha1": "eba7106d66a7f289f665eac1304bdc2664c7ed01",
+          "page_count": 21,
+          "reviewed_images": [
+            {
+              "file": "patrusheva-nlr-works-bibliography-pdf12.png",
+              "pdf_page": 12,
+              "printed_page": 12,
+              "page_number_basis": "printed-numeral-visually-read",
+              "bytes": 283876,
+              "sha256": "8b84d329427236e881e6de95eb830f09d6e23fdaf062759f7f9c428f58bf2908",
+              "width": 893,
+              "height": 1263,
+              "visually_reviewed_on": "2026-10-11",
+              "image_distributed_in_repository": false
+            }
+          ],
+          "source_pdf_distributed_in_repository": false,
+          "source_id": "nlr-patrusheva-works-bibliography",
+          "download_url": "https://nlr.ru/bibliology/dep/artupload/bibliology/article/RA193/NA1668.pdf"
+        }
+      ],
+      "series_attachment_followup": {
+        "source_id": "fakhretdinov-marseillaise-2018",
+        "current_access_url": "https://www.researchgate.net/publication/329161098_Russkaya_marseleza_zhestokiy_romans_Petra_Lavrova_The_Russian_Marseillaise_A_Cruel_Romance_of_Pyotr_Lavrov",
+        "printed_pages_in_author_uploaded_web_text": [
+          121,
+          122
+        ],
+        "new_pdf_visual_review": false,
+        "publisher_pdf_statuses": [
+          {
+            "url": "https://www.kunstkamera.ru/files/pdf/036/fakhretdinov.pdf",
+            "http_status": 502
+          },
+          {
+            "url": "https://anthropologie.kunstkamera.ru/files/pdf/036/fakhretdinov.pdf",
+            "http_status": 502
+          }
+        ],
+        "author_uploaded_download_acquired": false,
+        "separate_unnumbered_lyric_leaf_reported_for_series_item": 2,
+        "series_item2_title": "Марсельеза русская",
+        "item2_seventh_thousand_or_ellipsis_transferred_to_internationale": false,
+        "series_item11_title": "Интернационал",
+        "series_date_november1905_basis": "modern author study, not dated Orenburg original",
+        "post_february1917_series_reissue_as_reported": true,
+        "orenburg_original_image_rechecked": 8,
+        "advertisement_series_title_as_seen": "НАРОДНЫЯ ПѢСНИ ОСВОБОДИТЕЛЬНАГО ДВИЖЕНІЯ ВЪ РОССІИ.",
+        "selected_advertisement_item_numbers_rechecked": [
+          1,
+          2,
+          11,
+          12
+        ],
+        "advertisement_image_sha256": "481b3749c44aa4243be1595b3a84b73fe931c06150199244de2a510e204e6531",
+        "relation_proves_orenburg_year": false,
+        "internationale_lyric_leaf_original_acquired": false,
+        "orenburg_missing_leaf_cause_verified": false,
+        "same_edition_as1908_case_verified": false
+      },
+      "archive_search_route": {
+        "old_reference_source_id": "aizenshtok-polyanskaya-french-writers-censorship-1939",
+        "old_reference": "Главн. управл. по делам печати, II отд., д. №270",
+        "polyanskaya1935_first_pdf_page_located_as": 603,
+        "first_page_has_visible_printed603": false,
+        "post1906_department_as_reported": "II",
+        "judicial_regions_as_reported": [
+          "Московская",
+          "Киевская",
+          "Одесская",
+          "Харьковская",
+          "Новочеркасская"
+        ],
+        "modern_archive_as_reported_in2013": "Российский государственный исторический архив",
+        "modern_fond_as_reported": 776,
+        "candidate_inventories_as_reported": [
+          16,
+          17
+        ],
+        "modern_mapping_source_printed_page": 32,
+        "mapping_type": "regional jurisdiction search lead, not original case identification",
+        "priority_case_year_search_range": 1908,
+        "which_inventory_verified": false,
+        "modern_file_number": null,
+        "modern_leaf_numbers": null,
+        "old_to_modern_case_mapping_verified": false,
+        "archive_original_acquired": false,
+        "false_positive_excluded": {
+          "source_id": "polyanskaya-printing-administration-archive-overview-1935",
+          "printed_page": 630,
+          "department": "I",
+          "file_number": 270,
+          "year": 1907,
+          "title": "Январский день",
+          "object": "album of six pictures about9January; not Detlaf Internationale"
+        }
+      },
+      "bibliographic_authority": {
+        "source_id": "nlr-patrusheva-works-bibliography",
+        "printed_page": 12,
+        "entry": 148,
+        "article_year": 2013,
+        "journal": "Biblioteca Nostra: Śląski kwartalnik naukowy",
+        "issue": "2(32): Cenzura",
+        "printed_extent": "30–37"
+      },
+      "bounded_access_observations": [
+        {
+          "url": "https://fgurgia.ru/",
+          "result": "ordinary public HTML200; search form and advertised treework.js read without authorization."
+        },
+        {
+          "query": "Public fund-number776 form",
+          "result": "HTTP200 query heading and dynamic tree structure; result nodes not acquired. Advertised tree-result endpoint request returned400; stopped. No zero-results, archive-absence, IP-block or login-wall inference."
+        },
+        {
+          "url": "https://litnasledstvo.imli.ru/images/books/tom22-24/tom22-24.pdf",
+          "result": "web tool size limit103308039bytes; institutionally linked single-article32page PDF obtained with ordinary GET. Not website permission refusal."
+        },
+        {
+          "query": "Kots1937 Zvezda11 / poems1957 public source lookup",
+          "result": "Known bibliography/transcription only; target original pages not acquired. Biblioteka poeta file index has1954 Revolutionary Poetry, not resolved1950 edition."
+        }
+      ],
+      "kots1937_original_acquired": false,
+      "kots1957_original_acquired": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_targets": [
+        "RGIA776 inventories16/17: inspect1908 case titles, years and old/new department/file correspondence before assigning a modern file number.",
+        "Detlaf Internationale separate lyric leaf in other original copies; RSL MZ МЗ197/26 comparison.",
+        "Kots1907 index4/collectionNo4 and censorship case;1931/1937/1957/1950 original pages and April1931 selection letter; Japanese after Russian; no progression counting."
+      ]
     }
   }
 }
