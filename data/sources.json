@@ -991,5 +991,38 @@
     "rights_note": "Bounded bibliographic facts and hashes only; raw catalogue JSON, inventory images and source PDFs not redistributed.",
     "research_report": "docs/research/ru-detlaf-score-censorship.md",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "rgia-fond777-inventory7-kots-case317-catalogue",
+    "name": "РГИА:Ф.777 Оп.7 Д.317,Д-н.Песни пролетариев; official catalogue and scanned inventory",
+    "url": "https://fgurgia.ru/object/2442924006",
+    "role": "institutional-archive-catalogue-and-original-inventory-scan",
+    "import_scope": "Official fond777/inventory7/case317 metadata and inventory image26 last-left row:12–13December1906,4leaves,Д-н,Наш голос,No4,Lurie. Inventory seriesНародныя темы and catalogueНародные темы differ from banned indexesНа разныя темы; retain difference. Actual case and booklet unacquired,publication date and censorship decision unverified.",
+    "research_report": "docs/research/ru-kots-publishing-censorship.md",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bounded bibliography,observations and hashes only; raw JSON,images,PDF and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "rgia-fond776-inventory9-proletarian-songs-case699-catalogue",
+    "name": "РГИА:Ф.776 Оп.9 Д.699,О брошюре Песни пролетариата",
+    "url": "https://fgurgia.ru/object/6657915",
+    "role": "institutional-archive-catalogue-parallel-candidate",
+    "import_scope": "Official metadata:13–31December1906,3leaves. No author/publisher identified; not proven same Kots booklet or same case as777/7/317. Actual case unacquired.",
+    "research_report": "docs/research/ru-kots-publishing-censorship.md",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bounded bibliography,observations and hashes only; raw JSON,images,PDF and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "rgia-researcher-guide-remote-access",
+    "name": "РГИА:Гид по архиву для исследователей,А.Асонова; page3",
+    "url": "https://fgurgia.ru/downloadFile?objectId=3205255092",
+    "role": "institutional-access-guide",
+    "import_scope": "Original19-page PDF,only PDF3/printed3 visually reviewed:some cases via online.archives.ru; reading-room orders through archive account. Cases317/1808 platform availability unverified; public entry timeout/502; no account registration,copy order,payment or messages.",
+    "research_report": "docs/research/ru-detlaf-score-censorship.md",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bounded bibliography,observations and hashes only; raw JSON,images,PDF and bulk text not redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]

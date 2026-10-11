@@ -4384,9 +4384,9 @@
       "1931 Bonch article:1963 bibliography8–10 versus2018 reference4–10; acquire full4–10 and issue contents rather than overwrite either locator",
       "1950 Куриленков small-series455page anthology: acquire actual Kots note/title/imprint; new composite web transcription declares this supplement and claims1931 completion/1937 publication, but printed note and exact page remain unverified; compare1954 note553–554.",
       "Друскин2012vol5:separate Интернационал article and Academia publication correspondence; locate contents pages/editorial sources without assuming1959p16 correspondence",
-      "1907 memoir-cited banned-book list printed4 remains pending;1914 second-edition index supplied full image package acquired with bounded body review (complete_banned_index_and_user_neb_download_20261011), including original40;1909 nonofficial index35 acquired (bodnarsky1909_original_index_20261011). Kots poetry original and exact case/cutoff remain unresolved.",
-      "Детлаф и К° Internationale: Orenburg6210 public cover acquired, full5page score and lyric insert pending; RSL MZ МЗ197/26 undated5page catalogue separate until original comparison.",
-      "1908 Detlaf score censorship:1939 article852 quotes16June communication and note23 cites Main Administration for Printing Affairs II dept file270; current archive reference and original case pending."
+      "1907 memoir-cited banned-book list printed4 and KotsNo4 booklet remain pending;1914 full index and1909 index35 acquired. Read actual RGIA777/7/317 four leaves (catalogue and inventory checked,12–13December1906),verify censorship quotation,publication and disposition; retain series-name difference. RGIA776/9/699 three-leaf parallel candidate not proven same book.",
+      "Детлаф и К° Internationale:Orenburg6210 all10images acquired and printed score3–5 checked; separate lyric insert remains unseen. RSL MZ МЗ197/26 undated5page original pending,not established same edition.",
+      "1908 Detlaf score censorship:read actual RGIA776/16/1/1808 six leaves and verify publisher/attachment/document relation;inventory old280 vs1939 note270,July16 start vs quotedJune16 preserved. Public files/images/sheets query provide no case pages; remote platform target availability unverified."
     ],
     "bibliography_followup_20261004": {
       "reviewed_on": "2026-10-04",
@@ -9890,6 +9890,342 @@
         "bytes": 2432312,
         "sha256": "2a2483684160a49a2e8d67f96455044576aa6b0a9f658b14cc6eb54e376ff769",
         "raw_files_distributed_in_repository": false
+      }
+    },
+    "rgia_kots_case_catalogue_followup_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-kots-publishing-censorship.md",
+      "source_id": "rgia-fond777-inventory7-kots-case317-catalogue",
+      "official_hierarchy": {
+        "archive": "Российский государственный исторический архив",
+        "fond": 777,
+        "fond_object_id": 441035,
+        "fond_name_as_catalogued": "ПЕТРОГРАДСКИЙ КОМИТЕТ ПО ДЕЛАМ ПЕЧАТИ (ПЕТЕРБУРГСКИЙ ЦЕНЗУРНЫЙ КОМИТЕТ) МВД",
+        "inventory": 7,
+        "inventory_object_id": 2841563,
+        "inventory_period_as_catalogued": "1906",
+        "inventory_title_visually_verified": true
+      },
+      "kots_booklet_case_target": {
+        "official_object_id": 2442924006,
+        "public_url": "https://fgurgia.ru/object/2442924006",
+        "reference_as_catalogued": "Ф. 777 Оп. 7 Д. 317",
+        "title_as_catalogued": "Петербургский Комитет по делам печати. По брошюре под заглавием \"Д-н. Песни пролетариев\". Книгоиздательство \"Наш голос\". Серия \"Народные темы\". № 4. Типография У.Я. Лурье и К⁰.",
+        "edge_dates_as_catalogued": "12-13 декабря 1906 г.",
+        "catalogued_leaf_count": 4,
+        "author_pseudonym_as_catalogued": "Д-н",
+        "book_title_as_catalogued": "Песни пролетариев",
+        "publisher_as_catalogued": "Наш голос",
+        "series_number_as_catalogued": 4,
+        "series_name_as_catalogued": "Народные темы",
+        "printer_as_catalogued": "У.Я. Лурье и К⁰",
+        "metadata_images": [],
+        "metadata_files": [],
+        "metadata_children_trees": [],
+        "scanned_sheets_attribute": "",
+        "case_original_acquired": false,
+        "booklet_original_acquired": false,
+        "exact_publication_date_verified": false,
+        "calendar_verified": false,
+        "physical_leaf_collation_performed": false,
+        "specific_censorship_decision_verified": false,
+        "translator_or_lyric_text_verified_from_case": false
+      },
+      "inventory_row_visual_check": {
+        "reader_image": 26,
+        "row_position": "left page,last row",
+        "case_number_directly_read": 317,
+        "start_date_as_read": "12 дек.",
+        "end_date_as_read": "13 дек.906",
+        "year_basis": "inventory1906 title and row ending906",
+        "leaf_count_directly_read": 4,
+        "title_pseudonym_publisher_and_series4_match_catalogue": true,
+        "series_name_as_read": "Народныя темы",
+        "right_inventory_folio_directly_visible": 25,
+        "left_inventory_folio_assigned": null,
+        "case_leaf_numbers": null,
+        "old_case_number_verified": false,
+        "handwritten_printer_initials_fully_transcribed": false,
+        "case_content_read": false
+      },
+      "comparison_with_banned_indexes_and_later_claims": {
+        "banned_index_series_name_as_printed": "На разныя темы",
+        "banned_index_series_number": 4,
+        "catalogue_series_name": "Народные темы",
+        "scanned_inventory_series_name": "Народныя темы",
+        "series_name_difference_resolved": false,
+        "book_title_pseudonym_publisher_number_and_printer_family_name_align": true,
+        "publication_year1906_vs1907_resolved": false,
+        "case_end13December_not_substituted_for_later_claims15_or21December": true,
+        "1967_page11_footnote2_only_names_institution_and_fond": true,
+        "concrete_target_newly_located": true,
+        "1967_quoted_decision_matched_to_actual_case_document": false,
+        "link_to_detlaf1908_score_case": false
+      },
+      "parallel_candidate": {
+        "source_id": "rgia-fond776-inventory9-proletarian-songs-case699-catalogue",
+        "official_object_id": 6657915,
+        "public_url": "https://fgurgia.ru/object/6657915",
+        "reference_as_catalogued": "Ф. 776 Оп. 9 Д. 699",
+        "title_as_catalogued": "Главное управление по делам печати Министерства внутренних дел. О брошюре \"Песни пролетариата\"",
+        "section_as_catalogued": "I отделение\\1906 г.",
+        "edge_dates_as_catalogued": "13 декабря 1906 - 31 декабря 1906",
+        "catalogued_leaf_count": 3,
+        "author_in_metadata": null,
+        "publisher_in_metadata": null,
+        "same_kots_booklet_verified": false,
+        "same_case_as317_verified": false,
+        "case_original_acquired": false
+      },
+      "public_catalogue_file_checks": [
+        {
+          "file": "committee777-proletarian-object-2442924006.json",
+          "bytes": 16444,
+          "sha256": "b9512d8e252aad60ba1918049d7a3bfac07edd9e99d390d1fee6f0d389181d8c",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "proletarian-song-cases-object-6657915.json",
+          "bytes": 16138,
+          "sha256": "3d56184b336b66ba3fb083f88c848888b3ffa11886d400921e61562cc9f01d85",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "petersburg-censorship-fonds-object-441035.json",
+          "bytes": 42350,
+          "sha256": "2125d054a63e77ede55763089bcd20cbb8e2dc0c18c45c486637277aea66098d",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "committee777-inventory7.json",
+          "bytes": 13175,
+          "sha256": "7a435577e90098cd27dfaf6345b98b0a87af198905e46d0b834ff99eef9d5f8d",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "administration776-inventory9.json",
+          "bytes": 13847,
+          "sha256": "ea1df5186d5e9a9cbe956587d9b5609cab8c2c9e18a512beb9185b2651d84d54",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "case317-sheets-form.json",
+          "bytes": 564,
+          "sha256": "34c79cc384cff2bf0f314d7a5beb66d7a2092e49cd8791c71e96cb2348eb63c8",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "case317-sheets-results.json",
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "case1808-sheets-form.json",
+          "bytes": 566,
+          "sha256": "489eadec1d67bf0e4000347fbf90b690b1df722aba72f3dbc6c75bdf0ff027a6",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "case1808-sheets-results.json",
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "raw_source_distributed_in_repository": false
+        }
+      ],
+      "reviewed_inventory_images": [
+        {
+          "file": "committee777-inventory7-scan001.jpg",
+          "bytes": 221791,
+          "sha256": "d75e63b32c43e6ff57b1ced43c13a3ffec9ade350cb2dac483dfd36668c8e48b",
+          "width": 1824,
+          "height": 1500,
+          "raw_source_distributed_in_repository": false,
+          "reader_image": 1,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "title:fond777,inventory7,1906; institution"
+        },
+        {
+          "file": "committee777-inventory7-scan002.jpg",
+          "bytes": 282326,
+          "sha256": "e7caff2e3ba22e3bd75705be934f1921308b44ce3f61744bc377920fe012f0ed",
+          "width": 1824,
+          "height": 1500,
+          "raw_source_distributed_in_repository": false,
+          "reader_image": 2,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "old inventory title/cover,locator only"
+        },
+        {
+          "file": "committee777-inventory7-scan026.jpg",
+          "bytes": 538797,
+          "sha256": "f08a7963948e979206e948c5f24bdb58dfa168aab052aeea6399d9a408440fba",
+          "width": 1855,
+          "height": 1500,
+          "raw_source_distributed_in_repository": false,
+          "reader_image": 26,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "case317 left last row:12–13December,4leaves,title,pseudonym,publisher,seriesNo4;right inventory folio25"
+        },
+        {
+          "file": "committee777-inventory7-scan027.jpg",
+          "bytes": 529501,
+          "sha256": "1411dd22757147ac6596fdbd727a6ce2e0dcc7ae935eaad750578655959485d0",
+          "width": 1855,
+          "height": 1500,
+          "raw_source_distributed_in_repository": false,
+          "reader_image": 27,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "neighbouring cases324–336;right inventory folio26,locator only"
+        },
+        {
+          "file": "committee777-inventory7-scan028.jpg",
+          "bytes": 401862,
+          "sha256": "bd99c21d059ba7438ed0d5cd4aff5c8e4c30e0f0ed3f14d64cbab81aba82a192",
+          "width": 1855,
+          "height": 1500,
+          "raw_source_distributed_in_repository": false,
+          "reader_image": 28,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "periodical section beginning337;right inventory folio27,locator only"
+        },
+        {
+          "file": "committee777-inventory7-scan031.jpg",
+          "bytes": 370878,
+          "sha256": "39810a7df74f3ceb92fd5829ff5e48f2056d81157f55dcdd4e8b1a5abcd636e7",
+          "width": 1855,
+          "height": 1500,
+          "raw_source_distributed_in_repository": false,
+          "reader_image": 31,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "periodical cases351–355;right inventory folio20,locator only; no whole-inventory fixed folio offset"
+        }
+      ],
+      "public_access_observations": {
+        "method": "normal anonymous public forms and advertised tree/object/viewer endpoints; no authorization bypass",
+        "inventory_attachment_filename": "777_7.pdf",
+        "attachment_returned_pdf": false,
+        "attachment_returned_content_type": "text/html;charset=UTF-8",
+        "declared_image_count": 92,
+        "downloaded_inventory_images": [
+          1,
+          2,
+          26,
+          27,
+          28,
+          29,
+          31
+        ],
+        "visually_reviewed_inventory_images": [
+          1,
+          2,
+          26,
+          27,
+          28,
+          31
+        ],
+        "image29_acquired_but_not_visually_reviewed": true,
+        "entire_inventory_acquired": false,
+        "entire_inventory_read": false,
+        "payment_required_response": false,
+        "captcha_required_response": false,
+        "case317_sheets_query": {
+          "fond": 777,
+          "inventory": 7,
+          "case": 317,
+          "page": 1,
+          "returned_nodes": 0
+        },
+        "case1808_sheets_query": {
+          "fond": 776,
+          "inventory": 16,
+          "case": 1808,
+          "page": 1,
+          "returned_nodes": 0
+        },
+        "undigitized_or_absence_inference_made": false,
+        "malformed_inventory_object_request": "HTTP500 with wrong index, followed by HTTP200 using actual page-declared index; not an authorization observation"
+      },
+      "archive_researcher_guide": {
+        "source_id": "rgia-researcher-guide-remote-access",
+        "public_url": "https://fgurgia.ru/downloadFile?objectId=3205255092",
+        "title": "Гид по архиву для исследователей",
+        "credit_as_stated": "А. Асонова",
+        "pdf_file_check": {
+          "file": "rgia-researcher-guide.pdf",
+          "bytes": 1538152,
+          "sha256": "f79a786a8eebb06380338f0a8e87468d26ad926053eb01eda377aa94685c1a0e",
+          "raw_source_distributed_in_repository": false
+        },
+        "pdf_page_count": 19,
+        "visually_reviewed_pdf_pages": [
+          3
+        ],
+        "printed_page_directly_visible": 3,
+        "reviewed_render": {
+          "file": "guide-p3.png",
+          "bytes": 300824,
+          "sha256": "6f11f6e628d07f05555c619073804cbbecf33e37adb5bce641ae206a2ec80e75",
+          "width": 1061,
+          "height": 1500,
+          "raw_source_distributed_in_repository": false
+        },
+        "remote_service_url": "https://online.archives.ru/",
+        "remote_case_availability_promised_for_all_cases": false,
+        "case317_or1808_remote_availability_verified": false,
+        "portal_entry_observations": "web tool home and RGIA guide entry timeout; ordinary GET grounded RGIA entry returned502; no access-status cause inferred",
+        "reading_room_order_requires_archive_account_as_guided": true,
+        "archive_account_login_or_registration_performed": false,
+        "copy_order_or_payment_performed": false,
+        "third_party_message_sent": false
+      },
+      "bounded1937_1957_followup": {
+        "source_id": "prlib-zvezda-1937-11",
+        "prlib_public_url": "https://www.prlib.ru/item/1056837",
+        "original_herzen_holding_is_previously_registered_metadata": true,
+        "prlib_only_electronic_reading_rooms_reconfirmed": true,
+        "herzen_public_catalogue_url": "https://lib.herzen.spb.ru/m/catalog",
+        "normal_public_queries": [
+          "Звезда 1937 (simple)",
+          "Коц (simple)",
+          "Звезда (exact title,periodicals only)"
+        ],
+        "result": "No target original acquired; simple query gave unrelated titles; Kots simple list did not give target Arkady1957 poems; exact-title periodicals query returned zero. Query-specific results do not establish absence of holdings.",
+        "kots1937_original_acquired": false,
+        "kots1957_original_acquired": false,
+        "authentication_performed": false
+      },
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_targets": [
+        "Read actual four leaves of RGIA777/7/317 and verify text, publisher, censorship report, decision dates, attachments and relation to1967 quotation.",
+        "Treat RGIA776/9/699 as separate title-only parallel candidate until original documents establish identity.",
+        "Read actual six leaves of RGIA776/16/1/1808; preserve old270/280 and June/July differences.",
+        "KotsNo4 booklet,1907 index4,1931/1937/1957/1950 originals and April1931 letter remain; Japanese after Russian; progression counting stopped."
+      ],
+      "private_source_package": {
+        "file": "RGIA777-op7-kots-case317-evidence-20261011.zip",
+        "bytes": 4302948,
+        "sha256": "3cdab711e9159b8501a7e1bae0e87a2f9679c4c2942db19a5f20ba63a644d5c1",
+        "raw_files_distributed_in_repository": false
+      },
+      "inventory_detail_crop": {
+        "file": "committee777-inventory7-case317-detail.png",
+        "bytes": 201097,
+        "sha256": "441b7187b6200d36e388da721c38f200d3f6e603034868435cd6ea56b5af018e",
+        "width": 840,
+        "height": 280,
+        "raw_source_distributed_in_repository": false,
+        "derived_from": "committee777-inventory7-scan026.jpg",
+        "crop_box": [
+          110,
+          1140,
+          950,
+          1420
+        ],
+        "resized": false,
+        "visually_reviewed_on": "2026-10-11"
       }
     }
   }
