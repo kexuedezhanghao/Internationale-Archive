@@ -4030,6 +4030,117 @@
             "page_number_basis": "unnumbered"
           }
         ]
+      },
+      {
+        "source_id": "aizenshtok-polyanskaya-french-writers-censorship-1939",
+        "url": "https://old-imli.imli.ru/old.old.imli.ru/litnasledstvo/Tom%2033-34/16_vol%2033-34_%D0%90%D0%B9%D0%B7%D0%B5%D0%BD%D1%88%D1%82%D0%BE%D0%BA.pdf",
+        "bytes": 7763456,
+        "sha256": "48dd203490137ad1619831dc2c3a882e9ee3b4feb955317445a631ebd8a813ea",
+        "sha1": "98d72ab2f97281f23f9dfaaa68afd6289f2af240",
+        "pages": 91,
+        "classification": "scanned-scholarly-article-with-archival-transcription",
+        "visually_reviewed_pdf_pages": [
+          1,
+          2,
+          84,
+          85,
+          86,
+          91
+        ],
+        "page_mapping": {
+          "2": 770,
+          "84": 851,
+          "85": 852,
+          "86": 853,
+          "91": 858
+        },
+        "review_scope": "Article title, general provenance770, target851–853 including note23, terminal858 only. Text layer and other renders for navigation. Full91page article not visually read; full999page volume not acquired; archive original not acquired.",
+        "full_publication_visually_read": false,
+        "pdf_distributed_in_repository": false,
+        "counts_as_new_lyric_identity": false,
+        "counts_as_new_lyric_full_text": false,
+        "reviewed_on": "2026-10-11",
+        "embedded_images": [],
+        "rendered_images": [
+          {
+            "file": "aizenshtok-pdf1.png",
+            "pdf_page": 1,
+            "printed_page": null,
+            "role": "article-title-and-responsibility",
+            "bytes": 315454,
+            "sha256": "28a88d691ba43e251204298266108bfdbb7eedc4226a4c02978e49899e090798",
+            "width": 723,
+            "height": 1202,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "unnumbered",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf2.png",
+            "pdf_page": 2,
+            "printed_page": 770,
+            "role": "general-archive-description",
+            "bytes": 371226,
+            "sha256": "443f7354764fa533f7b430c6d63724201ff3e7012c3ee8707e5973d2b0a2c750",
+            "width": 721,
+            "height": 1202,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf84.png",
+            "pdf_page": 84,
+            "printed_page": 851,
+            "role": "prior-French-case-and-transition",
+            "bytes": 406921,
+            "sha256": "ba9b55364c5552723d16177f1f7d624d3ef4abf186b04e936a865d91ccde0c25",
+            "width": 721,
+            "height": 1201,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf85.png",
+            "pdf_page": 85,
+            "printed_page": 852,
+            "role": "Detlaf-case-date-and-distinct-score-text-disposition",
+            "bytes": 405931,
+            "sha256": "c29250c16d25ec136f7bfa46956c1338836b6c5a803c0959c81b2c76478bcc48",
+            "width": 721,
+            "height": 1202,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf86.png",
+            "pdf_page": 86,
+            "printed_page": 853,
+            "role": "case-footnote23",
+            "bytes": 387506,
+            "sha256": "e8887d4f75b7e1199a2d7b4fde0003ae16bd2db70ae822e2cb71f3aba296bf8d",
+            "width": 721,
+            "height": 1202,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf91.png",
+            "pdf_page": 91,
+            "printed_page": 858,
+            "role": "terminal-article-notes",
+            "bytes": 136295,
+            "sha256": "330d826f92322c119ef0c92cd68aa96c5d436925db8cdd9a6f5ace09b93b9641",
+            "width": 721,
+            "height": 1201,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          }
+        ]
       }
     ],
     "observations": [
@@ -4273,7 +4384,9 @@
       "1931 Bonch article:1963 bibliography8–10 versus2018 reference4–10; acquire full4–10 and issue contents rather than overwrite either locator",
       "1950 Куриленков small-series455page anthology: acquire actual Kots note/title/imprint; new composite web transcription declares this supplement and claims1931 completion/1937 publication, but printed note and exact page remain unverified; compare1954 note553–554.",
       "Друскин2012vol5:separate Интернационал article and Academia publication correspondence; locate contents pages/editorial sources without assuming1959p16 correspondence",
-      "Banned-book lists: compilation as of1907-01-01 p4 and1914 second-edition alphabetical catalogue as of1913-01-01 p40, cited in Bonch1933 pp77–78; originals unacquired, no publication cutoff independently verified."
+      "1907 memoir-cited banned-book list printed4 remains pending;1914 second-edition index supplied full image package acquired with bounded body review (complete_banned_index_and_user_neb_download_20261011), including original40;1909 nonofficial index35 acquired (bodnarsky1909_original_index_20261011). Kots poetry original and exact case/cutoff remain unresolved.",
+      "Детлаф и К° Internationale: Orenburg6210 public cover acquired, full5page score and lyric insert pending; RSL MZ МЗ197/26 undated5page catalogue separate until original comparison.",
+      "1908 Detlaf score censorship:1939 article852 quotes16June communication and note23 cites Main Administration for Printing Affairs II dept file270; current archive reference and original case pending."
     ],
     "bibliography_followup_20261004": {
       "reviewed_on": "2026-10-04",
@@ -8842,7 +8955,8 @@
         "original_score_acquired": false,
         "is_kots_text_proved": false,
         "counts_as_new_lyric_identity": false,
-        "counts_as_new_original_score": false
+        "counts_as_new_original_score": false,
+        "current_followup": "detlaf_score_censorship_followup_20261011"
       },
       "cover_price": {
         "pdf_page": 162,
@@ -8962,6 +9076,228 @@
         "Kots Na raznye temyNo4 original cover/title/imprint/contents and censorship case.",
         "Internationale score with text under Детлаева and Позняк: title/verso/music/lyrics, without assumed authorship or edition.",
         "Continue1931/1937/1957/1950 and April1931 original-letter targets."
+      ]
+    },
+    "detlaf_score_censorship_followup_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-detlaf-score-censorship.md",
+      "source_ids": [
+        "aizenshtok-polyanskaya-french-writers-censorship-1939",
+        "orenburg-detlaf-internationale-score-catalogue",
+        "rsl-detlaf-internationale-score-undated-catalogue"
+      ],
+      "scope": "Public original cover thumbnail, institutional catalogue metadata and1939 archival quotation; no original score body, lyric insert or judicial case file.",
+      "article": {
+        "title_as_seen": "Французские писатели в оценках царской цензуры",
+        "essay_author_as_seen": "И. Айзеншток",
+        "material_publication_credit_as_seen": [
+          "Л. Полянская",
+          "И. Айзеншток"
+        ],
+        "volume_as_catalogued": "Литературное наследство33–34",
+        "year_as_institutionally_catalogued": 1939,
+        "volume_title_or_imprint_original_acquired": false,
+        "year_authority_url": "https://litnasledstvo.imli.ru/index.php/ru/literaturnoe-nasledstvo-onlajn/toma-1-50",
+        "target_printed_pages": [
+          851,
+          852,
+          853
+        ],
+        "reviewed_images": [
+          {
+            "file": "aizenshtok-pdf1.png",
+            "pdf_page": 1,
+            "printed_page": null,
+            "role": "article-title-and-responsibility",
+            "bytes": 315454,
+            "sha256": "28a88d691ba43e251204298266108bfdbb7eedc4226a4c02978e49899e090798",
+            "width": 723,
+            "height": 1202,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "unnumbered",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf2.png",
+            "pdf_page": 2,
+            "printed_page": 770,
+            "role": "general-archive-description",
+            "bytes": 371226,
+            "sha256": "443f7354764fa533f7b430c6d63724201ff3e7012c3ee8707e5973d2b0a2c750",
+            "width": 721,
+            "height": 1202,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf84.png",
+            "pdf_page": 84,
+            "printed_page": 851,
+            "role": "prior-French-case-and-transition",
+            "bytes": 406921,
+            "sha256": "ba9b55364c5552723d16177f1f7d624d3ef4abf186b04e936a865d91ccde0c25",
+            "width": 721,
+            "height": 1201,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf85.png",
+            "pdf_page": 85,
+            "printed_page": 852,
+            "role": "Detlaf-case-date-and-distinct-score-text-disposition",
+            "bytes": 405931,
+            "sha256": "c29250c16d25ec136f7bfa46956c1338836b6c5a803c0959c81b2c76478bcc48",
+            "width": 721,
+            "height": 1202,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf86.png",
+            "pdf_page": 86,
+            "printed_page": 853,
+            "role": "case-footnote23",
+            "bytes": 387506,
+            "sha256": "e8887d4f75b7e1199a2d7b4fde0003ae16bd2db70ae822e2cb71f3aba296bf8d",
+            "width": 721,
+            "height": 1202,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          },
+          {
+            "file": "aizenshtok-pdf91.png",
+            "pdf_page": 91,
+            "printed_page": 858,
+            "role": "terminal-article-notes",
+            "bytes": 136295,
+            "sha256": "330d826f92322c119ef0c92cd68aa96c5d436925db8cdd9a6f5ace09b93b9641",
+            "width": 721,
+            "height": 1201,
+            "visually_reviewed_on": "2026-10-11",
+            "page_number_basis": "printed-numeral-visually-read",
+            "image_distributed_in_repository": false
+          }
+        ]
+      },
+      "detlaf_case_as_reported_in_article": {
+        "document_date_as_printed": "16 июня1908 г.",
+        "normalized_date_without_calendar_conversion": "1908-06-16",
+        "calendar_verified": false,
+        "document_kind": "Moscow Committee for Printing Affairs communication to prosecutor of Moscow Judicial Chamber",
+        "publishing_name_as_quoted": "Детлаф и К°",
+        "impression_phrase_as_quoted": "2-я тысяча",
+        "impression_phrase_proves_second_edition": false,
+        "exact_print_run_verified": false,
+        "price_kopecks_as_quoted": 30,
+        "separate_lyric_leaf_inserted_in_score_as_reported": true,
+        "criminal_code_article_as_quoted": 129,
+        "criminal_code_clauses_as_quoted": [
+          1,
+          2,
+          6
+        ],
+        "criminal_code_clauses_are_not_stanza_numbers": true,
+        "document_requests_seizure_and_prosecution": true,
+        "later_disposition_as_author_reports": {
+          "score_seizure_lifted": true,
+          "separately_printed_lyrics_destroyed": true,
+          "final_decision_date": null,
+          "destruction_count": null,
+          "execution_original_verified": false
+        },
+        "note23_as_seen": "Главн. управл. по делам печати, II отд., д. №270",
+        "old_department_as_cited": "II",
+        "old_file_number_as_cited": 270,
+        "archive_fond_number": null,
+        "archive_inventory_number": null,
+        "year_explicit_in_note23": null,
+        "leaf_number": null,
+        "current_archive_reference_verified": false,
+        "archive_original_acquired": false,
+        "translator": null,
+        "stanza_count": null,
+        "same_case_as_kots_poetry_collection_verified": false
+      },
+      "orenburg_candidate": {
+        "catalogue_url": "https://elibrary.orenlib.ru/index.php?catid=260&dn=down&id=6210&to=open",
+        "cover_url": "https://elibrary.orenlib.ru/up/down/img/nota/Internacional.jpg",
+        "cover_original_thumbnail_acquired": true,
+        "cover": {
+          "file": "orenburg-internacional-cover.jpg",
+          "bytes": 26662,
+          "sha256": "395d83e0193a6eb66395cd963bb18e7f69644d14eaae962dfdcd1003ceec23c4",
+          "width": 250,
+          "height": 380,
+          "title_as_seen": "Интернаціоналъ. Международный гимнъ.",
+          "publishing_name_as_seen": "ДЕТЛАФЪ и К°",
+          "price_kopecks_as_seen": 30,
+          "year_as_seen": null,
+          "translator_as_seen": null,
+          "second_thousand_phrase_seen": false,
+          "visually_reviewed_on": "2026-10-11",
+          "image_distributed_in_repository": false
+        },
+        "place_as_catalogued": "Москва",
+        "publishing_name_as_catalogued": "Издание Детлаф и К.",
+        "year_expression_as_catalogued": "[1914?]",
+        "year_is_estimated": true,
+        "exact_year_verified": false,
+        "extent_as_catalogued_pages": 5,
+        "arranger_as_catalogued": "Ф. И. Детлаф",
+        "arranger_credit_verified_on_original": false,
+        "access_observation": "Public record and cover accessible; full reading requires authorization. No login, score body or insert obtained.",
+        "original_score_body_acquired": false,
+        "same_edition_as1908_reported_score_verified": false
+      },
+      "rsl_candidate": {
+        "catalogue_url": "https://search.rsl.ru/ru/record/01001926306",
+        "holding_code": "MZ МЗ197/26",
+        "marc001": "001926306",
+        "music_catalogue_id": "MUSIC-0053961",
+        "composer_as_catalogued": "П. Дежейтер",
+        "place_as_catalogued": "Москва",
+        "publisher_as_catalogued": "Детлаф",
+        "year_expression_as_catalogued": "б.г.",
+        "extent_as_catalogued_pages": 5,
+        "original_score_body_acquired": false,
+        "same_edition_as_orenburg_candidate_verified": false,
+        "access_observation": "Generic free-reading modal displayed, no resolved viewer asset; no score or copy order obtained.",
+        "public_read_anchor_href_as_seen": "#",
+        "public_html_sha256": "94c8db38bdc1c5ab3da58893f69e77fcebae1e3e414eca0e91fb20d7afb1a553"
+      },
+      "relation_to1909_index": {
+        "prior_node": "bodnarsky1909_original_index_20261011",
+        "printed_page": 160,
+        "literal_publishing_name_retained": "Детлаева",
+        "literal_following_phrase_retained": "2-я Позняк.",
+        "original_page_visually_rechecked": true,
+        "modern_normalization_adopted": false,
+        "same_title_publisher_price_are_search_leads_not_edition_identity": true
+      },
+      "full_original_score_acquired": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score": false,
+      "bounded_access_observations": [
+        {
+          "url": "https://litnasledstvo.imli.ru/images/books/tom33-34/tom33-34.pdf",
+          "result": "Public advertised full-volume link timed out in web reader; single-article91page PDF successfully downloaded and reviewed within stated scope."
+        },
+        {
+          "query": "Exact Internationale/Detlaf/case270 and institutional archive searches",
+          "result": "No matching original case acquired; limited public search only, not evidence of archival absence."
+        }
+      ],
+      "next_targets": [
+        "Orenburg6210 full5pages, verso/imprint and separate lyric insert, if accessible through normal authorized reading.",
+        "RSL MZ МЗ197/26 original score/verso/lyric insert; compare independently with Orenburg without assuming same edition.",
+        "Main Administration for Printing Affairs, II department, old case270: establish current fond/inventory/year/leaves and obtain original communication, prosecutor decision, judgment and execution.",
+        "Keep Kots poetryNo4 case and1907 list4,1931/1937/1957/1950 and April1931 letter distinct."
       ]
     }
   }

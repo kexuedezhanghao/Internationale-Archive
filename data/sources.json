@@ -909,5 +909,38 @@
     "rights_note": "Bibliographic facts, bounded observations and checksums only; scan/PDF/full text/OCR not redistributed.",
     "research_report": "docs/research/ru-bodnarsky-banned-index-1909.md",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "aizenshtok-polyanskaya-french-writers-censorship-1939",
+    "name": "И. Айзеншток; публикация материалов Л. Полянской и И. Айзенштока:Французские писатели в оценках царской цензуры,Литературное наследство33–34,1939 as institutionally catalogued",
+    "url": "https://old-imli.imli.ru/old.old.imli.ru/litnasledstvo/Tom%2033-34/16_vol%2033-34_%D0%90%D0%B9%D0%B7%D0%B5%D0%BD%D1%88%D1%82%D0%BE%D0%BA.pdf",
+    "role": "scholarly-article-facsimile-with-archival-transcription-bounded-review",
+    "import_scope": "Article title/general provenance, original printed851–853 and terminal858.852 quotes16June1908 Detlaf score case; author distinguishes lifted score seizure from destroyed separate lyric insert.853 note23 gives II department file270 without modern fond/inventory/year/leaves. Archive originals, score body and lyrics not acquired.",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bibliographic facts, bounded findings and checksum only; no source PDF, cover, rendered pages or OCR redistributed.",
+    "research_report": "docs/research/ru-detlaf-score-censorship.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "orenburg-detlaf-internationale-score-catalogue",
+    "name": "Оренбургская областная библиотека:Интернационал,Детлаф и К.,[1914?],5pages; public original cover thumbnail",
+    "url": "https://elibrary.orenlib.ru/index.php?catid=260&dn=down&id=6210&to=open",
+    "role": "institutional-score-catalogue-with-public-cover-thumbnail",
+    "import_scope": "Public250x380 cover directly verifies title, Detlaf publishing name and30kopecks only; [1914?],5pages and arranger are catalogue assertions. Full reader requires authorization; no score body/lyric insert. Same edition as1908 quoted case or RSL candidate unverified.",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bibliographic facts, bounded findings and checksum only; no source PDF, cover, rendered pages or OCR redistributed.",
+    "research_report": "docs/research/ru-detlaf-score-censorship.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "rsl-detlaf-internationale-score-undated-catalogue",
+    "name": "РГБ01001926306:Интернационал,Детлаф,б.г.,5pages;MZ МЗ197/26",
+    "url": "https://search.rsl.ru/ru/record/01001926306",
+    "role": "institutional-score-catalogue-metadata-only",
+    "import_scope": "Public title/MARC gives P.Degeyter, solo/chorus/piano, Moscow Detlaf undated5pages and holding MZ МЗ197/26. Generic reading modal not a resolved scan; original score, insert, translator and same-edition identity not verified.",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bibliographic facts, bounded findings and checksum only; no source PDF, cover, rendered pages or OCR redistributed.",
+    "research_report": "docs/research/ru-detlaf-score-censorship.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]
