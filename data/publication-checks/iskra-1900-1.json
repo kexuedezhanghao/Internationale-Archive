@@ -10339,6 +10339,59 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Use shelfmarkВ78671 and full responsibility statement to seek a public digital surrogate, title leaf, imprint and printed4; separately locate the20-page cutoff1906-12-31 issue."
+    },
+    "judicial_index1908_original_followup_20261011_2130": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-early-banned-index-replacement-1908.md",
+      "scope": "LNB institutional original scan: title and edition statement, physical page mapping, end page, and targeted K alphabetical section; not a page-by-page reading of all entries",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "tested_url": "https://dom.lndb.lv/data/obj/415195.html",
+        "object_and_pdf_state": "publicly readable; no login wall, CAPTCHA or network error",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "lnb_original": {
+        "url": "https://dom.lndb.lv/data/obj/415195.html",
+        "pdf_url": "https://dom.lndb.lv/data/obj/file/16929551.pdf",
+        "institution_file_name": "0309037496",
+        "institution_size": "12.2 MB",
+        "institution_md5": "ecc0b14d4b35ada347d5b2defaef4672",
+        "md5_independently_recomputed": false,
+        "scan_pages": 70,
+        "printed_pages": 66,
+        "title_cutoff": "1908-01-01",
+        "replacement_statement": "replaces the same index issued by the Main Administration for Press Affairs in1907 with its supplements",
+        "price": "30 kopeks",
+        "imprint": "Ministry of Interior press,1908",
+        "page_mapping": {
+          "pdf1_2": "outer front cover recto/verso",
+          "pdf3_68": "printed pages1-66",
+          "pdf69_70": "outer rear cover recto/verso",
+          "formula_for_printed_body": "PDF page = printed page + 2"
+        },
+        "fully_read_entry_by_entry": false
+      },
+      "target_negative_check": {
+        "primary_page": "PDF20 / printed18",
+        "sequence_as_seen": "Коста, Андреа; Костин, Б.; Кр-овъ; Крамольный Иванъ",
+        "adjacent_boundary": "PDF21/printed19 continues Краснов and Кропоткин; PDF22/printed20 ends K entries and begins L",
+        "kots_entry_seen": false,
+        "d_n_seen": false,
+        "pesni_proletariev_seen": false,
+        "scope_limit": "absence established only for the1908 replacement index K section; no inference to the1907 base index or supplements and no inference about case disposition"
+      },
+      "interpretation_boundaries": {
+        "same_edition_as_belarus66page_record_supported": true,
+        "same_physical_copy_as_belarus_holding_claimed": false,
+        "1907_printed_page4_acquired": false,
+        "first_or_second_supplement_acquired": false,
+        "case317_disposition_resolved": false
+      },
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Continue first and second1907 supplements and base-index printed4; use case777/7/317 disposition papers to explain the1908 omission rather than inferring disposition from the index."
     }
   }
 }

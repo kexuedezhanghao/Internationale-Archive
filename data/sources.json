@@ -1048,6 +1048,17 @@
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   },
   {
+    "id": "lnb-latvia-judicial-index-replacement-1908",
+    "name": "Latvijas Nacionālā bibliotēka: 1908 judicial-seizure replacement index",
+    "url": "https://dom.lndb.lv/data/obj/415195.html",
+    "role": "institutional-digital-original-scan",
+    "import_scope": "Institutional object and70-page PDF loaded. Cover and inner title directly verify cutoff1January1908,replacement of the1907 index with supplements,price30kopeks,and Ministry of Interior press1908. Page mapping:PDF1-2 outer front cover,PDF3-68 printed1-66,PDF69-70 outer rear cover. Target review of PDF20/printed18 and adjacent pages found the alphabetical sequence Костин then Кр-ов,with no Коц,Д-н or Песни пролетариев. This negative evidence is limited to the1908 replacement index; it does not establish absence from1907 base/supplements or case disposition. Institution supplies filename0309037496,size12.2MB,MD5 ecc0b14d4b35ada347d5b2defaef4672; not independently recomputed. The full70 pages were not read entry by entry.",
+    "research_report": "docs/research/ru-early-banned-index-replacement-1908.md",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bounded public-domain bibliographic facts, short title elements and page mapping only; historical scan is linked, not redistributed in the repository.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
     "id": "timofeev-kuzmin-censorship-2005-supplements",
     "name": "А.Г.Тимофеев: М.Кузмин и царская цензура,Русская литература,2005,No4,130-140",
     "url": "https://lib2.pushkinskijdom.ru/Media/Default/PDF/RusLiteratura/%D0%A0%D0%9B%202005%20n4.pdf",
