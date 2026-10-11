@@ -9636,6 +9636,261 @@
         "Detlaf Internationale separate lyric leaf in other original copies; RSL MZ МЗ197/26 comparison.",
         "Kots1907 index4/collectionNo4 and censorship case;1931/1937/1957/1950 original pages and April1931 selection letter; Japanese after Russian; no progression counting."
       ]
+    },
+    "rgia_detlaf_case_catalogue_followup_20261011": {
+      "checked_on": "2026-10-11",
+      "report_path": "docs/research/ru-detlaf-score-censorship.md",
+      "source_id": "rgia-fond776-inventory16-internationale-case-catalogue",
+      "official_hierarchy": {
+        "archive": "Российский государственный исторический архив",
+        "fond": 776,
+        "fond_object_id": 441033,
+        "inventory": 16,
+        "inventory_object_id": 2866121,
+        "inventory_period": "1906–1910",
+        "part": 1,
+        "part_object_id": 2967877,
+        "part_period": "1906–1908",
+        "department": "II",
+        "other_part_period": "1909–1910",
+        "inventory17_period": "1911–1917",
+        "official_jurisdiction": "Moscow,Kiev,Odessa,Kharkov,Novocherkassk judicial regions"
+      },
+      "case_candidate": {
+        "official_object_id": 6836937,
+        "public_url": "https://fgurgia.ru/object/6836937",
+        "modern_reference_as_catalogued": "Ф. 776 Оп. 16 Ч. 1. Д. 1808",
+        "modern_case_number": 1808,
+        "title_as_catalogued": "Главное управление по делам печати Министерства внутренних дел. О наложении ареста на нотную тетрадь \"Интернационал\"",
+        "date_start_as_catalogued": "16 июля 1908",
+        "date_end_as_catalogued": "13 ноября 1909",
+        "calendar_verified": false,
+        "catalogued_leaf_count": 6,
+        "leaf_count_basis": "official catalogue and inventory row, not physical collation",
+        "inventory_old_number_visually_read": 280,
+        "inventory_reader_image": 179,
+        "inventory_row_folio": "175 verso (inferred from visible right176)",
+        "row_folio_number_directly_visible": false,
+        "case_leaf_numbers": null,
+        "publisher_in_catalogue_title": null,
+        "publisher_detlaf_verified_in_case": false,
+        "case_original_acquired": false,
+        "case_public_images_in_observed_metadata": [],
+        "case_public_files_in_observed_metadata": [],
+        "scanned_sheets_attribute_as_returned": "",
+        "undigitized_status_proven": false,
+        "translation_identity_verified": false
+      },
+      "comparison_with1939": {
+        "source_id": "aizenshtok-polyanskaya-french-writers-censorship-1939",
+        "printed_pages_rechecked": [
+          852,
+          853
+        ],
+        "old_reference_as_printed": "Главн. управл. по делам печати, II отд., д. №270",
+        "quoted_document_date_as_printed": "16 июня 1908",
+        "inventory_candidate_old_number": 280,
+        "inventory_candidate_start_date": "16 июля 1908",
+        "old_to_modern_case_mapping_verified": false,
+        "number_difference_resolved": false,
+        "date_difference_resolved": false,
+        "emendation_to1939_source_made": false,
+        "candidate_is_same_detlaf_case_verified": false,
+        "calendar_conversion_used_to_explain_difference": false
+      },
+      "false_positives_excluded": [
+        {
+          "modern_reference": "Ф.776 Оп.16 Ч.1 Д.270",
+          "object_id": 6833915,
+          "period_as_catalogued": "01 октября 1906–16 ноября 1906",
+          "short_title": "Лихорадка",
+          "basis": "official query-result title"
+        },
+        {
+          "modern_reference": "Ф.776 Оп.16 Ч.2 Д.270",
+          "object_id": 6837759,
+          "period_as_catalogued": "22 мая 1909–25 июня 1909",
+          "short_title": "Русская историческая библиотека №4:Былое",
+          "basis": "official query-result title"
+        },
+        {
+          "modern_reference": "Ф.776 Оп.16 Ч.1 Д.1799",
+          "old_number_visually_read": 270,
+          "short_title": "История заговора раввинов",
+          "inventory_reader_image": 178,
+          "basis": "original inventory1908 section"
+        }
+      ],
+      "public_catalogue_file_checks": [
+        {
+          "file": "fund776-object.json",
+          "bytes": 54560,
+          "sha256": "b5db23a240bf3066237cf10ab62ad8b0f8bcd89932ade9979b567d6f9f9bdd94",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "fund776-children.json",
+          "bytes": 8964,
+          "sha256": "8cf65c5bbb9f8c0b11fc3e4911d3719cda3824a89f2f2d3ef0977b8e3adfe11c",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "inventory16-object.json",
+          "bytes": 15343,
+          "sha256": "1117ef766a583fb1fb97ba6d14883532c201fe0465a9df5a7a80fe59e412a547",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "inventory16-children.json",
+          "bytes": 801,
+          "sha256": "aa87f35a759fd95a5748f73292ae39081b4cd3d017db5dcf629ecda2597228d6",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "inventory17-object.json",
+          "bytes": 13848,
+          "sha256": "80b202eee37ce5889ababdbb4d70df3cb1bc16874f5a62a47934554785c298ba",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "internationale-results.json",
+          "bytes": 2016,
+          "sha256": "c4aa0da9dd8f8b160d0b092b7e0611a5f926b45432506766d4b6e5ddbe722d8c",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "internationale-object-6836937.json",
+          "bytes": 16222,
+          "sha256": "82341f2c0a7d5103fb505c1e0178acfa3280dc9fc6f7490e2ddc56cf00a97a24",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "detlaf-results.json",
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "file270-results.json",
+          "bytes": 3861,
+          "sha256": "682160bfba61698af3b7fac26cb20f3987117e020befc14341e696198b011815",
+          "raw_source_distributed_in_repository": false
+        },
+        {
+          "file": "case1808-public-page.html",
+          "bytes": 77801,
+          "sha256": "a463cdbe8e1f7c5aa7a1d1d907d3d0503038859cce2deac00a2c6a5bd88aabd8",
+          "raw_source_distributed_in_repository": false
+        }
+      ],
+      "reviewed_inventory_images": [
+        {
+          "file": "inventory16-part1-scan001.jpg",
+          "reader_image": 1,
+          "bytes": 186285,
+          "sha256": "758258810c6bd311f4dd2d86a0e101faff712c5314334cdb20ee6c0a5163fd1c",
+          "width": 1917,
+          "height": 1500,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "inventory title: fond776,inventory16 partI,II department,1906-1908",
+          "visible_right_inventory_folio": null,
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "inventory16-part1-scan002.jpg",
+          "reader_image": 2,
+          "bytes": 100469,
+          "sha256": "0969cd8f823815f8e4818031bd1cb2e97dd7385618df3efc5fc257a904ecff1f",
+          "width": 1917,
+          "height": 1500,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "contents:1908 cases1534-1968;inventory leaves148verso-192",
+          "visible_right_inventory_folio": null,
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "inventory16-part1-scan177.jpg",
+          "reader_image": 177,
+          "bytes": 642888,
+          "sha256": "2cd2dbade721869608bb25493aa983329fd2953e7a0dd2ce33b37b2bb0046dc8",
+          "width": 1897,
+          "height": 1500,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "neighbouring1908 original-number column,modern1790-1796;right leaf174",
+          "visible_right_inventory_folio": 174,
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "inventory16-part1-scan178.jpg",
+          "reader_image": 178,
+          "bytes": 565890,
+          "sha256": "b736a03d3f1222cf1f82ba8b42390e9e9a064a56fb5a4e5fe22732729269531f",
+          "width": 1897,
+          "height": 1500,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "modern1799 original270 is another brochure; right leaf175",
+          "visible_right_inventory_folio": 175,
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "inventory16-part1-scan179.jpg",
+          "reader_image": 179,
+          "bytes": 608099,
+          "sha256": "c6db3f66e8441e14985b321f125b7c0ee3a776407bcd12dd710906f71abde273",
+          "width": 1897,
+          "height": 1500,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "modern1808 original280 Internationale score,16July1908-13November1909,6leaves;left175verso inferred from visible right176",
+          "visible_right_inventory_folio": 176,
+          "image_distributed_in_repository": false
+        },
+        {
+          "file": "inventory16-part1-scan200.jpg",
+          "reader_image": 200,
+          "bytes": 270768,
+          "sha256": "5c3f5566cf57190d2fa8793290427beff85e0bf9e95977fbf36d98031b174972",
+          "width": 1897,
+          "height": 1500,
+          "visually_reviewed_on": "2026-10-11",
+          "content_checked": "publisher index,Iskra and other publishers;right leaf199,locator only",
+          "visible_right_inventory_folio": 199,
+          "image_distributed_in_repository": false
+        }
+      ],
+      "access_observation": {
+        "ordinary_public_form_and_advertised_tree_object_endpoints": "HTTP200 with full published parameters; anonymous public session, no account authentication or bypass",
+        "prior400_observation_preserved": true,
+        "exact_prior400_cause_proven": false,
+        "inventory_attachment_name": "776_16_1.pdf",
+        "attachment_returned_content_type": "text/html;charset=UTF-8",
+        "attachment_returned_pdf": false,
+        "declared_inventory_viewer_image_count": 272,
+        "actual_downloaded_inventory_images": [
+          1,
+          2,
+          177,
+          178,
+          179,
+          200
+        ],
+        "entire_inventory_acquired": false,
+        "payment_or_captcha_wall_encountered": false,
+        "new_kots1937_or1957_original_acquired": false
+      },
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_targets": [
+        "Read actual6leaves of RGIA776/16/1/1808 and verify Detlaf name, quoted letter, lyric attachment and decision; preserve old270/280 and June/July differences.",
+        "Do not claim digital absence from empty public files/images fields; authorized archive access or existing copies remain leads.",
+        "KotsNo4 original,1907 list4,1931/1937/1957/1950 originals and April1931 letter remain; Japanese after Russian, no progression counting."
+      ],
+      "private_source_package": {
+        "file": "RGIA776-op16-detlaf-catalogue-evidence-20261011.zip",
+        "bytes": 2432312,
+        "sha256": "2a2483684160a49a2e8d67f96455044576aa6b0a9f658b14cc6eb54e376ff769",
+        "raw_files_distributed_in_repository": false
+      }
     }
   }
 }

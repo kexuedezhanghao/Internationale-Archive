@@ -980,5 +980,16 @@
     "rights_note": "Bibliographic facts, bounded observations and hashes only; source PDFs, rendered pages and bulk text not redistributed.",
     "research_report": "docs/research/ru-detlaf-score-censorship.md",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "rgia-fond776-inventory16-internationale-case-catalogue",
+    "name": "РГИА:Ф.776 Оп.16 Ч.1 Д.1808,Интернационал; catalogue and scanned inventory",
+    "url": "https://fgurgia.ru/object/6836937",
+    "role": "institutional-archive-catalogue-and-original-inventory-scan",
+    "reviewed_on": "2026-10-11",
+    "import_scope": "Official hierarchy and case1808 metadata; six inventory images visually reviewed. Inventory old-number280 differs from1939 note270; case dates16July1908–13November1909,6leaves. Case original, Detlaf publisher and same-case identity not verified.",
+    "rights_note": "Bounded bibliographic facts and hashes only; raw catalogue JSON, inventory images and source PDFs not redistributed.",
+    "research_report": "docs/research/ru-detlaf-score-censorship.md",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]
