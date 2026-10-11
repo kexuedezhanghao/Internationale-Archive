@@ -10435,7 +10435,53 @@
       "counts_as_new_lyric_identity": false,
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
-      "next_route": "Use a separately queryable institutional catalogue or public data endpoint; do not treat the truncated LNB collection page as a search over all20026 items."
+      "next_route": "Use a separately queryable institutional catalogue or public data endpoint; do not treat the truncated LNB collection page as a search over all20026 items.",
+      "superseded_by": "kots_selection_followup.lnb_segmented_books_full_dom_correction_20261012_0200",
+      "supersession_scope": "The0.1.55 fresh full-DOM audit invalidates the500 rendered-child count and the claim that the current body still displays0-500/20026; the RDF/XML access failure remains historical."
+    },
+    "lnb_segmented_books_full_dom_correction_20261012_0200": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-early-banned-index-supplements-1907.md",
+      "scope": "fresh full-DOM count and title filtering on the same public LNB segmented-books collection page; correction of the0.1.54 partial observation",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "tested_url": "https://dom.lndb.lv/data/obj/97880.html",
+        "page_state": "publicly readable; no login wall, CAPTCHA or network error",
+        "dom_content_loaded": true,
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "fresh_dom": {
+        "collection_part_labels": 10000,
+        "object_links": 10000,
+        "all_links": 10023,
+        "html_characters_approximate": 2060076,
+        "body_text_characters": 896260,
+        "body_contains_previous_0_500_label": false,
+        "body_contains_previous_20026_total": false,
+        "visible_form_present": false,
+        "visible_pagination_link_present": false,
+        "previous500_count_valid_for_current_full_dom": false,
+        "cause_of_previous_partial_observation_resolved": false
+      },
+      "title_filter": {
+        "supplement1_title_hits": 0,
+        "supplement2_title_hits": 0,
+        "april_may1907_hits": 0,
+        "june_july1907_hits": 0,
+        "base_title_objects": [
+          {"year": 1901, "url": "https://dom.lndb.lv/data/obj/418918.html"},
+          {"year": 1907, "url": "https://dom.lndb.lv/data/obj/417231.html", "identity": "already acquired third supplement"},
+          {"year": 1908, "url": "https://dom.lndb.lv/data/obj/415195.html"},
+          {"year": 1910, "url": "https://dom.lndb.lv/data/obj/417812.html"}
+        ],
+        "first_or_second_supplement_acquired": false,
+        "result_is_exhaustive_library_holdings_evidence": false
+      },
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Leave the LNB collection page after correcting the count; pursue a separately queryable institutional catalogue, base-index printed4, or actual case317/1808 leaves."
     }
   }
 }
