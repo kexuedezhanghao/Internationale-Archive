@@ -10343,7 +10343,7 @@
     "judicial_index1908_original_followup_20261011_2130": {
       "checked_on": "2026-10-11",
       "report_path": "docs/research/ru-early-banned-index-replacement-1908.md",
-      "scope": "LNB institutional original scan: title and edition statement, physical page mapping, end page, and targeted K alphabetical section; not a page-by-page reading of all entries",
+      "scope": "LNB institutional original scan: title and edition statement, physical page mapping, end page, and targeted K, D and Pesni-title alphabetical sections; not a page-by-page reading of all entries",
       "browser_review": {
         "available_browser": "cloud Chrome",
         "tested_url": "https://dom.lndb.lv/data/obj/415195.html",
@@ -10373,13 +10373,18 @@
         "fully_read_entry_by_entry": false
       },
       "target_negative_check": {
-        "primary_page": "PDF20 / printed18",
-        "sequence_as_seen": "Коста, Андреа; Костин, Б.; Кр-овъ; Крамольный Иванъ",
-        "adjacent_boundary": "PDF21/printed19 continues Краснов and Кропоткин; PDF22/printed20 ends K entries and begins L",
+        "kots_page": "PDF20 / printed18",
+        "kots_sequence_as_seen": "Коста, Андреа; Костин, Б.; Кр-овъ; Крамольный Иванъ",
+        "kots_adjacent_boundary": "PDF21/printed19 continues Краснов and Кропоткин; PDF22/printed20 ends K entries and begins L",
         "kots_entry_seen": false,
+        "d_n_pages": "PDF14-15 / printed12-13",
+        "d_n_boundary": "printed12 enters D from G; printed13 continues Дикштейн, Для..., Дмитриев and Дебюсси; following printed14 begins За...",
         "d_n_seen": false,
+        "title_page": "PDF35 / printed33",
+        "title_boundary": "Парвус; Первое...; Перед...; Перелешин; Пестрый; Петрищев",
         "pesni_proletariev_seen": false,
-        "scope_limit": "absence established only for the1908 replacement index K section; no inference to the1907 base index or supplements and no inference about case disposition"
+        "evidence_boundary_corrected_in_release": "0.1.53; the0.1.52 wording incorrectly used the K-section check to cover D-n and the title entry",
+        "scope_limit": "absence established only for the corresponding K, D and Pesni-title alphabetical positions in the1908 replacement index; no inference to the1907 base index or supplements and no inference about case disposition"
       },
       "interpretation_boundaries": {
         "same_edition_as_belarus66page_record_supported": true,
