@@ -10483,6 +10483,51 @@
       "counts_as_new_original_score_record": false,
       "next_route": "Leave the LNB collection page after correcting the count; pursue a separately queryable institutional catalogue, base-index printed4, or actual case317/1808 leaves."
     },
+    "lebedev_voprosy_istorii_1967_original_20261012_0500": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-kots-lebedev-1967.md",
+      "scope": "original journal scan of P. F. Lebedev, Iz istorii gimna Internatsional, Voprosy istorii 1967 no.1, printed208-212; later research witness, not the1931 original",
+      "source": {
+        "issue_url": "https://publ.lib.ru/ARCHIVES/V/%27%27Voprosy_istorii%27%27_%28jurnal%29/%c2%ee%ef%f0%ee%f1%fb%20%e8%f1%f2%ee%f0%e8%e8,%201967,%20%b901.pdf",
+        "issue_number": 1,
+        "issue_month": "1967-01",
+        "pdf_pages": 222,
+        "bytes": 19888478,
+        "sha256": "fa4f9c9e9d4f79073c7aabdd31170bed7b7b3ad89d7b77a2212863d592b4e598",
+        "article_printed_pages": "208-212",
+        "article_pdf_pages": "208-212",
+        "page_offset": 0,
+        "visually_reviewed_pages": [1, 208, 209, 210, 211, 212],
+        "whole_issue_read": false
+      },
+      "direct_page_observations": {
+        "printed209_footnote4": "Bonch-Bruevich, Avtor Internatsionala, Na literaturnom postu,1931,no.2,p.4; used for the early Russian-translation narrative",
+        "printed210_footnote5": "Tam zhe,p.9; follows Kots's Commune Manifesto influence and stanza-selection narrative",
+        "selected_stanzas_as_stated": [1, 2, 6],
+        "remaining_three_stanzas_completion_year_as_stated": 1931,
+        "pesn_proletariev_excerpt_printed": true,
+        "three_remaining_internationale_stanzas_printed": true,
+        "lenin_personally_edited_or_selected_stanzas_evidence": false
+      },
+      "access_checks": {
+        "neb_parent_catalogue_current_cloud_result": "page requests disabling VPN; current cloud-environment restriction, no bypass attempted",
+        "presidential_library_1931_issue": "catalogue record readable; electronic copy restricted to institutional electronic reading rooms",
+        "public_library_issue_pdf": "publicly downloadable and readable"
+      },
+      "interpretation_boundaries": {
+        "1931_original_acquired": false,
+        "1931_april_letter_acquired": false,
+        "1937_or_1957_target_pages_acquired": false,
+        "later_reprint_promoted_to_original": false,
+        "1931_vs_1937_completion_year_resolved": false,
+        "earliest_126_adopter_resolved": false,
+        "zhang_guangnian_transmission_chain_resolved": false
+      },
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Use the newly verified page split to obtain Na literaturnom postu1931 no.2 pages4 and9, then compare Zvezda1937 nos.10/11 and Kots1957 pages109-110 without treating the1967 article as the original."
+    },
     "rgia_public_access_boundary_20261012_0330": {
       "checked_on": "2026-10-12",
       "report_path": "docs/research/ru-rgia-access-boundary-20261012.md",
