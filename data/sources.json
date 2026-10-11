@@ -1057,5 +1057,16 @@
     "reviewed_on": "2026-10-11",
     "rights_note": "Bounded bibliographic facts and short title elements only; no modern article full text or historical scans redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "lnb-latvia-judicial-index-supplement-3-1907",
+    "name": "Latvijas Nacionālā bibliotēka: 1907 judicial-seizure index supplement 3",
+    "url": "https://dom.lndb.lv/data/obj/417231.html",
+    "role": "institutional-digital-original-scan",
+    "import_scope": "Institutional object and all12 PDF pages directly reviewed. Title leaf states Supplement3,to the index compiled through31March1907,for August-September1907,price3kopeks,printed by order of the Main Administration for Press Affairs,and Ministry of Interior press imprint. PDF1 title;PDF2 blank;PDF3-11 printed3-11;PDF12 blank. Searchable text and visual review found no Коц,Песни пролетариев or Д-н. Institution supplies filename0309037488,size2.04MB,MD5 87d4a4ef9ab8248ab8270825b3616315;not independently recomputed. This is not base-index printed page4 and does not establish supplements1/2 or an October-December issue.",
+    "research_report": "docs/research/ru-early-banned-index-supplement-3-1907.md",
+    "reviewed_on": "2026-10-11",
+    "rights_note": "Bounded public-domain bibliographic facts, short title elements and page mapping only; historical scan is linked, not redistributed in the repository.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]
