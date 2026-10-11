@@ -10482,6 +10482,46 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Leave the LNB collection page after correcting the count; pursue a separately queryable institutional catalogue, base-index printed4, or actual case317/1808 leaves."
+    },
+    "rgia_public_access_boundary_20261012_0330": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-rgia-access-boundary-20261012.md",
+      "scope": "public object-page attachment controls and current official access instructions for case317 and case1808; no case leaves acquired",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "case317_url": "https://fgurgia.ru/object/2442924006",
+        "case317_final_state": "public catalogue readable after delayed load; no login wall or CAPTCHA",
+        "case1808_url": "https://fgurgia.ru/object/6836937",
+        "case1808_final_state": "public catalogue readable after one ordinary reload; no login wall or CAPTCHA",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "object_page_controls": {
+        "case317_links": ["parent inventory Ф.777 Оп.7", "permalink"],
+        "case1808_links": ["parent inventory Ф.776 Оп.16", "inventory section Часть1:1906-1908", "permalink"],
+        "public_images_present": false,
+        "public_file_or_download_controls_present": false,
+        "public_case_reader_present": false,
+        "absence_proves_not_digitized": false
+      },
+      "official_access_instructions": {
+        "help_url": "https://fgurgia.ru/info/714785",
+        "reading_room_url": "https://fgurgia.ru/info/2850871",
+        "service_url": "https://fgurgia.ru/info/3556935",
+        "account_request_purpose": "order files for later work in the physical RGIA reading room; not a remote reading service",
+        "self_scanning_status": "discontinued from2026",
+        "copy_route": "formal copy request and paid service",
+        "account_created_or_login_attempted": false,
+        "archive_contacted": false,
+        "copy_requested_or_purchased": false
+      },
+      "case317_four_leaves_acquired": false,
+      "case1808_six_leaves_acquired": false,
+      "manual_assistance_required_under_current_project_scope": true,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Stop anonymous online probing of the two case pages; continue public originals for the1907 base index printed4, first/second supplements, Kots1931/1937/1957 publications, RSL score candidate and Orenburg lyric-page evidence."
     }
   }
 }
