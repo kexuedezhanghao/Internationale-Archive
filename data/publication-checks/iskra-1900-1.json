@@ -10701,6 +10701,52 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Obtain Zvezda1937 no.11 printed321 and Kots1957 printed109-110/136/142/143; use the1968 pages only as a later printed source map."
+    },
+    "kots1957_rgub_catalog_and_zvezda_boundary_20261012_1530": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "official Zvezda1937 bibliography boundary and independent RGUB catalogue metadata for Kots1957; no article or book target pages acquired",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "zvezda_url": "https://zvezdaspb.ru/index.php?page=2&razd=1937",
+        "zvezda_state": "fully readable; no login wall, CAPTCHA or network error",
+        "rgub_url": "https://rgub.ru/searchopac/book.php?id=RGUB%5CBIBL%5C0000947740",
+        "rgub_state": "fully readable public print-catalogue record; no login wall or CAPTCHA",
+        "google_books_result": "unusual-traffic CAPTCHA; stopped without interaction or bypass",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "zvezda_official_bibliography": {
+        "issue": 11,
+        "entry_number": 2701,
+        "article": "А. Коц, Наш гимн",
+        "start_page": 319,
+        "next_article_start_page": 323,
+        "inferred_article_range": "319-322",
+        "article_body_acquired": false,
+        "printed321_acquired": false
+      },
+      "rgub_catalog_record": {
+        "record_id": "RGUB\\BIBL\\0000947740",
+        "author": "Коц Аркадий Яковлевич",
+        "title": "Стихотворения",
+        "year": 1957,
+        "place": "Москва",
+        "publisher_as_displayed": "Гослитиздат[Ленинградское отделение]",
+        "extent": "151 с., 1 л. портр.",
+        "size": "17 см.",
+        "language": "Русский",
+        "contents_detail": ["Стихотворения", "Переводы Эжена Потье", "Кловис Гюг", "Эжен Вермерш"],
+        "appendices_in_search_summary": ["Наш гимн", "Эжен Потье (К 50-летию со дня смерти)", "Две встречи с Л.Н. Толстым"],
+        "public_page_images_present": false,
+        "electronic_full_text_present": false
+      },
+      "kots1957_target_pages_acquired": false,
+      "zvezda1937_original_acquired": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Search independent public reviews, quotation sources and image catalogues for Kots1957 printed109-110,136,142,143; do not repeat the same Google Books CAPTCHA or treat catalogue contents as pages."
     }
   }
 }
