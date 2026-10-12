@@ -10792,6 +10792,46 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Use the p109 quotation boundary only as a locator; seek a facsimile, contemporary review or earlier printed quotation, then continue p110 and p136/142/143 without retrying the Google Books CAPTCHA."
+    },
+    "kots1937_knizhnye_novosti_bibliography_recheck_20261012_2130": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "visual recheck of Matsuev1940 bibliography title page and printed165/PDF166; bounded search for 1937 Knizhnye novosti issue19",
+      "source": {
+        "author": "Н. Мацуев",
+        "title": "Художественная литература русская и переводная в оценке критики. 1933—1937 гг.",
+        "place": "Москва",
+        "publisher": "Государственное издательство «Художественная литература»",
+        "year": 1940,
+        "pdf_pages": 343,
+        "bytes": 20366957,
+        "sha256": "b84012440002fe80bb07be91e18ae7b0f10efee8582cd1d1f06cfa2eaad52f4c",
+        "title_pdf_page": 2,
+        "target_printed_page": 165,
+        "target_pdf_page": 166
+      },
+      "entries_as_seen": [
+        "А. Коц. К истории русского текста «Интернационала». Книж Н 19 : 60-61’37",
+        "Иг. Зубковский. Творцы «Интернационала» Эжен Потье и Пьер Дегейер. Книж Н 13 : 59’37",
+        "В. Куриленков. Великий поэт революционного социализма. Книж Н 19 : 57-59’37"
+      ],
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "tested_url": "https://pushkinskijdom.ru/wp-content/uploads/2021/11/Kartoteka_XIX-vek.pdf",
+        "state": "502 Bad Gateway; certificate verify failed",
+        "login_wall_present": false,
+        "captcha_present": false,
+        "public_page_readable": false,
+        "local_user_computer_control_verified": false
+      },
+      "google_books_indexed_issues_seen": ["1938 issue8", "1938 issue13", "1938 issue14", "1938 issues15-16"],
+      "kots1937_issue19_original_acquired": false,
+      "zubkovsky1937_issue13_original_acquired": false,
+      "bibliography_promoted_to_article_text": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Obtain Knizhnye novosti1937 no.19 printed57-61; if unavailable, obtain Zubkovsky no.13 printed59 or a contemporary quotation and compare source overlap without merging the articles."
     }
   }
 }
