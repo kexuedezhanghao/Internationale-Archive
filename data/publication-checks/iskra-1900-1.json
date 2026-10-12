@@ -4304,6 +4304,23 @@
           213,
           216
         ],
+        "same_issue_editorial_context": {
+          "source_id": "zvezda-publisher-bibliography-1937",
+          "checked_on": "2026-10-13",
+          "entry_number": 2666,
+          "printed_start_as_reported": 139,
+          "author_as_reported": "Э. Потье",
+          "translator_as_reported": "Аркадий Коц",
+          "titles_as_reported": [
+            "Памятник коммунарам",
+            "Роды",
+            "Людоед",
+            "Правящие классы",
+            "Не умерла Коммуна"
+          ],
+          "context_only_not_article_text": true,
+          "relationship_to_internationale_selection_established": false
+        },
         "original_article_acquired": false,
         "full_target_text_acquired": false,
         "self_account_locator_source_id": "revolutionary-poetry-dymshits-1954",
