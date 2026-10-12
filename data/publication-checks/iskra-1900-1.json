@@ -10874,6 +10874,53 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Search Zubkovsky no.13 p59 and later quotations by the comparator's distinctive Lille dispute, 1928 Moscow visit and 1938 fiftieth-anniversary details; compare only after a target page or attributable quotation is acquired."
+    },
+    "degeyter1938_vechernyaya_moskva_comparator_20261013_0030": {
+      "checked_on": "2026-10-13",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "bounded follow-up on the Sotnikov1937 feature phrases; acquired and visually checked a later independent newspaper comparator, not Zubkovsky1937 no.13 p59",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "tested_url": "https://electro.nekrasovka.ru/books/6163539/pages/3",
+        "state": "page and printed-page3 image readable; no login wall, CAPTCHA or permission prompt",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "source": {
+        "publication": "Вечерняя Москва",
+        "publication_type_as_catalogued": "газета Московского городского комитета ВКП(б) и Моссовета",
+        "date": "1938-10-07",
+        "issue": "230 (4460)",
+        "printed_page": 3,
+        "site_page_number": 3,
+        "site_total_pages": 4,
+        "article_title_as_seen": "Пьер Дегейтер — автор музыки «Интернационала»",
+        "author_signature_seen": false,
+        "pdf_pages": 4,
+        "pdf_bytes": 22773720,
+        "pdf_sha256": "fee49f895a52dd0f6ee62741fa81fe7a1f59dbada348cf8de4e0628531277aff",
+        "pdf_internal_title_as_seen": "PDF/VM_1938_229.pdf",
+        "internal_title_matches_catalogue_issue": false
+      },
+      "content_points_visually_checked": [
+        "28 June 1888 Lille newspaper-workers festival first-performance claim",
+        "Lille authorship dispute and twenty-year litigation claim",
+        "Degeyter 1928 Moscow visit during the Sixth Comintern Congress",
+        "Это апофеоз всей моей жизни! Теперь моя песня в надежных руках..."
+      ],
+      "comparison_result": {
+        "apotheosis_quote_also_present_in_sotnikov1937": true,
+        "quote_is_unique_fingerprint_for_zubkovsky1937": false,
+        "same_text_as_sotnikov_established": false,
+        "same_text_as_zubkovsky_established": false,
+        "shared_source_established": false
+      },
+      "zubkovsky1937_issue13_original_acquired": false,
+      "kots1937_issue19_original_acquired": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Search by Zubkovsky's full title, author and longer continuous wording; if no attributable text appears, switch to Knizhnye novosti1937 no.19 printed57-61 or Kots1957 printed110/136/142/143 without repeating these comparator newspapers."
     }
   }
 }
