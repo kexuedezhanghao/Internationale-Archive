@@ -10747,6 +10747,51 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Search independent public reviews, quotation sources and image catalogues for Kots1957 printed109-110,136,142,143; do not repeat the same Google Books CAPTCHA or treat catalogue contents as pages."
+    },
+    "kots1957_p109_public_transcription_followup_20261012_2000": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "RSL public catalogue browser check plus bounded exact-quotation search for Kots1957 printed109; no original target page acquired",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "rsl_url": "https://search.rsl.ru/ru/record/01006245378",
+        "rsl_state": "fully readable; no login wall or CAPTCHA",
+        "public_page_images_present": false,
+        "electronic_full_text_present": false,
+        "reading_room_order_link_present": true,
+        "fragment_copy_request_link_present": true,
+        "request_submitted": false,
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "rsl_catalog_record": {
+        "record_id": "01006245378",
+        "imprint_as_displayed": "Москва : Гослитиздат. [Ленингр. отд-ние], 1957",
+        "extent": "151 с., 1 л. портр.; 17 см",
+        "contents_as_displayed": ["Наш гимн", "Две встречи с Л. Н. Толстым", "Эжен Потье"],
+        "shelfmarks": ["FB Б 284/378", "FB Б 284/379"]
+      },
+      "modern_transcription": {
+        "readable_url": "https://donshar.ru/noty-internatsionala-dlya-skripki/",
+        "title_as_seen": "Ноты интернационала для скрипки",
+        "attribution_as_displayed": "А. Коц, Наш гимн. В его кн.: Стихотворения, М., 1957, с. 109",
+        "content_scope": "translation-origin recollection beginning with the Paris congress impression and continuing through repeated public singing in Paris",
+        "a_pesni_same_title_search_result_seen": true,
+        "a_pesni_direct_fetch_result": "502 Bad Gateway",
+        "promoted_to1957_original": false,
+        "independent_source_chain_verified": false
+      },
+      "kots1957_printed109_acquired": false,
+      "kots1957_printed110_acquired": false,
+      "kots1957_printed136_142_143_acquired": false,
+      "zvezda1937_original_acquired": false,
+      "completion_year_discrepancy_resolved": false,
+      "earliest_126_adopter_resolved": false,
+      "lenin_selection_evidence_found": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Use the p109 quotation boundary only as a locator; seek a facsimile, contemporary review or earlier printed quotation, then continue p110 and p136/142/143 without retrying the Google Books CAPTCHA."
     }
   }
 }
