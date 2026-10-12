@@ -10832,6 +10832,48 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Obtain Knizhnye novosti1937 no.19 printed57-61; if unavailable, obtain Zubkovsky no.13 printed59 or a contemporary quotation and compare source overlap without merging the articles."
+    },
+    "sotnikov1937_contemporary_newspaper_comparator_20261012_2300": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "bounded search for Zubkovsky1937 no.13 p59; acquired and visually checked a different contemporary newspaper article for later comparison",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "google_books_url": "https://books.google.com/books?id=4I_QAAAAMAAJ",
+        "google_books_state": "unusual traffic reCAPTCHA",
+        "captcha_interacted_with": false,
+        "nekrasovka_url": "https://electro.nekrasovka.ru/books/6147345/pages/6",
+        "nekrasovka_state": "page and page6 image readable; no login wall, CAPTCHA or permission prompt",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "source": {
+        "publication": "Советское искусство",
+        "publication_type_as_catalogued": "еженедельная общественно-политическая газета",
+        "date": "1937-09-23",
+        "issue": "44 (390)",
+        "printed_page": 6,
+        "site_page_number": 6,
+        "site_total_pages": 6,
+        "article_title_as_seen": "Авторы «Интернационала»",
+        "author_as_site_text": "Н. Сотников",
+        "first_print_caption_as_site_text": "Первое печатное издание «Интернационала» (находится в ИМЭЛ в Москве). Гравюра на дереве А. Горина."
+      },
+      "comparison_scope": [
+        "Pottier and Degeyter biographical framing",
+        "Lille authorship dispute",
+        "Degeyter 1928 Moscow visit",
+        "Pottier death and first-performance fiftieth anniversaries"
+      ],
+      "zubkovsky1937_issue13_original_acquired": false,
+      "kots1937_issue19_original_acquired": false,
+      "same_text_as_zubkovsky_established": false,
+      "shared_source_established": false,
+      "site_ocr_promoted_to_target_article": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Search Zubkovsky no.13 p59 and later quotations by the comparator's distinctive Lille dispute, 1928 Moscow visit and 1938 fiftieth-anniversary details; compare only after a target page or attributable quotation is acquired."
     }
   }
 }
