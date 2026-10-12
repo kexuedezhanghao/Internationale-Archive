@@ -10528,6 +10528,48 @@
       "counts_as_new_original_score_record": false,
       "next_route": "Use the newly verified page split to obtain Na literaturnom postu1931 no.2 pages4 and9, then compare Zvezda1937 nos.10/11 and Kots1957 pages109-110 without treating the1967 article as the original."
     },
+    "bonch1931_public_excerpt_followup_20261012_0800": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-kots-lebedev-1967.md",
+      "scope": "public later quotation of part of Bonch-Bruevich1931 no.2 and bounded access/search checks; not the1931 original",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "readable_url": "https://magazines.gorky.media/ural/2009/7/proshhanie-s-internaczionalom.html",
+        "readable_page_identity": "David Livshits, Proshchanie s Internatsionalom, Ural2009 no.7",
+        "readable_page_state": "full article displayed; no login wall, CAPTCHA or network error",
+        "presidential_library_target_result": "one navigation timeout; page content not read in this run",
+        "az_lib_result": "502 Bad Gateway / connection refused; page content not read",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "later_public_excerpt": {
+        "attribution_as_displayed": "V. D. Bonch-Bruevich, Avtor Internatsionala, Na literaturnom postu,1931,no.2",
+        "themes_in_quoted_passage": [
+          "Zurich May Day demonstration without Russian lyrics",
+          "earlier Russian translation attempts described as unsuccessful",
+          "rapid adoption after the Russian text appeared"
+        ],
+        "quotation_page_number_displayed": false,
+        "matches_page4_topic_locators_in_1936_and_1967": true,
+        "page9_selection_passage_quoted": false,
+        "original1931_layout_present": false,
+        "later_excerpt_promoted_to_original": false,
+        "counts_as_independent_event_witness": false
+      },
+      "search_only_leads": {
+        "az_lib_search_snippet_mentions_1931_page8": true,
+        "az_lib_body_verified": false,
+        "zvezda_official_bibliography_reconfirms_1937_no11_pages319_322": true,
+        "zvezda_article_body_acquired": false
+      },
+      "bonch1931_pages4_10_acquired": false,
+      "bonch1931_page4_facsimile_acquired": false,
+      "bonch1931_page9_selection_text_acquired": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Obtain facsimiles of1931 pages4 and9; if public access remains blocked, switch to Zvezda1937 nos.10/11 and Kots1957 pages109-110,136,142,143 rather than repeating the same endpoints."
+    },
     "rgia_public_access_boundary_20261012_0330": {
       "checked_on": "2026-10-12",
       "report_path": "docs/research/ru-rgia-access-boundary-20261012.md",
