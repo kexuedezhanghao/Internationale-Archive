@@ -6462,7 +6462,39 @@
         "year": 1950,
         "series": "Библиотека поэта.Малая серия",
         "edition": "Second",
-        "printed_book_acquired": false
+        "printed_book_acquired": false,
+        "google_books_volume_id": "-FUNAQAAIAAJ",
+        "google_books_bibliographic_length_pages": 453,
+        "google_books_no_ebook_available": true,
+        "google_books_contents_pesn_proletariev_start_page": 155
+      },
+      "printed_1950_page_locator_followup_20261012_1100": {
+        "original_book_scan_acquired": false,
+        "google_books_record_url": "https://books.google.com/books?id=-FUNAQAAIAAJ",
+        "google_books_record_scope": "bibliographic page and partial contents only; not a printed-page facsimile",
+        "later_exact_page_citation": {
+          "article_pdf_url": "https://artculturestudies.sias.ru/upload/iblock/74c/annc5f2dedmb4a8wibw60v2hq88cqltj/hk_2024_4_254.pdf",
+          "journal": "Художественная культура",
+          "issue": "2024 no.4",
+          "author": "В. В. Левшенков",
+          "pdf_pages": 11,
+          "bytes": 2290381,
+          "sha256": "49d53399498c12741371e878f60604f6334d7615e445115a246a3d373dc6ee8c",
+          "visually_reviewed_pdf_page": 8,
+          "printed_spread": "268-269",
+          "internationale_printed_page_cited": 122,
+          "quoted_line_scope": "Весь Мир насилья мы разроем ... Мы наш, мы новый Мир построим",
+          "bibliography_length_pages": 456,
+          "classification": "2024 later exact-page citation; not the1950 original page"
+        },
+        "other_length_lead_pages": 455,
+        "length_conflict_resolved": false,
+        "publ_lib_index_entry_has_direct_file_link": false,
+        "kazakhstan_catalogue_search_snippet": "electronic copy; reading room",
+        "printed_page122_acquired": false,
+        "printed_page155_acquired": false,
+        "Kots_note_page_acquired": false,
+        "next_target": "Acquire printed122 and155 plus the end-note pages; use122 for the Internationale text locator and do not infer the note page from it."
       },
       "internationale_location": "Under supplement; three stanzas[1,2,6], three refrains, разроем and future Это будет; poem dateline1902. Not a newly acquired1902 facsimile.",
       "note_chronology_as_transcribed": {
@@ -6495,7 +6527,7 @@
       "counts_as_new_lyric_identity": false,
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_score": false,
-      "next_target": "Acquire1950 small-series title/imprint and actual Kots note page; compare with1954 large-series note553–554 and1937 original self-accounts."
+      "next_target": "Acquire1950 small-series printed122 and155 plus the actual Kots note page; compare with1954 large-series note553–554 and1937 original self-accounts."
     },
     "bounded_access_followup_20261010_round30": {
       "azlib_https": "502 in local fetch; web extractor timeout/connect failure; same public HTTP route succeeded without authentication",
