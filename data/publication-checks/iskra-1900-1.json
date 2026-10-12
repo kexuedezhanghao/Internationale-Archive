@@ -10660,6 +10660,47 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Stop anonymous online probing of the two case pages; continue public originals for the1907 base index printed4, first/second supplements, Kots1931/1937/1957 publications, RSL score candidate and Orenburg lyric-page evidence."
+    },
+    "kots_translation_masters1968_original_pages_20261012_1400": {
+      "checked_on": "2026-10-12",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "public scan of Masters of Russian Verse Translation, book2,1968: title metadata, Kots text printed160-162 and note printed420; not a full-book reading and not a1937/1957 original",
+      "source": {
+        "url": "https://djvu.online/file/9ck1GchsoPHPi",
+        "title": "Мастера русского стихотворного перевода. Книга вторая",
+        "editor_notes": "Е. Г. Эткинд",
+        "publisher": "Советский писатель, Ленинградское отделение",
+        "year": 1968,
+        "reader_scan_pages": 469,
+        "printed_pages_in_colophon": 468,
+        "whole_file_downloaded": false,
+        "download_attempt_result": "80.42 MB download timed out after120 seconds; public page images remained readable"
+      },
+      "visually_reviewed_pages": [
+        {"scan": 161, "printed": 160, "content": "A. Ya. Kots heading, item560, stanzas1-2"},
+        {"scan": 162, "printed": 161, "content": "stanzas3-5"},
+        {"scan": 163, "printed": 162, "content": "stanza6, date line1902,1937, next item561 begins"},
+        {"scan": 421, "printed": 420, "content": "Kots editorial note and item560 source genealogy"}
+      ],
+      "source_genealogy_as_printed": {
+        "copy_text_source": "А. Коц, Стихотворения, М.,1957",
+        "stanzas1_2_6": "Жизнь, London,1902,no.5,August,p.201",
+        "remaining_text": "Звезда,1937,no.11,p.321, within Наш гимн",
+        "all_six_stanzas_printed": true
+      },
+      "interpretation_boundaries": {
+        "anthology_original_pages_acquired": true,
+        "zvezda1937_original_acquired": false,
+        "kots1957_original_target_pages_acquired": false,
+        "later_anthology_promoted_to1937_or1957_original": false,
+        "completion_year_discrepancy_resolved": false,
+        "earliest_126_adopter_resolved": false,
+        "lenin_selection_evidence_found": false
+      },
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Obtain Zvezda1937 no.11 printed321 and Kots1957 printed109-110/136/142/143; use the1968 pages only as a later printed source map."
     }
   }
 }
