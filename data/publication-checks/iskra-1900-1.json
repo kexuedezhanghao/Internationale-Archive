@@ -6435,6 +6435,25 @@
         "series": "Библиотека поэта.Большая серия",
         "edition": "Second"
       },
+      "printed_1965_base_audit_20261012_0930": {
+        "source_url": "https://imwerden.de/pdf/pesni_i_romansy_russkikh_poetov_1965__ocr.pdf",
+        "pdf_pages": 1127,
+        "bytes": 41887626,
+        "sha256": "62a5881e792ec54b073396155d8fdf9c7be6ffbf8c832d6aeee5d584c1a8a507",
+        "visually_reviewed_scope": [
+          "title page",
+          "PDF884-886 / printed879-881",
+          "PDF1068 / printed1063",
+          "author index entry for Kots"
+        ],
+        "kots_text_in_printed_base": "No.636 Pesn proletariev only, printed879-881",
+        "kots_note_in_printed_base": "printed1063 note to No.636 only",
+        "internationale_supplement_present_in_1965_base": false,
+        "1931_completion_1937_publication_note_present_in_1965_base": false,
+        "supports_separating_web_base_from_supplement": true,
+        "printed1950_supplement_acquired": false,
+        "scan_or_ocr_distributed_in_repository": false
+      },
       "declared_supplement": {
         "title": "Революционная поэзия1890–1917",
         "editor": "В.Куриленков",
