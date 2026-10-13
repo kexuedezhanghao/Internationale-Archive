@@ -10979,6 +10979,47 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Trace the short quotation to an earlier printed source and obtain Kots1957 printed136 itself; then continue printed142/143 and110, without moving the Proletarian-song context into the Internationale selection question."
+    },
+    "kots1957_p110_dreyden1962_quotation_20261013_1530": {
+      "checked_on": "2026-10-13",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "visual check of a 1962 journal original carrying a continuous quotation attributed to Kots1957 printed110; not the1957 original",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "rsl_attempt_state": "navigation timeout; no login wall or CAPTCHA observed",
+        "tested_url": "https://mus.academy/archive/number/282/page/36",
+        "state": "book view loaded and printed67-68 spread visibly readable; no login wall or CAPTCHA",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "source": {
+        "author": "Сим. Дрейден",
+        "title": "«Интернационал» в России",
+        "publication": "Советская музыка",
+        "year": 1962,
+        "issue": "5 (282)",
+        "article_printed_pages": "62-76",
+        "target_printed_pages": [67, 68],
+        "site_book_view_locator": "page/36"
+      },
+      "quotation_context": {
+        "referenced1957_page": 110,
+        "citation_as_printed": "А. Коц. Стихотворения. М., 1957 г., стр. 110",
+        "speaker_attributed": "А. Коц",
+        "reason_summary": "shorten the song, ease performance and spread its fighting slogans among workers",
+        "selected_stanzas_explained": [1, 2, 6],
+        "third_selected_stanza_is_original_stanza6": true,
+        "supports_kots_self_account_of_selection": true,
+        "supports_lenin_direct_selection": false
+      },
+      "kots1957_printed110_original_acquired": false,
+      "promoted_to1957_original": false,
+      "lenin_selection_evidence_found": false,
+      "earliest_126_adopter_resolved": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Trace the continuous p110 wording to pre-1957 printings, obtain printed110 itself, and continue printed142/143; keep printed136 in the Proletarian-song context."
     }
   }
 }
