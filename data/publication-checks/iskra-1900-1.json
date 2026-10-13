@@ -11161,7 +11161,10 @@
         "source": "official 2025 periodicals holdings list",
         "pdf_page": 48,
         "holding_span": "1936-1941, 1958-1960",
-        "access_note": "issued under reading-room rules",
+        "list_scope_note": "in most cases only years are listed; completeness of sets is not guaranteed",
+        "pre1962_access": "reading-room use in the catalogue hall",
+        "public_article_index_start_year": 1997,
+        "public_issue_level_gap_notes_found": false,
         "proves_issue_level_completeness": false
       },
       "target_issue_acquired": false,
@@ -11171,7 +11174,56 @@
       "counts_as_new_lyric_identity": false,
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
-      "next_route": "Check public catalogues for issue-level gap notes at SPbGIK; otherwise register in-reading-room verification of 1959 no.10 p.24 as human assistance and switch independent research to Kots1957 printed142/143 or Knizhnye novosti1937 no.19."
+      "next_route": "Register in-reading-room verification of 1959 no.10 p.24 as human assistance; switch independent research to attributable early citations on Kots1957 printed142/143, then Knizhnye novosti1937 no.19 pp57-61."
+    },
+    "spbgik_chto_chitat_public_route_boundary_20261014_0330": {
+      "checked_on": "2026-10-14",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "direct browser review of the official SPbGIK holdings-list preface and electronic-catalogue scope, plus bounded exact searches for the 1931 article; no target issue, page or article text acquired",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "holdings_pdf_url": "https://spbgik.ru/upload/iblock/04a/02m9ii506q2hy6wm39bwsckyo2czgf3m/Perechen-periodicheskikh-izdaniy-v-fonde-biblioteki-SPbGIK-upd-24092025.pdf",
+        "holdings_pdf_state": "official PDF viewer readable, page1 of53 displayed; no login wall, CAPTCHA or network error",
+        "electronic_catalogue_url": "https://ep.spbgik.ru/bib_ecatalog/",
+        "electronic_catalogue_state": "official information page readable; no login wall, CAPTCHA or network error",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "holdings_list_scope": {
+        "pdf_total_pages": 53,
+        "preface_page": 1,
+        "year_only_default": true,
+        "completeness_guaranteed": false,
+        "pre1962_access": "reading-room use in the catalogue hall"
+      },
+      "electronic_catalogue_scope": {
+        "all_holding_publications_have_bibliographic_records": true,
+        "journal_article_descriptions_begin_year": 1997,
+        "journals_and_newspapers_also_reflected_in_annual_list": true,
+        "authorization_method_stated": "surname and reader-ticket number",
+        "authorization_attempted": false,
+        "public_1959_article_level_identification_possible": false
+      },
+      "kots1931_exact_search": {
+        "queries": [
+          "\"На литературном посту\" 1931 № 2 8 10 Коц Бонч-Бруевич",
+          "\"28 июля 1930\" \"Коц\" \"Бонч-Бруевич\"",
+          "\"28 июня 1930\" \"Коц\" \"Бонч-Бруевич\"",
+          "\"На литературном посту\" \"Автор Интернационала\" 1931"
+        ],
+        "target_original_found": false,
+        "reliable_long_quote_found": false,
+        "target_page_image_found": false,
+        "bounded_negative_only": true
+      },
+      "target_issue_acquired": false,
+      "target_review_page_acquired": false,
+      "target_review_text_acquired": false,
+      "contact_or_copy_request_made": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Human in-reading-room verification is required for Что читать1959 no.10 p.24; independently pursue attributable early citations on Kots1957 printed142/143, then Knizhnye novosti1937 no.19 pp57-61."
     },
     "kots1957_matsuev1959_bibliography_review_boundary_20261013_2130": {
       "checked_on": "2026-10-13",

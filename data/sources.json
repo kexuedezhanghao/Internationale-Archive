@@ -1117,10 +1117,21 @@
     "name": "СПбГИК图书馆2025年期刊馆藏目录：《Что читать》",
     "url": "https://spbgik.ru/upload/iblock/04a/02m9ii506q2hy6wm39bwsckyo2czgf3m/Perechen-periodicheskikh-izdaniy-v-fonde-biblioteki-SPbGIK-upd-24092025.pdf",
     "role": "institutional-library-periodicals-holdings-list",
-    "import_scope": "Official holdings-list PDF, page48, directly checked: Что читать 1936-1941 and 1958-1960, issued under reading-room rules. This establishes a Russian institutional holding covering the target year, not issue-level completeness and not acquisition of 1959 no.10 p.24 or A.Dun's review.",
+    "import_scope": "Official holdings-list PDF directly checked: page48 lists Что читать 1936-1941 and 1958-1960. The page1 preface says that entries usually give years only, completeness of sets is not guaranteed, and publications before1962 are issued under reading-room rules for work in the catalogue hall. This establishes a Russian institutional holding covering the target year, not issue-level completeness and not acquisition of 1959 no.10 p.24 or A.Dun's review.",
     "research_report": "docs/research/ru-kots-selection-source-trail.md",
     "reviewed_on": "2026-10-14",
     "rights_note": "Bounded public bibliographic and access facts only; no periodical scan, modern full text or restricted material redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "spbgik-electronic-catalogue-scope",
+    "name": "СПбГИК：电子目录收录范围说明",
+    "url": "https://spbgik.ru/biblioteka/elektronnyy-katalog/",
+    "role": "institutional-library-catalogue-scope-and-access-note",
+    "import_scope": "Official catalogue information states that bibliographic records cover all publications in the holdings, but journal article descriptions begin only in1997; journals and newspapers are also represented in the annual periodicals list. Catalogue authorization uses surname and reader-ticket number. Therefore this public layer cannot identify A.Dun's1959 no.10 p.24 article; no login, order or copy request was attempted.",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md",
+    "reviewed_on": "2026-10-14",
+    "rights_note": "Bounded public catalogue-scope and access facts only; no account access, journal scan, modern full text or restricted material redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]
