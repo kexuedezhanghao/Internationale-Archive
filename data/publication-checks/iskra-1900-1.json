@@ -11060,6 +11060,56 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Do not repeat the AZ.Lib exact-phrase search. Obtain Kots1957 printed110 or an explicitly dated pre-1957 printed witness, and pursue Knizhnye novosti1937 no.19; keep printed142/143 as separate page targets."
+    },
+    "kots1957_matsuev1959_bibliography_review_boundary_20261013_2130": {
+      "checked_on": "2026-10-13",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "scan-backed bibliography viewer and OCR-text check of the Kots1957 entry plus the bibliography's arrangement rule; not the1957 collection itself and not an exhaustive review search",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "rsl_attempt_state": "navigation timeout; no login wall or CAPTCHA observed",
+        "tested_url": "https://djvu.online/file/HeIkMwwl1Psqg",
+        "state": "Continue interstitial passed; cover, 551-page viewer and OCR text readable; no login wall or CAPTCHA",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "source": {
+        "compiler": "Н. Мацуев",
+        "title": "Советская художественная литература и критика. 1956–1957",
+        "publication_place": "Москва",
+        "publisher": "Советский писатель",
+        "year": 1959,
+        "target_printed_page": 143,
+        "viewer_total_pages": 551,
+        "original_djvu_download_acquired": false,
+        "local_file_hash_available": false
+      },
+      "arrangement_rule": "Critical literature related to a book is listed immediately after that book's title.",
+      "kots_entry": {
+        "title": "Стихотворения",
+        "introduction_and_notes": "А. Л. Дымшиц",
+        "publication_place": "Москва",
+        "publisher": "Гослитиздат",
+        "year": 1957,
+        "pages": 151,
+        "print_run": 10000,
+        "price": "3 р. 10 к.",
+        "next_entry_author": "Кочар, Рачия",
+        "intervening_review_entry_seen": false
+      },
+      "bounded_negative_result": "This bibliography lists no 1956–1957 review immediately after the Kots collection entry.",
+      "proves_no_contemporary_review_exists": false,
+      "kots1957_original_page_acquired": false,
+      "kots1957_printed110_original_acquired": false,
+      "kots1957_printed136_original_acquired": false,
+      "kots1957_printed142_original_acquired": false,
+      "kots1957_printed143_original_acquired": false,
+      "lenin_selection_evidence_found": false,
+      "earliest_126_adopter_resolved": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Use the newly confirmed price, print run and full title to search 1957–1958 newspaper and journal indexes or catalogue records; continue direct acquisition of printed110/136/142/143 and Knizhnye novosti1937 no.19 without repeating a generic Kots1957 review search."
     }
   }
 }

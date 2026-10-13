@@ -572,6 +572,16 @@
     "evidence_file": "data/publication-checks/iskra-1900-1.json"
   },
   {
+    "id": "matsuev-bibliography-1959",
+    "name": "Н. Мацуев: Советская художественная литература и критика. 1956–1957. Москва: Советский писатель, 1959",
+    "url": "https://djvu.online/file/HeIkMwwl1Psqg",
+    "role": "historical-bibliography-scan-and-ocr",
+    "retrieved_on": "2026-10-13",
+    "import_scope": "Public scan viewer, front-matter arrangement note and printed143 Kots entry only. The entry confirms the 1957 collection's publisher, 151 pages, 10,000-copy print run and 3r10k price; no review entry follows it before the next author. This is a bounded negative result within this bibliography, not proof that no contemporary review existed.",
+    "rights_note": "Bibliographic metadata and limited observations only; no scan, modern full text, anthology lyrics or bulk OCR distributed.",
+    "evidence_file": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
     "id": "facetia-mastera-translations-vol2",
     "name": "Мастера русского стихотворного перевода. Книга 2 — modern web transcription of Kots note560",
     "url": "https://facetia.ru/node/5489",
