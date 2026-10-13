@@ -10938,6 +10938,47 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Search by Zubkovsky's full title, author and longer continuous wording; if no attributable text appears, switch to Knizhnye novosti1937 no.19 printed57-61 or Kots1957 printed110/136/142/143 without repeating these comparator newspapers."
+    },
+    "kots1957_p136_seleznev1968_quotation_20261013_1400": {
+      "checked_on": "2026-10-13",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "visual check of a 1968 printed secondary quotation pointing to Kots1957 printed136; not the1957 original and not evidence for Internationale stanza selection",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "tested_url": "https://elib.gsu.by/bitstream/123456789/57455/1/%D0%A1%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B5%D0%B2%20%D0%9A.%D0%9B._%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8_1968_%E2%84%96%204.pdf",
+        "state": "PDF title visible and pages readable; no login wall, CAPTCHA or network error",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "source": {
+        "author": "К. Л. Селезнев",
+        "title": "Карл Маркс в поэзии (Заметки историка)",
+        "publication": "Вопросы истории",
+        "year": 1968,
+        "issue": 4,
+        "article_start_printed_page": 125,
+        "target_printed_page": 134,
+        "target_pdf_page": 10,
+        "pdf_pages": 13,
+        "pdf_bytes": 638881,
+        "pdf_sha256": "31a56afda60bb9f80d2faa6ff3dfbc3ec971ed56f3cc67a4dbcea6b5968c92e3"
+      },
+      "quotation_context": {
+        "song": "Песнь пролетариев",
+        "quoted_words": "выразить основную идею Коммунистического манифеста",
+        "footnote_number": 62,
+        "footnote_as_printed": "А. Коц. Стихотворения. М. 1957, стр. 136.",
+        "referenced1957_page": 136,
+        "context_is_internationale_selection_rationale": false
+      },
+      "kots1957_printed136_original_acquired": false,
+      "promoted_to1957_original": false,
+      "lenin_selection_evidence_found": false,
+      "earliest_126_adopter_resolved": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Trace the short quotation to an earlier printed source and obtain Kots1957 printed136 itself; then continue printed142/143 and110, without moving the Proletarian-song context into the Internationale selection question."
     }
   }
 }
