@@ -11020,6 +11020,46 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Trace the continuous p110 wording to pre-1957 printings, obtain printed110 itself, and continue printed142/143; keep printed136 in the Proletarian-song context."
+    },
+    "kots1957_p110_azlib_transcription_route_20261013_1700": {
+      "checked_on": "2026-10-13",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "exact-phrase search and live-access check of a modern public transcription candidate; no original printed page acquired",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "tested_url": "https://az.lib.ru/k/koc_a_j/text_0020.shtml",
+        "state": "502 Bad Gateway / connection refused; no login wall or CAPTCHA observed",
+        "live_page_text_readable": false,
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "indexed_candidate": {
+        "author_index_url": "https://az.lib.ru/k/koc_a_j/",
+        "text_url": "https://az.lib.ru/k/koc_a_j/text_0020.shtml",
+        "search_title": "Коц Аркадий Яковлевич Стихотворения",
+        "indexed_excerpt_opens_with": "Я перевел лишь три строфы...",
+        "index_label": "Стихотворения [1905] 19k",
+        "index_label_is_safe_publication_date_for_target_quotation": false,
+        "reason": "The indexed summary also covers a 1907 collection and post-October-Revolution activity, while no printed-edition title page, colophon, page mapping or editorial note was inspected."
+      },
+      "eastview_candidate": {
+        "url": "https://dlib.eastview.com/browse/doc/18952680",
+        "public_state": "subscription/login landing result only",
+        "public_title_date_or_author_attribution_found": false,
+        "attributed_to_kots_material": false
+      },
+      "search_snippet_promoted_to_read_page": false,
+      "kots1957_printed110_original_acquired": false,
+      "promoted_to1957_original": false,
+      "pre1957_print_witness_found": false,
+      "kots1957_printed142_original_acquired": false,
+      "kots1957_printed143_original_acquired": false,
+      "lenin_selection_evidence_found": false,
+      "earliest_126_adopter_resolved": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Do not repeat the AZ.Lib exact-phrase search. Obtain Kots1957 printed110 or an explicitly dated pre-1957 printed witness, and pursue Knizhnye novosti1937 no.19; keep printed142/143 as separate page targets."
     }
   }
 }
