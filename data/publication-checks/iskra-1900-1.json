@@ -11061,6 +11061,59 @@
       "counts_as_new_original_score_record": false,
       "next_route": "Do not repeat the AZ.Lib exact-phrase search. Obtain Kots1957 printed110 or an explicitly dated pre-1957 printed witness, and pursue Knizhnye novosti1937 no.19; keep printed142/143 as separate page targets."
     },
+    "chto_chitat_1959_serial_identity_20261014_0030": {
+      "checked_on": "2026-10-14",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "serial-title identity and holdings check for Matsuev's A.Dun review citation; no target issue or review page acquired",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "tested_url": "https://epizodsspace.airbase.ru/bibl/stati1959-4-6.html",
+        "state": "502 Bad Gateway / connection refused; no login wall or CAPTCHA observed",
+        "rsl_direct_navigation_state": "timeout; official catalogue facts obtained from the public search record",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "target_citation": {
+        "author": "А. Дун",
+        "title": "Поэзия борьбы",
+        "journal": "Что читать",
+        "year": 1959,
+        "issue": 10,
+        "printed_page": 24
+      },
+      "rsl_serial_record": {
+        "record_id": "01005468851",
+        "title": "Что читать",
+        "subtitle": "ежемесячный критико-библиографический журнал",
+        "responsibility": "Орган М-ва культуры РСФСР",
+        "place": "Москва",
+        "publisher": "Советская Россия",
+        "publication_span": "1958-1960",
+        "renamed_title_from1961": "В мире книг"
+      },
+      "cinii_holding": {
+        "record_id": "AA00430652",
+        "institution": "関西大学 図書館",
+        "holding_span_includes": "1959-1960",
+        "counts_as_original_page": false
+      },
+      "noninstitutional_index": {
+        "visible_scope": "1959 no.4 fragments only",
+        "target_no10_found": false,
+        "live_page_readable": false
+      },
+      "serial_identity_resolved": true,
+      "target_issue_acquired": false,
+      "target_review_page_acquired": false,
+      "target_review_text_acquired": false,
+      "kots1957_original_page_acquired": false,
+      "lenin_selection_evidence_found": false,
+      "earliest_126_adopter_resolved": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Use the normalized serial title, ministry responsibility, publisher and rename relation to locate 1959 no.10 at issue level; if no public scan is found, switch to Kots1957 printed142/143 or Knizhnye novosti1937 no.19."
+    },
     "kots1957_matsuev1959_bibliography_review_boundary_20261013_2130": {
       "checked_on": "2026-10-13",
       "report_path": "docs/research/ru-kots-selection-source-trail.md",

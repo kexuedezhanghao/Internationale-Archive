@@ -1089,5 +1089,16 @@
     "reviewed_on": "2026-10-11",
     "rights_note": "Bounded public-domain bibliographic facts, short title elements and page mapping only; historical scan is linked, not redistributed in the repository.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "rsl-chto-chitat-v-mire-knig-serial-record",
+    "name": "РГБ:《Что читать》／《В мире книг》连续出版物记录",
+    "url": "https://search.rsl.ru/ru/record/01005468851",
+    "role": "institutional-library-serial-title-history-record",
+    "import_scope": "Official serial catalogue establishes the preceding title Что читать as a monthly critical-bibliographical journal and organ of the RSFSR Ministry of Culture, published in Moscow by Советская Россия in1958-1960, then renamed В мире книг from1961. This resolves the identity and search range of Matsuev's citation to A.Dun,1959 no.10 p.24; the issue, page and review text remain unacquired.",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md",
+    "reviewed_on": "2026-10-14",
+    "rights_note": "Bounded public bibliographic and title-history facts only; no journal scan, modern full text or restricted material redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]
