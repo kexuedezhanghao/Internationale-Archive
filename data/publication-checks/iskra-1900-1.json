@@ -11092,9 +11092,21 @@
         "renamed_title_from1961": "В мире книг"
       },
       "cinii_holding": {
-        "record_id": "AA00430652",
-        "institution": "関西大学 図書館",
-        "holding_span_includes": "1959-1960",
+        "record_id": "AA00013799",
+        "correct_url": "https://ci.nii.ac.jp/ncid/AA00013799",
+        "previously_misrecorded_id": "AA00430652",
+        "previously_misrecorded_url_state_on_2026-10-14": "File Not Found",
+        "institutions": [
+          {
+            "name": "関西大学 図書館",
+            "holding_span_includes": "1959-1960",
+            "shelfmark": "M*020.58*C1"
+          },
+          {
+            "name": "大阪経済大学 図書館",
+            "holding_span_includes": "1960"
+          }
+        ],
         "counts_as_original_page": false
       },
       "noninstitutional_index": {
@@ -11113,6 +11125,53 @@
       "counts_as_new_lyric_full_text": false,
       "counts_as_new_original_score_record": false,
       "next_route": "Use the normalized serial title, ministry responsibility, publisher and rename relation to locate 1959 no.10 at issue level; if no public scan is found, switch to Kots1957 printed142/143 or Knizhnye novosti1937 no.19."
+    },
+    "chto_chitat_1959_holdings_correction_20261014_0200": {
+      "checked_on": "2026-10-14",
+      "report_path": "docs/research/ru-kots-selection-source-trail.md",
+      "scope": "correction of a misrecorded CiNii identifier and registration of an official Russian whole-run holding; no target issue or review page acquired",
+      "browser_review": {
+        "available_browser": "cloud Chrome",
+        "stale_url": "https://ci.nii.ac.jp/ncid/AA00430652",
+        "stale_url_state": "File Not Found",
+        "tested_url": "https://ci.nii.ac.jp/ncid/AA00013799",
+        "state": "record and holdings readable; no login wall or CAPTCHA",
+        "local_user_computer_control_verified": false,
+        "archive_account_login_verified": false
+      },
+      "cinii_serial_record": {
+        "record_id": "AA00013799",
+        "title": "Что читать : ежемесячный критико-библиографический журнал",
+        "responsibility": "Министерство культуры РСФСР",
+        "last_recorded_issue": "1960, no. 12 (дек. 1960)",
+        "holdings": [
+          {
+            "institution": "関西大学 図書館",
+            "span": "1959-1960",
+            "shelfmark": "M*020.58*C1"
+          },
+          {
+            "institution": "大阪経済大学 図書館",
+            "span": "1960"
+          }
+        ]
+      },
+      "spbgik_holding": {
+        "institution": "Санкт-Петербургский государственный институт культуры",
+        "source": "official 2025 periodicals holdings list",
+        "pdf_page": 48,
+        "holding_span": "1936-1941, 1958-1960",
+        "access_note": "issued under reading-room rules",
+        "proves_issue_level_completeness": false
+      },
+      "target_issue_acquired": false,
+      "target_review_page_acquired": false,
+      "target_review_text_acquired": false,
+      "contact_or_copy_request_made": false,
+      "counts_as_new_lyric_identity": false,
+      "counts_as_new_lyric_full_text": false,
+      "counts_as_new_original_score_record": false,
+      "next_route": "Check public catalogues for issue-level gap notes at SPbGIK; otherwise register in-reading-room verification of 1959 no.10 p.24 as human assistance and switch independent research to Kots1957 printed142/143 or Knizhnye novosti1937 no.19."
     },
     "kots1957_matsuev1959_bibliography_review_boundary_20261013_2130": {
       "checked_on": "2026-10-13",

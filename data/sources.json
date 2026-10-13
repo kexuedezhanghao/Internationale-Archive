@@ -1100,5 +1100,27 @@
     "reviewed_on": "2026-10-14",
     "rights_note": "Bounded public bibliographic and title-history facts only; no journal scan, modern full text or restricted material redistributed.",
     "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "cinii-chto-chitat-aa00013799",
+    "name": "CiNii: Что читать serial record and Japanese holdings",
+    "url": "https://ci.nii.ac.jp/ncid/AA00013799",
+    "role": "institutional-union-catalogue-serial-and-holdings-record",
+    "import_scope": "Correct record AA00013799 directly read after the previously recorded AA00430652 returned File Not Found. Record states final issue 1960 no.12 and lists Kansai University 1959-1960, shelfmark M*020.58*C1, plus Osaka University of Economics 1960. Catalogue holdings are not a target-page scan and do not prove issue-level completeness.",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md",
+    "reviewed_on": "2026-10-14",
+    "rights_note": "Bounded public bibliographic and holdings facts only; no journal scan or modern full text redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
+  },
+  {
+    "id": "spbgik-periodicals-holdings-2025-chto-chitat",
+    "name": "СПбГИК图书馆2025年期刊馆藏目录：《Что читать》",
+    "url": "https://spbgik.ru/upload/iblock/04a/02m9ii506q2hy6wm39bwsckyo2czgf3m/Perechen-periodicheskikh-izdaniy-v-fonde-biblioteki-SPbGIK-upd-24092025.pdf",
+    "role": "institutional-library-periodicals-holdings-list",
+    "import_scope": "Official holdings-list PDF, page48, directly checked: Что читать 1936-1941 and 1958-1960, issued under reading-room rules. This establishes a Russian institutional holding covering the target year, not issue-level completeness and not acquisition of 1959 no.10 p.24 or A.Dun's review.",
+    "research_report": "docs/research/ru-kots-selection-source-trail.md",
+    "reviewed_on": "2026-10-14",
+    "rights_note": "Bounded public bibliographic and access facts only; no periodical scan, modern full text or restricted material redistributed.",
+    "publication_check_record": "data/publication-checks/iskra-1900-1.json"
   }
 ]
