@@ -16,6 +16,14 @@ def load(p):
 
 
 def main():
+    # Check every JSON file, including evidence not reached by a specific rule.
+    for path in (ROOT / 'data').rglob('*.json'):
+        json.loads(path.read_text(encoding='utf-8'))
+    from build_catalogue import build_outputs
+    from catalogue_presentation import build_presentations
+    for name, expected in build_outputs().items():
+        path = ROOT / name
+        assert path.is_file() and path.read_bytes() == expected, f'Stale generated file: {name}; run python scripts/build_catalogue.py'
     entries = load("data/discoveries/antiwarsongs.json")
     versions = load("data/versions.json")
     sources = load("data/sources.json")
@@ -119,7 +127,7 @@ def main():
     embedded = re.search(r'<script id="catalogue-data" type="application/json">(.*?)</script>', viewer, re.S)
     assert embedded, "Missing offline catalogue data"
     embedded_data = json.loads(embedded[1])
-    assert embedded_data == {"entries": entries, "versions": versions, "stats": stats}, "Stale offline catalogue"
+    assert embedded_data == {"entries": entries, "versions": versions, "stats": stats, "presentation": build_presentations(versions)}, "Stale offline catalogue"
     for p in (ROOT / "data/source-checks").glob("*.json"):
         check = json.loads(p.read_text(encoding="utf-8"))
         check_ids = set(check["version_ids"])
@@ -530,7 +538,21 @@ def main():
     # Local Markdown paths: allow parentheses inside normal link destinations.
     missing = []
     for p in ROOT.rglob("*.md"):
-        for target in re.findall(r'\]\(([^)\s]+)\)', p.read_text(encoding="utf-8")):
+        markdown = p.read_text(encoding="utf-8")
+        assert len(re.findall(r'^# .+', markdown, re.M)) == 1, f'Expected exactly one document title: {p.relative_to(ROOT)}'
+        assert len(re.findall(r'^```', markdown, re.M)) % 2 == 0, f'Unclosed code fence: {p.relative_to(ROOT)}'
+        columns = None
+        in_code = False
+        for line in markdown.splitlines():
+            if line.startswith('```'):
+                in_code = not in_code
+            if not in_code and line.startswith('|') and line.endswith('|'):
+                count = len(re.split(r'(?<!\\)\|', line)) - 2
+                assert columns in {None, count}, f'Inconsistent Markdown table columns: {p.relative_to(ROOT)}: {line}'
+                columns = count
+            else:
+                columns = None
+        for target in re.findall(r'\]\(([^)\s]+)\)', markdown):
             if urlparse(target).scheme or target.startswith("#"):
                 continue
             path = unquote(target.split("#",1)[0])

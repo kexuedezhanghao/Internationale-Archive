@@ -89,3 +89,11 @@
 Antiwar Songs 的文字/CSV目录、`catalogue.html` 和 `data/stats.json` 从网页发现数据库与版本数据库生成。图书目录使用独立生成脚本，目前未合入离线网页检索。JSON保留完整字段。
 
 `publication-checks`中的`related_text_checks`单列说法出处排查：每篇记核读载体、范围、观察及是否找到选三段说明。原刊图像逐项记录接口item id与印刷页次，`null`用于无编号图版、空白或前置页；页次依据与网站目录差异另记。不把未找到说明的文章当作正面传播见证，也不并入歌词计数。`reading_review_history`保留转录错误撤回和采用记录，不把录入更正当作版本异文。
+
+## 版本阅读展示
+
+`data/versions.json`继续作为版本事实来源。`scripts/catalogue_presentation.py`只将已有校勘／权利状态及适用地域映射为阅读标签；不改变权利判断或原刊范围。新状态必须明确补充展示映射，避免误报完成。
+
+`catalogue/versions.md`为每项版本生成相同外层字段和正文入口，原始文献、范围、异文说明与权利依据照记录列出；`lyrics/`仍为历史正文的唯一正式路径。`catalogue.html`的`presentation`对象来自同一规则，既有`entries`、`versions`和`stats`结构保持。
+
+搜索界面的中英文语言别名只用于查找，不覆写来源标签、不代表完成138种标签归一。搜索词同时筛选两个结果组；来源类型筛选只作用于发现目录，已整理版本单独计数。

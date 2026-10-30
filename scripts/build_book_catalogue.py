@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Render the book's source index from manually reviewed metadata."""
+import argparse
 import json
 from pathlib import Path
 
@@ -57,9 +58,18 @@ def render(entries):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--check', action='store_true', help='Check generated index without writing')
+    args = parser.parse_args()
     entries = json.loads((ROOT / 'data/discoveries/song-yiwei-2022.json').read_text(encoding='utf-8'))
-    (ROOT / 'catalogue/book-song-2022.md').write_text(render(entries), encoding='utf-8')
-    print(f'Built book catalogue: {len(entries)} source entries.')
+    path = ROOT / 'catalogue/book-song-2022.md'
+    expected = render(entries).encode('utf-8')
+    if args.check:
+        if not path.is_file() or path.read_bytes() != expected:
+            parser.exit(1, 'Stale book catalogue; run python scripts/build_book_catalogue.py\n')
+    else:
+        path.write_bytes(expected)
+    print(f'{"Checked" if args.check else "Built"} book catalogue: {len(entries)} source entries.')
 
 
 if __name__ == '__main__':

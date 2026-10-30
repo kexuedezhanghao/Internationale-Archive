@@ -1,4 +1,35 @@
-# 初版验证记录
+# 验证流程与历史记录
+
+## 当前维护检查
+
+阅读目录无需安装依赖。数据及生成检查使用Python 3.10+；导入原站HTML时才需要`requirements.txt`中的`lxml`。离线检索行为测试使用Node.js 18+。
+
+```bash
+python scripts/build_catalogue.py --check
+python scripts/build_book_catalogue.py --check
+python scripts/validate.py
+python -m unittest discover -s tests -p 'test_*.py'
+node --test tests/catalogue.test.cjs
+git diff --check
+```
+
+更新数据或模板后运行两项构建脚本（去掉`--check`），提交数据、模板与对应生成结果。`--check`不会修复或覆盖文件；生成结果过期时以非零状态退出。`validate.py`也会核验完整生成结果，防止仅内嵌JSON正确而页面模板或Markdown目录仍旧。
+
+检查范围：全部`data/` JSON语法、ID及引用关系、统计、具体准入范围、12份历史正文哈希、CSV、HTML内嵌数据及展示状态、图书索引、研究导航、Markdown本地文件链接、唯一一级标题及闭合代码围栏。检索行为测试覆盖版本与线索同步筛选、语言别名、组合条件、空结果和分页重置；不把它当作真实浏览器视觉检查。
+
+[GitHub Actions工作流](../.github/workflows/validate.yml)在提交和PR时运行相同检查，只读仓库内容，不抓取外站、不重新导入歌词。外部链接的可达性及影印内容仍需独立核验。
+
+## 2026年10月30日阅读层更新
+
+- 两项目录的只读过期检查及完整`validate.py`通过；509条来源、44项图书索引、17项身份和12份历史正文校验通过，正文及证据数据保持原字节。
+- 4项Python回归测试和5项JavaScript检索行为测试通过；覆盖模板过期拒绝且不覆写、脚本安全嵌入、地域及疑读状态、作者／多词与语言筛选、空结果和分页。
+- Markdown标题、代码围栏、表格列数、本地文件链接及`git diff --check`通过。旧ROADMAP正文完整保留在历史文件。
+- 尝试真实浏览器检查时，当前环境缺少Playwright浏览器可执行文件，未完成桌面／移动端视觉验收。上述DOM适配器测试不等于真实浏览器渲染或手工视觉验证。
+
+以下内容是此前各轮的历史验证记录，日期和当时访问结果不外推为当前状态。
+
+## 历史验证记录
+
 
 ## 圣彼得堡馆藏公开层终点（0.1.74）
 

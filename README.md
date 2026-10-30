@@ -2,9 +2,9 @@
 
 收集《国际歌》（L’Internationale）各语言、各时期的译本、可唱译配、异文及相关音源线索，逐版记录出处与权利依据。
 
-项目刚刚开始。**“全版本”是持续收集的目标，不是已经完成的覆盖声明。**
+**“全版本”是持续收集的目标，不是已经完成的覆盖声明。** 来源线索、刊本身份、歌词全文和权利依据分别登记。
 
-最新：0.1.74核清圣彼得堡国立文化学院馆藏目录的访问与完整性边界。目录首页明确说明多数期刊只列年份、套刊完整性不保证，1962年前期刊仅按阅览室规则在目录厅使用；馆方电子目录说明期刊文章索引始于1997年，故其公开层不能把《Что читать》1959年馆藏细化到第10期第24页。该目标现明确转为人工馆内核期／取页，不再把总年段当逐期完整证明；本轮对1931年第2期及1930年科茨书信日期的精确检索也未取得原刊。1957年110／136／142／143页及《Книжные новости》1937年第19期仍待取。继续俄语本考察，完成后优先日语本，历史冻结推进报告不改。
+2026年10月30日更新：统一离线检索及版本状态展示，补充研究导航与自动校验。研究重心按最新安排转向日语，俄语未决原件继续保留；公开身份及全文计数本轮不变。详见[当前待办](docs/ROADMAP.md)与[交接摘要](docs/research/progress-2026-10-30.md)。
 
 ## 现在可以看什么
 
@@ -23,21 +23,23 @@ Antiwar Songs 的索引自称170种语言；页面的语言筛选标签有138种
 - 打开 [离线检索页](catalogue.html)：搜索语言、译者、年代和版本，并筛选来源类型。
 - 浏览 [完整文字目录](catalogue/README.md) 或 [已整理版本](catalogue/versions.md)。
 - 查阅 [《国际歌》在中国的44项文献与底本索引](catalogue/book-song-2022.md)：含本书页码、已检查的原刊线索及年代疑点。
-- 阅读[瞿秋白1923年前文与谱词的影印对照](docs/collation/zh-qu-1923.md)：含原刊页码、扫描来源、字形及副歌差异。
-- 阅读[鲍狄埃1887年刊本转录与复核记录](docs/collation/fr-pottier-1887.md)：六段正文已检查，与1908年网页差异分别记录。
-- 阅读[1920–1921年中文译本与1962年刊载的查找记录](docs/research/early-zh-1920-1962.md)：含连载转录、段序与1921年日期核查经过；[1921年原报另记](docs/research/zh-geng-zheng-1921.md)。
-- 阅读[1920年《华工旬刊》两期原刊影印登记](docs/research/zh-zhang-taoyu-1920.md)：六章已据八个整版中的三张歌词页转录，原刊用字与鸟名复核另记；全文按美国依据准入。
-- 阅读[1922年《华工醒时报》原报局部影像登记](docs/research/zh-huagong-xingshi-1922.md)：已取得歌词区截图，整版、报头与译者待核，全文未收入。
-- 阅读[1962年《人民日报》数字版词谱核对](docs/research/zh-collective-1962.md)：六页PDF已取得，三段唱词及标点已转录，区分扫描谱图与数字说明文字；公开全文权利依据待补。
-- 阅读[英语Kerr的1900、1901与1919刊本核对](docs/research/en-kerr-1900-1919.md)：三份历史扫描已取得，收入1900年12月谱词及1919年IWW改写；1901年歌集作为旁证。
-- 阅读[俄语Коц1902年三段原刊核对](docs/research/ru-kots-1902.md)：《Жизнь》第5期8月刊印刷第201页已转录，保留旧拼写；后补六段本仍待原刊。
-- 阅读[德语Luckhardt四段原书核对](docs/research/de-luckhardt-freies-lied-ca1925.md)：《Freies Lied》第33–34页已转录，馆方估年约1925；最早1906／1910线索另待查。
-- 阅读[狄盖特1888年原始曲谱登记](docs/research/fr-degeyter-1888.md)：BnF的Boldoduc印本全部四幅已取得，核对送存章、六段范围与plus gai；音符转录待完成。
-- 阅读[《火星报》1900年首期核查](docs/research/iskra-1900-1.md)：已取得首期原报；目标报道为法语副歌与俄语释义，不支持该文章刊载第1、2、6段的说法；1962年张光年报告的三段叙述已核数字版但未明列段号；最早采用该组合另列待办。[科茨自述出处续查](docs/research/ru-kots-selection-source-trail.md)已核1962年俄文原刊、1940年题赠影印和1957年诗集书目，并核1954年选集553–554页，区分另一首歌的书信日期；新增1937年第10期213–216页及1931年4–10页定位；1957年题名页照片已直接核见莫斯科出版，2017年年表另引1931年5页并区分四月复刊与八月歌词刊载。另核1930年《新世界》178–181页原刊，补入科茨译者归属、1907年诗集及短词异文线索；后出论文的1937年刊名差异另记。又核1952年托雷兹原刊9–14页，其俄文脚注明记[1,2,6]及1931完成说法，保留第8期／第5期差异；另读科茨回忆录学术数字转录，并定位2012年德鲁斯金文集382–455页待取。再据1940／1963年书目原页定位科茨1937年《Книжные новости》第19期60–61页及1957年书信片段136／142／143页，保留1930年信件月份与1931年页码范围差异；2012年文集另列Academia出版通信路线。又核1931年同年国家书目4–10页定位；2018年引文的7月28日信具体谈《无产者马赛曲》。0.1.27取得1939年德鲁斯金评论43–44页，明确另有1931年4月的选段理由信，因此1931年1月期刊不可能刊载该信；原信、1937年自述、1957年110页、补译年份及报告转引关系仍待核。[法中出处续查](docs/research/monde-1929-and-pottier-1939.md)已核1930文章重刊及1939年书限定页，法中原刊仍待取得；1939年歌词原页及册末生产说明已于0.1.29核读。
-- 下载 [来源目录 CSV](catalogue/discoveries.csv)，或读取 [发现数据库](data/discoveries/antiwarsongs.json) 和 [版本数据库](data/versions.json)。
-- 查看 [收集进度与待办](docs/ROADMAP.md)、[字段含义](docs/DATA_MODEL.md) 和 [权利记录规则](RIGHTS.md)。
+- 进入[研究与校勘导航](docs/research/README.md)：按语言与传播史查阅原件、异文及未决问题。
+- 查看[当前待办](docs/ROADMAP.md)、[历史研究安排](docs/ROADMAP-history.md)、[字段含义](docs/DATA_MODEL.md)和[权利规则](RIGHTS.md)。
+- 下载[来源目录 CSV](catalogue/discoveries.csv)，或读取[发现数据库](data/discoveries/antiwarsongs.json)和[版本数据库](data/versions.json)。
 
-## 首批文本
+## 研究进展摘要
+
+| 方向 | 已有结果与边界 | 详细记录 |
+|---|---|---|
+| 法语与原谱 | 1887年歌词及1888年Boldoduc四幅曲谱已核；音符数字化待完成 | [歌词校勘](docs/collation/fr-pottier-1887.md) · [原谱](docs/research/fr-degeyter-1888.md) |
+| 中文 | 1920六章、1921原报及1923前文／谱词分别登记；1962数字版词谱已转录，修订者及公开全文依据待补 | [中文查找记录](docs/research/early-zh-1920-1962.md) · [1962年词谱](docs/research/zh-collective-1962.md) |
+| 英语与德语 | Kerr指定刊本及Luckhardt四段已核；网页底本、早刊及英语剩余疑读继续保留 | [英语核对](docs/research/en-kerr-1900-1919.md) · [德语核对](docs/research/de-luckhardt-freies-lied-ca1925.md) |
+| 俄语与三段组合 | 1902年三段及1939年六段结构已核；所核《火星报》文章只有副歌与释义，最早采用1、2、6段者未核定 | [《火星报》](docs/research/iskra-1900-1.md) · [科茨选段](docs/research/ru-kots-selection-source-trail.md) |
+| 日语 | 已开始1927年歌集材料核读，刊记、逐字转录与身份准入待补；尚未加入公开版本计数 | [最新交接](docs/research/progress-2026-10-30.md) |
+
+## 历史正文入口
+
+统一的作者、底本、段落对应、校勘范围及权利说明见[版本总表与详情](catalogue/versions.md)。以下保留直接正文入口；旧拼写、标点和疑读标记依具体刊本保存。
 
 | 语言 | 译者/作者 | 采用底本 | 说明 |
 |---|---|---|---|
@@ -71,14 +73,25 @@ Antiwar Songs 的索引自称170种语言；页面的语言筛选标签有138种
 ```bash
 python -m pip install -r requirements.txt
 python scripts/build_catalogue.py
+python scripts/build_book_catalogue.py
 python scripts/validate.py
 ```
+
+只读检查生成文件是否过期：
+
+```bash
+python scripts/build_catalogue.py --check
+python scripts/build_book_catalogue.py --check
+```
+
+每次提交和PR由[自动校验工作流](.github/workflows/validate.yml)执行数据、生成目录及检索行为检查。完整维护说明见[验证流程](docs/VALIDATION.md#当前维护检查)。
 
 更新来源目录时，先把原站HTML下载到仓库外，再执行：
 
 ```bash
 python scripts/import_antiwarsongs.py /path/to/downloaded-page.html
 python scripts/build_catalogue.py
+python scripts/build_book_catalogue.py
 python scripts/validate.py
 ```
 
